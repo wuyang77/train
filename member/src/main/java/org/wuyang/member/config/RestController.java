@@ -1,4 +1,4 @@
-package org.wuyang.member;
+package org.wuyang.member.config;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
