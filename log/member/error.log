@@ -17,7 +17,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.wuyang.member.MemberApplication.main(MemberApplication.java:18)
+	at org.wuyang.member.config.MemberApplication.main(MemberApplication.java:18)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
