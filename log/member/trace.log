@@ -75,3 +75,67 @@
 2026-01-08 14:49:28.236 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-08 14:49:28.236 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-08 14:49:28.237 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2026-01-08 14:54:55.130 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-01-08 14:54:55.143 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:54:55.143 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2026-01-08 14:54:55.144 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-01-08 14:54:55.147 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:54:55.148 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:54:55.198 INFO  org.wuyang.member.MemberApplication               :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 33476 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 14:54:55.198 INFO  org.wuyang.member.MemberApplication               :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:54:55.274 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-08 14:54:55.274 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:54:55.275 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-08 14:54:55.275 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-08 14:54:55.281 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-08 14:54:55.281 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 81 ms
+2026-01-08 14:54:55.310 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-08 14:54:55.313 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:54:55.315 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-08 14:54:55.318 INFO  org.wuyang.member.MemberApplication               :57   [32m                  [0;39m Started MemberApplication in 0.137 seconds (process running for 330.503)
+2026-01-08 14:54:55.319 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-08 14:54:55.319 INFO  org.wuyang.member.MemberApplication               :19   [32m                  [0;39m 启动成功！！
+2026-01-08 14:54:55.319 INFO  org.wuyang.member.MemberApplication               :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-08 14:55:33.788 INFO  org.wuyang.member.MemberApplication               :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 26640 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 14:55:33.790 INFO  org.wuyang.member.MemberApplication               :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:55:33.814 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-08 14:55:33.814 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-08 14:55:34.281 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-08 14:55:34.287 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:55:34.288 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-08 14:55:34.288 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-08 14:55:34.321 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-08 14:55:34.322 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 507 ms
+2026-01-08 14:55:34.502 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-08 14:55:34.511 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:55:34.523 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-08 14:55:34.529 INFO  org.wuyang.member.MemberApplication               :57   [32m                  [0;39m Started MemberApplication in 0.994 seconds (process running for 1.439)
+2026-01-08 14:55:34.531 INFO  org.wuyang.member.MemberApplication               :19   [32m                  [0;39m 启动成功！！
+2026-01-08 14:55:34.532 INFO  org.wuyang.member.MemberApplication               :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-08 14:55:36.647 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-08 14:55:36.647 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-01-08 14:55:36.648 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2026-01-08 14:56:49.170 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-08 14:56:49.182 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:56:49.182 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2026-01-08 14:56:49.183 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-01-08 14:56:49.185 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:56:49.186 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:56:49.232 INFO  org.wuyang.member.MemberApplication               :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 26640 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 14:56:49.232 INFO  org.wuyang.member.MemberApplication               :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 14:56:49.297 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-08 14:56:49.297 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:56:49.297 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-08 14:56:49.297 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-08 14:56:49.304 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-08 14:56:49.304 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 71 ms
+2026-01-08 14:56:49.331 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-08 14:56:49.333 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-08 14:56:49.335 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-08 14:56:49.336 INFO  org.wuyang.member.MemberApplication               :57   [32m                  [0;39m Started MemberApplication in 0.119 seconds (process running for 76.247)
+2026-01-08 14:56:49.338 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-08 14:56:49.338 INFO  org.wuyang.member.MemberApplication               :19   [32m                  [0;39m 启动成功！！
+2026-01-08 14:56:49.339 INFO  org.wuyang.member.MemberApplication               :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-08 14:58:22.339 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-08 14:58:22.339 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-01-08 14:58:22.340 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms

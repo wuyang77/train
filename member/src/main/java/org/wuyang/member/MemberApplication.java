@@ -18,7 +18,6 @@ public class MemberApplication {
         Environment env = app.run(args).getEnvironment();
         logger.info("启动成功！！");
         logger.info("测试地址: \thttp://127.0.0.1:{}{}/hello", env.getProperty("server.port"), env.getProperty("server.servlet.context-path"));
-
     }
 
 }
