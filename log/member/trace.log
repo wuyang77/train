@@ -412,3 +412,35 @@ Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.JoinPoint
 2026-01-08 15:47:16.141 INFO  org.wuyang.member.aspect.LogAspect                :77   [32m1767858436117xat  [0;39m 请求参数: []
 2026-01-08 15:47:16.141 INFO  org.wuyang.member.aspect.LogAspect                :89   [32m1767858436117xat  [0;39m 返回结果: "hello"
 2026-01-08 15:47:16.141 INFO  org.wuyang.member.aspect.LogAspect                :90   [32m1767858436117xat  [0;39m ------------- 结束 耗时：24 ms -------------
+2026-01-08 15:56:10.000 INFO  org.wuyang.member.MemberApplication               :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13724 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 15:56:10.002 INFO  org.wuyang.member.MemberApplication               :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 15:56:10.028 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-08 15:56:10.029 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-08 15:56:10.571 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-08 15:56:10.576 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-08 15:56:10.577 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-08 15:56:10.577 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-08 15:56:10.608 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-08 15:56:10.609 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 580 ms
+2026-01-08 15:56:10.868 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-08 15:56:10.876 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-08 15:56:10.886 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-08 15:56:10.892 INFO  org.wuyang.member.MemberApplication               :57   [32m                  [0;39m Started MemberApplication in 1.184 seconds (process running for 1.594)
+2026-01-08 15:56:10.894 INFO  org.wuyang.member.MemberApplication               :19   [32m                  [0;39m 启动成功！！
+2026-01-08 15:56:10.894 INFO  org.wuyang.member.MemberApplication               :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-08 16:03:54.813 INFO  org.wuyang.member.MemberApplication               :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31652 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 16:03:54.815 INFO  org.wuyang.member.MemberApplication               :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 16:03:54.840 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-08 16:03:54.840 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-08 16:03:55.346 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-08 16:03:55.352 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-08 16:03:55.352 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-08 16:03:55.352 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-08 16:03:55.382 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-08 16:03:55.382 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 541 ms
+2026-01-08 16:03:55.616 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-08 16:03:55.623 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-08 16:03:55.634 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-08 16:03:55.639 INFO  org.wuyang.member.MemberApplication               :57   [32m                  [0;39m Started MemberApplication in 1.061 seconds (process running for 1.384)
+2026-01-08 16:03:55.640 INFO  org.wuyang.member.MemberApplication               :19   [32m                  [0;39m 启动成功！！
+2026-01-08 16:03:55.641 INFO  org.wuyang.member.MemberApplication               :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello

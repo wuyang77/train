@@ -1,4 +1,4 @@
-package org.wuyang.member.aspect;
+package org.wuyang.common.aspect;
 
 import cn.hutool.core.util.RandomUtil;
 import com.alibaba.fastjson.JSONObject;
