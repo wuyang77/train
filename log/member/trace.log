@@ -348,3 +348,37 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberSer
 2026-01-11 15:29:02.728 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.309 seconds (process running for 1.638)
 2026-01-11 15:29:02.730 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
 2026-01-11 15:29:02.730 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:39:44.523 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 25580 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:39:44.525 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:39:44.553 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-11 15:39:44.553 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-11 15:39:45.252 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-11 15:39:45.256 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-11 15:39:45.256 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-11 15:39:45.256 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-11 15:39:45.286 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-11 15:39:45.286 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 733 ms
+2026-01-11 15:39:45.674 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-11 15:39:45.682 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-11 15:39:45.692 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-11 15:39:45.698 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.419 seconds (process running for 1.743)
+2026-01-11 15:39:45.699 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:39:45.699 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:42:41.976 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-11 15:42:41.977 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-01-11 15:42:41.977 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2026-01-11 15:42:41.996 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768117361993njm  [0;39m ------------- 开始 -------------
+2026-01-11 15:42:41.996 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768117361993njm  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 15:42:41.996 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768117361993njm  [0;39m 类名方法: org.wuyang.member.controller.TestController.register
+2026-01-11 15:42:41.996 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768117361993njm  [0;39m 远程地址: 127.0.0.1
+2026-01-11 15:42:42.013 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768117361993njm  [0;39m 请求参数: ["1234"]
+2026-01-11 15:42:42.020 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1768117361993njm  [0;39m HikariPool-1 - Starting...
+2026-01-11 15:42:42.153 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1768117361993njm  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@140da316
+2026-01-11 15:42:42.154 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1768117361993njm  [0;39m HikariPool-1 - Start completed.
+2026-01-11 15:42:42.158 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2026-01-11 15:42:42.172 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m ==> Parameters: 1768117362013(Long), 1234(String)
+2026-01-11 15:42:42.175 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m <==    Updates: 1
+2026-01-11 15:42:42.176 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768117361993njm  [0;39m 返回结果: 1768117362013
+2026-01-11 15:42:42.176 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768117361993njm  [0;39m ------------- 结束 耗时：183 ms -------------
+2026-01-11 15:53:19.726 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-01-11 15:53:19.730 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
