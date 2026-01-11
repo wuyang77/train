@@ -138,3 +138,39 @@
 2026-01-11 15:53:28.087 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:15:53:27 +0800] "POST /member/member/register HTTP/1.1" 500 8150 325
 2026-01-11 16:05:00.476 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:16:05:00 +0800] "GET /member/member/count HTTP/1.1" 200 1 253
 2026-01-11 16:05:01.381 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:16:05:01 +0800] "GET /member/member/rapi/item?id=99 HTTP/1.1" 404 145 27
+2026-01-11 17:23:34.535 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-11 17:23:34.556 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 31516 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 17:23:34.557 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 17:23:34.872 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2026-01-11 17:23:36.156 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-11 17:23:36.326 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-11 17:23:36.327 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-11 17:23:36.328 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-11 17:23:36.328 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-11 17:23:36.328 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-11 17:23:37.557 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-11 17:23:37.729 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-11 17:23:38.871 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-11 17:23:40.006 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-11 17:23:40.035 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.856 seconds (process running for 7.148)
+2026-01-11 17:23:40.037 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-11 17:23:40.037 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-11 17:26:42.443 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:26:42 +0800] "POST /member/member/register HTTP/1.1" 500 8486 107
+2026-01-11 17:28:31.076 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:28:31 +0800] "GET /member/member/register HTTP/1.1" 405 4948 10
+2026-01-11 17:28:55.223 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:28:55 +0800] "POST /member/member/register HTTP/1.1" 500 8486 8
+2026-01-11 17:28:59.727 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:28:59 +0800] "POST /member/member/register HTTP/1.1" 500 8486 7
+2026-01-11 17:29:02.587 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:29:02 +0800] "POST /member/member/register HTTP/1.1" 500 8486 7
+2026-01-11 17:29:03.932 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:29:03 +0800] "POST /member/member/register HTTP/1.1" 500 8486 8
+2026-01-11 17:29:05.601 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:29:05 +0800] "POST /member/member/register HTTP/1.1" 500 8486 7
+2026-01-11 17:29:07.046 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:29:07 +0800] "POST /member/member/register HTTP/1.1" 500 8256 6
+2026-01-11 17:29:47.564 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:29:47 +0800] "POST /member/member/register HTTP/1.1" 500 8486 109
+2026-01-11 17:31:35.241 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:31:35 +0800] "POST /member/member/register?mobile=1234 HTTP/1.1" 500 8156 206
