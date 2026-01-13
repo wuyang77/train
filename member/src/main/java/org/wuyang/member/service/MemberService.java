@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import org.wuyang.member.domain.Member;
 import org.wuyang.member.domain.MemberExample;
 import org.wuyang.member.mapper.MemberMapper;
+import org.wuyang.member.resq.MemberRegisterReq;
 
 import java.util.List;
 
@@ -19,8 +20,9 @@ public class MemberService {
         return Math.toIntExact(memberMapper.countByExample(null));
     }
 
-    public Long register(String mobile) {
+    public Long register(MemberRegisterReq req) {
 
+        String mobile = req.getMobile();
         MemberExample memberExample = new MemberExample();
         memberExample.createCriteria().andMobileEqualTo(mobile);
         List<Member> memberList = memberMapper.selectByExample(memberExample);

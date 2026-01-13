@@ -83,7 +83,7 @@ public class LogAspect {
         Object result = proceedingJoinPoint.proceed();
         // 排除字段，敏感字段或太长的字段不显示：身份证、手机号、邮箱、密码等
         String[] excludeProperties = {};
-        PropertyPreFilters filters = new PropertyPreFilters();
+        PropertyPreFilters filters =  new PropertyPreFilters();
         PropertyPreFilters.MySimplePropertyPreFilter excludefilter = filters.addFilter();
         excludefilter.addExcludes(excludeProperties);
         LOG.info("返回结果: {}", JSONObject.toJSONString(result, excludefilter));

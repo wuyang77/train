@@ -174,3 +174,4 @@
 2026-01-11 17:29:07.046 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:29:07 +0800] "POST /member/member/register HTTP/1.1" 500 8256 6
 2026-01-11 17:29:47.564 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:29:47 +0800] "POST /member/member/register HTTP/1.1" 500 8486 109
 2026-01-11 17:31:35.241 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:17:31:35 +0800] "POST /member/member/register?mobile=1234 HTTP/1.1" 500 8156 206
+2026-01-11 18:31:47.453 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [11/1月/2026:18:31:47 +0800] "POST /member/member/register?mobile=12345 HTTP/1.1" 200 13 31
