@@ -5,6 +5,7 @@ import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 import org.wuyang.common.exception.BusinessException;
 import org.wuyang.common.exception.BusinessExceptionEnum;
+import org.wuyang.common.util.SnowUtil;
 import org.wuyang.member.domain.Member;
 import org.wuyang.member.domain.MemberExample;
 import org.wuyang.member.mapper.MemberMapper;
@@ -34,7 +35,7 @@ public class MemberService {
         }
 
         Member member = new Member();
-        member.setId(System.currentTimeMillis());
+        member.setId(SnowUtil.getSnowflakeNextId());//参数1为终端ID 参数2为数据中心ID
         member.setMobile(mobile);
         memberMapper.insert(member);
         return member.getId();
