@@ -13,7 +13,7 @@ Accept: application/json
 
 ###
 
-POST http://localhost:8000/member/member/register?mobile=123456
+POST http://localhost:8000/member/member/register?mobile=1234567
 Accept: application/json
 
 ###
