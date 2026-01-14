@@ -54,3 +54,40 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2026-01-14 21:18:42.272 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:18:42 +0800] "POST /member/member/register?mobile=12345 HTTP/1.1" 200 63 8
 2026-01-14 21:19:32.316 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:19:32 +0800] "POST /member/member/register?mobile=12345 HTTP/1.1" 200 63 309
 2026-01-14 21:20:27.018 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:20:26 +0800] "POST /member/member/register?mobile=123456 HTTP/1.1" 200 84 38
+2026-01-14 21:29:46.319 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:29:45 +0800] "POST /member/member/register?mobile=1234567 HTTP/1.1" 200 84 359
+2026-01-14 21:30:38.658 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:30:38 +0800] "POST /member/member/register?mobile=1234567 HTTP/1.1" 200 55 328
+2026-01-14 21:30:53.318 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:30:53 +0800] "POST /member/member/register?mobile=1234567 HTTP/1.1" 200 63 11
+2026-01-14 21:32:46.961 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:32:46 +0800] "POST /member/member/register?mobile=1234567 HTTP/1.1" 200 63 334
+2026-01-14 21:50:33.057 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:50:32 +0800] "POST /member/member/register?mobile=1234567 HTTP/1.1" 200 63 312
+2026-01-14 21:51:04.987 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:51:04 +0800] "POST /member/member/register?mobile=null HTTP/1.1" 200 55 16
+2026-01-14 21:52:24.497 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:52:24 +0800] "POST /member/member/register?mobile HTTP/1.1" 200 55 14
+2026-01-14 21:53:53.844 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-14 21:53:53.869 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 39704 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-14 21:53:53.870 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-14 21:53:54.216 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2026-01-14 21:53:55.529 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-14 21:53:55.690 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-14 21:53:55.690 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-14 21:53:55.691 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-14 21:53:56.919 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-14 21:53:57.084 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-14 21:53:58.233 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-14 21:53:59.395 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-14 21:53:59.425 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.957 seconds (process running for 7.296)
+2026-01-14 21:53:59.427 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-14 21:53:59.427 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-14 21:54:02.970 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:54:02 +0800] "POST /member/member/register?mobile=null HTTP/1.1" 200 55 443
+2026-01-14 21:59:12.789 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:21:59:12 +0800] "POST /member/member/register HTTP/1.1" 200 84 28
+2026-01-14 22:08:36.043 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:22:08:35 +0800] "POST /member/member/register HTTP/1.1" 200 500 103
+2026-01-14 22:09:06.069 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [14/1月/2026:22:09:05 +0800] "POST /member/member/register HTTP/1.1" 200 75 121
