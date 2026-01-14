@@ -3,6 +3,8 @@ package org.wuyang.member.service;
 import cn.hutool.core.collection.CollUtil;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
+import org.wuyang.common.exception.BusinessException;
+import org.wuyang.common.exception.BusinessExceptionEnum;
 import org.wuyang.member.domain.Member;
 import org.wuyang.member.domain.MemberExample;
 import org.wuyang.member.mapper.MemberMapper;
@@ -28,11 +30,11 @@ public class MemberService {
         List<Member> memberList = memberMapper.selectByExample(memberExample);
         if (CollUtil.isNotEmpty(memberList)) {
 //            return memberList.get(0).getId();
-            throw new RuntimeException("手机号已注册");
+            throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
 
         Member member = new Member();
-        member.setId(System.currentTimeMillis());
+        member.setId(1L);
         member.setMobile(mobile);
         memberMapper.insert(member);
         return member.getId();

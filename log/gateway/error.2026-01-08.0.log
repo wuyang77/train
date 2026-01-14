@@ -1,0 +1,99 @@
+2026-01-08 17:09:53.109 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2026-01-08 17:10:06.252 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2026-01-08 17:10:29.965 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Spring MVC found on classpath, which is incompatible with Spring Cloud Gateway.
+
+Action:
+
+Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
+
+2026-01-08 17:15:06.169 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[0].uri' to java.net.URI:
+
+    Property: spring.cloud.gateway.routes[0].uri
+    Value: "127.0.0.1://member"
+    Origin: class path resource [application.properties] - 4:36
+    Reason: failed to convert java.lang.String to @jakarta.validation.constraints.NotNull java.net.URI (caused by java.lang.IllegalArgumentException: Invalid URI syntax: Illegal character in scheme name at index 0: 127.0.0.1://member)
+
+Action:
+
+Update your application's configuration
+
+2026-01-08 17:15:22.721 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[0].uri' to java.net.URI:
+
+    Property: spring.cloud.gateway.routes[0].uri
+    Value: "127.0.0.1://member"
+    Origin: class path resource [application.properties] - 4:36
+    Reason: failed to convert java.lang.String to @jakarta.validation.constraints.NotNull java.net.URI (caused by java.lang.IllegalArgumentException: Invalid URI syntax: Illegal character in scheme name at index 0: 127.0.0.1://member)
+
+Action:
+
+Update your application's configuration
+
+2026-01-08 17:16:12.545 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[0].uri' to java.net.URI:
+
+    Property: spring.cloud.gateway.routes[0].uri
+    Value: "127.0.0.1:8001"
+    Origin: class path resource [application.properties] - 4:36
+    Reason: failed to convert java.lang.String to @jakarta.validation.constraints.NotNull java.net.URI (caused by java.lang.IllegalArgumentException: Invalid URI syntax: Illegal character in scheme name at index 0: 127.0.0.1:8001)
+
+Action:
+
+Update your application's configuration
+
