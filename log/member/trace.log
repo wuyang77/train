@@ -1849,3 +1849,5 @@ Field error in object 'memberRegisterReq' on field 'mobile': rejected value [nul
 2026-01-14 22:32:07.877 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m1768401127613p4n  [0;39m <==    Updates: 1
 2026-01-14 22:32:07.879 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768401127613p4n  [0;39m 返回结果: {"content":2011446234694422528,"success":true}
 2026-01-14 22:32:07.879 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768401127613p4n  [0;39m ------------- 结束 耗时：266 ms -------------
+2026-01-14 23:16:24.663 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-01-14 23:16:24.668 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
