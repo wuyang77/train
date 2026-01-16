@@ -18,7 +18,6 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="com.itcodebox.notebooks.projectservice.ProjectUIState">
-    <option name="chapterPaneVisible" value="true" />
     <option name="notePaneVisible" value="true" />
     <option name="selectedNotebookId" value="2" />
     <option name="selectedChapterId" value="2" />

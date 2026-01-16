@@ -1,7 +1,10 @@
 package org.wuyang.common.exception;
 
 public enum BusinessExceptionEnum {
-    MEMBER_MOBILE_EXIST("手机号已注册");
+    MEMBER_MOBILE_EXIST("手机号已注册"),
+    MEMBER_MOBILE_NOT_EXIST("手机号不存在，请先获取短信验证码"),
+    MEMBER_MOBILE_CODE_ERROR("短信验证码错误")
+    ;
 
     // 定义一个描述
     private String desc;
