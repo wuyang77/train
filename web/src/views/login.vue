@@ -42,7 +42,6 @@ import {defineComponent, reactive} from "vue";
 import axios from "axios";
 import {notification} from "ant-design-vue";
 import {useRouter} from "vue-router";
-import store from "@/store";
 
     export default defineComponent({
       name: "login-view",
@@ -73,8 +72,7 @@ import store from "@/store";
             if (data.success) {
               notification.success({description: '登陆成功'});
               // 登录成功，跳转到控制台主页
-              router.push({path: "/welcome" });
-              store.commit('setMember', data.content);
+              router.push("/")
             } else {
               notification.error({description: data.message});
             }

@@ -3,9 +3,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
 
   {
-    path: '/',
-    name: 'login',
+    path: '/login',
+    name: '登录',
     component: () => import('../views/login.vue')
+  },
+  {
+    path: '/',
+    name: '主页',
+    component: () => import('../views/main.vue')
   }
 ]
 
