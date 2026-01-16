@@ -177,3 +177,43 @@
 2026-01-16 19:50:30.347 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:19:50:30 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 11
 2026-01-16 19:50:30.951 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:19:50:30 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 11
 2026-01-16 19:50:55.114 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:19:50:55 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2026-01-16 19:59:17.926 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:19:59:17 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2026-01-16 19:59:30.976 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-16 19:59:31.000 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 9408 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-16 19:59:31.000 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-16 19:59:31.350 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
+2026-01-16 19:59:32.708 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-16 19:59:32.898 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-16 19:59:32.898 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-16 19:59:32.898 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-16 19:59:32.899 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-16 19:59:32.900 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-16 19:59:32.900 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-16 19:59:34.138 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-16 19:59:34.320 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-16 19:59:35.455 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-16 19:59:36.599 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-16 19:59:36.626 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.075 seconds (process running for 7.409)
+2026-01-16 19:59:36.628 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-16 19:59:36.628 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-16 20:02:01.455 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:02:00 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 540
+2026-01-16 20:05:00.368 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [16/1月/2026:20:05:00 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 16
+2026-01-16 20:05:54.252 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [16/1月/2026:20:05:54 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 14
+2026-01-16 20:06:43.121 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:06:43 +0800] "OPTIONS /member/member/login HTTP/1.1" 200 0 1
+2026-01-16 20:06:43.152 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:06:43 +0800] "POST /member/member/login HTTP/1.1" 200 78 30
+2026-01-16 20:07:20.052 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:07:20 +0800] "POST /member/member/login HTTP/1.1" 200 78 8
+2026-01-16 20:07:56.361 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:07:56 +0800] "POST /member/member/send-code HTTP/1.1" 200 83 6
+2026-01-16 20:07:57.991 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:07:57 +0800] "POST /member/member/send-code HTTP/1.1" 200 83 6
+2026-01-16 20:08:01.653 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:08:01 +0800] "POST /member/member/send-code HTTP/1.1" 200 83 7
+2026-01-16 20:08:06.482 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:08:06 +0800] "POST /member/member/login HTTP/1.1" 200 83 4
+2026-01-16 20:16:22.112 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:16:22 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 16
+2026-01-16 20:16:53.625 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:16:53 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 15
+2026-01-16 20:17:00.790 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 0:0:0:0:0:0:0:1 - - [16/1月/2026:20:17:00 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
