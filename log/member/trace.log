@@ -3239,3 +3239,177 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberSer
 2026-01-16 21:24:07.449 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1768569847382lw8  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njg1Njk4NDcsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiZXhwIjoxNzY4NjU2MjQ3LCJpYXQiOjE3Njg1Njk4NDd9.QBpsCXCinF0GJWA9vy9P2JaMycPvTCv-KBVy-GbNKkE
 2026-01-16 21:24:07.449 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768569847382lw8  [0;39m 返回结果: {"content":{"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njg1Njk4NDcsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiZXhwIjoxNzY4NjU2MjQ3LCJpYXQiOjE3Njg1Njk4NDd9.QBpsCXCinF0GJWA9vy9P2JaMycPvTCv-KBVy-GbNKkE"},"success":true}
 2026-01-16 21:24:07.449 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768569847382lw8  [0;39m ------------- 结束 耗时：67 ms -------------
+2026-01-16 21:33:21.437 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17685704014378ab  [0;39m ------------- 开始 -------------
+2026-01-16 21:33:21.438 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17685704014378ab  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-16 21:33:21.438 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17685704014378ab  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-16 21:33:21.438 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17685704014378ab  [0;39m 远程地址: 127.0.0.1
+2026-01-16 21:33:21.438 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17685704014378ab  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-16 21:33:21.440 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17685704014378ab  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-16 21:33:21.440 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17685704014378ab  [0;39m ==> Parameters: 17689401847(String)
+2026-01-16 21:33:21.441 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17685704014378ab  [0;39m <==    Columns: id, mobile
+2026-01-16 21:33:21.441 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17685704014378ab  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-16 21:33:21.441 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17685704014378ab  [0;39m <==      Total: 1
+2026-01-16 21:33:21.442 INFO  org.wuyang.member.service.MemberService           :61   [32m17685704014378ab  [0;39m 手机号存在，不插入记录
+2026-01-16 21:33:21.442 INFO  org.wuyang.member.service.MemberService           :67   [32m17685704014378ab  [0;39m 生成短信验证码：8888
+2026-01-16 21:33:21.442 INFO  org.wuyang.member.service.MemberService           :69   [32m17685704014378ab  [0;39m 保存短信记录表
+2026-01-16 21:33:21.442 INFO  org.wuyang.member.service.MemberService           :71   [32m17685704014378ab  [0;39m 对接短信通道
+2026-01-16 21:33:21.442 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17685704014378ab  [0;39m 返回结果: {"success":true}
+2026-01-16 21:33:21.442 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17685704014378ab  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-16 21:33:22.327 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176857040232719b  [0;39m ------------- 开始 -------------
+2026-01-16 21:33:22.327 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176857040232719b  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-16 21:33:22.327 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176857040232719b  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-16 21:33:22.327 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176857040232719b  [0;39m 远程地址: 127.0.0.1
+2026-01-16 21:33:22.327 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176857040232719b  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-16 21:33:22.327 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m176857040232719b  [0;39m 开始生成JWT token，id：null，mobile：17689401847
+2026-01-16 21:33:22.328 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m176857040232719b  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njg1NzA0MDIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiZXhwIjoxNzY4NjU2ODAyLCJpYXQiOjE3Njg1NzA0MDJ9.kyHD1Q7LhiDI2tmm_ZQ4ikIFT-3x7yw5ft1nBRD7Q7k
+2026-01-16 21:33:22.328 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176857040232719b  [0;39m 返回结果: {"content":{"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njg1NzA0MDIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiZXhwIjoxNzY4NjU2ODAyLCJpYXQiOjE3Njg1NzA0MDJ9.kyHD1Q7LhiDI2tmm_ZQ4ikIFT-3x7yw5ft1nBRD7Q7k"},"success":true}
+2026-01-16 21:33:22.328 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176857040232719b  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 21:47:00.972 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768571220972y8g  [0;39m ------------- 开始 -------------
+2026-01-16 21:47:00.973 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768571220972y8g  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-16 21:47:00.973 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768571220972y8g  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-16 21:47:00.973 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768571220972y8g  [0;39m 远程地址: 127.0.0.1
+2026-01-16 21:47:00.973 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768571220972y8g  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-16 21:47:00.975 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768571220972y8g  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-16 21:47:00.976 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768571220972y8g  [0;39m ==> Parameters: 17689401847(String)
+2026-01-16 21:47:00.977 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768571220972y8g  [0;39m <==    Columns: id, mobile
+2026-01-16 21:47:00.977 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768571220972y8g  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-16 21:47:00.978 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768571220972y8g  [0;39m <==      Total: 1
+2026-01-16 21:47:00.978 INFO  org.wuyang.member.service.MemberService           :61   [32m1768571220972y8g  [0;39m 手机号存在，不插入记录
+2026-01-16 21:47:00.978 INFO  org.wuyang.member.service.MemberService           :67   [32m1768571220972y8g  [0;39m 生成短信验证码：8888
+2026-01-16 21:47:00.978 INFO  org.wuyang.member.service.MemberService           :69   [32m1768571220972y8g  [0;39m 保存短信记录表
+2026-01-16 21:47:00.978 INFO  org.wuyang.member.service.MemberService           :71   [32m1768571220972y8g  [0;39m 对接短信通道
+2026-01-16 21:47:00.978 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768571220972y8g  [0;39m 返回结果: {"success":true}
+2026-01-16 21:47:00.978 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768571220972y8g  [0;39m ------------- 结束 耗时：6 ms -------------
+2026-01-16 23:11:34.357 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576294356pzr  [0;39m ------------- 开始 -------------
+2026-01-16 23:11:34.358 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576294356pzr  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:11:34.358 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576294356pzr  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:11:34.358 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576294356pzr  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:11:34.359 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576294356pzr  [0;39m 请求参数: []
+2026-01-16 23:11:34.359 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576294356pzr  [0;39m 返回结果: "hello world"
+2026-01-16 23:11:34.359 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576294356pzr  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-16 23:11:47.017 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17685763070177br  [0;39m ------------- 开始 -------------
+2026-01-16 23:11:47.017 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17685763070177br  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:11:47.017 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17685763070177br  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:11:47.017 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17685763070177br  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:11:47.018 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17685763070177br  [0;39m 请求参数: []
+2026-01-16 23:11:47.018 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17685763070177br  [0;39m 返回结果: "hello world"
+2026-01-16 23:11:47.018 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17685763070177br  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:12:42.275 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576362275nl9  [0;39m ------------- 开始 -------------
+2026-01-16 23:12:42.276 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576362275nl9  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:12:42.276 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576362275nl9  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:12:42.276 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576362275nl9  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:12:42.276 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576362275nl9  [0;39m 请求参数: []
+2026-01-16 23:12:42.276 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576362275nl9  [0;39m 返回结果: "hello world"
+2026-01-16 23:12:42.276 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576362275nl9  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:12:54.909 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576374909r55  [0;39m ------------- 开始 -------------
+2026-01-16 23:12:54.910 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576374909r55  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:12:54.910 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576374909r55  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:12:54.910 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576374909r55  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:12:54.910 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576374909r55  [0;39m 请求参数: []
+2026-01-16 23:12:54.910 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576374909r55  [0;39m 返回结果: "hello world"
+2026-01-16 23:12:54.910 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576374909r55  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:12:56.856 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576376856e7w  [0;39m ------------- 开始 -------------
+2026-01-16 23:12:56.856 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576376856e7w  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:12:56.857 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576376856e7w  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:12:56.857 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576376856e7w  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:12:56.857 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576376856e7w  [0;39m 请求参数: []
+2026-01-16 23:12:56.857 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576376856e7w  [0;39m 返回结果: "hello world"
+2026-01-16 23:12:56.857 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576376856e7w  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:13:07.234 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576387234gb8  [0;39m ------------- 开始 -------------
+2026-01-16 23:13:07.234 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576387234gb8  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:13:07.236 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576387234gb8  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:13:07.236 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576387234gb8  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:13:07.236 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576387234gb8  [0;39m 请求参数: []
+2026-01-16 23:13:07.236 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576387234gb8  [0;39m 返回结果: "hello world"
+2026-01-16 23:13:07.236 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576387234gb8  [0;39m ------------- 结束 耗时：2 ms -------------
+2026-01-16 23:14:03.015 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176857644301514d  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:03.015 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176857644301514d  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:03.015 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176857644301514d  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:03.015 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176857644301514d  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:03.015 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176857644301514d  [0;39m 请求参数: []
+2026-01-16 23:14:03.015 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176857644301514d  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:03.015 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176857644301514d  [0;39m ------------- 结束 耗时：0 ms -------------
+2026-01-16 23:14:57.232 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576497232dbh  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:57.232 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576497232dbh  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:57.232 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576497232dbh  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:57.232 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576497232dbh  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:57.232 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576497232dbh  [0;39m 请求参数: []
+2026-01-16 23:14:57.233 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576497232dbh  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:57.233 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576497232dbh  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:14:57.763 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576497763l72  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:57.763 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576497763l72  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:57.763 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576497763l72  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:57.763 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576497763l72  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:57.763 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576497763l72  [0;39m 请求参数: []
+2026-01-16 23:14:57.763 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576497763l72  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:57.763 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576497763l72  [0;39m ------------- 结束 耗时：0 ms -------------
+2026-01-16 23:14:57.958 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17685764979582fn  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:57.959 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17685764979582fn  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:57.959 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17685764979582fn  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:57.959 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17685764979582fn  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:57.959 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17685764979582fn  [0;39m 请求参数: []
+2026-01-16 23:14:57.959 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17685764979582fn  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:57.959 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17685764979582fn  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:14:58.149 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576498148wvf  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:58.149 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576498148wvf  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:58.149 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576498148wvf  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:58.149 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576498148wvf  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:58.149 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576498148wvf  [0;39m 请求参数: []
+2026-01-16 23:14:58.149 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576498148wvf  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:58.149 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576498148wvf  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:14:58.345 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576498345jvy  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:58.345 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576498345jvy  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:58.345 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576498345jvy  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:58.345 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576498345jvy  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:58.346 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576498345jvy  [0;39m 请求参数: []
+2026-01-16 23:14:58.346 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576498345jvy  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:58.346 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576498345jvy  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:14:58.705 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576498705hhb  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:58.705 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576498705hhb  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:58.706 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576498705hhb  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:58.706 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576498705hhb  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:58.706 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576498705hhb  [0;39m 请求参数: []
+2026-01-16 23:14:58.706 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576498705hhb  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:58.706 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576498705hhb  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:14:58.901 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576498901jji  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:58.901 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576498901jji  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:58.901 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576498901jji  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:58.901 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576498901jji  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:58.901 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576498901jji  [0;39m 请求参数: []
+2026-01-16 23:14:58.902 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576498901jji  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:58.902 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576498901jji  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:14:59.099 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576499099wfb  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:59.101 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576499099wfb  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:59.101 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576499099wfb  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:59.101 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576499099wfb  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:59.102 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576499099wfb  [0;39m 请求参数: []
+2026-01-16 23:14:59.102 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576499099wfb  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:59.102 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576499099wfb  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-16 23:14:59.282 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576499282wqk  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:59.282 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576499282wqk  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:59.282 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576499282wqk  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:59.282 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576499282wqk  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:59.282 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576499282wqk  [0;39m 请求参数: []
+2026-01-16 23:14:59.282 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576499282wqk  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:59.282 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576499282wqk  [0;39m ------------- 结束 耗时：0 ms -------------
+2026-01-16 23:14:59.490 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576499490sw0  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:59.490 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576499490sw0  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:59.490 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576499490sw0  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:59.490 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576499490sw0  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:59.490 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576499490sw0  [0;39m 请求参数: []
+2026-01-16 23:14:59.490 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576499490sw0  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:59.490 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576499490sw0  [0;39m ------------- 结束 耗时：0 ms -------------
+2026-01-16 23:14:59.693 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576499693bhr  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:59.694 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576499693bhr  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:59.694 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576499693bhr  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:59.694 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576499693bhr  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:59.694 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576499693bhr  [0;39m 请求参数: []
+2026-01-16 23:14:59.694 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576499693bhr  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:59.694 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576499693bhr  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-16 23:14:59.888 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768576499888jkn  [0;39m ------------- 开始 -------------
+2026-01-16 23:14:59.889 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768576499888jkn  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-16 23:14:59.889 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768576499888jkn  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-16 23:14:59.889 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768576499888jkn  [0;39m 远程地址: 127.0.0.1
+2026-01-16 23:14:59.889 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768576499888jkn  [0;39m 请求参数: []
+2026-01-16 23:14:59.889 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768576499888jkn  [0;39m 返回结果: "hello world"
+2026-01-16 23:14:59.889 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768576499888jkn  [0;39m ------------- 结束 耗时：1 ms -------------
