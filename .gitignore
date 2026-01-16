@@ -1,0 +1,21 @@
+# 日志文件
+*.log
+*.log.*
+
+# 编译输出
+target/
+build/
+*.class
+*.jar
+*.war
+
+# IDE 相关文件
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
