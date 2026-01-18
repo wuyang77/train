@@ -17,7 +17,7 @@ public class JwtUtil {
     private static final Logger LOG = LoggerFactory.getLogger(JwtUtil.class);
 
     /**
-     * 盐值很重要，不能泄漏，且每个项目都应该不一样，可以放到配置文件中
+     * 盐值（秘钥）很重要，不能泄漏，且每个项目都应该不一样，可以放到配置文件中
      */
     private static final String key = "Jiawa12306";
 
@@ -64,10 +64,8 @@ public class JwtUtil {
 
     public static void main(String[] args) {
         createToken(1L, "123");
-
         String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2NzY4OTk4MjcsIm1vYmlsZSI6IjEyMyIsImlkIjoxLCJleHAiOjE2NzY4OTk4MzcsImlhdCI6MTY3Njg5OTgyN30.JbFfdeNHhxKhAeag63kifw9pgYhnNXISJM5bL6hM8eU";
         validate(token);
-
         getJSONObject(token);
     }
 }

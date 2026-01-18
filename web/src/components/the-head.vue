@@ -20,9 +20,6 @@ import {defineComponent, ref} from "vue";
 export default defineComponent({
   name: "the-header-view",
   setup() {
-
-
-
     return {
       selectedKeys1: ref(['2'])
     };
@@ -30,6 +27,7 @@ export default defineComponent({
 });
 </script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #components-layout-demo-top-side-2 .logo {
   float: left;

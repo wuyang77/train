@@ -24,5 +24,14 @@ Content-Type: application/json
 {
     "mobile" : "17689401847"
 }
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
 
 ###

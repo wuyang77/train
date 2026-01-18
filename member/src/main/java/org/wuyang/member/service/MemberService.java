@@ -2,6 +2,7 @@ package org.wuyang.member.service;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
+import cn.hutool.jwt.JWTUtil;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +10,6 @@ import org.springframework.stereotype.Service;
 import org.wuyang.common.exception.BusinessException;
 import org.wuyang.common.exception.BusinessExceptionEnum;
 import org.wuyang.common.resp.MemberLoginResp;
-import org.wuyang.common.util.JwtUtil;
 import org.wuyang.common.util.SnowUtil;
 import org.wuyang.member.domain.Member;
 import org.wuyang.member.domain.MemberExample;
@@ -19,6 +19,7 @@ import org.wuyang.member.resq.MemberRegisterReq;
 import org.wuyang.member.resq.MemberSendCodeReq;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 
 @Service
@@ -83,8 +84,11 @@ public class MemberService {
         if(!"8888".equals(code)){
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_CODE_ERROR);
         }
-        MemberLoginResp memberLoginResp = BeanUtil.copyProperties(req, MemberLoginResp.class);
-        String token = JwtUtil.createToken(memberLoginResp.getId(), memberLoginResp.getMobile());
+        Member memberDB = findMemberByMobile(mobile);
+        MemberLoginResp memberLoginResp = BeanUtil.copyProperties(memberDB, MemberLoginResp.class);
+        String key = "wuyang123456";
+        Map<String, Object> map = BeanUtil.beanToMap(memberLoginResp);
+        String token = JWTUtil.createToken(map, key.getBytes());
         memberLoginResp.setToken(token);
         return memberLoginResp;
     }
