@@ -570,3 +570,135 @@
 2026-01-21 21:53:42.477 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769003622473q49  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDM2MjIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA5MDAyMiwiaWF0IjoxNzY5MDAzNjIyfQ.UEKLUPiywWjn4GgJ_jJB-vK6m7ZcpKe7BGYItfFDKV8
 2026-01-21 21:53:42.478 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769003622473q49  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDM2MjIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA5MDAyMiwiaWF0IjoxNzY5MDAzNjIyfQ.UEKLUPiywWjn4GgJ_jJB-vK6m7ZcpKe7BGYItfFDKV8"},"success":true}
 2026-01-21 21:53:42.478 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769003622473q49  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 22:07:16.637 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769004436636x8h  [0;39m ------------- 开始 -------------
+2026-01-21 22:07:16.637 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769004436636x8h  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:07:16.637 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769004436636x8h  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:07:16.637 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769004436636x8h  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:07:16.637 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769004436636x8h  [0;39m 请求参数: []
+2026-01-21 22:07:16.637 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769004436636x8h  [0;39m 返回结果: "hello world"
+2026-01-21 22:07:16.637 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769004436636x8h  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-21 22:10:14.587 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-01-21 22:10:14.589 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2026-01-21 22:10:15.829 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-21 22:10:15.850 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 37644 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-21 22:10:15.851 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-21 22:10:15.882 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-21 22:10:15.882 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-21 22:10:16.536 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-21 22:10:16.541 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-21 22:10:16.542 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-21 22:10:16.542 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-21 22:10:16.576 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-21 22:10:16.576 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 694 ms
+2026-01-21 22:10:16.992 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-21 22:10:17.004 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-21 22:10:17.015 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-21 22:10:17.021 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.453 seconds (process running for 1.792)
+2026-01-21 22:10:17.022 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-21 22:10:17.022 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-21 22:11:28.668 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-21 22:11:28.669 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-01-21 22:11:28.669 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2026-01-21 22:11:28.686 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769004688682guh  [0;39m ------------- 开始 -------------
+2026-01-21 22:11:28.687 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769004688682guh  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:11:28.687 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769004688682guh  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:11:28.687 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769004688682guh  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:11:28.706 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769004688682guh  [0;39m 请求参数: []
+2026-01-21 22:11:28.706 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769004688682guh  [0;39m 返回结果: "hello world"
+2026-01-21 22:11:28.706 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769004688682guh  [0;39m ------------- 结束 耗时：24 ms -------------
+2026-01-21 22:11:49.230 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769004709230tu5  [0;39m ------------- 开始 -------------
+2026-01-21 22:11:49.230 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769004709230tu5  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:11:49.230 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769004709230tu5  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:11:49.230 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769004709230tu5  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:11:49.230 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769004709230tu5  [0;39m 请求参数: []
+2026-01-21 22:11:49.231 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769004709230tu5  [0;39m 返回结果: "hello world"
+2026-01-21 22:11:49.231 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769004709230tu5  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-21 22:15:05.844 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-21 22:15:05.866 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 38556 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-21 22:15:05.867 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-21 22:15:05.896 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-21 22:15:05.897 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-21 22:15:06.538 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-21 22:15:06.543 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-21 22:15:06.544 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-21 22:15:06.544 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-21 22:15:06.573 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-21 22:15:06.573 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 676 ms
+2026-01-21 22:15:06.978 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-21 22:15:06.989 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-21 22:15:07.004 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-21 22:15:07.010 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.39 seconds (process running for 1.709)
+2026-01-21 22:15:07.011 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-21 22:15:07.011 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-21 22:15:22.592 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-21 22:15:22.593 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-01-21 22:15:22.593 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2026-01-21 22:15:22.610 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769004922606z8v  [0;39m ------------- 开始 -------------
+2026-01-21 22:15:22.610 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769004922606z8v  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:15:22.611 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769004922606z8v  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:15:22.611 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769004922606z8v  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:15:22.628 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769004922606z8v  [0;39m 请求参数: []
+2026-01-21 22:15:22.628 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769004922606z8v  [0;39m 返回结果: "hello world"
+2026-01-21 22:15:22.628 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769004922606z8v  [0;39m ------------- 结束 耗时：22 ms -------------
+2026-01-21 22:15:33.173 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769004933173ouj  [0;39m ------------- 开始 -------------
+2026-01-21 22:15:33.173 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769004933173ouj  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:15:33.173 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769004933173ouj  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:15:33.174 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769004933173ouj  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:15:33.174 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769004933173ouj  [0;39m 请求参数: []
+2026-01-21 22:15:33.174 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769004933173ouj  [0;39m 返回结果: "hello world"
+2026-01-21 22:15:33.174 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769004933173ouj  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-21 22:15:41.548 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17690049415485xw  [0;39m ------------- 开始 -------------
+2026-01-21 22:15:41.549 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17690049415485xw  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:15:41.549 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17690049415485xw  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:15:41.549 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17690049415485xw  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:15:41.549 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17690049415485xw  [0;39m 请求参数: []
+2026-01-21 22:15:41.549 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17690049415485xw  [0;39m 返回结果: "hello world"
+2026-01-21 22:15:41.549 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17690049415485xw  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-21 22:18:41.231 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-21 22:18:41.253 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32428 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-21 22:18:41.253 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-21 22:18:41.287 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-21 22:18:41.288 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-21 22:18:41.918 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-21 22:18:41.924 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-21 22:18:41.924 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-21 22:18:41.924 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-21 22:18:41.953 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-21 22:18:41.953 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 665 ms
+2026-01-21 22:18:42.384 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-21 22:18:42.395 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-21 22:18:42.408 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-21 22:18:42.415 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.431 seconds (process running for 1.742)
+2026-01-21 22:18:42.417 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-21 22:18:42.417 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-21 22:19:51.936 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-21 22:19:51.936 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-01-21 22:19:51.937 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2026-01-21 22:19:51.957 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769005191952cbf  [0;39m ------------- 开始 -------------
+2026-01-21 22:19:51.957 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769005191952cbf  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:19:51.957 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769005191952cbf  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:19:51.958 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769005191952cbf  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:19:51.978 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769005191952cbf  [0;39m 请求参数: []
+2026-01-21 22:19:51.979 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769005191952cbf  [0;39m 返回结果: "hello world"
+2026-01-21 22:19:51.979 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769005191952cbf  [0;39m ------------- 结束 耗时：27 ms -------------
+2026-01-21 22:21:07.213 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769005267213rni  [0;39m ------------- 开始 -------------
+2026-01-21 22:21:07.213 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769005267213rni  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:21:07.213 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769005267213rni  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:21:07.213 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769005267213rni  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:21:07.214 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769005267213rni  [0;39m 请求参数: []
+2026-01-21 22:21:07.214 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769005267213rni  [0;39m 返回结果: "hello world"
+2026-01-21 22:21:07.214 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769005267213rni  [0;39m ------------- 结束 耗时：1 ms -------------
+2026-01-21 22:21:26.750 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17690052867503u2  [0;39m ------------- 开始 -------------
+2026-01-21 22:21:26.750 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17690052867503u2  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:21:26.750 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17690052867503u2  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:21:26.750 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17690052867503u2  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:21:26.750 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17690052867503u2  [0;39m 请求参数: []
+2026-01-21 22:21:26.750 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17690052867503u2  [0;39m 返回结果: "hello world"
+2026-01-21 22:21:26.750 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17690052867503u2  [0;39m ------------- 结束 耗时：0 ms -------------
+2026-01-21 22:21:29.967 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769005289967hlv  [0;39m ------------- 开始 -------------
+2026-01-21 22:21:29.968 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769005289967hlv  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2026-01-21 22:21:29.968 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769005289967hlv  [0;39m 类名方法: org.wuyang.member.controller.TestController.hello
+2026-01-21 22:21:29.968 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769005289967hlv  [0;39m 远程地址: 127.0.0.1
+2026-01-21 22:21:29.968 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769005289967hlv  [0;39m 请求参数: []
+2026-01-21 22:21:29.968 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769005289967hlv  [0;39m 返回结果: "hello world"
+2026-01-21 22:21:29.968 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769005289967hlv  [0;39m ------------- 结束 耗时：1 ms -------------
