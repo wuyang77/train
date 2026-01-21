@@ -1,160 +1,572 @@
-2026-01-18 18:33:06.106 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-18 18:33:06.125 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 33856 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-18 18:33:06.126 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-01-18 18:33:06.156 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-18 18:33:06.157 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-18 18:33:07.249 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-01-18 18:33:07.267 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-01-18 18:33:07.267 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-01-18 18:33:07.267 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-01-18 18:33:07.330 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-01-18 18:33:07.330 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1173 ms
-2026-01-18 18:33:08.064 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2026-01-18 18:33:08.078 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-01-18 18:33:08.109 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-18 18:33:08.116 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 2.272 seconds (process running for 2.754)
-2026-01-18 18:33:08.118 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-18 18:33:08.118 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-18 18:34:57.082 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-18 18:34:57.083 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2026-01-18 18:34:57.083 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-18 18:34:57.236 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768732497213vrm  [0;39m ------------- 开始 -------------
-2026-01-18 18:34:57.236 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768732497213vrm  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
-2026-01-18 18:34:57.236 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768732497213vrm  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
-2026-01-18 18:34:57.237 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768732497213vrm  [0;39m 远程地址: 127.0.0.1
-2026-01-18 18:34:57.304 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768732497213vrm  [0;39m 请求参数: [{"mobile":"17689401847"}]
-2026-01-18 18:34:57.364 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1768732497213vrm  [0;39m HikariPool-1 - Starting...
-2026-01-18 18:35:02.820 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1768732497213vrm  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16bcdf00
-2026-01-18 18:35:02.822 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1768732497213vrm  [0;39m HikariPool-1 - Start completed.
-2026-01-18 18:35:02.829 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732497213vrm  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2026-01-18 18:35:02.845 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732497213vrm  [0;39m ==> Parameters: 17689401847(String)
-2026-01-18 18:35:02.883 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768732497213vrm  [0;39m <==    Columns: id, mobile
-2026-01-18 18:35:02.884 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768732497213vrm  [0;39m <==        Row: 2012077856087216128, 17689401847
-2026-01-18 18:35:02.885 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732497213vrm  [0;39m <==      Total: 1
-2026-01-18 18:35:02.891 INFO  org.wuyang.member.service.MemberService           :62   [32m1768732497213vrm  [0;39m 手机号存在，不插入记录
-2026-01-18 18:35:02.891 INFO  org.wuyang.member.service.MemberService           :68   [32m1768732497213vrm  [0;39m 生成短信验证码：8888
-2026-01-18 18:35:02.892 INFO  org.wuyang.member.service.MemberService           :70   [32m1768732497213vrm  [0;39m 保存短信记录表
-2026-01-18 18:35:02.892 INFO  org.wuyang.member.service.MemberService           :72   [32m1768732497213vrm  [0;39m 对接短信通道
-2026-01-18 18:35:02.895 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768732497213vrm  [0;39m 返回结果: {"success":true}
-2026-01-18 18:35:02.895 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768732497213vrm  [0;39m ------------- 结束 耗时：5682 ms -------------
-2026-01-18 18:35:33.721 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768732533721k5t  [0;39m ------------- 开始 -------------
-2026-01-18 18:35:33.722 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768732533721k5t  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
-2026-01-18 18:35:33.722 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768732533721k5t  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
-2026-01-18 18:35:33.722 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768732533721k5t  [0;39m 远程地址: 127.0.0.1
-2026-01-18 18:35:33.722 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768732533721k5t  [0;39m 请求参数: [{"mobile":"17689401847"}]
-2026-01-18 18:35:33.724 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732533721k5t  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2026-01-18 18:35:33.725 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732533721k5t  [0;39m ==> Parameters: 17689401847(String)
-2026-01-18 18:35:33.726 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768732533721k5t  [0;39m <==    Columns: id, mobile
-2026-01-18 18:35:33.726 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768732533721k5t  [0;39m <==        Row: 2012077856087216128, 17689401847
-2026-01-18 18:35:33.726 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732533721k5t  [0;39m <==      Total: 1
-2026-01-18 18:35:33.727 INFO  org.wuyang.member.service.MemberService           :62   [32m1768732533721k5t  [0;39m 手机号存在，不插入记录
-2026-01-18 18:35:33.727 INFO  org.wuyang.member.service.MemberService           :68   [32m1768732533721k5t  [0;39m 生成短信验证码：8888
-2026-01-18 18:35:33.727 INFO  org.wuyang.member.service.MemberService           :70   [32m1768732533721k5t  [0;39m 保存短信记录表
-2026-01-18 18:35:33.727 INFO  org.wuyang.member.service.MemberService           :72   [32m1768732533721k5t  [0;39m 对接短信通道
-2026-01-18 18:35:33.727 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768732533721k5t  [0;39m 返回结果: {"success":true}
-2026-01-18 18:35:33.727 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768732533721k5t  [0;39m ------------- 结束 耗时：6 ms -------------
-2026-01-18 18:37:10.150 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768732630150pwy  [0;39m ------------- 开始 -------------
-2026-01-18 18:37:10.151 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768732630150pwy  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
-2026-01-18 18:37:10.151 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768732630150pwy  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
-2026-01-18 18:37:10.151 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768732630150pwy  [0;39m 远程地址: 127.0.0.1
-2026-01-18 18:37:10.153 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768732630150pwy  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
-2026-01-18 18:37:10.154 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732630150pwy  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2026-01-18 18:37:10.155 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732630150pwy  [0;39m ==> Parameters: 17689401847(String)
-2026-01-18 18:37:10.156 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768732630150pwy  [0;39m <==    Columns: id, mobile
-2026-01-18 18:37:10.156 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768732630150pwy  [0;39m <==        Row: 2012077856087216128, 17689401847
-2026-01-18 18:37:10.157 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768732630150pwy  [0;39m <==      Total: 1
-2026-01-18 18:37:10.234 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768732630150pwy  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjAxMjA3Nzg1NjA4NzIxNjEyOCwibW9iaWxlIjoiMTc2ODk0MDE4NDcifQ.fnAGzbYEc161wy_lIZpC0hkeGZ9ri8O4ahIEKBCHe1E"},"success":true}
-2026-01-18 18:37:10.235 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768732630150pwy  [0;39m ------------- 结束 耗时：85 ms -------------
-2026-01-18 19:05:15.854 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-01-18 19:05:15.869 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:05:15.869 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-01-18 19:05:15.870 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
-2026-01-18 19:05:15.871 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [member] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
- java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
- java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
- java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
- java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
- java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
- java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
- java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
- java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
- java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
-2026-01-18 19:05:15.872 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:05:15.874 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:05:15.876 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2026-01-18 19:05:15.878 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2026-01-18 19:05:15.922 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 33856 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-18 19:05:15.922 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-01-18 19:05:16.058 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-01-18 19:05:16.059 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:05:16.059 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-01-18 19:05:16.059 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-01-18 19:05:16.065 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-01-18 19:05:16.065 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 141 ms
-2026-01-18 19:05:16.241 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2026-01-18 19:05:16.246 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:05:16.249 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-18 19:05:16.250 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.348 seconds (process running for 1930.889)
-2026-01-18 19:05:16.251 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-18 19:05:16.251 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-18 19:05:16.252 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-18 19:25:16.816 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-01-18 19:25:16.830 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:25:16.830 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-01-18 19:25:16.831 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:25:16.833 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:25:16.880 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 33856 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-18 19:25:16.880 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-01-18 19:25:16.993 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-01-18 19:25:16.993 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:25:16.993 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-01-18 19:25:16.993 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-01-18 19:25:16.999 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-01-18 19:25:16.999 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 118 ms
-2026-01-18 19:25:17.157 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2026-01-18 19:25:17.162 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:25:17.165 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-18 19:25:17.167 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.304 seconds (process running for 3131.805)
-2026-01-18 19:25:17.167 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-18 19:25:17.168 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-18 19:25:17.168 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-18 19:27:02.141 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-01-18 19:27:02.170 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:27:02.172 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-01-18 19:27:02.173 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:27:02.174 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:27:02.212 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 33856 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-18 19:27:02.212 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-01-18 19:27:02.318 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-01-18 19:27:02.318 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:27:02.318 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-01-18 19:27:02.319 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-01-18 19:27:02.325 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-01-18 19:27:02.325 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 112 ms
-2026-01-18 19:27:02.460 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2026-01-18 19:27:02.464 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-01-18 19:27:02.466 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-18 19:27:02.468 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.27 seconds (process running for 3237.106)
-2026-01-18 19:27:02.468 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-18 19:27:02.469 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-18 19:27:02.469 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-18 19:27:18.691 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-18 19:27:18.691 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2026-01-18 19:27:18.691 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-18 19:27:18.697 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768735638696fiq  [0;39m ------------- 开始 -------------
-2026-01-18 19:27:18.697 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768735638696fiq  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
-2026-01-18 19:27:18.697 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768735638696fiq  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
-2026-01-18 19:27:18.697 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768735638696fiq  [0;39m 远程地址: 127.0.0.1
-2026-01-18 19:27:18.699 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768735638696fiq  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
-2026-01-18 19:27:18.700 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1768735638696fiq  [0;39m HikariPool-2 - Starting...
-2026-01-18 19:27:18.713 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1768735638696fiq  [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d89ac89
-2026-01-18 19:27:18.713 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1768735638696fiq  [0;39m HikariPool-2 - Start completed.
-2026-01-18 19:27:18.713 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768735638696fiq  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2026-01-18 19:27:18.714 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768735638696fiq  [0;39m ==> Parameters: 17689401847(String)
-2026-01-18 19:27:18.715 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768735638696fiq  [0;39m <==    Columns: id, mobile
-2026-01-18 19:27:18.715 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768735638696fiq  [0;39m <==        Row: 2012077856087216128, 17689401847
-2026-01-18 19:27:18.715 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768735638696fiq  [0;39m <==      Total: 1
-2026-01-18 19:27:18.716 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1768735638696fiq  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
-2026-01-18 19:27:18.721 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1768735638696fiq  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njg3MzU2MzgsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2ODgyMjAzOCwiaWF0IjoxNzY4NzM1NjM4fQ.fVKQUSu21pFGcaW88LhP882qpyYRrynaeAG1B3XN1oc
-2026-01-18 19:27:18.722 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768735638696fiq  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njg3MzU2MzgsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2ODgyMjAzOCwiaWF0IjoxNzY4NzM1NjM4fQ.fVKQUSu21pFGcaW88LhP882qpyYRrynaeAG1B3XN1oc"},"success":true}
-2026-01-18 19:27:18.722 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768735638696fiq  [0;39m ------------- 结束 耗时：26 ms -------------
+2026-01-21 19:14:46.563 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-21 19:14:46.648 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 26544 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-21 19:14:46.650 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-21 19:14:46.728 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-21 19:14:46.729 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-21 19:14:48.093 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-21 19:14:48.127 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-21 19:14:48.129 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-21 19:14:48.129 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-21 19:14:48.190 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-21 19:14:48.190 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1461 ms
+2026-01-21 19:14:49.027 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-21 19:14:49.040 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-21 19:14:49.079 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-21 19:14:49.087 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 2.925 seconds (process running for 4.924)
+2026-01-21 19:14:49.089 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-21 19:14:49.089 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-21 19:16:06.628 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-21 19:16:06.629 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-01-21 19:16:06.630 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2026-01-21 19:16:06.756 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768994166735e2m  [0;39m ------------- 开始 -------------
+2026-01-21 19:16:06.757 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768994166735e2m  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 19:16:06.757 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768994166735e2m  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 19:16:06.759 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768994166735e2m  [0;39m 远程地址: 127.0.0.1
+2026-01-21 19:16:06.905 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768994166735e2m  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 19:16:06.969 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1768994166735e2m  [0;39m HikariPool-1 - Starting...
+2026-01-21 19:16:08.258 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768994168258tg8  [0;39m ------------- 开始 -------------
+2026-01-21 19:16:08.258 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768994168258tg8  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 19:16:08.259 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768994168258tg8  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 19:16:08.259 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768994168258tg8  [0;39m 远程地址: 127.0.0.1
+2026-01-21 19:16:08.260 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768994168258tg8  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 19:16:12.414 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1768994166735e2m  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53a76a7a
+2026-01-21 19:16:12.415 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1768994166735e2m  [0;39m HikariPool-1 - Start completed.
+2026-01-21 19:16:12.420 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994166735e2m  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 19:16:12.430 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994168258tg8  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 19:16:12.437 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994168258tg8  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 19:16:12.437 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994166735e2m  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 19:16:12.464 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768994168258tg8  [0;39m <==    Columns: id, mobile
+2026-01-21 19:16:12.464 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768994166735e2m  [0;39m <==    Columns: id, mobile
+2026-01-21 19:16:12.464 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768994168258tg8  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 19:16:12.464 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768994166735e2m  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 19:16:12.466 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994168258tg8  [0;39m <==      Total: 1
+2026-01-21 19:16:12.466 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994166735e2m  [0;39m <==      Total: 1
+2026-01-21 19:16:12.471 INFO  org.wuyang.member.service.MemberService           :61   [32m1768994166735e2m  [0;39m 手机号存在，不插入记录
+2026-01-21 19:16:12.471 INFO  org.wuyang.member.service.MemberService           :61   [32m1768994168258tg8  [0;39m 手机号存在，不插入记录
+2026-01-21 19:16:12.471 INFO  org.wuyang.member.service.MemberService           :67   [32m1768994166735e2m  [0;39m 生成短信验证码：8888
+2026-01-21 19:16:12.471 INFO  org.wuyang.member.service.MemberService           :67   [32m1768994168258tg8  [0;39m 生成短信验证码：8888
+2026-01-21 19:16:12.471 INFO  org.wuyang.member.service.MemberService           :69   [32m1768994166735e2m  [0;39m 保存短信记录表
+2026-01-21 19:16:12.472 INFO  org.wuyang.member.service.MemberService           :71   [32m1768994166735e2m  [0;39m 对接短信通道
+2026-01-21 19:16:12.472 INFO  org.wuyang.member.service.MemberService           :69   [32m1768994168258tg8  [0;39m 保存短信记录表
+2026-01-21 19:16:12.472 INFO  org.wuyang.member.service.MemberService           :71   [32m1768994168258tg8  [0;39m 对接短信通道
+2026-01-21 19:16:12.474 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768994168258tg8  [0;39m 返回结果: {"success":true}
+2026-01-21 19:16:12.474 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768994166735e2m  [0;39m 返回结果: {"success":true}
+2026-01-21 19:16:12.474 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768994166735e2m  [0;39m ------------- 结束 耗时：5739 ms -------------
+2026-01-21 19:16:12.474 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768994168258tg8  [0;39m ------------- 结束 耗时：4216 ms -------------
+2026-01-21 19:16:17.941 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768994177941z2y  [0;39m ------------- 开始 -------------
+2026-01-21 19:16:17.941 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768994177941z2y  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 19:16:17.941 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768994177941z2y  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 19:16:17.941 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768994177941z2y  [0;39m 远程地址: 127.0.0.1
+2026-01-21 19:16:17.942 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768994177941z2y  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 19:16:17.944 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994177941z2y  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 19:16:17.944 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994177941z2y  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 19:16:17.945 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768994177941z2y  [0;39m <==    Columns: id, mobile
+2026-01-21 19:16:17.945 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1768994177941z2y  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 19:16:17.945 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768994177941z2y  [0;39m <==      Total: 1
+2026-01-21 19:16:17.974 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1768994177941z2y  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 19:16:17.995 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1768994177941z2y  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njg5OTQxNzcsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4MDU3NywiaWF0IjoxNzY4OTk0MTc3fQ.WZ52fU1oXdh3EyFeVaqpp95Ya6X5DWmfiDjf1uei4fo
+2026-01-21 19:16:17.996 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768994177941z2y  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njg5OTQxNzcsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4MDU3NywiaWF0IjoxNzY4OTk0MTc3fQ.WZ52fU1oXdh3EyFeVaqpp95Ya6X5DWmfiDjf1uei4fo"},"success":true}
+2026-01-21 19:16:17.996 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768994177941z2y  [0;39m ------------- 结束 耗时：55 ms -------------
+2026-01-21 21:15:55.993 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17690013559922ne  [0;39m ------------- 开始 -------------
+2026-01-21 21:15:56.007 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17690013559922ne  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:15:56.007 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17690013559922ne  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:15:56.007 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17690013559922ne  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:15:56.008 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17690013559922ne  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:15:56.022 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690013559922ne  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:15:56.039 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690013559922ne  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:15:56.058 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17690013559922ne  [0;39m <==    Columns: id, mobile
+2026-01-21 21:15:56.060 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17690013559922ne  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:15:56.060 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690013559922ne  [0;39m <==      Total: 1
+2026-01-21 21:15:56.060 INFO  org.wuyang.member.service.MemberService           :61   [32m17690013559922ne  [0;39m 手机号存在，不插入记录
+2026-01-21 21:15:56.060 INFO  org.wuyang.member.service.MemberService           :67   [32m17690013559922ne  [0;39m 生成短信验证码：8888
+2026-01-21 21:15:56.060 INFO  org.wuyang.member.service.MemberService           :69   [32m17690013559922ne  [0;39m 保存短信记录表
+2026-01-21 21:15:56.061 INFO  org.wuyang.member.service.MemberService           :71   [32m17690013559922ne  [0;39m 对接短信通道
+2026-01-21 21:15:56.061 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17690013559922ne  [0;39m 返回结果: {"success":true}
+2026-01-21 21:15:56.061 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17690013559922ne  [0;39m ------------- 结束 耗时：69 ms -------------
+2026-01-21 21:15:56.360 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001356360w4u  [0;39m ------------- 开始 -------------
+2026-01-21 21:15:56.360 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001356360w4u  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:15:56.360 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001356360w4u  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:15:56.360 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001356360w4u  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:15:56.360 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001356360w4u  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:15:56.361 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001356360w4u  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:15:56.362 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001356360w4u  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:15:56.363 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001356360w4u  [0;39m <==    Columns: id, mobile
+2026-01-21 21:15:56.364 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001356360w4u  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:15:56.364 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001356360w4u  [0;39m <==      Total: 1
+2026-01-21 21:15:56.364 INFO  org.wuyang.member.service.MemberService           :61   [32m1769001356360w4u  [0;39m 手机号存在，不插入记录
+2026-01-21 21:15:56.364 INFO  org.wuyang.member.service.MemberService           :67   [32m1769001356360w4u  [0;39m 生成短信验证码：8888
+2026-01-21 21:15:56.365 INFO  org.wuyang.member.service.MemberService           :69   [32m1769001356360w4u  [0;39m 保存短信记录表
+2026-01-21 21:15:56.365 INFO  org.wuyang.member.service.MemberService           :71   [32m1769001356360w4u  [0;39m 对接短信通道
+2026-01-21 21:15:56.365 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001356360w4u  [0;39m 返回结果: {"success":true}
+2026-01-21 21:15:56.365 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001356360w4u  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 21:15:57.315 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17690013573157fx  [0;39m ------------- 开始 -------------
+2026-01-21 21:15:57.316 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17690013573157fx  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:15:57.317 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17690013573157fx  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:15:57.317 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17690013573157fx  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:15:57.317 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17690013573157fx  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:15:57.320 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690013573157fx  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:15:57.320 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690013573157fx  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:15:57.322 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17690013573157fx  [0;39m <==    Columns: id, mobile
+2026-01-21 21:15:57.322 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17690013573157fx  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:15:57.322 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690013573157fx  [0;39m <==      Total: 1
+2026-01-21 21:15:57.323 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m17690013573157fx  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:15:57.326 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m17690013573157fx  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDEzNTcsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4Nzc1NywiaWF0IjoxNzY5MDAxMzU3fQ.eICLw27ANJvNw3Wdob8PiGSogGAeKK9sj4XfmV6NC0o
+2026-01-21 21:15:57.327 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17690013573157fx  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDEzNTcsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4Nzc1NywiaWF0IjoxNzY5MDAxMzU3fQ.eICLw27ANJvNw3Wdob8PiGSogGAeKK9sj4XfmV6NC0o"},"success":true}
+2026-01-21 21:15:57.327 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17690013573157fx  [0;39m ------------- 结束 耗时：12 ms -------------
+2026-01-21 21:18:29.637 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001509637wqd  [0;39m ------------- 开始 -------------
+2026-01-21 21:18:29.638 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001509637wqd  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:18:29.638 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001509637wqd  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:18:29.638 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001509637wqd  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:18:29.638 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001509637wqd  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:18:29.640 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001509637wqd  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:18:29.641 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001509637wqd  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:18:29.643 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001509637wqd  [0;39m <==    Columns: id, mobile
+2026-01-21 21:18:29.643 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001509637wqd  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:18:29.643 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001509637wqd  [0;39m <==      Total: 1
+2026-01-21 21:18:29.645 INFO  org.wuyang.member.service.MemberService           :61   [32m1769001509637wqd  [0;39m 手机号存在，不插入记录
+2026-01-21 21:18:29.645 INFO  org.wuyang.member.service.MemberService           :67   [32m1769001509637wqd  [0;39m 生成短信验证码：8888
+2026-01-21 21:18:29.646 INFO  org.wuyang.member.service.MemberService           :69   [32m1769001509637wqd  [0;39m 保存短信记录表
+2026-01-21 21:18:29.647 INFO  org.wuyang.member.service.MemberService           :71   [32m1769001509637wqd  [0;39m 对接短信通道
+2026-01-21 21:18:29.653 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001509637wqd  [0;39m 返回结果: {"success":true}
+2026-01-21 21:18:29.654 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001509637wqd  [0;39m ------------- 结束 耗时：17 ms -------------
+2026-01-21 21:18:30.559 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001510559qhe  [0;39m ------------- 开始 -------------
+2026-01-21 21:18:30.559 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001510559qhe  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:18:30.560 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001510559qhe  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:18:30.560 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001510559qhe  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:18:30.560 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001510559qhe  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:18:30.561 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001510559qhe  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:18:30.562 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001510559qhe  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:18:30.563 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001510559qhe  [0;39m <==    Columns: id, mobile
+2026-01-21 21:18:30.563 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001510559qhe  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:18:30.564 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001510559qhe  [0;39m <==      Total: 1
+2026-01-21 21:18:30.565 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769001510559qhe  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:18:30.565 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769001510559qhe  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE1MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4NzkxMCwiaWF0IjoxNzY5MDAxNTEwfQ.6qZPBSXKm7JBwh__6iUQtNS9vA9D5kvD4N6vJjxyi4Y
+2026-01-21 21:18:30.566 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001510559qhe  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE1MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4NzkxMCwiaWF0IjoxNzY5MDAxNTEwfQ.6qZPBSXKm7JBwh__6iUQtNS9vA9D5kvD4N6vJjxyi4Y"},"success":true}
+2026-01-21 21:18:30.566 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001510559qhe  [0;39m ------------- 结束 耗时：7 ms -------------
+2026-01-21 21:23:09.238 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001789238ot2  [0;39m ------------- 开始 -------------
+2026-01-21 21:23:09.238 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001789238ot2  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:23:09.239 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001789238ot2  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:23:09.239 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001789238ot2  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:23:09.239 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001789238ot2  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:23:09.254 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001789238ot2  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:23:09.255 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001789238ot2  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:23:09.257 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001789238ot2  [0;39m <==    Columns: id, mobile
+2026-01-21 21:23:09.257 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001789238ot2  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:23:09.257 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001789238ot2  [0;39m <==      Total: 1
+2026-01-21 21:23:09.257 INFO  org.wuyang.member.service.MemberService           :61   [32m1769001789238ot2  [0;39m 手机号存在，不插入记录
+2026-01-21 21:23:09.257 INFO  org.wuyang.member.service.MemberService           :67   [32m1769001789238ot2  [0;39m 生成短信验证码：8888
+2026-01-21 21:23:09.257 INFO  org.wuyang.member.service.MemberService           :69   [32m1769001789238ot2  [0;39m 保存短信记录表
+2026-01-21 21:23:09.257 INFO  org.wuyang.member.service.MemberService           :71   [32m1769001789238ot2  [0;39m 对接短信通道
+2026-01-21 21:23:09.257 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001789238ot2  [0;39m 返回结果: {"success":true}
+2026-01-21 21:23:09.257 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001789238ot2  [0;39m ------------- 结束 耗时：19 ms -------------
+2026-01-21 21:23:09.687 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001789687o4f  [0;39m ------------- 开始 -------------
+2026-01-21 21:23:09.687 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001789687o4f  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:23:09.687 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001789687o4f  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:23:09.687 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001789687o4f  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:23:09.687 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001789687o4f  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:23:09.688 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001789687o4f  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:23:09.688 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001789687o4f  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:23:09.690 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001789687o4f  [0;39m <==    Columns: id, mobile
+2026-01-21 21:23:09.690 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001789687o4f  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:23:09.690 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001789687o4f  [0;39m <==      Total: 1
+2026-01-21 21:23:09.690 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769001789687o4f  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:23:09.691 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769001789687o4f  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE3ODksIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODE4OSwiaWF0IjoxNzY5MDAxNzg5fQ.5c1drN31Q26gfeRii-OR3HaMDGjD-Vg-gp3YEi62x3k
+2026-01-21 21:23:09.691 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001789687o4f  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE3ODksIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODE4OSwiaWF0IjoxNzY5MDAxNzg5fQ.5c1drN31Q26gfeRii-OR3HaMDGjD-Vg-gp3YEi62x3k"},"success":true}
+2026-01-21 21:23:09.691 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001789687o4f  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-21 21:23:44.467 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001824467g6z  [0;39m ------------- 开始 -------------
+2026-01-21 21:23:44.468 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001824467g6z  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:23:44.468 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001824467g6z  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:23:44.468 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001824467g6z  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:23:44.468 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001824467g6z  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:23:44.468 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001824467g6z  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:23:44.469 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001824467g6z  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:23:44.470 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001824467g6z  [0;39m <==    Columns: id, mobile
+2026-01-21 21:23:44.470 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001824467g6z  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:23:44.470 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001824467g6z  [0;39m <==      Total: 1
+2026-01-21 21:23:44.470 INFO  org.wuyang.member.service.MemberService           :61   [32m1769001824467g6z  [0;39m 手机号存在，不插入记录
+2026-01-21 21:23:44.470 INFO  org.wuyang.member.service.MemberService           :67   [32m1769001824467g6z  [0;39m 生成短信验证码：8888
+2026-01-21 21:23:44.470 INFO  org.wuyang.member.service.MemberService           :69   [32m1769001824467g6z  [0;39m 保存短信记录表
+2026-01-21 21:23:44.470 INFO  org.wuyang.member.service.MemberService           :71   [32m1769001824467g6z  [0;39m 对接短信通道
+2026-01-21 21:23:44.470 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001824467g6z  [0;39m 返回结果: {"success":true}
+2026-01-21 21:23:44.470 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001824467g6z  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-21 21:23:45.079 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001825079fla  [0;39m ------------- 开始 -------------
+2026-01-21 21:23:45.080 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001825079fla  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:23:45.080 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001825079fla  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:23:45.080 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001825079fla  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:23:45.080 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001825079fla  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:23:45.081 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001825079fla  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:23:45.081 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001825079fla  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:23:45.082 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001825079fla  [0;39m <==    Columns: id, mobile
+2026-01-21 21:23:45.082 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001825079fla  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:23:45.082 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001825079fla  [0;39m <==      Total: 1
+2026-01-21 21:23:45.083 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769001825079fla  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:23:45.083 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769001825079fla  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE4MjUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODIyNSwiaWF0IjoxNzY5MDAxODI1fQ.ur_UDC_FOwLjEvU-knYDN1XxNV-i_oMr19FgSSEX1h0
+2026-01-21 21:23:45.083 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001825079fla  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE4MjUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODIyNSwiaWF0IjoxNzY5MDAxODI1fQ.ur_UDC_FOwLjEvU-knYDN1XxNV-i_oMr19FgSSEX1h0"},"success":true}
+2026-01-21 21:23:45.083 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001825079fla  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-21 21:23:49.791 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001829791t4m  [0;39m ------------- 开始 -------------
+2026-01-21 21:23:49.791 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001829791t4m  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:23:49.792 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001829791t4m  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:23:49.792 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001829791t4m  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:23:49.792 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001829791t4m  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:23:49.794 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001829791t4m  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:23:49.794 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001829791t4m  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:23:49.795 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001829791t4m  [0;39m <==    Columns: id, mobile
+2026-01-21 21:23:49.795 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001829791t4m  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:23:49.795 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001829791t4m  [0;39m <==      Total: 1
+2026-01-21 21:23:49.795 INFO  org.wuyang.member.service.MemberService           :61   [32m1769001829791t4m  [0;39m 手机号存在，不插入记录
+2026-01-21 21:23:49.795 INFO  org.wuyang.member.service.MemberService           :67   [32m1769001829791t4m  [0;39m 生成短信验证码：8888
+2026-01-21 21:23:49.795 INFO  org.wuyang.member.service.MemberService           :69   [32m1769001829791t4m  [0;39m 保存短信记录表
+2026-01-21 21:23:49.795 INFO  org.wuyang.member.service.MemberService           :71   [32m1769001829791t4m  [0;39m 对接短信通道
+2026-01-21 21:23:49.795 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001829791t4m  [0;39m 返回结果: {"success":true}
+2026-01-21 21:23:49.795 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001829791t4m  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-21 21:23:50.162 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001830162z9w  [0;39m ------------- 开始 -------------
+2026-01-21 21:23:50.163 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001830162z9w  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:23:50.163 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001830162z9w  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:23:50.163 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001830162z9w  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:23:50.163 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001830162z9w  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:23:50.164 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001830162z9w  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:23:50.164 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001830162z9w  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:23:50.165 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001830162z9w  [0;39m <==    Columns: id, mobile
+2026-01-21 21:23:50.165 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001830162z9w  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:23:50.166 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001830162z9w  [0;39m <==      Total: 1
+2026-01-21 21:23:50.166 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769001830162z9w  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:23:50.166 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769001830162z9w  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE4MzAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODIzMCwiaWF0IjoxNzY5MDAxODMwfQ.iFYKOEIZpe48HO6uP7GfDzL8KfryFlPFRMXfwu-04Mc
+2026-01-21 21:23:50.166 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001830162z9w  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE4MzAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODIzMCwiaWF0IjoxNzY5MDAxODMwfQ.iFYKOEIZpe48HO6uP7GfDzL8KfryFlPFRMXfwu-04Mc"},"success":true}
+2026-01-21 21:23:50.166 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001830162z9w  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-21 21:24:09.006 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769001849006qei  [0;39m ------------- 开始 -------------
+2026-01-21 21:24:09.007 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769001849006qei  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:24:09.007 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769001849006qei  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:24:09.007 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769001849006qei  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:24:09.007 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769001849006qei  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:24:09.009 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001849006qei  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:24:09.010 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001849006qei  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:24:09.010 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001849006qei  [0;39m <==    Columns: id, mobile
+2026-01-21 21:24:09.011 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769001849006qei  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:24:09.011 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769001849006qei  [0;39m <==      Total: 1
+2026-01-21 21:24:09.011 INFO  org.wuyang.member.service.MemberService           :61   [32m1769001849006qei  [0;39m 手机号存在，不插入记录
+2026-01-21 21:24:09.011 INFO  org.wuyang.member.service.MemberService           :67   [32m1769001849006qei  [0;39m 生成短信验证码：8888
+2026-01-21 21:24:09.011 INFO  org.wuyang.member.service.MemberService           :69   [32m1769001849006qei  [0;39m 保存短信记录表
+2026-01-21 21:24:09.011 INFO  org.wuyang.member.service.MemberService           :71   [32m1769001849006qei  [0;39m 对接短信通道
+2026-01-21 21:24:09.011 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769001849006qei  [0;39m 返回结果: {"success":true}
+2026-01-21 21:24:09.011 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769001849006qei  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 21:24:09.876 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176900184987680v  [0;39m ------------- 开始 -------------
+2026-01-21 21:24:09.876 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176900184987680v  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:24:09.876 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176900184987680v  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:24:09.876 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176900184987680v  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:24:09.877 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176900184987680v  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:24:09.880 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900184987680v  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:24:09.901 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900184987680v  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:24:09.903 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900184987680v  [0;39m <==    Columns: id, mobile
+2026-01-21 21:24:09.904 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900184987680v  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:24:09.905 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900184987680v  [0;39m <==      Total: 1
+2026-01-21 21:24:09.910 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m176900184987680v  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:24:09.911 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m176900184987680v  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE4NDksIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODI0OSwiaWF0IjoxNzY5MDAxODQ5fQ.tqh_qKqC9jIFFVaWhYBqi0EBxWKiX_kpU2uDI66tR0I
+2026-01-21 21:24:09.911 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176900184987680v  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDE4NDksIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODI0OSwiaWF0IjoxNzY5MDAxODQ5fQ.tqh_qKqC9jIFFVaWhYBqi0EBxWKiX_kpU2uDI66tR0I"},"success":true}
+2026-01-21 21:24:09.911 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176900184987680v  [0;39m ------------- 结束 耗时：35 ms -------------
+2026-01-21 21:28:04.409 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002084409ug2  [0;39m ------------- 开始 -------------
+2026-01-21 21:28:04.410 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002084409ug2  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:28:04.410 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002084409ug2  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:28:04.410 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002084409ug2  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:28:04.410 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002084409ug2  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:28:04.411 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002084409ug2  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:28:04.412 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002084409ug2  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:28:04.413 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002084409ug2  [0;39m <==    Columns: id, mobile
+2026-01-21 21:28:04.413 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002084409ug2  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:28:04.414 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002084409ug2  [0;39m <==      Total: 1
+2026-01-21 21:28:04.414 INFO  org.wuyang.member.service.MemberService           :61   [32m1769002084409ug2  [0;39m 手机号存在，不插入记录
+2026-01-21 21:28:04.414 INFO  org.wuyang.member.service.MemberService           :67   [32m1769002084409ug2  [0;39m 生成短信验证码：8888
+2026-01-21 21:28:04.414 INFO  org.wuyang.member.service.MemberService           :69   [32m1769002084409ug2  [0;39m 保存短信记录表
+2026-01-21 21:28:04.414 INFO  org.wuyang.member.service.MemberService           :71   [32m1769002084409ug2  [0;39m 对接短信通道
+2026-01-21 21:28:04.414 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002084409ug2  [0;39m 返回结果: {"success":true}
+2026-01-21 21:28:04.414 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002084409ug2  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 21:28:05.184 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002085184j43  [0;39m ------------- 开始 -------------
+2026-01-21 21:28:05.184 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002085184j43  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:28:05.184 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002085184j43  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:28:05.184 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002085184j43  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:28:05.184 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002085184j43  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:28:05.186 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002085184j43  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:28:05.186 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002085184j43  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:28:05.187 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002085184j43  [0;39m <==    Columns: id, mobile
+2026-01-21 21:28:05.187 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002085184j43  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:28:05.187 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002085184j43  [0;39m <==      Total: 1
+2026-01-21 21:28:05.187 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769002085184j43  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:28:05.188 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769002085184j43  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIwODUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODQ4NSwiaWF0IjoxNzY5MDAyMDg1fQ.YjmYe3J2Jk8dYrL1RjzjIQk4XMeF65mzKFg8M1Nh_18
+2026-01-21 21:28:05.188 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002085184j43  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIwODUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODQ4NSwiaWF0IjoxNzY5MDAyMDg1fQ.YjmYe3J2Jk8dYrL1RjzjIQk4XMeF65mzKFg8M1Nh_18"},"success":true}
+2026-01-21 21:28:05.188 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002085184j43  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-21 21:28:23.907 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002103907pho  [0;39m ------------- 开始 -------------
+2026-01-21 21:28:23.907 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002103907pho  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:28:23.908 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002103907pho  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:28:23.908 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002103907pho  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:28:23.908 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002103907pho  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:28:23.908 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002103907pho  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:28:23.908 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002103907pho  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:28:23.910 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002103907pho  [0;39m <==    Columns: id, mobile
+2026-01-21 21:28:23.910 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002103907pho  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:28:23.910 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002103907pho  [0;39m <==      Total: 1
+2026-01-21 21:28:23.911 INFO  org.wuyang.member.service.MemberService           :61   [32m1769002103907pho  [0;39m 手机号存在，不插入记录
+2026-01-21 21:28:23.911 INFO  org.wuyang.member.service.MemberService           :67   [32m1769002103907pho  [0;39m 生成短信验证码：8888
+2026-01-21 21:28:23.911 INFO  org.wuyang.member.service.MemberService           :69   [32m1769002103907pho  [0;39m 保存短信记录表
+2026-01-21 21:28:23.911 INFO  org.wuyang.member.service.MemberService           :71   [32m1769002103907pho  [0;39m 对接短信通道
+2026-01-21 21:28:23.911 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002103907pho  [0;39m 返回结果: {"success":true}
+2026-01-21 21:28:23.911 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002103907pho  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-21 21:28:26.549 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176900210654931x  [0;39m ------------- 开始 -------------
+2026-01-21 21:28:26.549 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176900210654931x  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:28:26.549 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176900210654931x  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:28:26.549 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176900210654931x  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:28:26.550 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176900210654931x  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:28:26.550 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900210654931x  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:28:26.550 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900210654931x  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:28:26.551 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900210654931x  [0;39m <==    Columns: id, mobile
+2026-01-21 21:28:26.551 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900210654931x  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:28:26.551 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900210654931x  [0;39m <==      Total: 1
+2026-01-21 21:28:26.551 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m176900210654931x  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:28:26.551 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m176900210654931x  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIxMDYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODUwNiwiaWF0IjoxNzY5MDAyMTA2fQ.3OBpIv6s5vlW8iwX_EtJWoNbPM75-Tr1vUov7wetboE
+2026-01-21 21:28:26.552 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176900210654931x  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIxMDYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODUwNiwiaWF0IjoxNzY5MDAyMTA2fQ.3OBpIv6s5vlW8iwX_EtJWoNbPM75-Tr1vUov7wetboE"},"success":true}
+2026-01-21 21:28:26.552 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176900210654931x  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-21 21:29:24.812 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002164812n8e  [0;39m ------------- 开始 -------------
+2026-01-21 21:29:24.812 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002164812n8e  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:29:24.812 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002164812n8e  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:29:24.812 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002164812n8e  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:29:24.812 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002164812n8e  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:29:24.813 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002164812n8e  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:29:24.814 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002164812n8e  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:29:24.815 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002164812n8e  [0;39m <==    Columns: id, mobile
+2026-01-21 21:29:24.815 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002164812n8e  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:29:24.815 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002164812n8e  [0;39m <==      Total: 1
+2026-01-21 21:29:24.815 INFO  org.wuyang.member.service.MemberService           :61   [32m1769002164812n8e  [0;39m 手机号存在，不插入记录
+2026-01-21 21:29:24.815 INFO  org.wuyang.member.service.MemberService           :67   [32m1769002164812n8e  [0;39m 生成短信验证码：8888
+2026-01-21 21:29:24.815 INFO  org.wuyang.member.service.MemberService           :69   [32m1769002164812n8e  [0;39m 保存短信记录表
+2026-01-21 21:29:24.815 INFO  org.wuyang.member.service.MemberService           :71   [32m1769002164812n8e  [0;39m 对接短信通道
+2026-01-21 21:29:24.815 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002164812n8e  [0;39m 返回结果: {"success":true}
+2026-01-21 21:29:24.815 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002164812n8e  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-21 21:29:30.865 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002170865m05  [0;39m ------------- 开始 -------------
+2026-01-21 21:29:30.865 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002170865m05  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:29:30.865 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002170865m05  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:29:30.865 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002170865m05  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:29:30.865 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002170865m05  [0;39m 请求参数: [{"code":"8887","mobile":"17689401847"}]
+2026-01-21 21:29:30.923 ERROR o.w.common.controller.ControllerExceptionHandler  :50   [32m1769002170865m05  [0;39m 业务异常：短信验证码错误
+2026-01-21 21:29:30.926 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m1769002170865m05  [0;39m Resolved [org.wuyang.common.exception.BusinessException]
+2026-01-21 21:29:34.947 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176900217494752i  [0;39m ------------- 开始 -------------
+2026-01-21 21:29:34.947 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176900217494752i  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:29:34.947 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176900217494752i  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:29:34.948 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176900217494752i  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:29:34.948 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176900217494752i  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:29:34.948 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900217494752i  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:29:34.950 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900217494752i  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:29:34.951 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900217494752i  [0;39m <==    Columns: id, mobile
+2026-01-21 21:29:34.951 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900217494752i  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:29:34.951 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900217494752i  [0;39m <==      Total: 1
+2026-01-21 21:29:34.951 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m176900217494752i  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:29:34.952 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m176900217494752i  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIxNzQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODU3NCwiaWF0IjoxNzY5MDAyMTc0fQ.1MNUOQYt1tzpz1erZ-yfVqFNH9GHy6wy9Moj_f023mw
+2026-01-21 21:29:34.952 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176900217494752i  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIxNzQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODU3NCwiaWF0IjoxNzY5MDAyMTc0fQ.1MNUOQYt1tzpz1erZ-yfVqFNH9GHy6wy9Moj_f023mw"},"success":true}
+2026-01-21 21:29:34.952 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176900217494752i  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 21:29:41.515 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17690021815157hi  [0;39m ------------- 开始 -------------
+2026-01-21 21:29:41.515 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17690021815157hi  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:29:41.516 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17690021815157hi  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:29:41.516 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17690021815157hi  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:29:41.516 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17690021815157hi  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:29:41.517 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690021815157hi  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:29:41.517 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690021815157hi  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:29:41.518 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17690021815157hi  [0;39m <==    Columns: id, mobile
+2026-01-21 21:29:41.518 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17690021815157hi  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:29:41.518 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690021815157hi  [0;39m <==      Total: 1
+2026-01-21 21:29:41.518 INFO  org.wuyang.member.service.MemberService           :61   [32m17690021815157hi  [0;39m 手机号存在，不插入记录
+2026-01-21 21:29:41.518 INFO  org.wuyang.member.service.MemberService           :67   [32m17690021815157hi  [0;39m 生成短信验证码：8888
+2026-01-21 21:29:41.518 INFO  org.wuyang.member.service.MemberService           :69   [32m17690021815157hi  [0;39m 保存短信记录表
+2026-01-21 21:29:41.518 INFO  org.wuyang.member.service.MemberService           :71   [32m17690021815157hi  [0;39m 对接短信通道
+2026-01-21 21:29:41.518 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17690021815157hi  [0;39m 返回结果: {"success":true}
+2026-01-21 21:29:41.518 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17690021815157hi  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-21 21:29:42.088 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176900218208810s  [0;39m ------------- 开始 -------------
+2026-01-21 21:29:42.088 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176900218208810s  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:29:42.089 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176900218208810s  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:29:42.089 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176900218208810s  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:29:42.089 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176900218208810s  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:29:42.090 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900218208810s  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:29:42.090 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900218208810s  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:29:42.091 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900218208810s  [0;39m <==    Columns: id, mobile
+2026-01-21 21:29:42.091 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900218208810s  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:29:42.091 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900218208810s  [0;39m <==      Total: 1
+2026-01-21 21:29:42.091 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m176900218208810s  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:29:42.091 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m176900218208810s  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIxODIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODU4MiwiaWF0IjoxNzY5MDAyMTgyfQ.ML8QyfUPb_bs2qP_W5uMhK1N8M4MqJ_5h2EEdu1_igg
+2026-01-21 21:29:42.091 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176900218208810s  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIxODIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODU4MiwiaWF0IjoxNzY5MDAyMTgyfQ.ML8QyfUPb_bs2qP_W5uMhK1N8M4MqJ_5h2EEdu1_igg"},"success":true}
+2026-01-21 21:29:42.091 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176900218208810s  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-21 21:32:07.911 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002327911yy8  [0;39m ------------- 开始 -------------
+2026-01-21 21:32:07.912 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002327911yy8  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:32:07.912 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002327911yy8  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:32:07.912 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002327911yy8  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:32:07.912 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002327911yy8  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:32:07.913 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002327911yy8  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:32:07.913 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002327911yy8  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:32:07.914 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002327911yy8  [0;39m <==    Columns: id, mobile
+2026-01-21 21:32:07.914 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002327911yy8  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:32:07.915 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002327911yy8  [0;39m <==      Total: 1
+2026-01-21 21:32:07.915 INFO  org.wuyang.member.service.MemberService           :61   [32m1769002327911yy8  [0;39m 手机号存在，不插入记录
+2026-01-21 21:32:07.915 INFO  org.wuyang.member.service.MemberService           :67   [32m1769002327911yy8  [0;39m 生成短信验证码：8888
+2026-01-21 21:32:07.915 INFO  org.wuyang.member.service.MemberService           :69   [32m1769002327911yy8  [0;39m 保存短信记录表
+2026-01-21 21:32:07.915 INFO  org.wuyang.member.service.MemberService           :71   [32m1769002327911yy8  [0;39m 对接短信通道
+2026-01-21 21:32:07.916 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002327911yy8  [0;39m 返回结果: {"success":true}
+2026-01-21 21:32:07.916 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002327911yy8  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 21:32:08.327 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002328327078  [0;39m ------------- 开始 -------------
+2026-01-21 21:32:08.327 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002328327078  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:32:08.327 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002328327078  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:32:08.327 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002328327078  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:32:08.327 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002328327078  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:32:08.328 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002328327078  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:32:08.328 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002328327078  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:32:08.329 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002328327078  [0;39m <==    Columns: id, mobile
+2026-01-21 21:32:08.329 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002328327078  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:32:08.329 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002328327078  [0;39m <==      Total: 1
+2026-01-21 21:32:08.331 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769002328327078  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:32:08.331 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769002328327078  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIzMjgsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODcyOCwiaWF0IjoxNzY5MDAyMzI4fQ.2raGry8p05UehHpcLOFcdVwWXYIJwGj4Obj-OvaLAdU
+2026-01-21 21:32:08.332 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002328327078  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDIzMjgsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODcyOCwiaWF0IjoxNzY5MDAyMzI4fQ.2raGry8p05UehHpcLOFcdVwWXYIJwGj4Obj-OvaLAdU"},"success":true}
+2026-01-21 21:32:08.332 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002328327078  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 21:35:44.141 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002544141zym  [0;39m ------------- 开始 -------------
+2026-01-21 21:35:44.141 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002544141zym  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:35:44.141 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002544141zym  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:35:44.141 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002544141zym  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:35:44.142 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002544141zym  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:35:44.143 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002544141zym  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:35:44.143 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002544141zym  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:35:44.145 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002544141zym  [0;39m <==    Columns: id, mobile
+2026-01-21 21:35:44.145 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002544141zym  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:35:44.145 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002544141zym  [0;39m <==      Total: 1
+2026-01-21 21:35:44.145 INFO  org.wuyang.member.service.MemberService           :61   [32m1769002544141zym  [0;39m 手机号存在，不插入记录
+2026-01-21 21:35:44.145 INFO  org.wuyang.member.service.MemberService           :67   [32m1769002544141zym  [0;39m 生成短信验证码：8888
+2026-01-21 21:35:44.146 INFO  org.wuyang.member.service.MemberService           :69   [32m1769002544141zym  [0;39m 保存短信记录表
+2026-01-21 21:35:44.146 INFO  org.wuyang.member.service.MemberService           :71   [32m1769002544141zym  [0;39m 对接短信通道
+2026-01-21 21:35:44.146 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002544141zym  [0;39m 返回结果: {"success":true}
+2026-01-21 21:35:44.146 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002544141zym  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 21:35:45.156 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002545156syo  [0;39m ------------- 开始 -------------
+2026-01-21 21:35:45.156 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002545156syo  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:35:45.156 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002545156syo  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:35:45.156 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002545156syo  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:35:45.157 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002545156syo  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:35:45.158 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002545156syo  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:35:45.158 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002545156syo  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:35:45.159 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002545156syo  [0;39m <==    Columns: id, mobile
+2026-01-21 21:35:45.160 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002545156syo  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:35:45.160 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002545156syo  [0;39m <==      Total: 1
+2026-01-21 21:35:45.160 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769002545156syo  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:35:45.161 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769002545156syo  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDI1NDUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODk0NSwiaWF0IjoxNzY5MDAyNTQ1fQ.E_dyGlnXegFfrtbU6Vh_4oe6qLkeIQTh3lZ7sLqMhd0
+2026-01-21 21:35:45.161 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002545156syo  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDI1NDUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODk0NSwiaWF0IjoxNzY5MDAyNTQ1fQ.E_dyGlnXegFfrtbU6Vh_4oe6qLkeIQTh3lZ7sLqMhd0"},"success":true}
+2026-01-21 21:35:45.161 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002545156syo  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-21 21:36:16.787 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002576787xak  [0;39m ------------- 开始 -------------
+2026-01-21 21:36:16.787 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002576787xak  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:36:16.787 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002576787xak  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:36:16.787 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002576787xak  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:36:16.787 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002576787xak  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:36:16.788 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002576787xak  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:36:16.788 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002576787xak  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:36:16.790 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002576787xak  [0;39m <==    Columns: id, mobile
+2026-01-21 21:36:16.790 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002576787xak  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:36:16.790 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002576787xak  [0;39m <==      Total: 1
+2026-01-21 21:36:16.790 INFO  org.wuyang.member.service.MemberService           :61   [32m1769002576787xak  [0;39m 手机号存在，不插入记录
+2026-01-21 21:36:16.790 INFO  org.wuyang.member.service.MemberService           :67   [32m1769002576787xak  [0;39m 生成短信验证码：8888
+2026-01-21 21:36:16.790 INFO  org.wuyang.member.service.MemberService           :69   [32m1769002576787xak  [0;39m 保存短信记录表
+2026-01-21 21:36:16.790 INFO  org.wuyang.member.service.MemberService           :71   [32m1769002576787xak  [0;39m 对接短信通道
+2026-01-21 21:36:16.790 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002576787xak  [0;39m 返回结果: {"success":true}
+2026-01-21 21:36:16.790 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002576787xak  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-21 21:36:17.249 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769002577249plc  [0;39m ------------- 开始 -------------
+2026-01-21 21:36:17.249 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769002577249plc  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:36:17.249 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769002577249plc  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:36:17.249 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769002577249plc  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:36:17.249 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769002577249plc  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:36:17.249 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002577249plc  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:36:17.250 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002577249plc  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:36:17.251 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002577249plc  [0;39m <==    Columns: id, mobile
+2026-01-21 21:36:17.251 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769002577249plc  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:36:17.251 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769002577249plc  [0;39m <==      Total: 1
+2026-01-21 21:36:17.251 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769002577249plc  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:36:17.251 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769002577249plc  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDI1NzcsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODk3NywiaWF0IjoxNzY5MDAyNTc3fQ.fLMdbNQy3XRocUWBF8mOZLG56gWiTKSOyO3qKeBpzrw
+2026-01-21 21:36:17.252 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769002577249plc  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDI1NzcsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4ODk3NywiaWF0IjoxNzY5MDAyNTc3fQ.fLMdbNQy3XRocUWBF8mOZLG56gWiTKSOyO3qKeBpzrw"},"success":true}
+2026-01-21 21:36:17.252 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769002577249plc  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-21 21:46:07.572 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769003167572fxg  [0;39m ------------- 开始 -------------
+2026-01-21 21:46:07.573 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769003167572fxg  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:46:07.573 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769003167572fxg  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:46:07.573 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769003167572fxg  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:46:07.573 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769003167572fxg  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:46:07.575 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769003167572fxg  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:46:07.575 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769003167572fxg  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:46:07.576 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769003167572fxg  [0;39m <==    Columns: id, mobile
+2026-01-21 21:46:07.576 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769003167572fxg  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:46:07.576 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769003167572fxg  [0;39m <==      Total: 1
+2026-01-21 21:46:07.576 INFO  org.wuyang.member.service.MemberService           :61   [32m1769003167572fxg  [0;39m 手机号存在，不插入记录
+2026-01-21 21:46:07.576 INFO  org.wuyang.member.service.MemberService           :67   [32m1769003167572fxg  [0;39m 生成短信验证码：8888
+2026-01-21 21:46:07.576 INFO  org.wuyang.member.service.MemberService           :69   [32m1769003167572fxg  [0;39m 保存短信记录表
+2026-01-21 21:46:07.576 INFO  org.wuyang.member.service.MemberService           :71   [32m1769003167572fxg  [0;39m 对接短信通道
+2026-01-21 21:46:07.576 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769003167572fxg  [0;39m 返回结果: {"success":true}
+2026-01-21 21:46:07.577 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769003167572fxg  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-21 21:46:10.682 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176900317068220w  [0;39m ------------- 开始 -------------
+2026-01-21 21:46:10.682 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176900317068220w  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:46:10.682 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176900317068220w  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:46:10.682 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176900317068220w  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:46:10.682 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176900317068220w  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:46:10.684 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900317068220w  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:46:10.684 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900317068220w  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:46:10.685 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900317068220w  [0;39m <==    Columns: id, mobile
+2026-01-21 21:46:10.685 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900317068220w  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:46:10.685 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900317068220w  [0;39m <==      Total: 1
+2026-01-21 21:46:10.686 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m176900317068220w  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:46:10.686 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m176900317068220w  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDMxNzAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4OTU3MCwiaWF0IjoxNzY5MDAzMTcwfQ.Jfare2m1MxECulXx8fBm907Wpt-8I3LxibzuwIzds9U
+2026-01-21 21:46:10.686 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176900317068220w  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDMxNzAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4OTU3MCwiaWF0IjoxNzY5MDAzMTcwfQ.Jfare2m1MxECulXx8fBm907Wpt-8I3LxibzuwIzds9U"},"success":true}
+2026-01-21 21:46:10.686 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176900317068220w  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-21 21:46:26.606 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17690031866060j7  [0;39m ------------- 开始 -------------
+2026-01-21 21:46:26.606 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17690031866060j7  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:46:26.606 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17690031866060j7  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:46:26.606 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17690031866060j7  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:46:26.606 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17690031866060j7  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:46:26.607 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690031866060j7  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:46:26.608 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690031866060j7  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:46:26.608 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17690031866060j7  [0;39m <==    Columns: id, mobile
+2026-01-21 21:46:26.609 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17690031866060j7  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:46:26.609 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17690031866060j7  [0;39m <==      Total: 1
+2026-01-21 21:46:26.609 INFO  org.wuyang.member.service.MemberService           :61   [32m17690031866060j7  [0;39m 手机号存在，不插入记录
+2026-01-21 21:46:26.609 INFO  org.wuyang.member.service.MemberService           :67   [32m17690031866060j7  [0;39m 生成短信验证码：8888
+2026-01-21 21:46:26.609 INFO  org.wuyang.member.service.MemberService           :69   [32m17690031866060j7  [0;39m 保存短信记录表
+2026-01-21 21:46:26.609 INFO  org.wuyang.member.service.MemberService           :71   [32m17690031866060j7  [0;39m 对接短信通道
+2026-01-21 21:46:26.609 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17690031866060j7  [0;39m 返回结果: {"success":true}
+2026-01-21 21:46:26.609 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17690031866060j7  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-21 21:46:30.083 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176900319008365b  [0;39m ------------- 开始 -------------
+2026-01-21 21:46:30.083 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176900319008365b  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:46:30.083 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176900319008365b  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:46:30.084 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176900319008365b  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:46:30.084 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176900319008365b  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:46:30.085 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900319008365b  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:46:30.085 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900319008365b  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:46:30.087 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900319008365b  [0;39m <==    Columns: id, mobile
+2026-01-21 21:46:30.088 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900319008365b  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:46:30.088 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900319008365b  [0;39m <==      Total: 1
+2026-01-21 21:46:30.090 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m176900319008365b  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:46:30.091 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m176900319008365b  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDMxOTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4OTU5MCwiaWF0IjoxNzY5MDAzMTkwfQ.fGWToE2m-TPO6jXQlHk51CtWTa9fz0nIEUAm-NUcYgk
+2026-01-21 21:46:30.092 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176900319008365b  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDMxOTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA4OTU5MCwiaWF0IjoxNzY5MDAzMTkwfQ.fGWToE2m-TPO6jXQlHk51CtWTa9fz0nIEUAm-NUcYgk"},"success":true}
+2026-01-21 21:46:30.092 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176900319008365b  [0;39m ------------- 结束 耗时：9 ms -------------
+2026-01-21 21:53:39.975 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176900361997475m  [0;39m ------------- 开始 -------------
+2026-01-21 21:53:39.975 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176900361997475m  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-01-21 21:53:39.975 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176900361997475m  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-01-21 21:53:39.975 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176900361997475m  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:53:39.975 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176900361997475m  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-01-21 21:53:39.977 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900361997475m  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:53:39.978 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900361997475m  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:53:39.980 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900361997475m  [0;39m <==    Columns: id, mobile
+2026-01-21 21:53:39.980 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m176900361997475m  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:53:39.980 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m176900361997475m  [0;39m <==      Total: 1
+2026-01-21 21:53:39.980 INFO  org.wuyang.member.service.MemberService           :61   [32m176900361997475m  [0;39m 手机号存在，不插入记录
+2026-01-21 21:53:39.981 INFO  org.wuyang.member.service.MemberService           :67   [32m176900361997475m  [0;39m 生成短信验证码：8888
+2026-01-21 21:53:39.981 INFO  org.wuyang.member.service.MemberService           :69   [32m176900361997475m  [0;39m 保存短信记录表
+2026-01-21 21:53:39.981 INFO  org.wuyang.member.service.MemberService           :71   [32m176900361997475m  [0;39m 对接短信通道
+2026-01-21 21:53:39.981 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m176900361997475m  [0;39m 返回结果: {"success":true}
+2026-01-21 21:53:39.981 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m176900361997475m  [0;39m ------------- 结束 耗时：7 ms -------------
+2026-01-21 21:53:42.473 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1769003622473q49  [0;39m ------------- 开始 -------------
+2026-01-21 21:53:42.473 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1769003622473q49  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-21 21:53:42.473 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1769003622473q49  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-21 21:53:42.473 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1769003622473q49  [0;39m 远程地址: 127.0.0.1
+2026-01-21 21:53:42.473 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1769003622473q49  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-21 21:53:42.475 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769003622473q49  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-21 21:53:42.475 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769003622473q49  [0;39m ==> Parameters: 17689401847(String)
+2026-01-21 21:53:42.476 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769003622473q49  [0;39m <==    Columns: id, mobile
+2026-01-21 21:53:42.476 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769003622473q49  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-21 21:53:42.477 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769003622473q49  [0;39m <==      Total: 1
+2026-01-21 21:53:42.477 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769003622473q49  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-21 21:53:42.477 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769003622473q49  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDM2MjIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA5MDAyMiwiaWF0IjoxNzY5MDAzNjIyfQ.UEKLUPiywWjn4GgJ_jJB-vK6m7ZcpKe7BGYItfFDKV8
+2026-01-21 21:53:42.478 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1769003622473q49  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkwMDM2MjIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTA5MDAyMiwiaWF0IjoxNzY5MDAzNjIyfQ.UEKLUPiywWjn4GgJ_jJB-vK6m7ZcpKe7BGYItfFDKV8"},"success":true}
+2026-01-21 21:53:42.478 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1769003622473q49  [0;39m ------------- 结束 耗时：5 ms -------------
