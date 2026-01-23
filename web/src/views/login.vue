@@ -54,7 +54,7 @@ import store from "@/store";
         });
 
         const sendCode = () => {
-          axios.post("http://localhost:8000/member/member/send-code", {
+          axios.post("/member/member/send-code", {
             mobile: loginForm.mobile
           }).then(response => {
             let data = response.data;
@@ -68,7 +68,7 @@ import store from "@/store";
         };
 
         const login = () => {
-          axios.post("http://localhost:8000/member/member/login", loginForm).then(response => {
+          axios.post("/member/member/login", loginForm).then(response => {
             let data = response.data;
             if (data.success) {
               notification.success({description: '登陆成功'});

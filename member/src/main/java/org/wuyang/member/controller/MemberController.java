@@ -17,8 +17,9 @@ public class MemberController {
     @Resource
     private MemberService memberService;
     @GetMapping("/count")
-    public Integer count () {
-        return memberService.count();
+    public CommonResp<Integer> count () {
+        Integer count = memberService.count();
+        return new CommonResp<>(count);
     }
 
     @PostMapping("/register")

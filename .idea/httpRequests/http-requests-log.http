@@ -1,3 +1,25 @@
+GET http://localhost:8000/member/member/count
+Accept: application/json
+token: 123
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/member/count
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/member/count
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
 POST http://localhost:8000/member/member/login
 Content-Type: application/json
 Content-Length: 48
@@ -507,36 +529,6 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 content-length: 0
 
 <> 2026-01-14T205812.200.json
-
-###
-
-POST http://localhost:8000/member/member/register?mobile=12345
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-content-length: 0
-
-<> 2026-01-14T205753.200.json
-
-###
-
-POST http://localhost:8000/member/member/register?mobile=12345
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-content-length: 0
-
-<> 2026-01-11T183147.200.json
-
-###
-
-POST http://localhost:8000/member/member/register?mobile=1234
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-content-length: 0
-
-<> 2026-01-11T173135.500.json
 
 ###
 
