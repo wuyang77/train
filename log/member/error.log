@@ -1,1 +1,2 @@
 2026-01-21 21:29:30.923 ERROR o.w.common.controller.ControllerExceptionHandler  :50   [32m1769002170865m05  [0;39m 业务异常：短信验证码错误
+2026-01-21 23:03:15.405 ERROR o.w.common.controller.ControllerExceptionHandler  :50   [32m1769007795402c1x  [0;39m 业务异常：短信验证码错误

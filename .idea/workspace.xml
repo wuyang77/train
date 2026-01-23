@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="测试gataway拦截器的使用">
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/LoginMemberFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/Test1Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/Test1Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/Test2Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/Test2Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;wuyang77&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/wuyang77/train.git&quot;,
+    &quot;accountId&quot;: &quot;8899869e-f23d-4470-9e8f-000ab262cffd&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://E:/dev/localRepository/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar!/ch/qos/logback/classic/Logger.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://E:/dev/localRepository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/jakarta/validation/constraints/NotBlank.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://E:/dev/localRepository/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar!/org/aspectj/lang/annotation/Before.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://E:/dev/localRepository/org/springframework/boot/spring-boot-devtools/3.0.0/spring-boot-devtools-3.0.0.jar!/org/springframework/boot/devtools/autoconfigure/OptionalLiveReloadServer.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="userSettingsFile" value="D:\dev\apache-maven-3.9.11\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="37xP5HKDDo9LMMpmTciRKass1Lp" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.member.sql.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.member [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.member [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MemberApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TrainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/23889/Desktop/train/gateway/src/main/java/org/wuyang/gateway/util&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;D:/dev/node-v18.12.1-win-x64/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.serve.executor&quot;: &quot;Run&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\&quot;train\&quot;&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.wuyang.member.resq" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\gateway\src\main\java\org\wuyang\gateway\util" />
+      <recent name="D:\Users\23889\Desktop\train\web" />
+      <recent name="D:\Users\23889\Desktop\train\web\src\components" />
+      <recent name="D:\Users\23889\Desktop\train\sql" />
+      <recent name="D:\Users\23889\Desktop\train\gateway\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train" />
+      <recent name="D:\Users\23889\Desktop\train\web\src\components" />
+      <recent name="D:\Users\23889\Desktop\train\web\src\views" />
+      <recent name="D:\Users\23889\Desktop\train\common\src\main\resources\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.wuyang.gateway.config" />
+      <recent name="org.wuyang.common.util" />
+      <recent name="org.wuyang.common.Exception" />
+      <recent name="org.wuyang.common.resp" />
+      <recent name="org.wuyang.gateway" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="member-test | #3" value="STOPPED" />
+              <entry key="member-test | #4" value="STOPPED" />
+              <entry key="member-test | #5" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="MemberApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="member-test | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-test.http" executionIdentifier="#3" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="member-test | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-test.http" executionIdentifier="#4" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="member-test | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-test.http" executionIdentifier="#5" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.gateway.config.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.gateway.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.member.config.MemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="HTTP Request.member-test | #5" />
+        <item itemvalue="HTTP Request.member-test | #4" />
+        <item itemvalue="HTTP Request.member-test | #3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="" />
+      <created>1767841564861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767841564861</updated>
+      <workItem from="1767841569040" duration="4224000" />
+      <workItem from="1767846436806" duration="91000" />
+      <workItem from="1767846543159" duration="2116000" />
+      <workItem from="1767850992603" duration="273000" />
+      <workItem from="1767851272105" duration="478000" />
+      <workItem from="1767851760097" duration="6924000" />
+      <workItem from="1767859459466" duration="5975000" />
+      <workItem from="1768100110401" duration="2090000" />
+      <workItem from="1768102233117" duration="301000" />
+      <workItem from="1768102565295" duration="16985000" />
+      <workItem from="1768277757652" duration="1609000" />
+      <workItem from="1768388796284" duration="626000" />
+      <workItem from="1768390042147" duration="11377000" />
+      <workItem from="1768403801235" duration="492000" />
+      <workItem from="1768404314549" duration="243000" />
+      <workItem from="1768404585858" duration="2714000" />
+      <workItem from="1768462724272" duration="19031000" />
+      <workItem from="1768537044304" duration="18269000" />
+      <workItem from="1768563065987" duration="17687000" />
+      <workItem from="1768642756004" duration="18284000" />
+      <workItem from="1768990399022" duration="14498000" />
+      <workItem from="1769008179805" duration="1910000" />
+      <workItem from="1769149309157" duration="330000" />
+    </task>
+    <task id="LOCAL-00008" summary="common模块，在resouce下的config添加了公共配置文件（application.properti）">
+      <option name="closed" value="true" />
+      <created>1767860856788</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767860856788</updated>
+    </task>
+    <task id="LOCAL-00009" summary="新增网关模块gateway,配置了member的路由转发，输出请求日志增加启动参数：-Dreactor.netty.http.server.accessLogEnabled=true">
+      <option name="closed" value="true" />
+      <created>1767864787767</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767864787767</updated>
+    </task>
+    <task id="LOCAL-00010" summary="根pom和common模块所在子pom配置了mybatis和连接mysql的jar包。application.properties配置文件新增了mysql连接的基本信息以及mybatis的xml扫描路径，且日志的跟踪级别设置为了trace。写了1个简单的sql连接查询并测试成功">
+      <option name="closed" value="true" />
+      <created>1768114744516</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768114744516</updated>
+    </task>
+    <task id="LOCAL-00011" summary="根pom和common模块所在子pom配置了mybatis和连接mysql的jar包。application.properties配置文件新增了mysql连接的基本信息以及mybatis的xml扫描路径，且日志的跟踪级别设置为了trace。写了1个简单的sql连接查询并测试成功">
+      <option name="closed" value="true" />
+      <created>1768114749108</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1768114749108</updated>
+    </task>
+    <task id="LOCAL-00012" summary="新增代码生成器generator模块，集成Mybatis官方代码生成器">
+      <option name="closed" value="true" />
+      <created>1768116632288</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1768116632288</updated>
+    </task>
+    <task id="LOCAL-00013" summary="实现1个简单的注册接口">
+      <option name="closed" value="true" />
+      <created>1768118096584</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1768118096584</updated>
+    </task>
+    <task id="LOCAL-00014" summary="实现1个简单的会员注册接口">
+      <option name="closed" value="true" />
+      <created>1768118107147</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1768118107147</updated>
+    </task>
+    <task id="LOCAL-00015" summary="实现1个简单的会员注册接口">
+      <option name="closed" value="true" />
+      <created>1768118151621</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1768118151621</updated>
+    </task>
+    <task id="LOCAL-00016" summary="实现1个简单的会员注册接口">
+      <option name="closed" value="true" />
+      <created>1768118157851</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1768118157851</updated>
+    </task>
+    <task id="LOCAL-00017" summary="实现1个简单的会员注册接口">
+      <option name="closed" value="true" />
+      <created>1768118214763</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1768118214763</updated>
+    </task>
+    <task id="LOCAL-00018" summary="实现1个简单的会员注册接口">
+      <option name="closed" value="true" />
+      <created>1768118217607</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1768118217607</updated>
+    </task>
+    <task id="LOCAL-00019" summary="实现1个简单的会员注册接口">
+      <option name="closed" value="true" />
+      <created>1768118220071</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1768118220071</updated>
+    </task>
+    <task id="LOCAL-00020" summary="测试注册接口">
+      <option name="closed" value="true" />
+      <created>1768123926323</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1768123926323</updated>
+    </task>
+    <task id="LOCAL-00021" summary="测试注册接口">
+      <option name="closed" value="true" />
+      <created>1768123930856</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1768123930856</updated>
+    </task>
+    <task id="LOCAL-00022" summary="封装请求参数和请求结果">
+      <option name="closed" value="true" />
+      <created>1768278081057</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1768278081057</updated>
+    </task>
+    <task id="LOCAL-00023" summary="封装请求参数和请求结果">
+      <option name="closed" value="true" />
+      <created>1768278087457</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1768278087457</updated>
+    </task>
+    <task id="LOCAL-00024" summary="为项目增加统一的异常处理">
+      <option name="closed" value="true" />
+      <created>1768395237278</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1768395237278</updated>
+    </task>
+    <task id="LOCAL-00025" summary="使用自定义异常处理异常业务">
+      <option name="closed" value="true" />
+      <created>1768396982924</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1768396982924</updated>
+    </task>
+    <task id="LOCAL-00026" summary="使用自定义异常处理异常业务">
+      <option name="closed" value="true" />
+      <created>1768396987826</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1768396987826</updated>
+    </task>
+    <task id="LOCAL-00027" summary="业务异常重写fillInStackTrace方法不写入堆栈数据">
+      <option name="closed" value="true" />
+      <created>1768397637627</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1768397637627</updated>
+    </task>
+    <task id="LOCAL-00028" summary="业务异常重写fillInStackTrace方法不写入堆栈数据">
+      <option name="closed" value="true" />
+      <created>1768397650319</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1768397650319</updated>
+    </task>
+    <task id="LOCAL-00029" summary="集成校验框架，进行校验异常的统一处理">
+      <option name="closed" value="true" />
+      <created>1768399922024</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1768399922024</updated>
+    </task>
+    <task id="LOCAL-00030" summary="集成校验框架，进行校验异常的统一处理">
+      <option name="closed" value="true" />
+      <created>1768399928866</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1768399928866</updated>
+    </task>
+    <task id="LOCAL-00031" summary="使用雪花算法生成数据库Id">
+      <option name="closed" value="true" />
+      <created>1768401391688</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1768401391688</updated>
+    </task>
+    <task id="LOCAL-00032" summary="使用雪花算法生成数据库Id">
+      <option name="closed" value="true" />
+      <created>1768401734926</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1768401734926</updated>
+    </task>
+    <task id="LOCAL-00033" summary="使用Vue CLI 5 创建web模块 &#10;npm install -g @vue/cli@5.0.8&#10;vue create train">
+      <option name="closed" value="true" />
+      <created>1768407292726</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1768407292726</updated>
+    </task>
+    <task id="LOCAL-00034" summary="使用Vue CLI 5 创建web模块 &#10;npm install -g @vue/cli@5.0.8&#10;vue create train">
+      <option name="closed" value="true" />
+      <created>1768407294974</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1768407294974</updated>
+    </task>
+    <task id="LOCAL-00035" summary="使用Vue CLI 5 创建web模块 &#10;npm install -g @vue/cli@5.0.8&#10;vue create train">
+      <option name="closed" value="true" />
+      <created>1768407298202</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1768407298202</updated>
+    </task>
+    <task id="LOCAL-00036" summary="集成Ant Design Vue及其图标">
+      <option name="closed" value="true" />
+      <created>1768470759358</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1768470759358</updated>
+    </task>
+    <task id="LOCAL-00037" summary="增减Login路由及页面">
+      <option name="closed" value="true" />
+      <created>1768476248490</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1768476248490</updated>
+    </task>
+    <task id="LOCAL-00038" summary="后端编写了发送短信和登录接口，前端引入了axios继续完善">
+      <option name="closed" value="true" />
+      <created>1768564376784</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1768564376784</updated>
+    </task>
+    <task id="LOCAL-00039" summary="后端编写了发送短信和登录接口，前端引入了axios继续完善">
+      <option name="closed" value="true" />
+      <created>1768564380939</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1768564380939</updated>
+    </task>
+    <task id="LOCAL-00040" summary="完成前端的发送短信获取验证码的功能">
+      <option name="closed" value="true" />
+      <created>1768566068838</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1768566068838</updated>
+    </task>
+    <task id="LOCAL-00041" summary="完成前端的发送短信获取验证码的功能">
+      <option name="closed" value="true" />
+      <created>1768566074644</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1768566074644</updated>
+    </task>
+    <task id="LOCAL-00042" summary="在main.js中修复一个错误，由于之前返回结果为空，查询到是拦截器少打一行代码返回，最终拦截器内补全return语句（return response;）错误得以解决">
+      <option name="closed" value="true" />
+      <created>1768570047684</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1768570047684</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名">
+      <option name="closed" value="true" />
+      <created>1768572326038</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1768572326038</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名">
+      <option name="closed" value="true" />
+      <created>1768572328643</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1768572328643</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名">
+      <option name="closed" value="true" />
+      <created>1768577051891</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1768577051891</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名">
+      <option name="closed" value="true" />
+      <created>1768577081153</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1768577081153</updated>
+    </task>
+    <task id="LOCAL-00047" summary="添加忽略文件.gitignore">
+      <option name="closed" value="true" />
+      <created>1768577948349</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1768577948349</updated>
+    </task>
+    <task id="LOCAL-00048" summary="增加控制台主页，登录成功后跳转到控制台主页">
+      <option name="closed" value="true" />
+      <created>1768579121310</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1768579121310</updated>
+    </task>
+    <task id="LOCAL-00049" summary="vue组件开发增加the-header组件">
+      <option name="closed" value="true" />
+      <created>1768580672032</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1768580672032</updated>
+    </task>
+    <task id="LOCAL-00050" summary="使用官方的JWTUtil去生成token,封装到登录请求参数中，封装类为MemberLoginReq">
+      <option name="closed" value="true" />
+      <created>1768733683180</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1768733683180</updated>
+    </task>
+    <task id="LOCAL-00051" summary="使用官方的JWTUtil去生成token,封装到登录请求参数中，封装类为MemberLoginReq">
+      <option name="closed" value="true" />
+      <created>1768733747954</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1768733747954</updated>
+    </task>
+    <task id="LOCAL-00052" summary="自定义了1个JwtUtil工具类,修改了memberService的加密生成token的代码行改为一行">
+      <option name="closed" value="true" />
+      <created>1768735838828</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1768735838828</updated>
+    </task>
+    <task id="LOCAL-00053" summary="引入自定义的Session-Storage.js文件，将登录信息存在在session中，解决浏览器刷新丢失登录信息的问题">
+      <option name="closed" value="true" />
+      <created>1769003757371</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1769003757372</updated>
+    </task>
+    <task id="LOCAL-00054" summary="引入自定义的Session-Storage.js文件，将登录信息存在在session中，解决浏览器刷新丢失登录信息的问题">
+      <option name="closed" value="true" />
+      <created>1769003767166</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1769003767166</updated>
+    </task>
+    <task id="LOCAL-00055" summary="测试gataway拦截器的使用">
+      <option name="closed" value="true" />
+      <created>1769005333406</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1769005333406</updated>
+    </task>
+    <task id="LOCAL-00056" summary="测试gataway拦截器的使用">
+      <option name="closed" value="true" />
+      <created>1769005352500</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1769005352500</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="根pom和common模块所在子pom配置了mybatis和连接mysql的jar包。application.properties配置文件新增了mysql连接的基本信息以及mybatis的xml扫描路径，且日志的跟踪级别设置为了trace。写了1个简单的sql连接查询并测试成功" />
+    <MESSAGE value="新增代码生成器generator模块，集成Mybatis官方代码生成器" />
+    <MESSAGE value="实现1个简单的注册接口" />
+    <MESSAGE value="实现1个简单的会员注册接口" />
+    <MESSAGE value="测试注册接口" />
+    <MESSAGE value="封装请求参数和请求结果" />
+    <MESSAGE value="为项目增加统一的异常处理" />
+    <MESSAGE value="使用自定义异常处理异常业务" />
+    <MESSAGE value="业务异常重写fillInStackTrace方法不写入堆栈数据" />
+    <MESSAGE value="集成校验框架，进行校验异常的统一处理" />
+    <MESSAGE value="使用雪花算法生成数据库Id" />
+    <MESSAGE value="使用Vue CLI 5 创建web模块 &#10;npm install -g @vue/cli@5.0.8&#10;vue create train" />
+    <MESSAGE value="集成Ant Design Vue及其图标" />
+    <MESSAGE value="增减Login路由及页面" />
+    <MESSAGE value="后端编写了发送短信和登录接口，前端引入了axios继续完善" />
+    <MESSAGE value="完成前端的发送短信获取验证码的功能" />
+    <MESSAGE value="在main.js中修复一个错误，由于之前返回结果为空，查询到是拦截器少打一行代码返回，最终拦截器内补全return语句（return response;）错误得以解决" />
+    <MESSAGE value="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名" />
+    <MESSAGE value="添加忽略文件.gitignore" />
+    <MESSAGE value="增加控制台主页，登录成功后跳转到控制台主页" />
+    <MESSAGE value="vue组件开发增加the-header组件" />
+    <MESSAGE value="使用官方的JWTUtil去生成token,封装到登录请求参数中，封装类为MemberLoginReq" />
+    <MESSAGE value="自定义了1个JwtUtil工具类,修改了memberService的加密生成token的代码行改为一行" />
+    <MESSAGE value="引入自定义的Session-Storage.js文件，将登录信息存在在session中，解决浏览器刷新丢失登录信息的问题" />
+    <MESSAGE value="测试gataway拦截器的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试gataway拦截器的使用" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
