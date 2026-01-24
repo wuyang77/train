@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="为axios添加统一的拦截器，使得拦截器登录后带上token" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="为axios添加统一的拦截器，使得拦截器登录后带上token">
+      <change afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/enums/PassengerTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-member.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-member.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/target/classes/generator-config-member.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/target/classes/generator-config-member.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/the-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/router/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +138,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -175,36 +186,36 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="configurationStatuses">
-      <map>
-        <entry key="HttpClient.HttpRequestRunConfigurationType">
-          <value>
-            <map>
-              <entry key="member-test | #2" value="STOPPED" />
-              <entry key="member-test | #4" value="STOPPED" />
-              <entry key="member-test | #5" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <map>
-              <entry key="GatewayApplication" value="STOPPED" />
-              <entry key="MemberApplication" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
-  <component name="RunManager" selected="npm.serve">
-    <configuration name="member-test | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-test.http" executionIdentifier="#2" index="2" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="member-test | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-test.http" executionIdentifier="#4" index="4" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="member-test | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-test.http" executionIdentifier="#5" index="5" runType="Run single request">
+  <component name="RunManager" selected="Maven.mybatis-generator">
+    <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/generator" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method v="2" />
     </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -236,15 +247,21 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Maven.mybatis-generator" />
+      <item itemvalue="npm.serve" />
+      <item itemvalue="Spring Boot.MemberApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.serve" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="HTTP Request.member-test | #2" />
-        <item itemvalue="HTTP Request.member-test | #5" />
-        <item itemvalue="HTTP Request.member-test | #4" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +307,23 @@
       <workItem from="1769008179805" duration="1910000" />
       <workItem from="1769149309157" duration="414000" />
       <workItem from="1769149785262" duration="4327000" />
-      <workItem from="1769154170000" duration="337000" />
+      <workItem from="1769243071932" duration="20753000" />
+    </task>
+    <task id="LOCAL-00009" summary="新增网关模块gateway,配置了member的路由转发，输出请求日志增加启动参数：-Dreactor.netty.http.server.accessLogEnabled=true">
+      <option name="closed" value="true" />
+      <created>1767864787767</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767864787767</updated>
+    </task>
+    <task id="LOCAL-00010" summary="根pom和common模块所在子pom配置了mybatis和连接mysql的jar包。application.properties配置文件新增了mysql连接的基本信息以及mybatis的xml扫描路径，且日志的跟踪级别设置为了trace。写了1个简单的sql连接查询并测试成功">
+      <option name="closed" value="true" />
+      <created>1768114744516</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1768114744516</updated>
     </task>
     <task id="LOCAL-00011" summary="根pom和common模块所在子pom配置了mybatis和连接mysql的jar包。application.properties配置文件新增了mysql连接的基本信息以及mybatis的xml扫描路径，且日志的跟踪级别设置为了trace。写了1个简单的sql连接查询并测试成功">
       <option name="closed" value="true" />
@@ -668,23 +701,7 @@
       <option name="project" value="LOCAL" />
       <updated>1769149708817</updated>
     </task>
-    <task id="LOCAL-00058" summary="为axios添加统一的拦截器，使得拦截器登录后带上token">
-      <option name="closed" value="true" />
-      <created>1769154474735</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1769154474736</updated>
-    </task>
-    <task id="LOCAL-00059" summary="为axios添加统一的拦截器，使得拦截器登录后带上token">
-      <option name="closed" value="true" />
-      <created>1769154491132</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1769154491132</updated>
-    </task>
-    <option name="localTasksCounter" value="60" />
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,6 +733,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="新增代码生成器generator模块，集成Mybatis官方代码生成器" />
     <MESSAGE value="实现1个简单的注册接口" />
     <MESSAGE value="实现1个简单的会员注册接口" />
     <MESSAGE value="测试注册接口" />
@@ -740,8 +758,7 @@
     <MESSAGE value="引入自定义的Session-Storage.js文件，将登录信息存在在session中，解决浏览器刷新丢失登录信息的问题" />
     <MESSAGE value="测试gataway拦截器的使用" />
     <MESSAGE value="为gataway添加登录校验拦截器" />
-    <MESSAGE value="为axios添加统一的拦截器，使得拦截器登录后带上token" />
-    <option name="LAST_COMMIT_MESSAGE" value="为axios添加统一的拦截器，使得拦截器登录后带上token" />
+    <option name="LAST_COMMIT_MESSAGE" value="为gataway添加登录校验拦截器" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

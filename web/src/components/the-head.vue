@@ -27,7 +27,7 @@ import store from "@/store";
 export default defineComponent({
   name: "the-header-view",
   setup() {
-    let member = store.state.member
+    let member = store.state.member;
     return {
       selectedKeys1: ref(['2']),
       member
