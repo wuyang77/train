@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用IDEA自带的HttpClient记住登录的信息" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用IDEA自带的HttpClient记住登录的信息">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/context/LoginMemberContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/interceptor/MemberInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/config/SpringMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-18T183502.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-18T183533.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/aspect/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/aspect/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +44,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -179,6 +194,34 @@
         <option value="js.build_tools.npm" />
       </set>
     </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="member-member | #4" value="STOPPED" />
+              <entry key="member-member | #5" value="STOPPED" />
+              <entry key="member-passenger | #1" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="MemberApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="js.build_tools.npm">
+          <value>
+            <map>
+              <entry key="serve" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="RunManager" selected="HTTP Request.member-passenger | #1">
     <configuration name="member-member | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-member.http" executionIdentifier="#4" index="4" runType="Run single request">
@@ -270,10 +313,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.member-passenger | #1" />
-        <item itemvalue="npm.serve" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="HTTP Request.member-member | #5" />
         <item itemvalue="HTTP Request.member-member | #4" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="npm.serve" />
       </list>
     </recent_temporary>
   </component>
@@ -321,14 +364,7 @@
       <workItem from="1769149785262" duration="4327000" />
       <workItem from="1769243071932" duration="23223000" />
       <workItem from="1769291873319" duration="887000" />
-    </task>
-    <task id="LOCAL-00013" summary="实现1个简单的注册接口">
-      <option name="closed" value="true" />
-      <created>1768118096584</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1768118096584</updated>
+      <workItem from="1769350924152" duration="6988000" />
     </task>
     <task id="LOCAL-00014" summary="实现1个简单的会员注册接口">
       <option name="closed" value="true" />
@@ -714,7 +750,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769304219093</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="使用IDEA自带的HttpClient记住登录的信息">
+      <option name="closed" value="true" />
+      <created>1769304645479</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1769304645479</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
