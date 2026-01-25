@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人界面开发：增加【新增】按钮">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人界面开发：增加乘车人表单">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
@@ -214,7 +215,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.member-passenger | #1">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="member-member | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-member.http" executionIdentifier="#4" index="4" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -356,15 +357,9 @@
       <workItem from="1769243071932" duration="23223000" />
       <workItem from="1769291873319" duration="887000" />
       <workItem from="1769350924152" duration="14422000" />
-      <workItem from="1769375066710" duration="430000" />
-    </task>
-    <task id="LOCAL-00021" summary="测试注册接口">
-      <option name="closed" value="true" />
-      <created>1768123930856</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1768123930856</updated>
+      <workItem from="1769375066710" duration="1157000" />
+      <workItem from="1769376251338" duration="231000" />
+      <workItem from="1769376536133" duration="87000" />
     </task>
     <task id="LOCAL-00022" summary="封装请求参数和请求结果">
       <option name="closed" value="true" />
@@ -750,7 +745,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769373960909</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="乘车人界面开发：增加乘车人表单">
+      <option name="closed" value="true" />
+      <created>1769375771381</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1769375771381</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +785,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="集成校验框架，进行校验异常的统一处理" />
     <MESSAGE value="使用雪花算法生成数据库Id" />
     <MESSAGE value="使用Vue CLI 5 创建web模块 &#10;npm install -g @vue/cli@5.0.8&#10;vue create train" />
     <MESSAGE value="集成Ant Design Vue及其图标" />
@@ -807,7 +809,8 @@
     <MESSAGE value="修改菜单实现页面切换" />
     <MESSAGE value="实现菜单同步激活" />
     <MESSAGE value="乘车人界面开发：增加【新增】按钮" />
-    <option name="LAST_COMMIT_MESSAGE" value="乘车人界面开发：增加【新增】按钮" />
+    <MESSAGE value="乘车人界面开发：增加乘车人表单" />
+    <option name="LAST_COMMIT_MESSAGE" value="乘车人界面开发：增加乘车人表单" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
