@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加乘车人管理页面">
-      <change beforePath="$PROJECT_DIR$/web/src/components/the-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-head.vue" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="修改菜单实现页面切换">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/the-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,15 +353,7 @@
       <workItem from="1769149785262" duration="4327000" />
       <workItem from="1769243071932" duration="23223000" />
       <workItem from="1769291873319" duration="887000" />
-      <workItem from="1769350924152" duration="9442000" />
-    </task>
-    <task id="LOCAL-00018" summary="实现1个简单的会员注册接口">
-      <option name="closed" value="true" />
-      <created>1768118217607</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1768118217607</updated>
+      <workItem from="1769350924152" duration="10468000" />
     </task>
     <task id="LOCAL-00019" summary="实现1个简单的会员注册接口">
       <option name="closed" value="true" />
@@ -744,7 +739,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769362873688</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="修改菜单实现页面切换">
+      <option name="closed" value="true" />
+      <created>1769363401470</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1769363401470</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -776,7 +779,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="为项目增加统一的异常处理" />
     <MESSAGE value="使用自定义异常处理异常业务" />
     <MESSAGE value="业务异常重写fillInStackTrace方法不写入堆栈数据" />
     <MESSAGE value="集成校验框架，进行校验异常的统一处理" />
@@ -801,7 +803,8 @@
     <MESSAGE value="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器" />
     <MESSAGE value="制作欢迎页面" />
     <MESSAGE value="增加乘车人管理页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加乘车人管理页面" />
+    <MESSAGE value="修改菜单实现页面切换" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改菜单实现页面切换" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -14,14 +14,14 @@
 
 <script>
 
-import TheHeaderView from "@/components/the-head.vue";
+import TheHeadererView from "@/components/the-header.vue";
 import TheSiderView from "@/components/the-sider.vue";
 import {defineComponent} from "vue";
 
 export default defineComponent({
   components: {
     TheSiderView,
-    TheHeaderView,
+    TheHeaderView: TheHeadererView,
   },
   setup() {
     return{
