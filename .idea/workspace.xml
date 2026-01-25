@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用IDEA自带的HttpClient记住登录的信息">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/context/LoginMemberContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/interceptor/LogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/interceptor/MemberInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/config/SpringMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-18T183502.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-18T183533.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器">
+      <change afterPath="$PROJECT_DIR$/web/src/views/main/welcome.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/aspect/LogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/aspect/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/aspect/LogAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,11 +302,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.serve" />
         <item itemvalue="HTTP Request.member-passenger | #1" />
         <item itemvalue="HTTP Request.member-member | #5" />
         <item itemvalue="HTTP Request.member-member | #4" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="npm.serve" />
       </list>
     </recent_temporary>
   </component>
@@ -364,23 +354,7 @@
       <workItem from="1769149785262" duration="4327000" />
       <workItem from="1769243071932" duration="23223000" />
       <workItem from="1769291873319" duration="887000" />
-      <workItem from="1769350924152" duration="6988000" />
-    </task>
-    <task id="LOCAL-00014" summary="实现1个简单的会员注册接口">
-      <option name="closed" value="true" />
-      <created>1768118107147</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1768118107147</updated>
-    </task>
-    <task id="LOCAL-00015" summary="实现1个简单的会员注册接口">
-      <option name="closed" value="true" />
-      <created>1768118151621</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1768118151621</updated>
+      <workItem from="1769350924152" duration="8497000" />
     </task>
     <task id="LOCAL-00016" summary="实现1个简单的会员注册接口">
       <option name="closed" value="true" />
@@ -758,7 +732,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769304645479</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器">
+      <option name="closed" value="true" />
+      <created>1769361073953</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1769361073953</updated>
+    </task>
+    <task id="LOCAL-00064" summary="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器">
+      <option name="closed" value="true" />
+      <created>1769361088303</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1769361088303</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +780,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="实现1个简单的会员注册接口" />
     <MESSAGE value="测试注册接口" />
     <MESSAGE value="封装请求参数和请求结果" />
     <MESSAGE value="为项目增加统一的异常处理" />
@@ -815,7 +804,8 @@
     <MESSAGE value="为gataway添加登录校验拦截器" />
     <MESSAGE value="乘车人表的设计,过生成器模块generator生成对应表passenger的代码" />
     <MESSAGE value="使用IDEA自带的HttpClient记住登录的信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用IDEA自带的HttpClient记住登录的信息" />
+    <MESSAGE value="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-01-25T16:52:16.100+00:00",
+  "path": "/member/member/login",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Connection prematurely closed BEFORE response",
+  "requestId": "03631fce-1",
+  "trace": "reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response\r\n\tSuppressed: The stacktrace has been enhanced by Reactor, refer to additional information below: \r\nError has been observed at the following site(s):\r\n\t*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]\r\n\t*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]\r\n\t*__checkpoint ⇢ HTTP POST \"/member/member/login\" [ExceptionHandlingWebHandler]\r\nOriginal Stack Trace:\r\n"
+}
