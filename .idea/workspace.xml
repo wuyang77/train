@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="制作欢迎页面">
-      <change beforePath="$PROJECT_DIR$/web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/router/index.js" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加乘车人管理页面">
+      <change beforePath="$PROJECT_DIR$/web/src/components/the-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-head.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,15 +350,7 @@
       <workItem from="1769149785262" duration="4327000" />
       <workItem from="1769243071932" duration="23223000" />
       <workItem from="1769291873319" duration="887000" />
-      <workItem from="1769350924152" duration="8931000" />
-    </task>
-    <task id="LOCAL-00017" summary="实现1个简单的会员注册接口">
-      <option name="closed" value="true" />
-      <created>1768118214763</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1768118214763</updated>
+      <workItem from="1769350924152" duration="9442000" />
     </task>
     <task id="LOCAL-00018" summary="实现1个简单的会员注册接口">
       <option name="closed" value="true" />
@@ -744,7 +736,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769362445645</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="增加乘车人管理页面">
+      <option name="closed" value="true" />
+      <created>1769362873688</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1769362873688</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -776,7 +776,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="封装请求参数和请求结果" />
     <MESSAGE value="为项目增加统一的异常处理" />
     <MESSAGE value="使用自定义异常处理异常业务" />
     <MESSAGE value="业务异常重写fillInStackTrace方法不写入堆栈数据" />
@@ -801,7 +800,8 @@
     <MESSAGE value="使用IDEA自带的HttpClient记住登录的信息" />
     <MESSAGE value="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器" />
     <MESSAGE value="制作欢迎页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="制作欢迎页面" />
+    <MESSAGE value="增加乘车人管理页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加乘车人管理页面" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
