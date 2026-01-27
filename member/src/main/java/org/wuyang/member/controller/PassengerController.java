@@ -2,13 +2,15 @@ package org.wuyang.member.controller;
 
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.wuyang.common.context.LoginMemberContext;
 import org.wuyang.common.resp.CommonResp;
+import org.wuyang.member.resp.PassengerQueryResp;
+import org.wuyang.member.resq.PassengerQueryReq;
 import org.wuyang.member.resq.PassengerSaveReq;
 import org.wuyang.member.service.PassengerService;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/passenger")
@@ -21,5 +23,12 @@ public class PassengerController {
     public CommonResp<Object> savePassenger(@Valid @RequestBody PassengerSaveReq req) {
         passengerService.savePassenger(req);
         return new CommonResp<>();
+    }
+
+    @GetMapping("/query-list")
+    public CommonResp<List<PassengerQueryResp>> queryPassengerList(@Valid PassengerQueryReq req) {
+        req.setMemberId(LoginMemberContext.getId());
+        List<PassengerQueryResp> list = passengerService.queryPassengerList(req);
+        return new CommonResp<>(list);
     }
 }

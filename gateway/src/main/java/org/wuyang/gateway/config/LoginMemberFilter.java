@@ -20,13 +20,14 @@ public class LoginMemberFilter implements Ordered, GlobalFilter {
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         String path = exchange.getRequest().getURI().getPath();
 
-        // 排除不需要的拦截请求
-        if(path.contains("/admin")
-            || path.contains("/redis")
-            || path.contains("/hello")
-            || path.contains("/member/member/login")
-            || path.contains("/member/member/send-code")
-            || path.contains("/business/kaptcha")) {
+        // 排除不需要拦截的请求
+        if (path.contains("/admin")
+                || path.contains("/redis")
+                || path.contains("/hello")
+                || path.contains("/member/member/login")
+                || path.contains("/member/member/send-code")
+                || path.contains("/member/passenger/query-list")
+                || path.contains("/business/kaptcha")) {
             LOG.info("不需要登录验证：{}", path);
             return chain.filter(exchange);
         } else {
@@ -34,26 +35,29 @@ public class LoginMemberFilter implements Ordered, GlobalFilter {
         }
         // 获取header的token参数
         String token = exchange.getRequest().getHeaders().getFirst("token");
-        LOG.info("会员登录验证开始：{}", token);
+        LOG.info("会员登录验证开始，token：{}", token);
         if (token == null || token.isEmpty()) {
-            LOG.info("token为空，请求被拦截");
+            LOG.info( "token为空，请求被拦截" );
             exchange.getResponse().setStatusCode(HttpStatus.UNAUTHORIZED);
             return exchange.getResponse().setComplete();
         }
+
         // 校验token是否有效，包括token是否被改过，是否过期
         boolean validate = JwtUtil.validate(token);
         if (validate) {
             LOG.info("token有效，放行该请求");
             return chain.filter(exchange);
         } else {
-            LOG.info("token无效，请求被拦截");
+            LOG.warn( "token无效，请求被拦截" );
             exchange.getResponse().setStatusCode(HttpStatus.UNAUTHORIZED);
             return exchange.getResponse().setComplete();
         }
+
     }
 
     /**
-     * 优先级设置 值越小  优先级越高
+     * 优先级设置  值越小  优先级越高
+     *
      * @return
      */
     @Override

@@ -19,13 +19,13 @@ public class JwtUtil {
     /**
      * 盐值（秘钥）很重要，不能泄漏，且每个项目都应该不一样，可以放到配置文件中
      */
-    private static final String key = "wuyang123456";
+    private static final String key = "wuyang1234567";
 
     public static String createToken(Long id, String mobile) {
         LOG.info("开始生成JWT token，id：{}，mobile：{}", id, mobile);
         GlobalBouncyCastleProvider.setUseBouncyCastle(false);
         DateTime now = DateTime.now();
-        DateTime expTime = now.offsetNew(DateField.HOUR, 24);
+        DateTime expTime = now.offsetNew(DateField.HOUR, 10);
         Map<String, Object> payload = new HashMap<>();
         // 签发时间
         payload.put(JWTPayload.ISSUED_AT, now);

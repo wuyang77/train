@@ -1,12 +1,11 @@
-2026-01-26 00:52:16.104 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [03631fce-1]  500 Server Error for HTTP POST "/member/member/login"
+2026-01-27 22:37:09.269 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [17c15ca6-4]  500 Server Error for HTTP POST "/member/member/login"
 reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
 Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.web.filter.reactive.ServerHttpObservationFilter [DefaultWebFilterChain]
 	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
 	*__checkpoint ⇢ HTTP POST "/member/member/login" [ExceptionHandlingWebHandler]
 Original Stack Trace:
-2026-01-26 05:04:43.116 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+2026-01-27 22:55:15.638 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
 
 ***************************
 APPLICATION FAILED TO START
@@ -20,7 +19,7 @@ Action:
 
 Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
 
-2026-01-26 05:22:58.703 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+2026-01-27 22:55:26.909 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
 
 ***************************
 APPLICATION FAILED TO START
@@ -34,49 +33,7 @@ Action:
 
 Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
 
-2026-01-26 05:23:41.418 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8000 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
-
-2026-01-26 05:25:06.004 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8000 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
-
-2026-01-26 05:26:05.137 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8000 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8000 or configure this application to listen on another port.
-
-2026-01-26 05:26:13.406 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+2026-01-27 22:55:58.445 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
 
 ***************************
 APPLICATION FAILED TO START

@@ -38,7 +38,8 @@ axios.interceptors.response.use(function (response) {
     return response;
 }, error => {
     console.log('返回错误', error)
-    const status = error.status;
+    const response = error.response;
+    const status = response.status;
     if (status === 401){
         //判断状态码是否是401，跳转到登录页面
         console.log("未登录或登录超时，跳转到登录页面");

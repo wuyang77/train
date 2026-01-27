@@ -1,57 +1,10 @@
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkzNjA0MDUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTQ0NjgwNSwiaWF0IjoxNzY5MzYwNDA1fQ.aN_n99jI84MFr3WziMOkQcVetN7EBypRzQLRGfO8_HQ
-Content-Length: 107
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjczOTEsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MzM5MSwiaWF0IjoxNzY5NTI3MzkxfQ.jBsF9lkHahYeqhEHmZPc9j-Ed0ycnXdcCVUhnL7hUIc}
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
 Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
 
-{
-  "memberId": 1624581077500825600,
-  "name" : "test",
-  "idCard" : "430922199607060910",
-  "type" : "1"
-}
-
-<> 2026-01-26T010748.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkzNjA0MDUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTQ0NjgwNSwiaWF0IjoxNzY5MzYwNDA1fQ.aN_n99jI84MFr3WziMOkQcVetN7EBypRzQLRGfO8_HQ
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "memberId": 1624581077500825600,
-  "name" : "test",
-  "idCard" : "430922199607060910",
-  "type" : "1"
-}
-
-<> 2026-01-26T010120.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkzNjA0MDUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTQ0NjgwNSwiaWF0IjoxNzY5MzYwNDA1fQ.aN_n99jI84MFr3WziMOkQcVetN7EBypRzQLRGfO8_HQ
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "memberId": 1624581077500825600,
-  "name" : "test",
-  "idCard" : "430922199607060910",
-  "type" : "1"
-}
-
-<> 2026-01-26T010008.200.json
+<> 2026-01-27T232313.200.json
 
 ###
 
@@ -67,7 +20,183 @@ Accept: */*
   "code": "8888"
 }
 
-<> 2026-01-26T010005-1.200.json
+<> 2026-01-27T232311.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjczMzAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MzMzMCwiaWF0IjoxNzY5NTI3MzMwfQ.1VhFCh-r0AL0K4tzi1RLXwoO8T--K2XRy8f9us-7-0A}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-01-27T232213.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+<> 2026-01-27T232210.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjcyNzgsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MzI3OCwiaWF0IjoxNzY5NTI3Mjc4fQ.9Pcx9h1dj4WXAr_HJ0OwvVKv4SQnLQa5N3nxKR4fKAc}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjcyNzgsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MzI3OCwiaWF0IjoxNzY5NTI3Mjc4fQ.9Pcx9h1dj4WXAr_HJ0OwvVKv4SQnLQa5N3nxKR4fKAc}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+<> 2026-01-27T232118.200.json
+
+###
+
+POST http://localhost:8000/member/member/send-code
+Content-Type: application/json
+Content-Length: 30
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile" : "17689401847"
+}
+
+<> 2026-01-27T232116.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+<> 2026-01-27T232112.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjcwMTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MzAxMCwiaWF0IjoxNzY5NTI3MDEwfQ.w8ygp1SD6hjwneY7x-c7box9c09EqS6OptDVgiNcjfQ}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+<> 2026-01-27T231650.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjY5MjAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MjkyMCwiaWF0IjoxNzY5NTI2OTIwfQ.uIiuC3v1SUxlVoY14o7gV62v2F0IB4v1DPnYWRwdKHc}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+<> 2026-01-27T231520.200.json
+
+###
+
+POST http://localhost:8000/member/member/send-code
+Content-Type: application/json
+Content-Length: 30
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile" : "17689401847"
+}
+
+<> 2026-01-27T231519.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjY4NTUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2Mjg1NSwiaWF0IjoxNzY5NTI2ODU1fQ.5IdVf6FRoi7wbfGLbWv1w-6pIsgbU86NzHmAJEllwHg}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+<> 2026-01-27T231415.200.json
 
 ###
 
@@ -82,26 +211,7 @@ Accept: */*
     "mobile" : "17689401847"
 }
 
-<> 2026-01-26T010005.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkzNTk5NzgsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTQ0NjM3OCwiaWF0IjoxNzY5MzU5OTc4fQ.oVPU5vzueeVAWJiM7KQWHcFQckQVbMfZp-kcETqcXcU
-Content-Length: 107
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "memberId": 1624581077500825600,
-  "name" : "test",
-  "idCard" : "430922199607060910",
-  "type" : "1"
-}
-
-<> 2026-01-26T005311.200.json
+<> 2026-01-27T231414.200.json
 
 ###
 
@@ -117,7 +227,7 @@ Accept: */*
   "code": "8888"
 }
 
-<> 2026-01-26T005258.200.json
+<> 2026-01-27T231203.200.json
 
 ###
 
@@ -132,7 +242,39 @@ Accept: */*
     "mobile" : "17689401847"
 }
 
-<> 2026-01-26T005256.200.json
+<> 2026-01-27T231158.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
 
 ###
 
@@ -148,283 +290,7 @@ Accept: */*
   "code": "8888"
 }
 
-<> 2026-01-26T005216.500.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkzMDM3MjksIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTM5MDEyOSwiaWF0IjoxNzY5MzAzNzI5fQ.vCpeB23b0iKWqF09xZRh5JfWLYfcIgaeclsV0VlRjYE
-Content-Length: 109
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "memberId": 1624581077500825600,
-  "name" : "test",
-  "idCard" : "430922199607060910",
-  "type" : "1"
-}
-
-<> 2026-01-25T092958.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NjkzMDM3MjksIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTM5MDEyOSwiaWF0IjoxNzY5MzAzNzI5fQ.vCpeB23b0iKWqF09xZRh5JfWLYfcIgaeclsV0VlRjYE
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T092843.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-Content-Length: 78
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T061443.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-Content-Length: 100
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-//    "memberId" : 1,
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T061429.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-Content-Length: 98
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 1,
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T061301.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-Content-Length: 98
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 1,
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T061226.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-Content-Length: 98
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 1,
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T061145.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-Content-Length: 98
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 1,
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T061135.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-Content-Length: 98
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 1,
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T061121.200.json
-
-###
-
-POST http://localhost:8001/member/passenger/save
-Content-Type: application/json
-Content-Length: 98
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 1,
-    "name" : "test",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-<> 2026-01-25T060839.200.json
-
-###
-
-POST http://localhost:8000/member/passenger/save
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 17689401847,
-    "name" : "17689401847",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-###
-
-POST http://localhost:8000/member/passenger/save
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 17689401847,
-    "name" : "17689401847",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-###
-
-POST http://localhost:8000/member/passenger/save
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 17689401847,
-    "name" : "17689401847",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-###
-
-POST http://localhost:8000/member/passenger/save
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 17689401847,
-    "name" : "17689401847",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-###
-
-POST http://localhost:8000/member/member/login
-Content-Type: application/json
-Content-Length: 47
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "mobile": "17689401847",
-  "code": "8888"
-}
-
-<> 2026-01-25T060023.200.json
-
-###
-
-POST http://localhost:8000/member/member/login
-Content-Type: application/json
-Content-Length: 48
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "mobile": "17689401847",
-  "code": "8888 "
-}
-
-<> 2026-01-25T060017.200.json
+<> 2026-01-27T231037.200.json
 
 ###
 
@@ -439,59 +305,45 @@ Accept: */*
     "mobile" : "17689401847"
 }
 
-<> 2026-01-25T060003.200.json
+<> 2026-01-27T231036.200.json
 
 ###
 
-POST http://localhost:8000/member/passenger/save
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 17689401847,
-    "name" : "17689401847",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-###
-
-POST http://localhost:8000/member/passenger/save
-Content-Type: application/json
-Content-Length: 115
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "memberId" : 17689401847,
-    "name" : "17689401847",
-    "idCard" : "430922199607060910",
-    "type" : "1"
-}
-
-###
-
-GET http://localhost:8000/member/member/count
+GET http://localhost:8000/member/passenger/query-list
 Accept: application/json
-token: 123
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 
 ###
 
-GET http://localhost:8000/member/member/count
+GET http://localhost:8000/member/passenger/query-list
 Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 
 ###
 
-GET http://localhost:8000/member/member/count
+GET http://localhost:8000/member/passenger/query-list
 Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 
@@ -499,178 +351,8 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 
 POST http://localhost:8000/member/member/login
 Content-Type: application/json
-Content-Length: 48
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "mobile": "17689401847",
-  "code": "8888 "
-}
-
-<> 2026-01-21T230315.200.json
-
-###
-
-POST http://localhost:8000/member/member/send-code
-Content-Type: application/json
-Content-Length: 32
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "mobile" : "17689401847"
-}
-
-<> 2026-01-21T230306.200.json
-
-###
-
-POST http://localhost:8000/member/member/register?mobile=12345678
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-content-length: 0
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T230012.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T222129.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T222126.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T222107.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T221952.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T221541.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T221533.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T221522.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T221149.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T221128.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T220716.200.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T220703.500.json
-
-###
-
-GET http://localhost:8000/member/hello
-Accept: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-<> 2026-01-21T220602.500.json
-
-###
-
-POST http://localhost:8000/member/member/login
-Content-Type: application/json
-Content-Length: 47
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.1.1
+Content-Length: 218
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
@@ -679,7 +361,221 @@ Accept: */*
   "code": "8888"
 }
 
-<> 2026-01-18T192718.200.json
+#> {%
+#client.log(JSON.stringify(response.body));
+#client.log(JSON.stringify(response.body.content.token));
+#client.global.set("token", response.body.content.token);
+#%}
+
+<> 2026-01-27T223737.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 218
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+#> {%
+#client.log(JSON.stringify(response.body));
+#client.log(JSON.stringify(response.body.content.token));
+#client.global.set("token", response.body.content.token);
+#%}
+
+<> 2026-01-27T223551.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 218
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+#> {%
+#client.log(JSON.stringify(response.body));
+#client.log(JSON.stringify(response.body.content.token));
+#client.global.set("token", response.body.content.token);
+#%}
+
+<> 2026-01-27T223330.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 218
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+#> {%
+#client.log(JSON.stringify(response.body));
+#client.log(JSON.stringify(response.body.content.token));
+#client.global.set("token", response.body.content.token);
+#%}
+
+<> 2026-01-27T223025.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 218
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+#> {%
+#client.log(JSON.stringify(response.body));
+#client.log(JSON.stringify(response.body.content.token));
+#client.global.set("token", response.body.content.token);
+#%}
+
+<> 2026-01-27T222757.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+###
+
+GET http://localhost:8000/member/passenger/query-list
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
 
 ###
 

@@ -17,15 +17,15 @@ public class JwtUtil {
     private static final Logger LOG = LoggerFactory.getLogger(JwtUtil.class);
 
     /**
-     * 盐值（秘钥）很重要，不能泄漏，且每个项目都应该不一样，可以放到配置文件中
+     * 盐值很重要，不能泄漏，且每个项目都应该不一样，可以放到配置文件中
      */
-    private static final String key = "wuyang123456";
+    private static final String key = "wuyang12306";
 
     public static String createToken(Long id, String mobile) {
         LOG.info("开始生成JWT token，id：{}，mobile：{}", id, mobile);
         GlobalBouncyCastleProvider.setUseBouncyCastle(false);
         DateTime now = DateTime.now();
-        DateTime expTime = now.offsetNew(DateField.HOUR, 2);
+        DateTime expTime = now.offsetNew(DateField.HOUR, 24);
         Map<String, Object> payload = new HashMap<>();
         // 签发时间
         payload.put(JWTPayload.ISSUED_AT, now);
@@ -42,16 +42,16 @@ public class JwtUtil {
     }
 
     public static boolean validate(String token) {
-        LOG.info("开始JWT token校验，token：{}", token);
-        GlobalBouncyCastleProvider.setUseBouncyCastle(false);
         try {
+            LOG.info("开始JWT token校验，token：{}", token);
+            GlobalBouncyCastleProvider.setUseBouncyCastle(false);
             JWT jwt = JWTUtil.parseToken(token).setKey(key.getBytes());
             // validate包含了verify
             boolean validate = jwt.validate(0);
             LOG.info("JWT token校验结果：{}", validate);
             return validate;
         } catch (Exception e) {
-            LOG.info("JWT token校验异常", e);
+            LOG.error("JWT token校验异常", e);
             return false;
         }
     }
@@ -68,9 +68,10 @@ public class JwtUtil {
     }
 
     public static void main(String[] args) {
-        createToken(1L, "123");
-        String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2NzY4OTk4MjcsIm1vYmlsZSI6IjEyMyIsImlkIjoxLCJleHAiOjE2NzY4OTk4MzcsImlhdCI6MTY3Njg5OTgyN30.JbFfdeNHhxKhAeag63kifw9pgYhnNXISJM5bL6hM8eU";
+//        createToken(1L, "123");
+
+        String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjcwMTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MzAxMCwiaWF0IjoxNzY5NTI3MDEwfQ.w8ygp1SD6hjwneY7x-c7box9c09EqS6OptDVgiNcjfQ";
         validate(token);
-        getJSONObject(token);
+//        getJSONObject(token);
     }
 }
