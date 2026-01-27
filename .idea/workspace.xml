@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="分装分页请求参数">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/resp/PageResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="引入表格组件（暂时录入的假数据）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/util/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/LoginMemberFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/LoginMemberFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public/js/session-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/public/js/session-storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/main/passenger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main/passenger.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +90,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.JwtUtil.executor": "Run",
+    "Application.org.wuyang.gateway.util.JwtUtil.executor": "Run",
     "Database Script.member.sql.executor": "Run",
     "HTTP Request.member-member | #3.executor": "Run",
     "HTTP Request.member-member | #4.executor": "Run",
@@ -177,8 +181,8 @@
       <recent name="D:\Users\23889\Desktop\train\common\src\main\resources\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.wuyang.gateway.config" />
       <recent name="org.wuyang.common.util" />
+      <recent name="org.wuyang.gateway.config" />
       <recent name="org.wuyang.common.Exception" />
       <recent name="org.wuyang.common.resp" />
       <recent name="org.wuyang.gateway" />
@@ -199,9 +203,7 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="member-member | #4" value="STOPPED" />
               <entry key="member-member | #5" value="STOPPED" />
-              <entry key="member-passenger | #1" value="STOPPED" />
               <entry key="member-passenger | #2" value="STOPPED" />
             </map>
           </value>
@@ -224,14 +226,34 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.member-member | #5">
-    <configuration name="member-member | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-member.http" executionIdentifier="#4" index="4" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="Application.org.wuyang.gateway.util.JwtUtil">
+    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wuyang.common.util.JwtUtil" />
+      <module name="common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.wuyang.gateway.util.JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wuyang.gateway.util.JwtUtil" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.gateway.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="member-member | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-member.http" executionIdentifier="#5" index="5" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="member-passenger | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-passenger.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="member-passenger | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-passenger.http" executionIdentifier="#2" index="2" runType="Run single request">
@@ -296,8 +318,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.member-member | #4" />
-      <item itemvalue="HTTP Request.member-passenger | #1" />
+      <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
+      <item itemvalue="Application.JwtUtil" />
       <item itemvalue="HTTP Request.member-passenger | #2" />
       <item itemvalue="HTTP Request.member-member | #5" />
       <item itemvalue="Maven.mybatis-generator" />
@@ -306,11 +328,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Application.JwtUtil" />
         <item itemvalue="HTTP Request.member-passenger | #2" />
         <item itemvalue="HTTP Request.member-member | #5" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="HTTP Request.member-member | #4" />
-        <item itemvalue="HTTP Request.member-passenger | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -364,31 +386,7 @@
       <workItem from="1769376536133" duration="87000" />
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
-      <workItem from="1769518483401" duration="14235000" />
-    </task>
-    <task id="LOCAL-00029" summary="集成校验框架，进行校验异常的统一处理">
-      <option name="closed" value="true" />
-      <created>1768399922024</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1768399922024</updated>
-    </task>
-    <task id="LOCAL-00030" summary="集成校验框架，进行校验异常的统一处理">
-      <option name="closed" value="true" />
-      <created>1768399928866</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1768399928866</updated>
-    </task>
-    <task id="LOCAL-00031" summary="使用雪花算法生成数据库Id">
-      <option name="closed" value="true" />
-      <created>1768401391688</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1768401391688</updated>
+      <workItem from="1769518483401" duration="23424000" />
     </task>
     <task id="LOCAL-00032" summary="使用雪花算法生成数据库Id">
       <option name="closed" value="true" />
@@ -758,7 +756,31 @@
       <option name="project" value="LOCAL" />
       <updated>1769535801211</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="1.封装返回页结果。2.格式化返回的日期字段">
+      <option name="closed" value="true" />
+      <created>1769537859803</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1769537859803</updated>
+    </task>
+    <task id="LOCAL-00079" summary="1.封装返回页结果。2.格式化返回的日期字段">
+      <option name="closed" value="true" />
+      <created>1769537863397</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1769537863398</updated>
+    </task>
+    <task id="LOCAL-00080" summary="引入表格组件（暂时录入的假数据）">
+      <option name="closed" value="true" />
+      <created>1769540002127</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1769540002127</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,8 +812,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="后端编写了发送短信和登录接口，前端引入了axios继续完善" />
-    <MESSAGE value="完成前端的发送短信获取验证码的功能" />
     <MESSAGE value="在main.js中修复一个错误，由于之前返回结果为空，查询到是拦截器少打一行代码返回，最终拦截器内补全return语句（return response;）错误得以解决" />
     <MESSAGE value="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名" />
     <MESSAGE value="添加忽略文件.gitignore" />
@@ -815,7 +835,9 @@
     <MESSAGE value="乘车人界面开发：新增乘车人列表查询接口，只能查看当前会员自己添加的乘客" />
     <MESSAGE value="集成PageHelper，实现SQL分页功能" />
     <MESSAGE value="分装分页请求参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="分装分页请求参数" />
+    <MESSAGE value="1.封装返回页结果。2.格式化返回的日期字段" />
+    <MESSAGE value="引入表格组件（暂时录入的假数据）" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入表格组件（暂时录入的假数据）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

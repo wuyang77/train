@@ -125,3 +125,688 @@
 2026-01-28 02:14:44.713 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
 2026-01-28 02:15:01.977 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/member/login
 2026-01-28 02:15:31.340 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 02:51:32.126 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 02:51:32.845 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 03:25:32.651 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 03:26:12.260 INFO  org.wuyang.gateway.config.LoginMemberFilter       :34   [32m                  [0;39m 需要登录验证：/member/passenger/save
+2026-01-28 03:26:12.261 INFO  org.wuyang.gateway.config.LoginMemberFilter       :38   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1Mzk4OTIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3NTg5MiwiaWF0IjoxNzY5NTM5ODkyfQ.-pbqu0mJR2OprUFkX5067tuatlrsfRrQ0-sowv-of2Y
+2026-01-28 03:26:12.265 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1Mzk4OTIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3NTg5MiwiaWF0IjoxNzY5NTM5ODkyfQ.-pbqu0mJR2OprUFkX5067tuatlrsfRrQ0-sowv-of2Y
+2026-01-28 03:26:12.571 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 03:26:12.571 WARN  org.wuyang.gateway.config.LoginMemberFilter       :51   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 03:26:20.030 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 03:26:20.573 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 03:26:21.719 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 03:26:38.835 INFO  org.wuyang.gateway.config.LoginMemberFilter       :34   [32m                  [0;39m 需要登录验证：/member/passenger/save
+2026-01-28 03:26:38.836 INFO  org.wuyang.gateway.config.LoginMemberFilter       :38   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDE5ODAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3Nzk4MCwiaWF0IjoxNzY5NTQxOTgwfQ.jNiboYxNDUl8-LyG7ZE8gxHD_X6D8QyQos2fvTQ5Uwo
+2026-01-28 03:26:38.836 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDE5ODAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3Nzk4MCwiaWF0IjoxNzY5NTQxOTgwfQ.jNiboYxNDUl8-LyG7ZE8gxHD_X6D8QyQos2fvTQ5Uwo
+2026-01-28 03:26:38.837 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 03:26:38.837 WARN  org.wuyang.gateway.config.LoginMemberFilter       :51   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 03:28:03.815 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-01-28 03:28:07.727 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 14256 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:28:07.728 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:28:07.971 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:28:09.454 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:09.575 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:28:09.575 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:28:09.575 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:28:09.575 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:28:09.576 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:28:09.576 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:28:09.576 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:28:09.576 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:28:09.576 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:28:09.576 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:28:09.576 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:28:09.576 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:28:09.577 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:28:09.579 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:28:09.633 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:28:11.052 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-01-28 03:28:11.131 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:11.240 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:28:12.724 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:14.287 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:14.297 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 8.31 seconds (process running for 4417.13)
+2026-01-28 03:28:14.298 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-28 03:28:14.343 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'routeRefreshListener': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:264)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:221)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:92)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:78)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:110)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.wuyang.gateway.config.GatewayApplication.main(GatewayApplication.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2026-01-28 03:28:17.933 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 14256 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:28:17.933 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:28:18.005 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:28:19.205 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:19.241 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:28:19.241 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:28:19.241 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:28:19.242 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:28:19.258 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:28:20.440 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:20.467 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:28:21.625 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:22.779 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:22.785 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.328 seconds (process running for 4425.619)
+2026-01-28 03:28:22.786 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-28 03:28:22.787 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 03:28:22.787 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 03:28:27.533 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-28 03:28:27.555 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 16976 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:28:27.555 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:28:27.580 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28 03:28:27.580 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28 03:28:27.910 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:28:29.246 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:29.579 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:28:29.580 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:28:29.580 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:28:29.580 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:28:29.580 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:28:29.581 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:28:29.581 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:28:29.581 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:28:29.582 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:28:29.582 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:28:29.582 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:28:29.582 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:28:29.582 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:28:29.582 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:28:29.773 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:28:31.319 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:31.793 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:28:33.323 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:34.757 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:28:34.871 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 8.843 seconds (process running for 9.19)
+2026-01-28 03:28:34.874 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 03:28:34.875 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 03:28:44.849 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 03:28:46.696 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 03:28:53.167 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 03:29:22.466 INFO  org.wuyang.gateway.config.LoginMemberFilter       :35   [32m                  [0;39m 需要登录验证：/member/passenger/save
+2026-01-28 03:29:22.467 INFO  org.wuyang.gateway.config.LoginMemberFilter       :39   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDIxMjYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3ODEyNiwiaWF0IjoxNzY5NTQyMTI2fQ.y1NWCR5xMOG7uC3rhtMHgjkmAFSV1J-IHlnMx5Nmmz4
+2026-01-28 03:29:22.468 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDIxMjYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3ODEyNiwiaWF0IjoxNzY5NTQyMTI2fQ.y1NWCR5xMOG7uC3rhtMHgjkmAFSV1J-IHlnMx5Nmmz4
+2026-01-28 03:29:22.752 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 03:29:22.753 WARN  org.wuyang.gateway.config.LoginMemberFilter       :52   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 03:31:06.457 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-01-28 03:31:10.227 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 16976 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:31:10.227 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:31:10.435 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:31:11.950 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:31:12.034 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:31:12.035 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:31:12.035 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:31:12.035 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:31:12.035 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:31:12.035 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:31:12.035 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:31:12.035 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:31:12.036 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:31:12.036 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:31:12.036 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:31:12.036 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:31:12.036 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:31:12.036 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:31:12.108 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:31:13.526 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-01-28 03:31:13.664 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:31:13.773 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:31:15.241 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:31:16.738 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:31:16.757 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 8.136 seconds (process running for 171.076)
+2026-01-28 03:31:16.761 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 03:31:16.761 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 03:31:20.384 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 16976 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:31:20.384 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:31:20.527 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:31:22.006 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:31:22.073 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:31:22.074 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:31:22.074 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:31:22.074 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:31:22.074 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:31:22.074 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:31:22.075 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:31:22.075 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:31:22.075 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:31:22.075 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:31:22.076 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:31:22.076 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:31:22.076 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:31:22.076 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:31:22.115 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:31:23.566 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:31:23.609 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:31:24.984 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:31:26.374 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:31:26.379 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.492 seconds (process running for 180.699)
+2026-01-28 03:31:26.381 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-28 03:31:26.381 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 03:31:26.381 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 03:32:04.950 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 03:32:05.591 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 03:32:07.472 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 03:32:21.620 INFO  org.wuyang.gateway.config.LoginMemberFilter       :35   [32m                  [0;39m 需要登录验证：/member/passenger/save
+2026-01-28 03:32:21.620 INFO  org.wuyang.gateway.config.LoginMemberFilter       :39   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDIzMjUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3ODMyNSwiaWF0IjoxNzY5NTQyMzI1fQ.yyZZ5vqrX-GzCTZYWZ6KLk44YS51R048SgpwleDdtYE
+2026-01-28 03:32:21.621 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDIzMjUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3ODMyNSwiaWF0IjoxNzY5NTQyMzI1fQ.yyZZ5vqrX-GzCTZYWZ6KLk44YS51R048SgpwleDdtYE
+2026-01-28 03:32:21.622 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 03:32:21.622 WARN  org.wuyang.gateway.config.LoginMemberFilter       :52   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 03:32:29.145 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 03:36:46.106 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-28 03:36:46.127 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 14484 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:36:46.127 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:36:46.152 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28 03:36:46.152 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28 03:36:46.477 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:36:47.814 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:36:47.996 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:36:47.996 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:36:47.996 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:36:47.996 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:36:47.996 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:36:47.996 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:36:47.997 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:36:47.997 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:36:47.997 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:36:47.997 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:36:47.997 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:36:47.997 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:36:47.997 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:36:47.997 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:36:48.097 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:36:49.270 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:36:49.453 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:36:50.629 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:36:52.114 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:36:52.175 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.444 seconds (process running for 7.783)
+2026-01-28 03:36:52.180 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 03:36:52.181 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 03:37:03.690 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 03:37:04.578 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 03:37:06.161 INFO  org.wuyang.gateway.config.LoginMemberFilter       :35   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 03:37:06.162 INFO  org.wuyang.gateway.config.LoginMemberFilter       :39   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDI2MjQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3ODYyNCwiaWF0IjoxNzY5NTQyNjI0fQ.Je9_xbbz1-NEHumK_NyDiIy6KPBMKMSdDZPQSF1HVBo
+2026-01-28 03:37:06.163 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDI2MjQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3ODYyNCwiaWF0IjoxNzY5NTQyNjI0fQ.Je9_xbbz1-NEHumK_NyDiIy6KPBMKMSdDZPQSF1HVBo
+2026-01-28 03:37:06.754 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 03:37:06.755 WARN  org.wuyang.gateway.config.LoginMemberFilter       :52   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 03:44:29.873 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 03:44:36.337 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 03:50:15.878 INFO  org.wuyang.gateway.config.LoginMemberFilter       :35   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 03:50:15.879 INFO  org.wuyang.gateway.config.LoginMemberFilter       :39   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDMxMTIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3OTExMiwiaWF0IjoxNzY5NTQzMTEyfQ.ixfiNfxNuDrNZho41VASDN87Nu4KlfR4ARk5mqb9jJ0
+2026-01-28 03:50:15.879 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDMxMTIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3OTExMiwiaWF0IjoxNzY5NTQzMTEyfQ.ixfiNfxNuDrNZho41VASDN87Nu4KlfR4ARk5mqb9jJ0
+2026-01-28 03:50:15.879 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 03:50:15.880 WARN  org.wuyang.gateway.config.LoginMemberFilter       :52   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 03:56:00.127 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-28 03:56:00.153 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 9388 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:56:00.154 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:56:00.185 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28 03:56:00.186 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28 03:56:00.585 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:56:01.959 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:56:02.176 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:56:02.176 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:56:02.176 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:56:02.177 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:56:02.279 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:56:03.455 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:56:03.645 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:56:04.812 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:56:05.983 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:56:06.011 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.352 seconds (process running for 7.872)
+2026-01-28 03:56:06.013 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 03:56:06.014 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 03:56:22.954 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 03:56:23.579 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 03:56:29.849 INFO  org.wuyang.gateway.config.LoginMemberFilter       :32   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 03:57:09.527 INFO  org.wuyang.gateway.config.LoginMemberFilter       :35   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 03:57:09.528 INFO  org.wuyang.gateway.config.LoginMemberFilter       :39   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDM4MTMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3OTgxMywiaWF0IjoxNzY5NTQzODEzfQ.ao2KAtlUwvLhc2YWp7tykVDc84rbqwPfIhuw7qTWwJ4
+2026-01-28 03:57:32.374 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDM4MTMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3OTgxMywiaWF0IjoxNzY5NTQzODEzfQ.ao2KAtlUwvLhc2YWp7tykVDc84rbqwPfIhuw7qTWwJ4
+2026-01-28 03:57:34.360 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 03:59:09.458 WARN  org.wuyang.gateway.config.LoginMemberFilter       :52   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 03:59:10.266 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28 03:59:13.621 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 9388 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:59:13.622 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:59:13.812 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:59:15.063 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:59:15.100 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:59:15.101 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:59:15.101 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:59:15.101 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:59:15.101 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:59:15.126 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:59:16.295 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:59:16.326 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:59:17.514 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:59:18.677 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:59:18.684 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.271 seconds (process running for 200.545)
+2026-01-28 03:59:18.685 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-28 03:59:18.686 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 03:59:18.686 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 03:59:24.056 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-28 03:59:24.079 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 35548 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 03:59:24.080 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 03:59:24.106 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28 03:59:24.106 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28 03:59:24.497 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 03:59:25.893 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:59:26.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 03:59:26.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 03:59:26.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 03:59:26.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 03:59:26.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 03:59:26.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 03:59:26.210 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 03:59:26.210 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 03:59:26.210 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 03:59:26.210 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 03:59:26.210 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 03:59:26.210 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 03:59:26.211 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 03:59:26.211 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 03:59:26.353 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 03:59:27.532 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:59:27.731 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 03:59:28.889 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:59:30.059 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 03:59:30.086 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.474 seconds (process running for 8.045)
+2026-01-28 03:59:30.087 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 03:59:30.088 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 04:08:12.619 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28 04:08:15.938 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 35548 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 04:08:15.940 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 04:08:16.046 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 04:08:17.235 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:08:17.267 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 04:08:17.267 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 04:08:17.267 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 04:08:17.267 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 04:08:17.268 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 04:08:17.268 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 04:08:17.268 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 04:08:17.268 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 04:08:17.268 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 04:08:17.268 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 04:08:17.268 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 04:08:17.269 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 04:08:17.269 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 04:08:17.270 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 04:08:17.291 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 04:08:18.456 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:08:18.491 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 04:08:19.700 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:08:20.870 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:08:20.877 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.144 seconds (process running for 538.837)
+2026-01-28 04:08:20.880 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-28 04:08:20.880 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 04:08:20.880 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 04:14:17.128 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:14:20.632 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:17:45.647 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:17:49.648 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:18:38.658 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:18:45.679 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:18:46.891 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:18:47.466 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:18:47.915 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:19:30.700 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:19:56.990 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-28 04:19:57.012 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 36244 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 04:19:57.013 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 04:19:57.040 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28 04:19:57.040 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28 04:19:57.434 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 04:19:58.817 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:19:59.016 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 04:19:59.016 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 04:19:59.016 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 04:19:59.016 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 04:19:59.016 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 04:19:59.017 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 04:19:59.120 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-01-28 04:20:00.284 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:20:00.604 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 04:20:01.821 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:20:03.015 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:20:03.046 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.539 seconds (process running for 8.064)
+2026-01-28 04:20:03.047 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 04:20:03.048 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 04:20:07.857 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-28 04:20:07.879 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 22660 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 04:20:07.880 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 04:20:07.913 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28 04:20:07.913 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28 04:20:08.292 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 04:20:09.666 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:20:09.856 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 04:20:09.857 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 04:20:09.857 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 04:20:09.857 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 04:20:09.857 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 04:20:09.857 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 04:20:09.857 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 04:20:09.857 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 04:20:09.857 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 04:20:09.858 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 04:20:09.858 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 04:20:09.858 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 04:20:09.858 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 04:20:09.858 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 04:20:09.969 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-01-28 04:20:11.147 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:20:11.322 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 04:20:12.474 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:20:13.641 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:20:13.665 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.225 seconds (process running for 7.564)
+2026-01-28 04:20:13.667 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 04:20:13.667 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 04:21:29.697 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:21:33.591 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:21:44.213 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:23:16.707 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:23:25.169 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:23:56.859 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:23:56.860 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU0MDUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU4MTQwNSwiaWF0IjoxNzY5NTQ1NDA1fQ.6ucS-cV3UKGyYA10BZRQfzNJ9JCCJfA5jg1Lyb9tkdY
+2026-01-28 04:23:56.860 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU0MDUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU4MTQwNSwiaWF0IjoxNzY5NTQ1NDA1fQ.6ucS-cV3UKGyYA10BZRQfzNJ9JCCJfA5jg1Lyb9tkdY
+2026-01-28 04:23:57.016 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 04:23:57.017 WARN  org.wuyang.gateway.config.LoginMemberFilter       :50   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 04:24:02.389 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:24:04.977 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:24:11.711 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:24:11.711 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU0NDQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU4MTQ0NCwiaWF0IjoxNzY5NTQ1NDQ0fQ.OsxJPWbIO19NoRE6vM-kJolF1Q70hcmQ41E1FhV1s2Q
+2026-01-28 04:24:11.711 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU0NDQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU4MTQ0NCwiaWF0IjoxNzY5NTQ1NDQ0fQ.OsxJPWbIO19NoRE6vM-kJolF1Q70hcmQ41E1FhV1s2Q
+2026-01-28 04:24:11.712 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 04:24:11.712 WARN  org.wuyang.gateway.config.LoginMemberFilter       :50   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 04:24:24.270 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:24:24.823 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:24:30.700 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:24:30.701 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU0NjQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU4MTQ2NCwiaWF0IjoxNzY5NTQ1NDY0fQ.wo5xAHW8wBWUFHlZSjywORXakQP9HgSqrV36I63MtGA
+2026-01-28 04:24:30.701 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU0NjQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU4MTQ2NCwiaWF0IjoxNzY5NTQ1NDY0fQ.wo5xAHW8wBWUFHlZSjywORXakQP9HgSqrV36I63MtGA
+2026-01-28 04:24:30.702 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：false
+2026-01-28 04:24:30.702 WARN  org.wuyang.gateway.config.LoginMemberFilter       :50   [32m                  [0;39m token无效，请求被拦截
+2026-01-28 04:25:35.088 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-01-28 04:25:38.400 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 22660 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 04:25:38.400 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 04:25:38.487 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 04:25:39.679 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:25:39.711 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 04:25:39.712 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 04:25:39.713 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 04:25:39.713 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 04:25:39.713 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 04:25:39.736 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-01-28 04:25:40.912 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:25:40.942 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 04:25:42.115 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:25:43.271 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 04:25:43.277 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.051 seconds (process running for 337.177)
+2026-01-28 04:25:43.278 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-28 04:25:43.279 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 04:25:43.279 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 04:29:32.825 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:29:32.843 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [72ab66c8-16]  500 Server Error for HTTP POST "/member/member/send-code"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/member/member/send-code" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2026-01-28 04:29:35.045 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/send-code
+2026-01-28 04:29:35.949 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 04:29:36.850 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:29:36.850 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:29:36.850 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:29:36.862 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:29:36.863 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:29:44.919 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:29:44.920 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:29:44.920 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:29:44.921 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:29:44.921 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:30:06.135 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/save
+2026-01-28 04:30:06.136 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:30:06.136 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:30:06.136 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:30:06.136 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:32:51.197 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:32:51.197 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:32:51.197 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:32:51.197 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:32:51.197 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:32:52.780 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:32:52.781 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:32:52.781 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:32:52.781 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:32:52.781 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:32:54.231 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:32:54.231 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:32:54.231 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:32:54.231 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:32:54.232 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:32:55.405 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:32:55.405 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:32:55.405 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:32:55.406 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:32:55.406 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:33:21.329 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:33:21.329 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:21.329 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:21.329 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:33:21.329 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:33:23.693 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:33:23.694 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:23.694 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:23.694 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:33:23.694 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:33:24.826 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:33:24.826 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:24.826 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:24.826 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:33:24.826 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:33:26.869 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:33:26.869 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:26.869 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:26.869 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:33:26.869 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:33:27.829 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:33:27.830 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:27.830 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:27.830 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:33:27.830 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:33:28.655 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:33:28.655 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:28.655 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:28.656 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:33:28.656 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:33:29.455 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:33:29.455 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:29.455 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:33:29.456 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:33:29.456 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:36:03.322 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:36:03.322 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:03.322 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:03.323 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:36:03.323 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:36:04.130 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:36:04.130 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:04.130 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:04.131 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:36:04.131 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:36:06.162 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:36:06.162 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:06.162 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:06.162 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:36:06.162 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:36:07.360 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:36:07.360 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:07.360 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:07.361 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:36:07.361 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:36:09.517 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:36:09.517 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:09.517 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:36:09.517 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:36:09.517 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:37:32.920 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:37:32.921 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:37:32.921 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:37:32.921 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:37:32.921 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:37:36.920 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:37:36.920 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:37:36.920 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:37:36.921 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:37:36.921 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:37:37.856 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:37:37.857 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:37:37.857 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:37:37.857 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:37:37.857 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:44:26.153 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:44:26.154 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:26.154 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:26.154 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:44:26.154 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:44:27.822 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:44:27.823 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:27.823 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:27.823 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:44:27.824 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:44:28.635 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:44:28.635 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:28.635 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:28.635 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:44:28.635 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:44:29.401 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:44:29.401 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:29.402 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:29.402 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:44:29.402 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:44:30.149 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:44:30.149 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:30.149 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:30.149 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:44:30.149 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:44:31.016 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:44:31.016 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:31.016 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:44:31.017 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:44:31.017 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:45:11.282 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:45:11.283 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:45:11.283 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:45:11.283 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:45:11.283 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:45:13.316 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:45:13.316 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:45:13.317 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:45:13.317 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:45:13.317 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:46:25.798 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:46:25.798 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:46:25.798 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:46:25.798 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:46:25.798 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:53:37.801 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:53:37.802 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:53:37.802 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:53:37.802 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:53:37.802 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:53:37.825 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:53:37.825 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:53:37.826 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:53:37.826 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:53:37.826 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:53:37.863 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:53:37.863 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:53:37.863 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:53:37.863 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:53:37.864 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:54:36.579 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:54:36.580 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:54:36.580 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:54:36.580 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:54:36.580 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求
+2026-01-28 04:55:22.256 INFO  org.wuyang.gateway.config.LoginMemberFilter       :33   [32m                  [0;39m 需要登录验证：/member/passenger/query-list
+2026-01-28 04:55:22.256 INFO  org.wuyang.gateway.config.LoginMemberFilter       :37   [32m                  [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:55:22.256 INFO  org.wuyang.gateway.util.JwtUtil                   :46   [32m                  [0;39m 开始JWT token校验，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU3NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTYzMjE3NSwiaWF0IjoxNzY5NTQ1Nzc1fQ.2X4VHvHn8CTdtw94TTO4I-prmBj7kK6Yph49lIPkCaM
+2026-01-28 04:55:22.257 INFO  org.wuyang.gateway.util.JwtUtil                   :51   [32m                  [0;39m JWT token校验结果：true
+2026-01-28 04:55:22.257 INFO  org.wuyang.gateway.config.LoginMemberFilter       :47   [32m                  [0;39m token有效，放行该请求

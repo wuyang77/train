@@ -70,8 +70,8 @@ public class JwtUtil {
     public static void main(String[] args) {
 //        createToken(1L, "123");
 
-        String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjcwMTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MzAxMCwiaWF0IjoxNzY5NTI3MDEwfQ.w8ygp1SD6hjwneY7x-c7box9c09EqS6OptDVgiNcjfQ";
+        String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1NDU0NjQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU4MTQ2NCwiaWF0IjoxNzY5NTQ1NDY0fQ.wo5xAHW8wBWUFHlZSjywORXakQP9HgSqrV36I63MtGA";
         validate(token);
-//        getJSONObject(token);
+        getJSONObject(token);
     }
 }
