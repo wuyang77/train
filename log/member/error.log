@@ -368,3 +368,5 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberSer
 2026-01-28 05:21:43.428 ERROR o.w.common.controller.ControllerExceptionHandler  :66   [32m1769548903418fq9  [0;39m 校验异常：【页码】不能为空
 2026-01-28 05:21:47.322 ERROR o.w.common.controller.ControllerExceptionHandler  :66   [32m1769548907321mbf  [0;39m 校验异常：【页码】不能为空
 2026-01-28 05:22:00.728 ERROR o.w.common.controller.ControllerExceptionHandler  :66   [32m1769548920727wsc  [0;39m 校验异常：【页码】不能为空
+2026-01-28 06:42:48.377 ERROR o.w.common.controller.ControllerExceptionHandler  :66   [32m1769553768370oyv  [0;39m 校验异常：【每页条数】不能为空
+2026-01-28 06:45:07.833 ERROR o.w.common.controller.ControllerExceptionHandler  :66   [32m1769553907831ct1  [0;39m 校验异常：【每页条数】不能为空
