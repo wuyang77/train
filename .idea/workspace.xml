@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人查询界面开发：增加loading加载效果">
-      <change beforePath="$PROJECT_DIR$/web/src/views/main/passenger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main/passenger.vue" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/config/JacksonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +125,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service",
-    "last_opened_file_path": "D:/Users/23889/Desktop/train/http",
+    "last_opened_file_path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/common/config",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -157,11 +162,11 @@
       <recent name="org.wuyang.member.resq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\common\src\main\java\org\wuyang\common\config" />
       <recent name="D:\Users\23889\Desktop\train\http" />
       <recent name="D:\Users\23889\Desktop\train\gateway\src\main\java\org\wuyang\gateway\util" />
       <recent name="D:\Users\23889\Desktop\train\web" />
       <recent name="D:\Users\23889\Desktop\train\web\src\components" />
-      <recent name="D:\Users\23889\Desktop\train\sql" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\23889\Desktop\train" />
@@ -323,9 +328,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="npm.serve" />
         <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Application.JwtUtil" />
         <item itemvalue="HTTP Request.member-passenger | #2" />
       </list>
@@ -381,15 +386,7 @@
       <workItem from="1769376536133" duration="87000" />
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
-      <workItem from="1769518483401" duration="26313000" />
-    </task>
-    <task id="LOCAL-00036" summary="集成Ant Design Vue及其图标">
-      <option name="closed" value="true" />
-      <created>1768470759358</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1768470759358</updated>
+      <workItem from="1769518483401" duration="27958000" />
     </task>
     <task id="LOCAL-00037" summary="增减Login路由及页面">
       <option name="closed" value="true" />
@@ -775,7 +772,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769549788543</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码">
+      <option name="closed" value="true" />
+      <created>1769550260393</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1769550260393</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,7 +812,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="使用官方的JWTUtil去生成token,封装到登录请求参数中，封装类为MemberLoginReq" />
     <MESSAGE value="自定义了1个JwtUtil工具类,修改了memberService的加密生成token的代码行改为一行" />
     <MESSAGE value="引入自定义的Session-Storage.js文件，将登录信息存在在session中，解决浏览器刷新丢失登录信息的问题" />
     <MESSAGE value="测试gataway拦截器的使用" />
@@ -832,7 +836,8 @@
     <MESSAGE value="乘车人查询界面开发：增减表格分页点击事件" />
     <MESSAGE value="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔" />
     <MESSAGE value="乘车人查询界面开发：增加loading加载效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="乘车人查询界面开发：增加loading加载效果" />
+    <MESSAGE value="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码" />
+    <option name="LAST_COMMIT_MESSAGE" value="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
