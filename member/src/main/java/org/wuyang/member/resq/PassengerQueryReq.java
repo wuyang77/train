@@ -1,6 +1,8 @@
 package org.wuyang.member.resq;
 
-public class PassengerQueryReq {
+import org.wuyang.common.req.PageReq;
+
+public class PassengerQueryReq extends PageReq {
 
     private Long memberId;
 

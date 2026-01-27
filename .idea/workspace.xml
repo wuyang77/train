@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人界面开发：新增乘车人列表查询接口，只能查看当前会员自己添加的乘客">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T222757.200.json" beforeDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="集成PageHelper，实现SQL分页功能">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/req/PageReq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http/member-passenger.http" beforeDir="false" afterPath="$PROJECT_DIR$/http/member-passenger.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/PassengerQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/PassengerQueryReq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -365,23 +363,7 @@
       <workItem from="1769376536133" duration="87000" />
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
-      <workItem from="1769518483401" duration="11263000" />
-    </task>
-    <task id="LOCAL-00025" summary="使用自定义异常处理异常业务">
-      <option name="closed" value="true" />
-      <created>1768396982924</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1768396982924</updated>
-    </task>
-    <task id="LOCAL-00026" summary="使用自定义异常处理异常业务">
-      <option name="closed" value="true" />
-      <created>1768396987826</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1768396987826</updated>
+      <workItem from="1769518483401" duration="12200000" />
     </task>
     <task id="LOCAL-00027" summary="业务异常重写fillInStackTrace方法不写入堆栈数据">
       <option name="closed" value="true" />
@@ -759,7 +741,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769529770961</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="集成PageHelper，实现SQL分页功能">
+      <option name="closed" value="true" />
+      <created>1769535038312</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1769535038312</updated>
+    </task>
+    <task id="LOCAL-00075" summary="集成PageHelper，实现SQL分页功能">
+      <option name="closed" value="true" />
+      <created>1769535041631</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1769535041631</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -791,7 +789,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="集成Ant Design Vue及其图标" />
     <MESSAGE value="增减Login路由及页面" />
     <MESSAGE value="后端编写了发送短信和登录接口，前端引入了axios继续完善" />
     <MESSAGE value="完成前端的发送短信获取验证码的功能" />
@@ -816,7 +813,8 @@
     <MESSAGE value="乘车人界面开发：增加乘车人表单" />
     <MESSAGE value="乘车人界面开发：完成保存新增乘车人功能" />
     <MESSAGE value="乘车人界面开发：新增乘车人列表查询接口，只能查看当前会员自己添加的乘客" />
-    <option name="LAST_COMMIT_MESSAGE" value="乘车人界面开发：新增乘车人列表查询接口，只能查看当前会员自己添加的乘客" />
+    <MESSAGE value="集成PageHelper，实现SQL分页功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成PageHelper，实现SQL分页功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
