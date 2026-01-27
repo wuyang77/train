@@ -25,6 +25,7 @@
         <spring-cloud.version>2022.0.0</spring-cloud.version>
     </properties>
 
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -62,10 +63,17 @@
             </dependency>
 
             <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>1.4.6</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.wuyang</groupId>
                 <artifactId>common</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
