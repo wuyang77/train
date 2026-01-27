@@ -6,7 +6,11 @@
         <a-button type="primary" @click="showModal">新增</a-button>
       </a-space>
     </p>
-    <a-table :dataSource="passengers" :columns="columns" :pagination="pagination" @change="handleTableChange"/>
+    <a-table :dataSource="passengers"
+             :columns="columns"
+             :pagination="pagination"
+             @change="handleTableChange"
+             :loading="loading"/>
     <a-modal v-model:visible="visible" title="乘车人" @ok="handleOk"
              ok-text="确认" cancel-text="取消">
       <a-form :model="passenger" :label-col="{span: 4}" :wrapper-col="{ span: 20 }">
@@ -53,6 +57,7 @@ export default defineComponent({
       current: 1,
       pageSize: 3,
     });
+    let loading = ref(false);
     const columns = [
       {
         title: '姓名',
@@ -77,12 +82,14 @@ export default defineComponent({
           pageSize: pagination.pageSize
         };
       }
+      loading.value = true;
       axios.get("member/passenger/query-list", {
         params: {
           pageNum: params.pageNum,
           pageSize: params.pageSize
         }
       }).then((response) => {
+        loading.value = false;
         let data = response.data;
         if (data.success) {
           passengers.value = data.content.list;
@@ -132,6 +139,7 @@ export default defineComponent({
       visible,
       showModal,
       handleOk,
+      loading
     };
   }
 })

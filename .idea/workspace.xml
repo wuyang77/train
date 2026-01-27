@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人查询界面开发：增减表格分页点击事件">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/views/main/passenger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main/passenger.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -381,15 +382,7 @@
       <workItem from="1769376536133" duration="87000" />
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
-      <workItem from="1769518483401" duration="25326000" />
-    </task>
-    <task id="LOCAL-00034" summary="使用Vue CLI 5 创建web模块 &#10;npm install -g @vue/cli@5.0.8&#10;vue create train">
-      <option name="closed" value="true" />
-      <created>1768407294974</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1768407294974</updated>
+      <workItem from="1769518483401" duration="25983000" />
     </task>
     <task id="LOCAL-00035" summary="使用Vue CLI 5 创建web模块 &#10;npm install -g @vue/cli@5.0.8&#10;vue create train">
       <option name="closed" value="true" />
@@ -775,7 +768,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769548668026</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔">
+      <option name="closed" value="true" />
+      <created>1769549272187</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1769549272187</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -807,7 +808,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="增加控制台主页，登录成功后跳转到控制台主页" />
     <MESSAGE value="vue组件开发增加the-header组件" />
     <MESSAGE value="使用官方的JWTUtil去生成token,封装到登录请求参数中，封装类为MemberLoginReq" />
     <MESSAGE value="自定义了1个JwtUtil工具类,修改了memberService的加密生成token的代码行改为一行" />
@@ -832,7 +832,8 @@
     <MESSAGE value="引入表格组件（暂时录入的假数据）" />
     <MESSAGE value="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）" />
     <MESSAGE value="乘车人查询界面开发：增减表格分页点击事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="乘车人查询界面开发：增减表格分页点击事件" />
+    <MESSAGE value="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔" />
+    <option name="LAST_COMMIT_MESSAGE" value="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
