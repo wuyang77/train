@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="引入表格组件（暂时录入的假数据）">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/util/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/util/JwtUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/LoginMemberFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/LoginMemberFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/js/session-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/public/js/session-storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/views/main/passenger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main/passenger.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +193,6 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="member-member | #5" value="STOPPED" />
               <entry key="member-passenger | #2" value="STOPPED" />
             </map>
           </value>
@@ -226,7 +215,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.wuyang.gateway.util.JwtUtil">
+  <component name="RunManager" selected="npm.serve">
     <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.common.util.JwtUtil" />
       <module name="common" />
@@ -252,9 +241,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="member-member | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-member.http" executionIdentifier="#5" index="5" runType="Run single request">
-      <method v="2" />
     </configuration>
     <configuration name="member-passenger | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-passenger.http" executionIdentifier="#2" index="2" runType="Run single request">
       <method v="2" />
@@ -317,22 +303,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
       <item itemvalue="Application.JwtUtil" />
       <item itemvalue="HTTP Request.member-passenger | #2" />
-      <item itemvalue="HTTP Request.member-member | #5" />
       <item itemvalue="Maven.mybatis-generator" />
+      <item itemvalue="npm.serve" />
       <item itemvalue="Spring Boot.MemberApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.serve" />
         <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Application.JwtUtil" />
         <item itemvalue="HTTP Request.member-passenger | #2" />
-        <item itemvalue="HTTP Request.member-member | #5" />
       </list>
     </recent_temporary>
   </component>
@@ -386,15 +382,7 @@
       <workItem from="1769376536133" duration="87000" />
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
-      <workItem from="1769518483401" duration="23424000" />
-    </task>
-    <task id="LOCAL-00032" summary="使用雪花算法生成数据库Id">
-      <option name="closed" value="true" />
-      <created>1768401734926</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1768401734926</updated>
+      <workItem from="1769518483401" duration="24890000" />
     </task>
     <task id="LOCAL-00033" summary="使用Vue CLI 5 创建web模块 &#10;npm install -g @vue/cli@5.0.8&#10;vue create train">
       <option name="closed" value="true" />
@@ -780,7 +768,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769540002127</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）">
+      <option name="closed" value="true" />
+      <created>1769547581605</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1769547581605</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,8 +808,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="在main.js中修复一个错误，由于之前返回结果为空，查询到是拦截器少打一行代码返回，最终拦截器内补全return语句（return response;）错误得以解决" />
-    <MESSAGE value="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名" />
     <MESSAGE value="添加忽略文件.gitignore" />
     <MESSAGE value="增加控制台主页，登录成功后跳转到控制台主页" />
     <MESSAGE value="vue组件开发增加the-header组件" />
@@ -836,8 +830,10 @@
     <MESSAGE value="集成PageHelper，实现SQL分页功能" />
     <MESSAGE value="分装分页请求参数" />
     <MESSAGE value="1.封装返回页结果。2.格式化返回的日期字段" />
+    <MESSAGE value="乘车人列表查询界面开发：引入表格组件（暂时录入的假数据）" />
     <MESSAGE value="引入表格组件（暂时录入的假数据）" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入表格组件（暂时录入的假数据）" />
+    <MESSAGE value="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）" />
+    <option name="LAST_COMMIT_MESSAGE" value="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
