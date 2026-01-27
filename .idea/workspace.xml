@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/config/JacksonConfig.java" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,31 +384,7 @@
       <workItem from="1769376536133" duration="87000" />
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
-      <workItem from="1769518483401" duration="27958000" />
-    </task>
-    <task id="LOCAL-00037" summary="增减Login路由及页面">
-      <option name="closed" value="true" />
-      <created>1768476248490</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1768476248490</updated>
-    </task>
-    <task id="LOCAL-00038" summary="后端编写了发送短信和登录接口，前端引入了axios继续完善">
-      <option name="closed" value="true" />
-      <created>1768564376784</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1768564376784</updated>
-    </task>
-    <task id="LOCAL-00039" summary="后端编写了发送短信和登录接口，前端引入了axios继续完善">
-      <option name="closed" value="true" />
-      <created>1768564380939</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1768564380939</updated>
+      <workItem from="1769518483401" duration="28954000" />
     </task>
     <task id="LOCAL-00040" summary="完成前端的发送短信获取验证码的功能">
       <option name="closed" value="true" />
@@ -780,7 +754,31 @@
       <option name="project" value="LOCAL" />
       <updated>1769550260393</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="解决前后端交互Long类型精度丢失的问题">
+      <option name="closed" value="true" />
+      <created>1769551711934</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1769551711934</updated>
+    </task>
+    <task id="LOCAL-00087" summary="解决前后端交互Long类型精度丢失的问题">
+      <option name="closed" value="true" />
+      <created>1769551716813</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1769551716813</updated>
+    </task>
+    <task id="LOCAL-00088" summary="后端增减一行根据id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);">
+      <option name="closed" value="true" />
+      <created>1769552003422</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1769552003422</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,9 +810,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="自定义了1个JwtUtil工具类,修改了memberService的加密生成token的代码行改为一行" />
-    <MESSAGE value="引入自定义的Session-Storage.js文件，将登录信息存在在session中，解决浏览器刷新丢失登录信息的问题" />
-    <MESSAGE value="测试gataway拦截器的使用" />
     <MESSAGE value="为gataway添加登录校验拦截器" />
     <MESSAGE value="乘车人表的设计,过生成器模块generator生成对应表passenger的代码" />
     <MESSAGE value="使用IDEA自带的HttpClient记住登录的信息" />
@@ -837,7 +832,10 @@
     <MESSAGE value="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔" />
     <MESSAGE value="乘车人查询界面开发：增加loading加载效果" />
     <MESSAGE value="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码" />
-    <option name="LAST_COMMIT_MESSAGE" value="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码" />
+    <MESSAGE value="解决前后端交互Long类型精度丢失的问题" />
+    <MESSAGE value="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);" />
+    <MESSAGE value="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);" />
+    <option name="LAST_COMMIT_MESSAGE" value="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

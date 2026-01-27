@@ -29,7 +29,7 @@ public class PassengerService {
     @Resource
     private PassengerMapper passengerMapper;
 
-    public void savePassenger(PassengerSaveReq req) {
+    public void saveOrEditPassenger(PassengerSaveReq req) {
         DateTime now = DateTime.now();
         Passenger passenger = BeanUtil.copyProperties(req, Passenger.class);
         if (ObjectUtil.isNull(passenger.getId())) {

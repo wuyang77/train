@@ -19,8 +19,8 @@ public class PassengerController {
     private PassengerService passengerService;
 
     @PostMapping("/save")
-    public CommonResp<Object> savePassenger(@Valid @RequestBody PassengerSaveReq req) {
-        passengerService.savePassenger(req);
+    public CommonResp<Object> saveOrEditPassenger(@Valid @RequestBody PassengerSaveReq req) {
+        passengerService.saveOrEditPassenger(req);
         return new CommonResp<>();
     }
 
