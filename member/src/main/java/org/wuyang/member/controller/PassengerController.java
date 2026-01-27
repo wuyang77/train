@@ -5,12 +5,11 @@ import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 import org.wuyang.common.context.LoginMemberContext;
 import org.wuyang.common.resp.CommonResp;
+import org.wuyang.common.resp.PageResp;
 import org.wuyang.member.resp.PassengerQueryResp;
 import org.wuyang.member.resq.PassengerQueryReq;
 import org.wuyang.member.resq.PassengerSaveReq;
 import org.wuyang.member.service.PassengerService;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("/passenger")
@@ -26,9 +25,9 @@ public class PassengerController {
     }
 
     @GetMapping("/query-list")
-    public CommonResp<List<PassengerQueryResp>> queryPassengerList(@Valid PassengerQueryReq req) {
+    public CommonResp<PageResp<PassengerQueryResp>> queryPassengerList(@Valid PassengerQueryReq req) {
         req.setMemberId(LoginMemberContext.getId());
-        List<PassengerQueryResp> list = passengerService.queryPassengerList(req);
-        return new CommonResp<>(list);
+        PageResp<PassengerQueryResp> pageResp = passengerService.queryPassengerList(req);
+        return new CommonResp<>(pageResp);
     }
 }

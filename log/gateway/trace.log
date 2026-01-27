@@ -90,3 +90,38 @@
 2026-01-28 01:28:16.832 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
 2026-01-28 01:28:16.832 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
 2026-01-28 01:28:19.088 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 01:41:18.541 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 01:42:11.652 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 01:42:42.319 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 01:42:48.854 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list
+2026-01-28 02:14:38.899 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-01-28 02:14:38.924 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 14256 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-28 02:14:38.925 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-28 02:14:38.954 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-28 02:14:38.954 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-28 02:14:39.308 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-01-28 02:14:40.664 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 02:14:40.875 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-01-28 02:14:40.875 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-01-28 02:14:40.875 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-01-28 02:14:40.876 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-01-28 02:14:41.002 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-28 02:14:42.187 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 02:14:42.368 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-01-28 02:14:43.535 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 02:14:44.688 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-01-28 02:14:44.710 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.208 seconds (process running for 7.544)
+2026-01-28 02:14:44.712 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-28 02:14:44.713 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-28 02:15:01.977 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/member/login
+2026-01-28 02:15:31.340 INFO  org.wuyang.gateway.config.LoginMemberFilter       :31   [32m                  [0;39m 不需要登录验证：/member/passenger/query-list

@@ -1,5 +1,31 @@
 GET http://localhost:8000/member/passenger/query-list?pageNum=1&pageSize=4
 Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1Mzc3MDIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3MzcwMiwiaWF0IjoxNzY5NTM3NzAyfQ.E5Ag0GdSn-iCSnXrRYblicZ8dvBDJ5tCjJ4xyZUuEoo}
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-01-28T021531.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+<> 2026-01-28T021502.200.json
+
+###
+
+GET http://localhost:8000/member/passenger/query-list?pageNum=1&pageSize=4
+Accept: application/json
 token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MzQ1NjQsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3MDU2NCwiaWF0IjoxNzY5NTM0NTY0fQ.9o_M2J8raIWuieKOHZf836uJ0LvrD_8LUWI0k01khJU}
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
 Accept-Encoding: br, deflate, gzip, x-gzip
@@ -604,22 +630,6 @@ Accept: */*
 #%}
 
 <> 2026-01-27T223551.200.json
-
-###
-
-GET http://localhost:8000/member/passenger/query-list
-Accept: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-###
-
-GET http://localhost:8000/member/passenger/query-list
-Accept: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
 
 ###
 
