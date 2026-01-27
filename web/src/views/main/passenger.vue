@@ -34,7 +34,7 @@
 
 <script>
 
-import {ref, defineComponent, reactive, onMounted} from "vue";
+import {ref, defineComponent, onMounted} from "vue";
 import axios from "axios";
 import {notification} from "ant-design-vue";
 
@@ -42,7 +42,7 @@ export default defineComponent({
   name: "passenger-view",
   setup() {
     const visible = ref(false);
-    const passenger = reactive({
+    const passenger = ref({
       id: undefined,
       memberId: undefined,
       idCard: undefined,
@@ -52,7 +52,7 @@ export default defineComponent({
     });
     const passengers = ref([]);
     // 分页的三个属性名是固定的
-    const pagination = reactive({
+    const pagination = ref({
       total: 0,
       current: 1,
       pageSize: 3,
@@ -79,7 +79,7 @@ export default defineComponent({
       if (!params) {
         params = {
           pageNum: 1,
-          pageSize: pagination.pageSize
+          pageSize: pagination.value.pageSize
         };
       }
       loading.value = true;
@@ -94,8 +94,8 @@ export default defineComponent({
         if (data.success) {
           passengers.value = data.content.list;
           // 设置分页控件的值
-          pagination.current = params.pageNum;
-          pagination.total = data.content.total;
+          pagination.value.current = params.pageNum;
+          pagination.value.total = data.content.total;
         } else {
           notification.error({description: data.message})
         }
@@ -105,14 +105,14 @@ export default defineComponent({
       visible.value = true;
     };
     const handleOk = () => {
-      axios.post("member/passenger/save", passenger).then((response) => {
+      axios.post("member/passenger/save", passenger.value).then((response) => {
         let data = response.data;
         if (data.success) {
           notification.info({description: "添加乘车人成功"});
           visible.value = false;
           handleQuery({
-            pageNum: pagination.current,
-            pageSize: pagination.pageSize
+            pageNum: pagination.value.current,
+            pageSize: pagination.value.pageSize
           });
         } else {
           notification.error({description: data.message});
@@ -121,15 +121,15 @@ export default defineComponent({
     };
     const handleTableChange = (pagination) => {
       handleQuery({
-        pageNum: pagination.current,
-        pageSize: pagination.pageSize,
+        pageNum: pagination.value.current,
+        pageSize: pagination.value.pageSize,
       })
     };
 
     onMounted(() => {
       handleQuery({
         pageNum: 1,
-        pageSize: pagination.pageSize,
+        pageSize: pagination.value.pageSize,
       })
     });
 

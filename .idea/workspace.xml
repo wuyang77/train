@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="趁车人编辑接口开发：新增接口改为新增和修改一体化接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/main/passenger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main/passenger.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,15 +382,7 @@
       <workItem from="1769376536133" duration="87000" />
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
-      <workItem from="1769518483401" duration="28954000" />
-    </task>
-    <task id="LOCAL-00040" summary="完成前端的发送短信获取验证码的功能">
-      <option name="closed" value="true" />
-      <created>1768566068838</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1768566068838</updated>
+      <workItem from="1769518483401" duration="30413000" />
     </task>
     <task id="LOCAL-00041" summary="完成前端的发送短信获取验证码的功能">
       <option name="closed" value="true" />
@@ -778,7 +768,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769552003422</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="趁车人编辑接口开发：新增接口改为新增和修改一体化接口">
+      <option name="closed" value="true" />
+      <created>1769552752765</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1769552752766</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +808,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="为gataway添加登录校验拦截器" />
     <MESSAGE value="乘车人表的设计,过生成器模块generator生成对应表passenger的代码" />
     <MESSAGE value="使用IDEA自带的HttpClient记住登录的信息" />
     <MESSAGE value="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器" />
@@ -835,7 +832,8 @@
     <MESSAGE value="解决前后端交互Long类型精度丢失的问题" />
     <MESSAGE value="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);" />
     <MESSAGE value="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);" />
-    <option name="LAST_COMMIT_MESSAGE" value="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);" />
+    <MESSAGE value="趁车人编辑接口开发：新增接口改为新增和修改一体化接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="趁车人编辑接口开发：新增接口改为新增和修改一体化接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
