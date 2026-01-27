@@ -110,6 +110,10 @@ export default defineComponent({
         if (data.success) {
           notification.info({description: "添加乘车人成功"});
           visible.value = false;
+          handleQuery({
+            pageNum: pagination.current,
+            pageSize: pagination.pageSize
+          });
         } else {
           notification.error({description: data.message});
         }
