@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="趁车人编辑接口开发：修复不能读取current属性的bug,前端点击新页码跳转错误解决">
-      <change afterPath="$PROJECT_DIR$/web/public/js/tool.js" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/views/main/passenger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main/passenger.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,20 +216,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="npm.serve">
-    <configuration name="JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.wuyang.common.util.JwtUtil" />
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="HTTP Request.member-passenger | #3">
     <configuration name="org.wuyang.gateway.util.JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.gateway.util.JwtUtil" />
       <module name="gateway" />
@@ -247,7 +230,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="member-passenger | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-passenger.http" executionIdentifier="#2" index="2" runType="Run single request">
+    <configuration name="member-member | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-member.http" executionIdentifier="#5" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="member-passenger | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/member-passenger.http" executionIdentifier="#3" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
@@ -320,8 +306,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
-      <item itemvalue="Application.JwtUtil" />
-      <item itemvalue="HTTP Request.member-passenger | #2" />
+      <item itemvalue="HTTP Request.member-member | #5" />
+      <item itemvalue="HTTP Request.member-passenger | #3" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.serve" />
       <item itemvalue="Spring Boot.MemberApplication" />
@@ -329,11 +315,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.member-passenger | #3" />
+        <item itemvalue="HTTP Request.member-member | #5" />
         <item itemvalue="npm.serve" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
-        <item itemvalue="Application.JwtUtil" />
-        <item itemvalue="HTTP Request.member-passenger | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -388,23 +374,7 @@
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
       <workItem from="1769518483401" duration="31965000" />
-      <workItem from="1769639583776" duration="2474000" />
-    </task>
-    <task id="LOCAL-00045" summary="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名">
-      <option name="closed" value="true" />
-      <created>1768577051891</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1768577051891</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Vue CLI多环境配合，开发环境和生成环境配置、baseURl的配置，同时为axios配置后端域名">
-      <option name="closed" value="true" />
-      <created>1768577081153</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1768577081153</updated>
+      <workItem from="1769639583776" duration="3145000" />
     </task>
     <task id="LOCAL-00047" summary="添加忽略文件.gitignore">
       <option name="closed" value="true" />
@@ -782,7 +752,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769640158141</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）">
+      <option name="closed" value="true" />
+      <created>1769643173432</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1769643173432</updated>
+    </task>
+    <task id="LOCAL-00095" summary="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）">
+      <option name="closed" value="true" />
+      <created>1769643176868</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1769643176868</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,7 +800,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="制作欢迎页面" />
     <MESSAGE value="增加乘车人管理页面" />
     <MESSAGE value="修改菜单实现页面切换" />
     <MESSAGE value="实现菜单同步激活" />
@@ -839,7 +824,8 @@
     <MESSAGE value="趁车人编辑接口开发：reactive统一改为ref和.value的形式" />
     <MESSAGE value="趁车人编辑接口开发：添加操作列，每一列都可以对该行数据进行编辑" />
     <MESSAGE value="趁车人编辑接口开发：修复不能读取current属性的bug,前端点击新页码跳转错误解决" />
-    <option name="LAST_COMMIT_MESSAGE" value="趁车人编辑接口开发：修复不能读取current属性的bug,前端点击新页码跳转错误解决" />
+    <MESSAGE value="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）" />
+    <option name="LAST_COMMIT_MESSAGE" value="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

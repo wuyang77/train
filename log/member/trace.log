@@ -282,3 +282,102 @@
 2026-01-29 07:30:56.716 INFO  org.wuyang.member.service.PassengerService        :62   [32m17696430567036zt  [0;39m 总页数：4
 2026-01-29 07:30:56.716 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m17696430567036zt  [0;39m 返回结果: {"content":{"list":[{"createTime":1769521397000,"id":2016265783474262016,"idCard":"4036991336517778","memberId":2012077856087216128,"name":"Taylor Swift","type":"1","updateTime":1769554967116},{"createTime":1769550164374,"id":2016265643090907136,"idCard":"4036991336516666","memberId":2012077856087216128,"name":"凌俊杰","type":"1","updateTime":1769550164374},{"createTime":1769492544000,"id":2016265559771058176,"idCard":"4036991336512366","memberId":2012077856087216128,"name":"周杰伦","type":"1","updateTime":1769555073829}],"total":11},"success":true}
 2026-01-29 07:30:56.716 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m17696430567036zt  [0;39m ------------- 结束 耗时：11 ms -------------
+2026-01-29 07:42:54.413 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-01-29 07:42:54.431 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2026-01-29 07:42:54.431 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2026-01-29 07:42:54.432 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-01-29 07:42:54.434 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m                  [0;39m The web application [member] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2026-01-29 07:42:54.435 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2026-01-29 07:42:54.437 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2026-01-29 07:42:54.439 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-01-29 07:42:54.443 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2026-01-29 07:42:54.497 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 41976 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-29 07:42:54.498 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-29 07:42:54.652 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-01-29 07:42:54.653 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-01-29 07:42:54.653 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-01-29 07:42:54.653 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-01-29 07:42:54.661 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-01-29 07:42:54.661 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 160 ms
+2026-01-29 07:42:54.813 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-01-29 07:42:54.860 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-01-29 07:42:54.865 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-01-29 07:42:54.868 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-01-29 07:42:54.870 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.394 seconds (process running for 1666.188)
+2026-01-29 07:42:54.871 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-01-29 07:42:54.871 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-29 07:42:54.871 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-29 07:45:03.135 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29 07:45:03.136 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-01-29 07:45:03.136 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2026-01-29 07:45:03.142 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m1769643903136vd1  [0;39m ------------- 开始 -------------
+2026-01-29 07:45:03.143 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m1769643903136vd1  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-01-29 07:45:03.143 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m1769643903136vd1  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-01-29 07:45:03.143 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m1769643903136vd1  [0;39m 远程地址: 127.0.0.1
+2026-01-29 07:45:03.143 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m1769643903136vd1  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-01-29 07:45:03.145 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1769643903136vd1  [0;39m HikariPool-2 - Starting...
+2026-01-29 07:45:03.159 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1769643903136vd1  [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46848589
+2026-01-29 07:45:03.159 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1769643903136vd1  [0;39m HikariPool-2 - Start completed.
+2026-01-29 07:45:03.159 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769643903136vd1  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-01-29 07:45:03.159 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769643903136vd1  [0;39m ==> Parameters: 17689401847(String)
+2026-01-29 07:45:03.160 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769643903136vd1  [0;39m <==    Columns: id, mobile
+2026-01-29 07:45:03.160 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m1769643903136vd1  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-01-29 07:45:03.160 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1769643903136vd1  [0;39m <==      Total: 1
+2026-01-29 07:45:03.161 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m1769643903136vd1  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-01-29 07:45:03.162 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m1769643903136vd1  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk2NDM5MDMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTczMDMwMywiaWF0IjoxNzY5NjQzOTAzfQ.3C64YbhZ1r0_SgELfoQ_RYo-2FzQ5MkRZrHy6I73g84
+2026-01-29 07:45:03.162 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1769643903136vd1  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk2NDM5MDMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTczMDMwMywiaWF0IjoxNzY5NjQzOTAzfQ.3C64YbhZ1r0_SgELfoQ_RYo-2FzQ5MkRZrHy6I73g84"},"success":true}
+2026-01-29 07:45:03.162 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1769643903136vd1  [0;39m ------------- 结束 耗时：20 ms -------------
+2026-01-29 07:45:06.939 INFO  org.wuyang.common.interceptor.MemberInterceptor   :23   [32m1769643906939c65  [0;39m MemberInterceptor开始
+2026-01-29 07:45:06.939 INFO  org.wuyang.common.interceptor.MemberInterceptor   :27   [32m1769643906939c65  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk2NDM5MDMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTczMDMwMywiaWF0IjoxNzY5NjQzOTAzfQ.3C64YbhZ1r0_SgELfoQ_RYo-2FzQ5MkRZrHy6I73g84
+2026-01-29 07:45:06.939 INFO  org.wuyang.common.util.JwtUtil                    :66   [32m1769643906939c65  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-01-29 07:45:06.940 INFO  org.wuyang.common.interceptor.MemberInterceptor   :29   [32m1769643906939c65  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-01-29 07:45:06.940 INFO  org.wuyang.common.interceptor.MemberInterceptor   :33   [32m1769643906939c65  [0;39m MemberInterceptor结束
+2026-01-29 07:45:06.941 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m1769643906939c65  [0;39m ------------- 开始 -------------
+2026-01-29 07:45:06.941 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m1769643906939c65  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/delete/2015186100313788416 DELETE
+2026-01-29 07:45:06.941 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m1769643906939c65  [0;39m 类名方法: org.wuyang.member.controller.PassengerController.deletePassenger
+2026-01-29 07:45:06.941 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m1769643906939c65  [0;39m 远程地址: 127.0.0.1
+2026-01-29 07:45:06.942 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m1769643906939c65  [0;39m 请求参数: [2015186100313788416]
+2026-01-29 07:45:06.943 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643906939c65  [0;39m ==>  Preparing: delete from passenger where id = ?
+2026-01-29 07:45:06.943 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643906939c65  [0;39m ==> Parameters: 2015186100313788416(Long)
+2026-01-29 07:45:06.946 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643906939c65  [0;39m <==    Updates: 1
+2026-01-29 07:45:06.946 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1769643906939c65  [0;39m 返回结果: {"success":true}
+2026-01-29 07:45:06.946 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1769643906939c65  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-29 07:45:20.609 INFO  org.wuyang.common.interceptor.MemberInterceptor   :23   [32m1769643920609j3x  [0;39m MemberInterceptor开始
+2026-01-29 07:45:20.609 INFO  org.wuyang.common.interceptor.MemberInterceptor   :27   [32m1769643920609j3x  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk2NDM5MDMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTczMDMwMywiaWF0IjoxNzY5NjQzOTAzfQ.3C64YbhZ1r0_SgELfoQ_RYo-2FzQ5MkRZrHy6I73g84
+2026-01-29 07:45:20.609 INFO  org.wuyang.common.util.JwtUtil                    :66   [32m1769643920609j3x  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-01-29 07:45:20.610 INFO  org.wuyang.common.interceptor.MemberInterceptor   :29   [32m1769643920609j3x  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-01-29 07:45:20.610 INFO  org.wuyang.common.interceptor.MemberInterceptor   :33   [32m1769643920609j3x  [0;39m MemberInterceptor结束
+2026-01-29 07:45:20.610 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m1769643920609j3x  [0;39m ------------- 开始 -------------
+2026-01-29 07:45:20.610 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m1769643920609j3x  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/delete/2015230291265851392 DELETE
+2026-01-29 07:45:20.610 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m1769643920609j3x  [0;39m 类名方法: org.wuyang.member.controller.PassengerController.deletePassenger
+2026-01-29 07:45:20.610 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m1769643920609j3x  [0;39m 远程地址: 127.0.0.1
+2026-01-29 07:45:20.610 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m1769643920609j3x  [0;39m 请求参数: [2015230291265851392]
+2026-01-29 07:45:20.612 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643920609j3x  [0;39m ==>  Preparing: delete from passenger where id = ?
+2026-01-29 07:45:20.612 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643920609j3x  [0;39m ==> Parameters: 2015230291265851392(Long)
+2026-01-29 07:45:20.615 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643920609j3x  [0;39m <==    Updates: 1
+2026-01-29 07:45:20.615 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1769643920609j3x  [0;39m 返回结果: {"success":true}
+2026-01-29 07:45:20.615 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1769643920609j3x  [0;39m ------------- 结束 耗时：5 ms -------------
+2026-01-29 07:45:28.989 INFO  org.wuyang.common.interceptor.MemberInterceptor   :23   [32m1769643928989l6a  [0;39m MemberInterceptor开始
+2026-01-29 07:45:28.989 INFO  org.wuyang.common.interceptor.MemberInterceptor   :27   [32m1769643928989l6a  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk2NDM5MDMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTczMDMwMywiaWF0IjoxNzY5NjQzOTAzfQ.3C64YbhZ1r0_SgELfoQ_RYo-2FzQ5MkRZrHy6I73g84
+2026-01-29 07:45:28.989 INFO  org.wuyang.common.util.JwtUtil                    :66   [32m1769643928989l6a  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-01-29 07:45:28.989 INFO  org.wuyang.common.interceptor.MemberInterceptor   :29   [32m1769643928989l6a  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-01-29 07:45:28.989 INFO  org.wuyang.common.interceptor.MemberInterceptor   :33   [32m1769643928989l6a  [0;39m MemberInterceptor结束
+2026-01-29 07:45:28.989 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m1769643928989l6a  [0;39m ------------- 开始 -------------
+2026-01-29 07:45:28.989 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m1769643928989l6a  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/delete/2015232303172816896 DELETE
+2026-01-29 07:45:28.989 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m1769643928989l6a  [0;39m 类名方法: org.wuyang.member.controller.PassengerController.deletePassenger
+2026-01-29 07:45:28.990 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m1769643928989l6a  [0;39m 远程地址: 127.0.0.1
+2026-01-29 07:45:28.990 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m1769643928989l6a  [0;39m 请求参数: [2015232303172816896]
+2026-01-29 07:45:28.990 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643928989l6a  [0;39m ==>  Preparing: delete from passenger where id = ?
+2026-01-29 07:45:28.991 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643928989l6a  [0;39m ==> Parameters: 2015232303172816896(Long)
+2026-01-29 07:45:28.994 DEBUG o.w.m.mapper.PassengerMapper.deleteByPrimaryKey   :137  [32m1769643928989l6a  [0;39m <==    Updates: 1
+2026-01-29 07:45:28.994 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1769643928989l6a  [0;39m 返回结果: {"success":true}
+2026-01-29 07:45:28.994 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1769643928989l6a  [0;39m ------------- 结束 耗时：5 ms -------------

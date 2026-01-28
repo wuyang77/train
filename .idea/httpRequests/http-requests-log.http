@@ -1,3 +1,52 @@
+DELETE http://localhost:8000/member/passenger/delete/2015232303172816896
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk2NDM5MDMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTczMDMwMywiaWF0IjoxNzY5NjQzOTAzfQ.3C64YbhZ1r0_SgELfoQ_RYo-2FzQ5MkRZrHy6I73g84
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2026-01-29T074528.200.json
+
+###
+
+DELETE http://localhost:8000/member/passenger/delete/2015230291265851392
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk2NDM5MDMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTczMDMwMywiaWF0IjoxNzY5NjQzOTAzfQ.3C64YbhZ1r0_SgELfoQ_RYo-2FzQ5MkRZrHy6I73g84
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2026-01-29T074520.200.json
+
+###
+
+DELETE http://localhost:8000/member/passenger/delete/2015186100313788416
+Accept: application/json
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk2NDM5MDMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTczMDMwMywiaWF0IjoxNzY5NjQzOTAzfQ.3C64YbhZ1r0_SgELfoQ_RYo-2FzQ5MkRZrHy6I73g84
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2026-01-29T074506.200.json
+
+###
+
+POST http://localhost:8000/member/member/login
+Content-Type: application/json
+Content-Length: 47
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "mobile": "17689401847",
+  "code": "8888"
+}
+
+<> 2026-01-29T074503.200.json
+
+###
+
 GET http://localhost:8000/member/passenger/query-list?pageNum=1&pageSize=4
 Accept: application/json
 token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1Mzc3MDIsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU3MzcwMiwiaWF0IjoxNzY5NTM3NzAyfQ.E5Ag0GdSn-iCSnXrRYblicZ8dvBDJ5tCjJ4xyZUuEoo}
@@ -570,66 +619,6 @@ Accept: application/json
 token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjI0NjMsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU1ODQ2MywiaWF0IjoxNzY5NTIyNDYzfQ.b8wQGHISmqBSy8CKDJw548fgvghxZy1gzldPzi2xXoM}
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
 Accept-Encoding: br, deflate, gzip, x-gzip
-
-###
-
-GET http://localhost:8000/member/passenger/query-list
-Accept: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-###
-
-POST http://localhost:8000/member/member/login
-Content-Type: application/json
-Content-Length: 218
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "mobile": "17689401847",
-  "code": "8888"
-}
-
-#> {%
-#client.log(JSON.stringify(response.body));
-#client.log(JSON.stringify(response.body.content.token));
-#client.global.set("token", response.body.content.token);
-#%}
-
-<> 2026-01-27T223737.200.json
-
-###
-
-GET http://localhost:8000/member/passenger/query-list
-Accept: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjQ0MTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MDQxMCwiaWF0IjoxNzY5NTI0NDEwfQ.zm0knXFWhbe_sVG3Fr5hRK2j0MT6_zqzD-LwEom5HrU
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-###
-
-POST http://localhost:8000/member/member/login
-Content-Type: application/json
-Content-Length: 218
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "mobile": "17689401847",
-  "code": "8888"
-}
-
-#> {%
-#client.log(JSON.stringify(response.body));
-#client.log(JSON.stringify(response.body.content.token));
-#client.global.set("token", response.body.content.token);
-#%}
-
-<> 2026-01-27T223551.200.json
 
 ###
 

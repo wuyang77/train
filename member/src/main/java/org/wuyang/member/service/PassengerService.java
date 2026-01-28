@@ -66,4 +66,8 @@ public class PassengerService {
         pageResp.setList(BeanUtil.copyToList(passengerList, PassengerQueryResp.class));
         return pageResp;
     }
+
+    public void deletePassenger(Long id) {
+        passengerMapper.deleteByPrimaryKey(id);
+    }
 }
