@@ -24,6 +24,13 @@
             </a-popconfirm>
           </a-space>
         </template>
+        <template v-else-if="column.dataIndex === 'type'">
+          <span v-for="item in PASSENGER_TYPE_ARRAY" :key="item.code">
+            <span v-if="item.code === record.type">
+              {{item.value}}
+            </span>
+          </span>
+        </template>
       </template>
     </a-table>
     <a-modal v-model:visible="visible" title="乘车人" @ok="handleOk"
@@ -54,7 +61,7 @@ import {notification} from "ant-design-vue";
 export default defineComponent({
   name: "passenger-view",
   setup() {
-    const PASSENGER_TYPE_ARRAY = [{code: "1", value: "成人1"}, {code: "2", value: "学生1"}, {code: "3", value: "儿童1"}];
+    const PASSENGER_TYPE_ARRAY = [{code: "1", value: "成人"}, {code: "2", value: "学生"}, {code: "3", value: "儿童"}];
     const visible = ref(false);
     const passenger = ref({
       id: undefined,
@@ -91,6 +98,7 @@ export default defineComponent({
       {
         title: '操作',
         dataIndex: 'operation',
+        key: 'operation'
       },
     ];
 
