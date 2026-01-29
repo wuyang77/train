@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="乘车人删除接口开发">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/main/passenger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main/passenger.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +87,7 @@
     "HTTP Request.member-member | #5.executor": "Run",
     "HTTP Request.member-passenger | #1.executor": "Run",
     "HTTP Request.member-passenger | #2.executor": "Run",
+    "HTTP Request.member-passenger | #3.executor": "Run",
     "HTTP Request.member-test | #1.executor": "Run",
     "HTTP Request.member-test | #2.executor": "Run",
     "HTTP Request.member-test | #3.executor": "Run",
@@ -129,7 +129,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
     "nodejs_package_manager_path": "npm",
-    "npm.serve.executor": "Run",
+    "npm.serve.executor": "Debug",
     "onboarding.tips.debug.path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -191,21 +191,6 @@
     </option>
     <option name="configurationStatuses">
       <map>
-        <entry key="HttpClient.HttpRequestRunConfigurationType">
-          <value>
-            <map>
-              <entry key="member-passenger | #2" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <map>
-              <entry key="GatewayApplication" value="STOPPED" />
-              <entry key="MemberApplication" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
         <entry key="js.build_tools.npm">
           <value>
             <map>
@@ -216,7 +201,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.member-passenger | #3">
+  <component name="RunManager" selected="Application.org.wuyang.gateway.util.JwtUtil">
     <configuration name="org.wuyang.gateway.util.JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.gateway.util.JwtUtil" />
       <module name="gateway" />
@@ -294,22 +279,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/web/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="serve" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
       <item itemvalue="HTTP Request.member-member | #5" />
       <item itemvalue="HTTP Request.member-passenger | #3" />
       <item itemvalue="Maven.mybatis-generator" />
-      <item itemvalue="npm.serve" />
       <item itemvalue="Spring Boot.MemberApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
@@ -317,7 +291,6 @@
       <list>
         <item itemvalue="HTTP Request.member-passenger | #3" />
         <item itemvalue="HTTP Request.member-member | #5" />
-        <item itemvalue="npm.serve" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
       </list>
@@ -374,31 +347,7 @@
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
       <workItem from="1769518483401" duration="31965000" />
-      <workItem from="1769639583776" duration="3145000" />
-    </task>
-    <task id="LOCAL-00047" summary="添加忽略文件.gitignore">
-      <option name="closed" value="true" />
-      <created>1768577948349</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1768577948349</updated>
-    </task>
-    <task id="LOCAL-00048" summary="增加控制台主页，登录成功后跳转到控制台主页">
-      <option name="closed" value="true" />
-      <created>1768579121310</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1768579121310</updated>
-    </task>
-    <task id="LOCAL-00049" summary="vue组件开发增加the-header组件">
-      <option name="closed" value="true" />
-      <created>1768580672032</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1768580672032</updated>
+      <workItem from="1769639583776" duration="6121000" />
     </task>
     <task id="LOCAL-00050" summary="使用官方的JWTUtil去生成token,封装到登录请求参数中，封装类为MemberLoginReq">
       <option name="closed" value="true" />
@@ -768,7 +717,31 @@
       <option name="project" value="LOCAL" />
       <updated>1769643176868</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="乘车人删除接口开发">
+      <option name="closed" value="true" />
+      <created>1769644000056</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1769644000056</updated>
+    </task>
+    <task id="LOCAL-00097" summary="乘车人删除接口开发">
+      <option name="closed" value="true" />
+      <created>1769644005230</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1769644005230</updated>
+    </task>
+    <task id="LOCAL-00098" summary="乘车人删除接口开发">
+      <option name="closed" value="true" />
+      <created>1769644007854</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1769644007854</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -800,7 +773,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="增加乘车人管理页面" />
     <MESSAGE value="修改菜单实现页面切换" />
     <MESSAGE value="实现菜单同步激活" />
     <MESSAGE value="乘车人界面开发：增加【新增】按钮" />
@@ -825,7 +797,8 @@
     <MESSAGE value="趁车人编辑接口开发：添加操作列，每一列都可以对该行数据进行编辑" />
     <MESSAGE value="趁车人编辑接口开发：修复不能读取current属性的bug,前端点击新页码跳转错误解决" />
     <MESSAGE value="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）" />
-    <option name="LAST_COMMIT_MESSAGE" value="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）" />
+    <MESSAGE value="乘车人删除接口开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="乘车人删除接口开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
