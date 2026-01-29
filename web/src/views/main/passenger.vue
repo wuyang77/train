@@ -61,7 +61,7 @@ import {notification} from "ant-design-vue";
 export default defineComponent({
   name: "passenger-view",
   setup() {
-    const PASSENGER_TYPE_ARRAY = [{code: "1", value: "成人"}, {code: "2", value: "学生"}, {code: "3", value: "儿童"}];
+    const PASSENGER_TYPE_ARRAY = window.PASSENGER_TYPE_ARRAY;
     const visible = ref(false);
     const passenger = ref({
       id: undefined,
