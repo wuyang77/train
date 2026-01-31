@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="将枚举数据放到单独的enums.js文件中，在main.js中全局引入">
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/Test.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/FreemarkerUtil.java" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="测试代码生成器freemark模板引擎的使用">
+      <change afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +125,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service",
-    "last_opened_file_path": "D:/Users/23889/Desktop/train/web/public/js",
+    "last_opened_file_path": "D:/Users/23889/Desktop/train/generator/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -164,11 +162,11 @@
       <recent name="org.wuyang.member.resq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\generator\src\main\resources" />
       <recent name="D:\Users\23889\Desktop\train\web\public\js" />
       <recent name="D:\Users\23889\Desktop\train\common\src\main\java\org\wuyang\common\config" />
       <recent name="D:\Users\23889\Desktop\train\http" />
       <recent name="D:\Users\23889\Desktop\train\gateway\src\main\java\org\wuyang\gateway\util" />
-      <recent name="D:\Users\23889\Desktop\train\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\23889\Desktop\train" />
@@ -358,23 +356,7 @@
       <workItem from="1769518483401" duration="31965000" />
       <workItem from="1769639583776" duration="15767000" />
       <workItem from="1769709200327" duration="1192000" />
-      <workItem from="1769874005733" duration="6258000" />
-    </task>
-    <task id="LOCAL-00055" summary="测试gataway拦截器的使用">
-      <option name="closed" value="true" />
-      <created>1769005333406</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1769005333406</updated>
-    </task>
-    <task id="LOCAL-00056" summary="测试gataway拦截器的使用">
-      <option name="closed" value="true" />
-      <created>1769005352500</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1769005352500</updated>
+      <workItem from="1769874005733" duration="8094000" />
     </task>
     <task id="LOCAL-00057" summary="为gataway添加登录校验拦截器">
       <option name="closed" value="true" />
@@ -752,7 +734,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769656153026</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="测试代码生成器freemark模板引擎的使用">
+      <option name="closed" value="true" />
+      <created>1769885585115</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1769885585116</updated>
+    </task>
+    <task id="LOCAL-00105" summary="测试代码生成器freemark模板引擎的使用">
+      <option name="closed" value="true" />
+      <created>1769885588520</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1769885588520</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,7 +782,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="乘车人界面开发：完成保存新增乘车人功能" />
     <MESSAGE value="乘车人界面开发：新增乘车人列表查询接口，只能查看当前会员自己添加的乘客" />
     <MESSAGE value="集成PageHelper，实现SQL分页功能" />
     <MESSAGE value="分装分页请求参数" />
@@ -809,7 +806,8 @@
     <MESSAGE value="将旅客类型下拉框的提取为常量数组" />
     <MESSAGE value="解决表格中枚举字段的显示" />
     <MESSAGE value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
-    <option name="LAST_COMMIT_MESSAGE" value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
+    <MESSAGE value="测试代码生成器freemark模板引擎的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试代码生成器freemark模板引擎的使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
