@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="解决表格中枚举字段的显示">
-      <change afterPath="$PROJECT_DIR$/web/src/assets/js/enums.js" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="将枚举数据放到单独的enums.js文件中，在main.js中全局引入">
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/Test.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/FreemarkerUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.env.prod" beforeDir="false" afterPath="$PROJECT_DIR$/web/.env.prod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/views/main/passenger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main/passenger.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +84,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.JwtUtil.executor": "Run",
+    "Application.ServerGenerator.executor": "Run",
     "Application.org.wuyang.gateway.util.JwtUtil.executor": "Run",
     "Database Script.member.sql.executor": "Run",
     "HTTP Request.member-member | #3.executor": "Run",
@@ -180,11 +177,11 @@
       <recent name="D:\Users\23889\Desktop\train\common\src\main\resources\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.wuyang.generator.util" />
       <recent name="org.wuyang.common.util" />
       <recent name="org.wuyang.gateway.config" />
       <recent name="org.wuyang.common.Exception" />
       <recent name="org.wuyang.common.resp" />
-      <recent name="org.wuyang.gateway" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,19 +194,21 @@
         <option value="js.build_tools.npm" />
       </set>
     </option>
-    <option name="configurationStatuses">
-      <map>
-        <entry key="js.build_tools.npm">
-          <value>
-            <map>
-              <entry key="serve" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
-  <component name="RunManager" selected="Application.org.wuyang.gateway.util.JwtUtil">
+  <component name="RunManager" selected="Application.ServerGenerator">
+    <configuration name="ServerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.ServerGenerator" />
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.generator.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.wuyang.gateway.util.JwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.gateway.util.JwtUtil" />
       <module name="gateway" />
@@ -288,6 +287,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ServerGenerator" />
       <item itemvalue="Application.org.wuyang.gateway.util.JwtUtil" />
       <item itemvalue="HTTP Request.member-member | #5" />
       <item itemvalue="HTTP Request.member-passenger | #3" />
@@ -297,6 +297,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerGenerator" />
         <item itemvalue="HTTP Request.member-passenger | #3" />
         <item itemvalue="HTTP Request.member-member | #5" />
         <item itemvalue="Spring Boot.GatewayApplication" />
@@ -355,23 +356,9 @@
       <workItem from="1769376695860" duration="231000" />
       <workItem from="1769511047516" duration="7078000" />
       <workItem from="1769518483401" duration="31965000" />
-      <workItem from="1769639583776" duration="14641000" />
-    </task>
-    <task id="LOCAL-00053" summary="引入自定义的Session-Storage.js文件，将登录信息存在在session中，解决浏览器刷新丢失登录信息的问题">
-      <option name="closed" value="true" />
-      <created>1769003757371</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1769003757372</updated>
-    </task>
-    <task id="LOCAL-00054" summary="引入自定义的Session-Storage.js文件，将登录信息存在在session中，解决浏览器刷新丢失登录信息的问题">
-      <option name="closed" value="true" />
-      <created>1769003767166</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1769003767166</updated>
+      <workItem from="1769639583776" duration="15767000" />
+      <workItem from="1769709200327" duration="1192000" />
+      <workItem from="1769874005733" duration="6258000" />
     </task>
     <task id="LOCAL-00055" summary="测试gataway拦截器的使用">
       <option name="closed" value="true" />
@@ -749,7 +736,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769651518845</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="将枚举数据放到单独的enums.js文件中，在main.js中全局引入">
+      <option name="closed" value="true" />
+      <created>1769656149313</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1769656149313</updated>
+    </task>
+    <task id="LOCAL-00103" summary="将枚举数据放到单独的enums.js文件中，在main.js中全局引入">
+      <option name="closed" value="true" />
+      <created>1769656153026</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1769656153026</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -781,7 +784,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="乘车人界面开发：增加乘车人表单" />
     <MESSAGE value="乘车人界面开发：完成保存新增乘车人功能" />
     <MESSAGE value="乘车人界面开发：新增乘车人列表查询接口，只能查看当前会员自己添加的乘客" />
     <MESSAGE value="集成PageHelper，实现SQL分页功能" />
@@ -806,7 +808,8 @@
     <MESSAGE value="乘车人删除接口开发: 前端添加删除按钮（确认删除提示）" />
     <MESSAGE value="将旅客类型下拉框的提取为常量数组" />
     <MESSAGE value="解决表格中枚举字段的显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决表格中枚举字段的显示" />
+    <MESSAGE value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

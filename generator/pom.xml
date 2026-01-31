@@ -18,11 +18,19 @@
     </properties>
 
     <dependencies>
+        <!-- 生成器也需要引入mysql依赖 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
+
+        <!-- 模版引擎freemark -->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+        </dependency>
     </dependencies>
+
 
     <build>
         <plugins>
