@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="测试代码生成器freemark模板引擎的使用">
-      <change afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -356,15 +354,7 @@
       <workItem from="1769518483401" duration="31965000" />
       <workItem from="1769639583776" duration="15767000" />
       <workItem from="1769709200327" duration="1192000" />
-      <workItem from="1769874005733" duration="8094000" />
-    </task>
-    <task id="LOCAL-00057" summary="为gataway添加登录校验拦截器">
-      <option name="closed" value="true" />
-      <created>1769149708817</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1769149708817</updated>
+      <workItem from="1769874005733" duration="8778000" />
     </task>
     <task id="LOCAL-00058" summary="乘车人表的设计,过生成器模块generator生成对应表passenger的代码">
       <option name="closed" value="true" />
@@ -750,7 +740,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769885588520</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径">
+      <option name="closed" value="true" />
+      <created>1769887349133</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1769887349133</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +780,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="乘车人界面开发：新增乘车人列表查询接口，只能查看当前会员自己添加的乘客" />
     <MESSAGE value="集成PageHelper，实现SQL分页功能" />
     <MESSAGE value="分装分页请求参数" />
     <MESSAGE value="1.封装返回页结果。2.格式化返回的日期字段" />
@@ -807,7 +804,8 @@
     <MESSAGE value="解决表格中枚举字段的显示" />
     <MESSAGE value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
     <MESSAGE value="测试代码生成器freemark模板引擎的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试代码生成器freemark模板引擎的使用" />
+    <MESSAGE value="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
