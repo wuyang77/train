@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用PassengerService制作生成模板service.ftl，生成service成功" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用PassengerService制作生成模板service.ftl，生成service成功">
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/controller.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -351,15 +355,9 @@
       <workItem from="1769518483401" duration="31965000" />
       <workItem from="1769639583776" duration="15767000" />
       <workItem from="1769709200327" duration="1192000" />
-      <workItem from="1769874005733" duration="14272000" />
-    </task>
-    <task id="LOCAL-00060" summary="使用IDEA自带的HttpClient记住登录的信息">
-      <option name="closed" value="true" />
-      <created>1769304208607</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1769304208607</updated>
+      <workItem from="1769874005733" duration="18584000" />
+      <workItem from="1770326542080" duration="1807000" />
+      <workItem from="1770495792766" duration="3314000" />
     </task>
     <task id="LOCAL-00061" summary="使用IDEA自带的HttpClient记住登录的信息">
       <option name="closed" value="true" />
@@ -745,7 +743,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769892709820</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="使用PassengerService制作生成模板service.ftl，生成service成功">
+      <option name="closed" value="true" />
+      <created>1769893528503</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1769893528503</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,6 +817,11 @@
           <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
