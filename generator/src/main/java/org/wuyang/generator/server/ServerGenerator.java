@@ -5,12 +5,14 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Node;
 import org.dom4j.io.SAXReader;
+import org.wuyang.generator.util.DbUtil;
+import org.wuyang.generator.util.Field;
 import org.wuyang.generator.util.FreemarkerUtil;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Map;
+import java.util.List;
 
 public class ServerGenerator {
     static String pomPath = "generator/pom.xml";
@@ -45,15 +47,29 @@ public class ServerGenerator {
         // do_main = passenger-test
         String do_main = tableName.getText().replaceAll("_", "-");
 
+        // 为DbUtil配置数据源
+        Node connectionURL = document.selectSingleNode("//@connectionURL");
+        Node userId = document.selectSingleNode("//@userId");
+        Node password = document.selectSingleNode("//@password");
+        System.out.println("connectionURL = " + connectionURL.getText());
+        System.out.printf("userId = ", userId);
+        System.out.printf("password = ", password);
+        DbUtil.url = connectionURL.getText();
+        DbUtil.user = userId.getText();
+        DbUtil.password = password.getText();
+
+        // 获取中文名
+        String tableNameCn = DbUtil.getTableComment(tableName.getText());
+        // 获取所有列的字段信息
+        List<Field> fieldList = DbUtil.getColumnByTableName(tableName.getText());
+
         // 组装参数到map
         HashMap<String, Object> param = new HashMap<>();
         param.put("module", module);
         param.put("Domain", Domain);
         param.put("domain", domain);
         param.put("do_main", do_main);
-        for (Map.Entry<String, Object> entry : param.entrySet()) {
-            System.out.println("键: " + entry.getKey() + ", 值: " + entry.getValue());
-        }
+        System.out.println("组装信息 " + param.entrySet());
         gen(Domain, param, "service");
         gen(Domain, param, "controller");
     }

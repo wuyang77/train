@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用PassengerService制作生成模板service.ftl，生成service成功">
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/controller.ftl" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用PassengerController制作生成模板controller.ftl，生成controller成功">
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/DbUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/Field.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -357,15 +359,7 @@
       <workItem from="1769709200327" duration="1192000" />
       <workItem from="1769874005733" duration="18584000" />
       <workItem from="1770326542080" duration="1807000" />
-      <workItem from="1770495792766" duration="3314000" />
-    </task>
-    <task id="LOCAL-00061" summary="使用IDEA自带的HttpClient记住登录的信息">
-      <option name="closed" value="true" />
-      <created>1769304219093</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1769304219093</updated>
+      <workItem from="1770495792766" duration="6608000" />
     </task>
     <task id="LOCAL-00062" summary="使用IDEA自带的HttpClient记住登录的信息">
       <option name="closed" value="true" />
@@ -751,7 +745,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769893528503</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="使用PassengerController制作生成模板controller.ftl，生成controller成功">
+      <option name="closed" value="true" />
+      <created>1770499241123</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1770499241123</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +785,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="1.封装返回页结果。2.格式化返回的日期字段" />
     <MESSAGE value="乘车人列表查询界面开发：引入表格组件（暂时录入的假数据）" />
     <MESSAGE value="引入表格组件（暂时录入的假数据）" />
     <MESSAGE value="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）" />
@@ -808,7 +809,8 @@
     <MESSAGE value="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径" />
     <MESSAGE value="集成dom4j,读取generator-config-member.xml文件所在地址，读取table以及其包含表名tableName和实体名domainObjectName的节点" />
     <MESSAGE value="使用PassengerService制作生成模板service.ftl，生成service成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用PassengerService制作生成模板service.ftl，生成service成功" />
+    <MESSAGE value="使用PassengerController制作生成模板controller.ftl，生成controller成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用PassengerController制作生成模板controller.ftl，生成controller成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -817,11 +819,6 @@
           <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
