@@ -7,8 +7,8 @@ import org.wuyang.common.context.LoginMemberContext;
 import org.wuyang.common.resp.CommonResp;
 import org.wuyang.common.resp.PageResp;
 import org.wuyang.member.resp.${Domain}QueryResp;
-import org.wuyang.member.resq.${Domain}QueryReq;
-import org.wuyang.member.resq.${Domain}SaveReq;
+import org.wuyang.member.req.${Domain}QueryReq;
+import org.wuyang.member.req.${Domain}SaveReq;
 import org.wuyang.member.service.${Domain}Service;
 
 @RestController

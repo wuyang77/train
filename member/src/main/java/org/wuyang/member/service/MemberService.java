@@ -14,9 +14,9 @@ import org.wuyang.common.util.SnowUtil;
 import org.wuyang.member.domain.Member;
 import org.wuyang.member.domain.MemberExample;
 import org.wuyang.member.mapper.MemberMapper;
-import org.wuyang.member.resq.MemberLoginReq;
-import org.wuyang.member.resq.MemberRegisterReq;
-import org.wuyang.member.resq.MemberSendCodeReq;
+import org.wuyang.member.req.MemberLoginReq;
+import org.wuyang.member.req.MemberRegisterReq;
+import org.wuyang.member.req.MemberSendCodeReq;
 
 import java.util.List;
 import java.util.Objects;

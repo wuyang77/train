@@ -16,8 +16,8 @@ import org.wuyang.${module}.domain.${Domain};
 import org.wuyang.${module}.domain.${Domain}Example;
 import org.wuyang.${module}.mapper.${Domain}Mapper;
 import org.wuyang.${module}.resp.${Domain}QueryResp;
-import org.wuyang.${module}.resq.${Domain}QueryReq;
-import org.wuyang.${module}.resq.${Domain}SaveReq;
+import org.wuyang.${module}.req.${Domain}QueryReq;
+import org.wuyang.${module}.req.${Domain}SaveReq;
 
 import java.util.List;
 

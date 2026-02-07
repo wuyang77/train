@@ -7,8 +7,8 @@ import org.wuyang.common.context.LoginMemberContext;
 import org.wuyang.common.resp.CommonResp;
 import org.wuyang.common.resp.PageResp;
 import org.wuyang.member.resp.PassengerQueryResp;
-import org.wuyang.member.resq.PassengerQueryReq;
-import org.wuyang.member.resq.PassengerSaveReq;
+import org.wuyang.member.req.PassengerQueryReq;
+import org.wuyang.member.req.PassengerSaveReq;
 import org.wuyang.member.service.PassengerService;
 
 @RestController

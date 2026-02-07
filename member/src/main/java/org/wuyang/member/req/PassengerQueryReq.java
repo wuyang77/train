@@ -1,4 +1,4 @@
-package org.wuyang.member.resq;
+package org.wuyang.member.req;
 
 import org.wuyang.common.req.PageReq;
 

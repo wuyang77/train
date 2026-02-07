@@ -16,8 +16,8 @@ import org.wuyang.member.domain.Passenger;
 import org.wuyang.member.domain.PassengerExample;
 import org.wuyang.member.mapper.PassengerMapper;
 import org.wuyang.member.resp.PassengerQueryResp;
-import org.wuyang.member.resq.PassengerQueryReq;
-import org.wuyang.member.resq.PassengerSaveReq;
+import org.wuyang.member.req.PassengerQueryReq;
+import org.wuyang.member.req.PassengerSaveReq;
 
 import java.util.List;
 

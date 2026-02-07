@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用PassengerController制作生成模板controller.ftl，生成controller成功">
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/DbUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/Field.java" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="添加工具类DbUtil，获取表中文名和表字段信息">
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/saveReq.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/controller.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/controller.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/service.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/service.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.2026-01-14.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.2026-01-14.0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/MemberLoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberLoginReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/MemberRegisterReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberRegisterReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/MemberSendCodeReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberSendCodeReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/PassengerQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerQueryReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/controller/MemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/resq/MemberLoginReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/resq/MemberRegisterReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/resq/MemberSendCodeReq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/service/MemberService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +83,9 @@
     <commands />
     <urls />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -79,81 +97,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.JwtUtil.executor": "Run",
-    "Application.ServerGenerator.executor": "Run",
-    "Application.org.wuyang.gateway.util.JwtUtil.executor": "Run",
-    "Database Script.member.sql.executor": "Run",
-    "HTTP Request.member-member | #3.executor": "Run",
-    "HTTP Request.member-member | #4.executor": "Run",
-    "HTTP Request.member-member | #5.executor": "Run",
-    "HTTP Request.member-passenger | #1.executor": "Run",
-    "HTTP Request.member-passenger | #2.executor": "Run",
-    "HTTP Request.member-passenger | #3.executor": "Run",
-    "HTTP Request.member-test | #1.executor": "Run",
-    "HTTP Request.member-test | #2.executor": "Run",
-    "HTTP Request.member-test | #3.executor": "Run",
-    "HTTP Request.member-test | #4.executor": "Run",
-    "HTTP Request.member-test | #5.executor": "Run",
-    "HTTP Request.member-test | #6.executor": "Run",
-    "HTTP Request.rest-api | #1.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.common [clean].executor": "Run",
-    "Maven.common [install].executor": "Run",
-    "Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor": "Run",
-    "Maven.member [clean].executor": "Run",
-    "Maven.member [install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.MemberApplication.executor": "Run",
-    "Spring Boot.TrainApplication.executor": "Run",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service",
-    "last_opened_file_path": "D:/Users/23889/Desktop/train/generator/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
-    "nodejs_package_manager_path": "npm",
-    "npm.serve.executor": "Run",
-    "onboarding.tips.debug.path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.wuyang.gateway.util.JwtUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.member.sql.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-member | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-member | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-member | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-passenger | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-passenger | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-passenger | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.member [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.member [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MemberApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TrainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/23889/Desktop/train/generator/src/main/java/org/wuyang/generator/ftl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;D:/dev/node-v18.12.1-win-x64/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.serve.executor&quot;: &quot;Run&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\"train\""
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\&quot;train\&quot;&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -163,11 +181,11 @@
       <recent name="org.wuyang.member.resq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\generator\src\main\java\org\wuyang\generator\ftl" />
       <recent name="D:\Users\23889\Desktop\train\generator\src\main\resources" />
       <recent name="D:\Users\23889\Desktop\train\web\public\js" />
       <recent name="D:\Users\23889\Desktop\train\common\src\main\java\org\wuyang\common\config" />
       <recent name="D:\Users\23889\Desktop\train\http" />
-      <recent name="D:\Users\23889\Desktop\train\gateway\src\main\java\org\wuyang\gateway\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\23889\Desktop\train" />
@@ -359,15 +377,8 @@
       <workItem from="1769709200327" duration="1192000" />
       <workItem from="1769874005733" duration="18584000" />
       <workItem from="1770326542080" duration="1807000" />
-      <workItem from="1770495792766" duration="6608000" />
-    </task>
-    <task id="LOCAL-00062" summary="使用IDEA自带的HttpClient记住登录的信息">
-      <option name="closed" value="true" />
-      <created>1769304645479</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1769304645479</updated>
+      <workItem from="1770495792766" duration="10363000" />
+      <workItem from="1770506230975" duration="321000" />
     </task>
     <task id="LOCAL-00063" summary="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器">
       <option name="closed" value="true" />
@@ -753,7 +764,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770499241123</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="添加工具类DbUtil，获取表中文名和表字段信息">
+      <option name="closed" value="true" />
+      <created>1770502576722</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1770502576722</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -785,7 +804,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="乘车人列表查询界面开发：引入表格组件（暂时录入的假数据）" />
     <MESSAGE value="引入表格组件（暂时录入的假数据）" />
     <MESSAGE value="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）" />
     <MESSAGE value="乘车人查询界面开发：增减表格分页点击事件" />
@@ -810,7 +828,8 @@
     <MESSAGE value="集成dom4j,读取generator-config-member.xml文件所在地址，读取table以及其包含表名tableName和实体名domainObjectName的节点" />
     <MESSAGE value="使用PassengerService制作生成模板service.ftl，生成service成功" />
     <MESSAGE value="使用PassengerController制作生成模板controller.ftl，生成controller成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用PassengerController制作生成模板controller.ftl，生成controller成功" />
+    <MESSAGE value="添加工具类DbUtil，获取表中文名和表字段信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加工具类DbUtil，获取表中文名和表字段信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

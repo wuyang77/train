@@ -12,7 +12,9 @@ import org.wuyang.generator.util.FreemarkerUtil;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ServerGenerator {
     static String pomPath = "generator/pom.xml";
@@ -62,6 +64,8 @@ public class ServerGenerator {
         String tableNameCn = DbUtil.getTableComment(tableName.getText());
         // 获取所有列的字段信息
         List<Field> fieldList = DbUtil.getColumnByTableName(tableName.getText());
+        // 获取字段的类型（去重）
+        Set<String> typeSet = getJavaTypes(fieldList);
 
         // 组装参数到map
         HashMap<String, Object> param = new HashMap<>();
@@ -69,19 +73,31 @@ public class ServerGenerator {
         param.put("Domain", Domain);
         param.put("domain", domain);
         param.put("do_main", do_main);
-        System.out.println("组装信息 " + param.entrySet());
-        gen(Domain, param, "service");
-        gen(Domain, param, "controller");
+        param.put("tableNameCn", tableNameCn);
+        param.put("fieldList", fieldList);
+        param.put("typeSet", typeSet);
+        System.out.println("组装参数 " + param.entrySet());
+
+        // 开始生成
+        gen(Domain, param, "service", "service");
+        gen(Domain, param, "controller", "controller");
+        gen(Domain, param, "req", "saveReq");
     }
 
-    private static void gen(String Domain, HashMap<String, Object> param, String target) throws IOException, TemplateException {
+    private static void gen(String Domain, HashMap<String, Object> param,String packageName, String target) throws IOException, TemplateException {
+
+
+
         FreemarkerUtil.initConfig(target + ".ftl");
-        String toPath = servicePath + target + "/";
-        System.out.println("文件所在路径： " + toPath);
+        String toPath = servicePath + packageName + "/";
         new File(toPath).mkdirs();
-        String Target = target.substring(0, 1).toUpperCase() + target.substring(1);
-        String filePathName = toPath + Domain + Target + ".java";
+        System.out.println("文件所在路径： " + toPath);
+
+        String className = target.substring(0, 1).toUpperCase() + target.substring(1);
+        String fileName = Domain + className + ".java";
+        String filePathName = toPath + fileName;
         System.out.println("生成文件的完整路径名： " + filePathName);
+
         FreemarkerUtil.generator(filePathName, param);
     }
 
@@ -94,4 +110,17 @@ public class ServerGenerator {
         Node node = document.selectSingleNode("//pom:configurationFile");
         return node.getText();
     }
+
+    /**
+     * 获取所有的Java类型，使用Set去重
+     */
+    private static Set<String> getJavaTypes(List<Field> fieldList) {
+        Set<String> set = new HashSet<>();
+        for (int i = 0; i < fieldList.size(); i++) {
+            Field field = fieldList.get(i);
+            set.add(field.getJavaType());
+        }
+        return set;
+    }
+
 }

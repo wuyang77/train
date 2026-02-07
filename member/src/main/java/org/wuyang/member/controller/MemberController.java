@@ -5,9 +5,9 @@ import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
 import org.wuyang.common.resp.CommonResp;
 import org.wuyang.common.resp.MemberLoginResp;
-import org.wuyang.member.resq.MemberLoginReq;
-import org.wuyang.member.resq.MemberRegisterReq;
-import org.wuyang.member.resq.MemberSendCodeReq;
+import org.wuyang.member.req.MemberLoginReq;
+import org.wuyang.member.req.MemberRegisterReq;
+import org.wuyang.member.req.MemberSendCodeReq;
 import org.wuyang.member.service.MemberService;
 
 @RestController
