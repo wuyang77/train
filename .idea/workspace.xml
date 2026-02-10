@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="添加工具类DbUtil，获取表中文名和表字段信息">
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/saveReq.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/QueryResp.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/queryReq.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/controller.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/controller.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/service.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/service.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.2026-01-14.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.2026-01-14.0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/MemberLoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberLoginReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/MemberRegisterReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberRegisterReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/MemberSendCodeReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberSendCodeReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/PassengerQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/controller/MemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/resq/MemberLoginReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/resq/MemberRegisterReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/resq/MemberSendCodeReq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/service/MemberService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerQueryReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,6 +365,9 @@
       <workItem from="1770326542080" duration="1807000" />
       <workItem from="1770495792766" duration="10363000" />
       <workItem from="1770506230975" duration="321000" />
+      <workItem from="1770599019134" duration="614000" />
+      <workItem from="1770693564244" duration="2558000" />
+      <workItem from="1770757548545" duration="4924000" />
     </task>
     <task id="LOCAL-00063" summary="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器">
       <option name="closed" value="true" />

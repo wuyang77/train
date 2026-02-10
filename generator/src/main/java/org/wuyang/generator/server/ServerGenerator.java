@@ -60,7 +60,7 @@ public class ServerGenerator {
         DbUtil.user = userId.getText();
         DbUtil.password = password.getText();
 
-        // 获取中文名
+        // 获取表注释中文名
         String tableNameCn = DbUtil.getTableComment(tableName.getText());
         // 获取所有列的字段信息
         List<Field> fieldList = DbUtil.getColumnByTableName(tableName.getText());
@@ -79,9 +79,11 @@ public class ServerGenerator {
         System.out.println("组装参数 " + param.entrySet());
 
         // 开始生成
-        gen(Domain, param, "service", "service");
-        gen(Domain, param, "controller", "controller");
-        gen(Domain, param, "req", "saveReq");
+//        gen(Domain, param, "service", "service");
+//        gen(Domain, param, "controller", "controller");
+//        gen(Domain, param, "req", "saveReq");
+//        gen(Domain, param, "resp", "QueryResp");
+        gen(Domain, param, "req", "QueryReq");
     }
 
     private static void gen(String Domain, HashMap<String, Object> param,String packageName, String target) throws IOException, TemplateException {
