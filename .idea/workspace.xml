@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="添加工具类DbUtil，获取表中文名和表字段信息">
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/QueryResp.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/queryReq.ftl" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="新增queryReq.ftl和queryResp.ftl模板">
+      <change afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/vue.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/main/member/passenger.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerSaveReq.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,15 +366,7 @@
       <workItem from="1770506230975" duration="321000" />
       <workItem from="1770599019134" duration="614000" />
       <workItem from="1770693564244" duration="2558000" />
-      <workItem from="1770757548545" duration="4924000" />
-    </task>
-    <task id="LOCAL-00063" summary="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器">
-      <option name="closed" value="true" />
-      <created>1769361073953</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1769361073953</updated>
+      <workItem from="1770757548545" duration="8741000" />
     </task>
     <task id="LOCAL-00064" summary="使用Threadlocal线程本地存储变量会员信息，新增LoginMemberContext。添加了日志拦截器和会员登录拦截器">
       <option name="closed" value="true" />
@@ -761,7 +752,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770502576722</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="新增queryReq.ftl和queryResp.ftl模板">
+      <option name="closed" value="true" />
+      <created>1770762613396</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1770762613397</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -793,7 +792,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="引入表格组件（暂时录入的假数据）" />
     <MESSAGE value="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）" />
     <MESSAGE value="乘车人查询界面开发：增减表格分页点击事件" />
     <MESSAGE value="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔" />
@@ -818,7 +816,8 @@
     <MESSAGE value="使用PassengerService制作生成模板service.ftl，生成service成功" />
     <MESSAGE value="使用PassengerController制作生成模板controller.ftl，生成controller成功" />
     <MESSAGE value="添加工具类DbUtil，获取表中文名和表字段信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加工具类DbUtil，获取表中文名和表字段信息" />
+    <MESSAGE value="新增queryReq.ftl和queryResp.ftl模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增queryReq.ftl和queryResp.ftl模板" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

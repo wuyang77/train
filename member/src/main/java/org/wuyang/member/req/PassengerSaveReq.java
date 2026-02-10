@@ -1,9 +1,9 @@
 package org.wuyang.member.req;
 
-import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
+
+import java.util.Date;
 
 public class PassengerSaveReq {
 
@@ -15,7 +15,7 @@ public class PassengerSaveReq {
     /**
      * 会员id
      */
-    @NotNull(message = "【会员id】不能为空")
+//    @NotNull(message = "【会员id】不能为空")
     private Long memberId;
 
     /**
