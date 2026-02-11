@@ -8,7 +8,6 @@ import org.dom4j.io.SAXReader;
 import org.wuyang.generator.util.DbUtil;
 import org.wuyang.generator.util.Field;
 import org.wuyang.generator.util.FreemarkerUtil;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -87,8 +86,7 @@ public class ServerGenerator {
 //        gen(Domain, param, "req", "saveReq");
 //        gen(Domain, param, "resp", "QueryResp");
 //        gen(Domain, param, "req", "QueryReq");
-
-        genVue(do_main, param);
+//        genVue(do_main, param);
     }
 
     private static void genVue(String do_main, HashMap<String, Object> param) throws IOException, TemplateException {
