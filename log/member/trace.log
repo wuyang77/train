@@ -908,3 +908,147 @@
 2026-02-11 07:59:27.984 INFO  org.wuyang.member.service.PassengerService        :62   [32m1770767967975u22  [0;39m 总页数：4
 2026-02-11 07:59:27.984 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1770767967975u22  [0;39m 返回结果: {"content":{"list":[{"createTime":1769646321070,"id":2016668953610424320,"idCard":"430966166510360532","memberId":2012077856087216128,"name":"司空正","type":"1","updateTime":1769646321070},{"createTime":1769434997000,"id":2016265783474262016,"idCard":"403699133651777876","memberId":2012077856087216128,"name":"Taylor Swift","type":"1","updateTime":1769654872110},{"createTime":1769492564000,"id":2016265643090907136,"idCard":"403699133651666667","memberId":2012077856087216128,"name":"凌俊杰","type":"1","updateTime":1769646484671}],"total":10},"success":true}
 2026-02-11 07:59:27.984 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1770767967975u22  [0;39m ------------- 结束 耗时：8 ms -------------
+2026-02-11 08:02:06.923 INFO  org.wuyang.common.interceptor.MemberInterceptor   :23   [32m1770768126923vuz  [0;39m MemberInterceptor开始
+2026-02-11 08:02:06.923 INFO  org.wuyang.common.interceptor.MemberInterceptor   :27   [32m1770768126923vuz  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzA3NjY5NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MDg1MzM3NSwiaWF0IjoxNzcwNzY2OTc1fQ.MRA4rSafz8euGVkg6I8d1BmHL4XCyH8_e3_Kx5AZyxE
+2026-02-11 08:02:06.924 INFO  org.wuyang.common.util.JwtUtil                    :66   [32m1770768126923vuz  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-02-11 08:02:06.924 INFO  org.wuyang.common.interceptor.MemberInterceptor   :29   [32m1770768126923vuz  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-02-11 08:02:06.924 INFO  org.wuyang.common.interceptor.MemberInterceptor   :33   [32m1770768126923vuz  [0;39m MemberInterceptor结束
+2026-02-11 08:02:06.925 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m1770768126923vuz  [0;39m ------------- 开始 -------------
+2026-02-11 08:02:06.925 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m1770768126923vuz  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-02-11 08:02:06.925 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m1770768126923vuz  [0;39m 类名方法: org.wuyang.member.controller.PassengerController.queryPassengerList
+2026-02-11 08:02:06.925 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m1770768126923vuz  [0;39m 远程地址: 127.0.0.1
+2026-02-11 08:02:06.925 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m1770768126923vuz  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-02-11 08:02:06.926 INFO  org.wuyang.member.service.PassengerService        :55   [32m1770768126923vuz  [0;39m 查询页码：1
+2026-02-11 08:02:06.926 INFO  org.wuyang.member.service.PassengerService        :56   [32m1770768126923vuz  [0;39m 每页条数：3
+2026-02-11 08:02:06.929 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770768126923vuz  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-02-11 08:02:06.929 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770768126923vuz  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-02-11 08:02:06.931 TRACE o.w.m.mapper.PassengerMapper.selectByExample_COUNT:143  [32m1770768126923vuz  [0;39m <==    Columns: count(0)
+2026-02-11 08:02:06.931 TRACE o.w.m.mapper.PassengerMapper.selectByExample_COUNT:143  [32m1770768126923vuz  [0;39m <==        Row: 10
+2026-02-11 08:02:06.931 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770768126923vuz  [0;39m <==      Total: 1
+2026-02-11 08:02:06.931 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770768126923vuz  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-02-11 08:02:06.932 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770768126923vuz  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-02-11 08:02:06.933 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770768126923vuz  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-02-11 08:02:06.933 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770768126923vuz  [0;39m <==        Row: 2016668953610424320, 2012077856087216128, 司空正, 430966166510360532, 1, 2026-01-29 08:25:21.070, 2026-01-29 08:25:21.070
+2026-02-11 08:02:06.933 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770768126923vuz  [0;39m <==        Row: 2016265783474262016, 2012077856087216128, Taylor Swift, 403699133651777876, 1, 2026-01-26 21:43:17, 2026-01-29 10:47:52.110
+2026-02-11 08:02:06.934 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770768126923vuz  [0;39m <==        Row: 2016265643090907136, 2012077856087216128, 凌俊杰, 403699133651666667, 1, 2026-01-27 13:42:44, 2026-01-29 08:28:04.671
+2026-02-11 08:02:06.934 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770768126923vuz  [0;39m <==      Total: 3
+2026-02-11 08:02:06.934 INFO  org.wuyang.member.service.PassengerService        :61   [32m1770768126923vuz  [0;39m 总行数：10
+2026-02-11 08:02:06.934 INFO  org.wuyang.member.service.PassengerService        :62   [32m1770768126923vuz  [0;39m 总页数：4
+2026-02-11 08:02:06.935 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1770768126923vuz  [0;39m 返回结果: {"content":{"list":[{"createTime":1769646321070,"id":2016668953610424320,"idCard":"430966166510360532","memberId":2012077856087216128,"name":"司空正","type":"1","updateTime":1769646321070},{"createTime":1769434997000,"id":2016265783474262016,"idCard":"403699133651777876","memberId":2012077856087216128,"name":"Taylor Swift","type":"1","updateTime":1769654872110},{"createTime":1769492564000,"id":2016265643090907136,"idCard":"403699133651666667","memberId":2012077856087216128,"name":"凌俊杰","type":"1","updateTime":1769646484671}],"total":10},"success":true}
+2026-02-11 08:02:06.935 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1770768126923vuz  [0;39m ------------- 结束 耗时：10 ms -------------
+2026-02-11 08:28:46.041 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m17707697260388sy  [0;39m ------------- 开始 -------------
+2026-02-11 08:28:46.041 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m17707697260388sy  [0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2026-02-11 08:28:46.041 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m17707697260388sy  [0;39m 类名方法: org.wuyang.member.controller.MemberController.sendCode
+2026-02-11 08:28:46.042 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m17707697260388sy  [0;39m 远程地址: 127.0.0.1
+2026-02-11 08:28:46.042 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m17707697260388sy  [0;39m 请求参数: [{"mobile":"17689401847"}]
+2026-02-11 08:28:46.044 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17707697260388sy  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-02-11 08:28:46.045 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17707697260388sy  [0;39m ==> Parameters: 17689401847(String)
+2026-02-11 08:28:46.047 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17707697260388sy  [0;39m <==    Columns: id, mobile
+2026-02-11 08:28:46.047 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17707697260388sy  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-02-11 08:28:46.048 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17707697260388sy  [0;39m <==      Total: 1
+2026-02-11 08:28:46.048 INFO  org.wuyang.member.service.MemberService           :61   [32m17707697260388sy  [0;39m 手机号存在，不插入记录
+2026-02-11 08:28:46.048 INFO  org.wuyang.member.service.MemberService           :67   [32m17707697260388sy  [0;39m 生成短信验证码：8888
+2026-02-11 08:28:46.048 INFO  org.wuyang.member.service.MemberService           :69   [32m17707697260388sy  [0;39m 保存短信记录表
+2026-02-11 08:28:46.048 INFO  org.wuyang.member.service.MemberService           :71   [32m17707697260388sy  [0;39m 对接短信通道
+2026-02-11 08:28:46.049 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m17707697260388sy  [0;39m 返回结果: {"success":true}
+2026-02-11 08:28:46.049 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m17707697260388sy  [0;39m ------------- 结束 耗时：8 ms -------------
+2026-02-11 08:28:46.420 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m17707697264134ln  [0;39m ------------- 开始 -------------
+2026-02-11 08:28:46.421 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m17707697264134ln  [0;39m 请求地址: http://127.0.0.1:8001/member/member/login POST
+2026-02-11 08:28:46.421 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m17707697264134ln  [0;39m 类名方法: org.wuyang.member.controller.MemberController.login
+2026-02-11 08:28:46.421 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m17707697264134ln  [0;39m 远程地址: 127.0.0.1
+2026-02-11 08:28:46.421 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m17707697264134ln  [0;39m 请求参数: [{"code":"8888","mobile":"17689401847"}]
+2026-02-11 08:28:46.422 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17707697264134ln  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2026-02-11 08:28:46.422 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17707697264134ln  [0;39m ==> Parameters: 17689401847(String)
+2026-02-11 08:28:46.423 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17707697264134ln  [0;39m <==    Columns: id, mobile
+2026-02-11 08:28:46.423 TRACE o.w.member.mapper.MemberMapper.selectByExample    :143  [32m17707697264134ln  [0;39m <==        Row: 2012077856087216128, 17689401847
+2026-02-11 08:28:46.423 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17707697264134ln  [0;39m <==      Total: 1
+2026-02-11 08:28:46.425 INFO  org.wuyang.common.util.JwtUtil                    :25   [32m17707697264134ln  [0;39m 开始生成JWT token，id：2012077856087216128，mobile：17689401847
+2026-02-11 08:28:46.426 INFO  org.wuyang.common.util.JwtUtil                    :40   [32m17707697264134ln  [0;39m 生成JWT token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzA3Njk3MjYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MDg1NjEyNiwiaWF0IjoxNzcwNzY5NzI2fQ.pgsUqdVq71rl2QhEu7ryeK3JpjvN9mnHrtyBb-6aXwQ
+2026-02-11 08:28:46.426 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m17707697264134ln  [0;39m 返回结果: {"content":{"id":2012077856087216128,"mobile":"17689401847","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzA3Njk3MjYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MDg1NjEyNiwiaWF0IjoxNzcwNzY5NzI2fQ.pgsUqdVq71rl2QhEu7ryeK3JpjvN9mnHrtyBb-6aXwQ"},"success":true}
+2026-02-11 08:28:46.426 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m17707697264134ln  [0;39m ------------- 结束 耗时：6 ms -------------
+2026-02-11 08:28:47.550 INFO  org.wuyang.common.interceptor.MemberInterceptor   :23   [32m1770769727549fbc  [0;39m MemberInterceptor开始
+2026-02-11 08:28:47.550 INFO  org.wuyang.common.interceptor.MemberInterceptor   :27   [32m1770769727549fbc  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzA3Njk3MjYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MDg1NjEyNiwiaWF0IjoxNzcwNzY5NzI2fQ.pgsUqdVq71rl2QhEu7ryeK3JpjvN9mnHrtyBb-6aXwQ
+2026-02-11 08:28:47.550 INFO  org.wuyang.common.util.JwtUtil                    :66   [32m1770769727549fbc  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-02-11 08:28:47.550 INFO  org.wuyang.common.interceptor.MemberInterceptor   :29   [32m1770769727549fbc  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-02-11 08:28:47.551 INFO  org.wuyang.common.interceptor.MemberInterceptor   :33   [32m1770769727549fbc  [0;39m MemberInterceptor结束
+2026-02-11 08:28:47.559 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m1770769727549fbc  [0;39m ------------- 开始 -------------
+2026-02-11 08:28:47.559 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m1770769727549fbc  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-02-11 08:28:47.559 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m1770769727549fbc  [0;39m 类名方法: org.wuyang.member.controller.PassengerController.queryPassengerList
+2026-02-11 08:28:47.559 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m1770769727549fbc  [0;39m 远程地址: 127.0.0.1
+2026-02-11 08:28:47.560 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m1770769727549fbc  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-02-11 08:28:47.560 INFO  org.wuyang.member.service.PassengerService        :55   [32m1770769727549fbc  [0;39m 查询页码：1
+2026-02-11 08:28:47.560 INFO  org.wuyang.member.service.PassengerService        :56   [32m1770769727549fbc  [0;39m 每页条数：3
+2026-02-11 08:28:47.563 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770769727549fbc  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-02-11 08:28:47.563 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770769727549fbc  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-02-11 08:28:47.565 TRACE o.w.m.mapper.PassengerMapper.selectByExample_COUNT:143  [32m1770769727549fbc  [0;39m <==    Columns: count(0)
+2026-02-11 08:28:47.565 TRACE o.w.m.mapper.PassengerMapper.selectByExample_COUNT:143  [32m1770769727549fbc  [0;39m <==        Row: 10
+2026-02-11 08:28:47.565 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770769727549fbc  [0;39m <==      Total: 1
+2026-02-11 08:28:47.566 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770769727549fbc  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-02-11 08:28:47.566 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770769727549fbc  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-02-11 08:28:47.567 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770769727549fbc  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-02-11 08:28:47.568 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770769727549fbc  [0;39m <==        Row: 2016668953610424320, 2012077856087216128, 司空正, 430966166510360532, 1, 2026-01-29 08:25:21.070, 2026-01-29 08:25:21.070
+2026-02-11 08:28:47.568 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770769727549fbc  [0;39m <==        Row: 2016265783474262016, 2012077856087216128, Taylor Swift, 403699133651777876, 1, 2026-01-26 21:43:17, 2026-01-29 10:47:52.110
+2026-02-11 08:28:47.568 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770769727549fbc  [0;39m <==        Row: 2016265643090907136, 2012077856087216128, 凌俊杰, 403699133651666667, 1, 2026-01-27 13:42:44, 2026-01-29 08:28:04.671
+2026-02-11 08:28:47.569 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770769727549fbc  [0;39m <==      Total: 3
+2026-02-11 08:28:47.569 INFO  org.wuyang.member.service.PassengerService        :61   [32m1770769727549fbc  [0;39m 总行数：10
+2026-02-11 08:28:47.569 INFO  org.wuyang.member.service.PassengerService        :62   [32m1770769727549fbc  [0;39m 总页数：4
+2026-02-11 08:28:47.570 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1770769727549fbc  [0;39m 返回结果: {"content":{"list":[{"createTime":1769646321070,"id":2016668953610424320,"idCard":"430966166510360532","memberId":2012077856087216128,"name":"司空正","type":"1","updateTime":1769646321070},{"createTime":1769434997000,"id":2016265783474262016,"idCard":"403699133651777876","memberId":2012077856087216128,"name":"Taylor Swift","type":"1","updateTime":1769654872110},{"createTime":1769492564000,"id":2016265643090907136,"idCard":"403699133651666667","memberId":2012077856087216128,"name":"凌俊杰","type":"1","updateTime":1769646484671}],"total":10},"success":true}
+2026-02-11 08:28:47.570 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1770769727549fbc  [0;39m ------------- 结束 耗时：11 ms -------------
+2026-02-11 08:28:50.129 INFO  org.wuyang.common.interceptor.MemberInterceptor   :23   [32m1770769730129fba  [0;39m MemberInterceptor开始
+2026-02-11 08:28:50.129 INFO  org.wuyang.common.interceptor.MemberInterceptor   :27   [32m1770769730129fba  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzA3Njk3MjYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MDg1NjEyNiwiaWF0IjoxNzcwNzY5NzI2fQ.pgsUqdVq71rl2QhEu7ryeK3JpjvN9mnHrtyBb-6aXwQ
+2026-02-11 08:28:50.129 INFO  org.wuyang.common.util.JwtUtil                    :66   [32m1770769730129fba  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-02-11 08:28:50.129 INFO  org.wuyang.common.interceptor.MemberInterceptor   :29   [32m1770769730129fba  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-02-11 08:28:50.130 INFO  org.wuyang.common.interceptor.MemberInterceptor   :33   [32m1770769730129fba  [0;39m MemberInterceptor结束
+2026-02-11 08:28:50.131 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m1770769730129fba  [0;39m ------------- 开始 -------------
+2026-02-11 08:28:50.131 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m1770769730129fba  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-02-11 08:28:50.131 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m1770769730129fba  [0;39m 类名方法: org.wuyang.member.controller.PassengerController.queryPassengerList
+2026-02-11 08:28:50.132 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m1770769730129fba  [0;39m 远程地址: 127.0.0.1
+2026-02-11 08:28:50.132 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m1770769730129fba  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-02-11 08:28:50.132 INFO  org.wuyang.member.service.PassengerService        :55   [32m1770769730129fba  [0;39m 查询页码：1
+2026-02-11 08:28:50.132 INFO  org.wuyang.member.service.PassengerService        :56   [32m1770769730129fba  [0;39m 每页条数：3
+2026-02-11 08:28:50.136 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770769730129fba  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-02-11 08:28:50.137 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770769730129fba  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-02-11 08:28:50.138 TRACE o.w.m.mapper.PassengerMapper.selectByExample_COUNT:143  [32m1770769730129fba  [0;39m <==    Columns: count(0)
+2026-02-11 08:28:50.138 TRACE o.w.m.mapper.PassengerMapper.selectByExample_COUNT:143  [32m1770769730129fba  [0;39m <==        Row: 10
+2026-02-11 08:28:50.138 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770769730129fba  [0;39m <==      Total: 1
+2026-02-11 08:28:50.138 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770769730129fba  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-02-11 08:28:50.139 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770769730129fba  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-02-11 08:28:50.140 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770769730129fba  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-02-11 08:28:50.140 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770769730129fba  [0;39m <==        Row: 2016668953610424320, 2012077856087216128, 司空正, 430966166510360532, 1, 2026-01-29 08:25:21.070, 2026-01-29 08:25:21.070
+2026-02-11 08:28:50.141 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770769730129fba  [0;39m <==        Row: 2016265783474262016, 2012077856087216128, Taylor Swift, 403699133651777876, 1, 2026-01-26 21:43:17, 2026-01-29 10:47:52.110
+2026-02-11 08:28:50.141 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770769730129fba  [0;39m <==        Row: 2016265643090907136, 2012077856087216128, 凌俊杰, 403699133651666667, 1, 2026-01-27 13:42:44, 2026-01-29 08:28:04.671
+2026-02-11 08:28:50.141 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770769730129fba  [0;39m <==      Total: 3
+2026-02-11 08:28:50.141 INFO  org.wuyang.member.service.PassengerService        :61   [32m1770769730129fba  [0;39m 总行数：10
+2026-02-11 08:28:50.141 INFO  org.wuyang.member.service.PassengerService        :62   [32m1770769730129fba  [0;39m 总页数：4
+2026-02-11 08:28:50.142 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1770769730129fba  [0;39m 返回结果: {"content":{"list":[{"createTime":1769646321070,"id":2016668953610424320,"idCard":"430966166510360532","memberId":2012077856087216128,"name":"司空正","type":"1","updateTime":1769646321070},{"createTime":1769434997000,"id":2016265783474262016,"idCard":"403699133651777876","memberId":2012077856087216128,"name":"Taylor Swift","type":"1","updateTime":1769654872110},{"createTime":1769492564000,"id":2016265643090907136,"idCard":"403699133651666667","memberId":2012077856087216128,"name":"凌俊杰","type":"1","updateTime":1769646484671}],"total":10},"success":true}
+2026-02-11 08:28:50.142 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1770769730129fba  [0;39m ------------- 结束 耗时：11 ms -------------
+2026-02-11 08:40:40.619 INFO  org.wuyang.common.interceptor.MemberInterceptor   :23   [32m1770770440619zv6  [0;39m MemberInterceptor开始
+2026-02-11 08:40:40.619 INFO  org.wuyang.common.interceptor.MemberInterceptor   :27   [32m1770770440619zv6  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzA3NjY5NzUsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MDg1MzM3NSwiaWF0IjoxNzcwNzY2OTc1fQ.MRA4rSafz8euGVkg6I8d1BmHL4XCyH8_e3_Kx5AZyxE
+2026-02-11 08:40:40.619 INFO  org.wuyang.common.util.JwtUtil                    :66   [32m1770770440619zv6  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-02-11 08:40:40.620 INFO  org.wuyang.common.interceptor.MemberInterceptor   :29   [32m1770770440619zv6  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-02-11 08:40:40.620 INFO  org.wuyang.common.interceptor.MemberInterceptor   :33   [32m1770770440619zv6  [0;39m MemberInterceptor结束
+2026-02-11 08:40:40.620 INFO  org.wuyang.common.aspect.LogAspect                :48   [32m1770770440619zv6  [0;39m ------------- 开始 -------------
+2026-02-11 08:40:40.621 INFO  org.wuyang.common.aspect.LogAspect                :49   [32m1770770440619zv6  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-02-11 08:40:40.621 INFO  org.wuyang.common.aspect.LogAspect                :50   [32m1770770440619zv6  [0;39m 类名方法: org.wuyang.member.controller.PassengerController.queryPassengerList
+2026-02-11 08:40:40.621 INFO  org.wuyang.common.aspect.LogAspect                :51   [32m1770770440619zv6  [0;39m 远程地址: 127.0.0.1
+2026-02-11 08:40:40.621 INFO  org.wuyang.common.aspect.LogAspect                :72   [32m1770770440619zv6  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-02-11 08:40:40.624 INFO  org.wuyang.member.service.PassengerService        :55   [32m1770770440619zv6  [0;39m 查询页码：1
+2026-02-11 08:40:40.625 INFO  org.wuyang.member.service.PassengerService        :56   [32m1770770440619zv6  [0;39m 每页条数：3
+2026-02-11 08:40:40.628 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770770440619zv6  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-02-11 08:40:40.628 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770770440619zv6  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-02-11 08:40:40.629 TRACE o.w.m.mapper.PassengerMapper.selectByExample_COUNT:143  [32m1770770440619zv6  [0;39m <==    Columns: count(0)
+2026-02-11 08:40:40.630 TRACE o.w.m.mapper.PassengerMapper.selectByExample_COUNT:143  [32m1770770440619zv6  [0;39m <==        Row: 10
+2026-02-11 08:40:40.630 DEBUG o.w.m.mapper.PassengerMapper.selectByExample_COUNT:137  [32m1770770440619zv6  [0;39m <==      Total: 1
+2026-02-11 08:40:40.631 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770770440619zv6  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-02-11 08:40:40.631 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770770440619zv6  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-02-11 08:40:40.632 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770770440619zv6  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-02-11 08:40:40.633 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770770440619zv6  [0;39m <==        Row: 2016668953610424320, 2012077856087216128, 司空正, 430966166510360532, 1, 2026-01-29 08:25:21.070, 2026-01-29 08:25:21.070
+2026-02-11 08:40:40.633 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770770440619zv6  [0;39m <==        Row: 2016265783474262016, 2012077856087216128, Taylor Swift, 403699133651777876, 1, 2026-01-26 21:43:17, 2026-01-29 10:47:52.110
+2026-02-11 08:40:40.633 TRACE o.w.member.mapper.PassengerMapper.selectByExample :143  [32m1770770440619zv6  [0;39m <==        Row: 2016265643090907136, 2012077856087216128, 凌俊杰, 403699133651666667, 1, 2026-01-27 13:42:44, 2026-01-29 08:28:04.671
+2026-02-11 08:40:40.634 DEBUG o.w.member.mapper.PassengerMapper.selectByExample :137  [32m1770770440619zv6  [0;39m <==      Total: 3
+2026-02-11 08:40:40.634 INFO  org.wuyang.member.service.PassengerService        :61   [32m1770770440619zv6  [0;39m 总行数：10
+2026-02-11 08:40:40.634 INFO  org.wuyang.member.service.PassengerService        :62   [32m1770770440619zv6  [0;39m 总页数：4
+2026-02-11 08:40:40.634 INFO  org.wuyang.common.aspect.LogAspect                :84   [32m1770770440619zv6  [0;39m 返回结果: {"content":{"list":[{"createTime":1769646321070,"id":2016668953610424320,"idCard":"430966166510360532","memberId":2012077856087216128,"name":"司空正","type":"1","updateTime":1769646321070},{"createTime":1769434997000,"id":2016265783474262016,"idCard":"403699133651777876","memberId":2012077856087216128,"name":"Taylor Swift","type":"1","updateTime":1769654872110},{"createTime":1769492564000,"id":2016265643090907136,"idCard":"403699133651666667","memberId":2012077856087216128,"name":"凌俊杰","type":"1","updateTime":1769646484671}],"total":10},"success":true}
+2026-02-11 08:40:40.634 INFO  org.wuyang.common.aspect.LogAspect                :85   [32m1770770440619zv6  [0;39m ------------- 结束 耗时：14 ms -------------
+2026-02-11 08:48:14.555 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-02-11 08:48:14.558 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

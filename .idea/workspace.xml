@@ -4,33 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="新增EnumGenerator，实现自动enums.js枚举生成；js种value改为了desc与枚举类保持一致">
-      <change afterPath="$PROJECT_DIR$/admin/.env.dev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.env.prod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/js/session-storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/public/js/tool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/assets/js/enums.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/components/the-header.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/views/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/views/main.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/views/main/passenger.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/views/main/welcome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/vue.config.js" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="创建admin模块，所以的代码都是从web模块而来">
+      <change afterPath="$PROJECT_DIR$/admin/src/views/main/about.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/the-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/passenger.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/the-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/main.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +139,7 @@
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/23889/Desktop/train/admin&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/23889/Desktop/train/admin/src/views&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -160,13 +148,14 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.serve (1).executor&quot;: &quot;Run&quot;,
     &quot;npm.serve.executor&quot;: &quot;Run&quot;,
+    &quot;npm.serve9001.executor&quot;: &quot;Run&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -189,13 +178,14 @@
       <recent name="org.wuyang.member.resq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\admin\src\views" />
       <recent name="D:\Users\23889\Desktop\train\admin" />
       <recent name="D:\Users\23889\Desktop\train\generator\src\main\java\org\wuyang\generator\ftl" />
       <recent name="D:\Users\23889\Desktop\train\generator\src\main\resources" />
       <recent name="D:\Users\23889\Desktop\train\web\public\js" />
-      <recent name="D:\Users\23889\Desktop\train\common\src\main\java\org\wuyang\common\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\admin\src\views\main" />
       <recent name="D:\Users\23889\Desktop\train" />
       <recent name="D:\Users\23889\Desktop\train\web\src\components" />
       <recent name="D:\Users\23889\Desktop\train\web\src\views" />
@@ -224,22 +214,16 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
+              <entry key="GatewayApplication" value="STOPPED" />
               <entry key="MemberApplication" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-        <entry key="js.build_tools.npm">
-          <value>
-            <map>
-              <entry key="serve" value="STOPPED" />
             </map>
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="npm.serve (1)">
-    <configuration name="EnumGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.serve9001">
+    <configuration name="EnumGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.EnumGenerator" />
       <module name="generator" />
       <extension name="coverage">
@@ -323,17 +307,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="serve (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/admin/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="serve" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="serve9000" type="js.build_tools.npm" temporary="true">
       <package-json value="$PROJECT_DIR$/web/package.json" />
       <command value="run" />
       <scripts>
@@ -341,22 +315,36 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration name="serve9001" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/admin/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.EnumGenerator" />
       <item itemvalue="Application.ServerGenerator" />
       <item itemvalue="Maven.mybatis-generator" />
-      <item itemvalue="npm.serve" />
-      <item itemvalue="npm.serve (1)" />
+      <item itemvalue="npm.serve9001" />
+      <item itemvalue="npm.serve9000" />
       <item itemvalue="Spring Boot.MemberApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.serve (1)" />
-        <item itemvalue="npm.serve" />
-        <item itemvalue="Application.EnumGenerator" />
+        <item itemvalue="npm.serve9000" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Application.ServerGenerator" />
       </list>
@@ -421,15 +409,8 @@
       <workItem from="1770506230975" duration="321000" />
       <workItem from="1770599019134" duration="614000" />
       <workItem from="1770693564244" duration="2558000" />
-      <workItem from="1770757548545" duration="11878000" />
-    </task>
-    <task id="LOCAL-00067" summary="修改菜单实现页面切换">
-      <option name="closed" value="true" />
-      <created>1769363401470</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1769363401470</updated>
+      <workItem from="1770757548545" duration="13051000" />
+      <workItem from="1770770907968" duration="1001000" />
     </task>
     <task id="LOCAL-00068" summary="实现菜单同步激活">
       <option name="closed" value="true" />
@@ -815,7 +796,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770768103910</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="创建admin模块，所以的代码都是从web模块而来">
+      <option name="closed" value="true" />
+      <created>1770769797593</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1770769797593</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -847,7 +836,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔" />
     <MESSAGE value="乘车人查询界面开发：增加loading加载效果" />
     <MESSAGE value="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码" />
     <MESSAGE value="解决前后端交互Long类型精度丢失的问题" />
@@ -872,7 +860,8 @@
     <MESSAGE value="新增queryReq.ftl和queryResp.ftl模板" />
     <MESSAGE value="添加了vue.ftl，并将vue网页端给git管理" />
     <MESSAGE value="新增EnumGenerator，实现自动enums.js枚举生成；js种value改为了desc与枚举类保持一致" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增EnumGenerator，实现自动enums.js枚举生成；js种value改为了desc与枚举类保持一致" />
+    <MESSAGE value="创建admin模块，所以的代码都是从web模块而来" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建admin模块，所以的代码都是从web模块而来" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
