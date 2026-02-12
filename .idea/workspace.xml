@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="新增车次管理，表名train">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="新增火车车站管理，表面train-station,生成持久层以及前后端代码">
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/enums/SeatColEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/enums/SeatTypeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/js/enums.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/js/enums.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/EnumGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/EnumGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +300,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServerGenerator">
+  <component name="RunManager" selected="Application.EnumGenerator">
     <configuration name="EnumGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.EnumGenerator" />
       <module name="generator" />
@@ -502,15 +507,7 @@
       <workItem from="1770757548545" duration="13051000" />
       <workItem from="1770770907968" duration="5172000" />
       <workItem from="1770780495159" duration="4116000" />
-      <workItem from="1770861521861" duration="14921000" />
-    </task>
-    <task id="LOCAL-00073" summary="乘车人界面开发：新增乘车人列表查询接口，只能查看当前会员自己添加的乘客">
-      <option name="closed" value="true" />
-      <created>1769529770961</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1769529770961</updated>
+      <workItem from="1770861521861" duration="21973000" />
     </task>
     <task id="LOCAL-00074" summary="集成PageHelper，实现SQL分页功能">
       <option name="closed" value="true" />
@@ -896,7 +893,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770881604634</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="新增火车车站管理，表面train-station,生成持久层以及前后端代码">
+      <option name="closed" value="true" />
+      <created>1770883496622</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1770883496622</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -928,7 +933,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="后端增减一行逻辑id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);" />
     <MESSAGE value="趁车人编辑接口开发：新增接口改为新增和修改一体化接口" />
     <MESSAGE value="趁车人编辑接口开发：reactive统一改为ref和.value的形式" />
     <MESSAGE value="趁车人编辑接口开发：添加操作列，每一列都可以对该行数据进行编辑" />
@@ -953,7 +957,8 @@
     <MESSAGE value="admin去掉登录叶敏，去掉全局变量member和登录相关的拦截，去掉乘车人页面，去掉没用的HelloWorld组件，修改logo区域和logo样式" />
     <MESSAGE value="修改生成器修改相关的代码，后端生成了station的持久层以及controller和service层。前端生成了station.vue" />
     <MESSAGE value="新增车次管理，表名train" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增车次管理，表名train" />
+    <MESSAGE value="新增火车车站管理，表面train-station,生成持久层以及前后端代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增火车车站管理，表面train-station,生成持久层以及前后端代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

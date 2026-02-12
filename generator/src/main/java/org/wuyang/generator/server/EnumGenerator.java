@@ -2,6 +2,8 @@ package org.wuyang.generator.server;
 
 
 import cn.hutool.core.util.StrUtil;
+import org.wuyang.business.enums.SeatColEnum;
+import org.wuyang.business.enums.SeatTypeEnum;
 import org.wuyang.business.enums.TrainTypeEnum;
 import org.wuyang.member.enums.PassengerTypeEnum;
 
@@ -25,6 +27,8 @@ public class EnumGenerator {
         try {
             toJson(PassengerTypeEnum.class, bufferObject, bufferArray);
             toJson(TrainTypeEnum.class, bufferObject, bufferArray);
+            toJson(SeatTypeEnum.class, bufferObject, bufferArray);
+            toJson(SeatColEnum.class, bufferObject, bufferArray);
 
             StringBuffer buffer = bufferObject.append("\r\n").append(bufferArray);
             writeJs(buffer);

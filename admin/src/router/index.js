@@ -1,6 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import {notification} from "ant-design-vue";
-import store from "@/store";
 
 const routes = [
   {
@@ -29,6 +27,12 @@ const routes = [
     },{
       path: 'train-station',
       component: () => import('../views/main/train-station.vue')
+    },{
+      path: "train-carriage",
+      component: () => import('../views/main/train-carriage.vue')
+    },{
+      path: "train-seat",
+      component: () => import('../views/main/train-seat.vue')
     }]
   },
 
