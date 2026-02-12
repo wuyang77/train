@@ -1,46 +1,38 @@
-2026-01-28 03:28:14.343 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'routeRefreshListener': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
-	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:264)
-	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:221)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:413)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:370)
-	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:92)
-	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:78)
-	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:110)
-	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
-	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
-	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
-	at org.wuyang.gateway.config.GatewayApplication.main(GatewayApplication.java:18)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-2026-01-28 04:29:32.843 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [72ab66c8-16]  500 Server Error for HTTP POST "/member/member/send-code"
-io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/member/member/send-code" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
+2026-02-11 11:01:45.082 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target [Bindable@41995027 type = java.util.List<org.springframework.cloud.gateway.handler.predicate.PredicateDefinition>, value = 'provided', annotations = array<Annotation>[@jakarta.validation.constraints.NotEmpty(message="{jakarta.validation.constraints.NotEmpty.message}", payload={}, groups={}), @jakarta.validation.Valid()]] failed:
+
+    Property: spring.cloud.gateway.routes[1].predicates[1]
+    Value: "Path=/business/**"
+    Origin: class path resource [application.properties] - 10:46
+    Reason: The elements [spring.cloud.gateway.routes[1].predicates[1]] were left unbound.
+
+Action:
+
+Update your application's configuration
+
+2026-02-11 11:03:01.820 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target [Bindable@517ded2d type = java.util.List<org.springframework.cloud.gateway.handler.predicate.PredicateDefinition>, value = 'provided', annotations = array<Annotation>[@jakarta.validation.constraints.NotEmpty(message="{jakarta.validation.constraints.NotEmpty.message}", payload={}, groups={}), @jakarta.validation.Valid()]] failed:
+
+    Property: spring.cloud.gateway.routes[1].predicates[1]
+    Value: "Path=/business/**"
+    Origin: class path resource [application.properties] - 9:46
+    Reason: The elements [spring.cloud.gateway.routes[1].predicates[1]] were left unbound.
+
+Action:
+
+Update your application's configuration
+

@@ -1,4 +1,4 @@
-package org.wuyang.member.service;
+package org.wuyang.${module}.service;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;

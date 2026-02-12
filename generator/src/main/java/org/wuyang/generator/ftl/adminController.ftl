@@ -1,4 +1,4 @@
-package org.wuyang.member.controller;
+package org.wuyang.${module}.controller.admin;
 
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.*;
 import org.wuyang.common.context.LoginMemberContext;
 import org.wuyang.common.resp.CommonResp;
 import org.wuyang.common.resp.PageResp;
-import org.wuyang.member.resp.${Domain}QueryResp;
-import org.wuyang.member.req.${Domain}QueryReq;
-import org.wuyang.member.req.${Domain}SaveReq;
-import org.wuyang.member.service.${Domain}Service;
+import org.wuyang.${module}.resp.${Domain}QueryResp;
+import org.wuyang.${module}.req.${Domain}QueryReq;
+import org.wuyang.${module}.req.${Domain}SaveReq;
+import org.wuyang.${module}.service.${Domain}Service;
 
 @RestController
-@RequestMapping("/${do_main}")
-public class ${Domain}Controller {
+@RequestMapping("/admin/${do_main}")
+public class ${Domain}AdminController {
 
     @Resource
     private ${Domain}Service ${domain}Service;

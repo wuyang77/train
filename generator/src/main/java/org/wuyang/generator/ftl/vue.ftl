@@ -131,8 +131,8 @@
           if (data.success) {
             notification.success({description: "删除成功！"});
             handleQuery({
-              page: pagination.value.current,
-              size: pagination.value.pageSize,
+              pageNum: pagination.value.current,
+              pageSize: pagination.value.pageSize,
             });
           } else {
             notification.error({description: data.message});
@@ -147,8 +147,8 @@
             notification.success({description: "保存成功！"});
             visible.value = false;
             handleQuery({
-              page: pagination.value.current,
-              size: pagination.value.pageSize
+              pageNum: pagination.value.current,
+              pageSize: pagination.value.pageSize
             });
           } else {
             notification.error({description: data.message});
@@ -160,15 +160,15 @@
       const handleQuery = (param) => {
         if (!param) {
           param = {
-            page: 1,
-            size: pagination.value.pageSize
+            pageNum: 1,
+            pageSize: pagination.value.pageSize
           };
         }
         loading.value = true;
         axios.get("/${module}/admin/${do_main}/query-list", {
           params: {
-            page: param.page,
-            size: param.size
+            pageNum: param.pageNum,
+            pageSize: param.pageSize
           }
         }).then((response) => {
           loading.value = false;
@@ -176,7 +176,7 @@
           if (data.success) {
             ${domain}s.value = data.content.list;
             // 设置分页控件的值
-            pagination.value.current = param.page;
+            pagination.value.current = param.pageNum;
             pagination.value.total = data.content.total;
           } else {
             notification.error({description: data.message});
@@ -188,15 +188,15 @@
         // console.log("看看自带的分页参数都有啥：" + JSON.stringify(page));
         pagination.value.pageSize = page.pageSize;
         handleQuery({
-          page: page.current,
-          size: page.pageSize
+          pageNum: page.current,
+          pageSize: page.pageSize
         });
       };
 
       onMounted(() => {
         handleQuery({
-          page: 1,
-          size: pagination.value.pageSize
+          pageNum: 1,
+          pageSize: pagination.value.pageSize
         });
       });
 
