@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="新增火车车站管理，表面train-station,生成持久层以及前后端代码">
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/enums/SeatColEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/enums/SeatTypeEnum.java" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/assets/js/enums.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/js/enums.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/EnumGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/EnumGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/station.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -507,15 +502,7 @@
       <workItem from="1770757548545" duration="13051000" />
       <workItem from="1770770907968" duration="5172000" />
       <workItem from="1770780495159" duration="4116000" />
-      <workItem from="1770861521861" duration="21973000" />
-    </task>
-    <task id="LOCAL-00074" summary="集成PageHelper，实现SQL分页功能">
-      <option name="closed" value="true" />
-      <created>1769535038312</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1769535038312</updated>
+      <workItem from="1770861521861" duration="25872000" />
     </task>
     <task id="LOCAL-00075" summary="集成PageHelper，实现SQL分页功能">
       <option name="closed" value="true" />
@@ -901,7 +888,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770883496622</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码">
+      <option name="closed" value="true" />
+      <created>1770891717777</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1770891717777</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -933,7 +928,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="趁车人编辑接口开发：新增接口改为新增和修改一体化接口" />
     <MESSAGE value="趁车人编辑接口开发：reactive统一改为ref和.value的形式" />
     <MESSAGE value="趁车人编辑接口开发：添加操作列，每一列都可以对该行数据进行编辑" />
     <MESSAGE value="趁车人编辑接口开发：修复不能读取current属性的bug,前端点击新页码跳转错误解决" />
@@ -958,7 +952,8 @@
     <MESSAGE value="修改生成器修改相关的代码，后端生成了station的持久层以及controller和service层。前端生成了station.vue" />
     <MESSAGE value="新增车次管理，表名train" />
     <MESSAGE value="新增火车车站管理，表面train-station,生成持久层以及前后端代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增火车车站管理，表面train-station,生成持久层以及前后端代码" />
+    <MESSAGE value="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
