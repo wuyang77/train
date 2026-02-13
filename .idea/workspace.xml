@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用pinyin-pro将汉字转成拼音">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/station.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -502,15 +501,7 @@
       <workItem from="1770757548545" duration="13051000" />
       <workItem from="1770770907968" duration="5172000" />
       <workItem from="1770780495159" duration="4116000" />
-      <workItem from="1770861521861" duration="25872000" />
-    </task>
-    <task id="LOCAL-00075" summary="集成PageHelper，实现SQL分页功能">
-      <option name="closed" value="true" />
-      <created>1769535041631</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1769535041631</updated>
+      <workItem from="1770861521861" duration="30280000" />
     </task>
     <task id="LOCAL-00076" summary="分装分页请求参数">
       <option name="closed" value="true" />
@@ -896,7 +887,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770891717777</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="使用pinyin-pro将汉字转成拼音">
+      <option name="closed" value="true" />
+      <created>1770902397735</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1770902397736</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -928,7 +927,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="趁车人编辑接口开发：reactive统一改为ref和.value的形式" />
     <MESSAGE value="趁车人编辑接口开发：添加操作列，每一列都可以对该行数据进行编辑" />
     <MESSAGE value="趁车人编辑接口开发：修复不能读取current属性的bug,前端点击新页码跳转错误解决" />
     <MESSAGE value="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）" />
@@ -953,7 +951,8 @@
     <MESSAGE value="新增车次管理，表名train" />
     <MESSAGE value="新增火车车站管理，表面train-station,生成持久层以及前后端代码" />
     <MESSAGE value="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码" />
+    <MESSAGE value="使用pinyin-pro将汉字转成拼音" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用pinyin-pro将汉字转成拼音" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

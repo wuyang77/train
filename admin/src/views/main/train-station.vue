@@ -56,9 +56,10 @@
 </template>
 
 <script>
-  import { defineComponent, ref, onMounted } from 'vue';
+import {defineComponent, ref, onMounted, watch} from 'vue';
   import {notification} from "ant-design-vue";
   import axios from "axios";
+import {pinyin} from "pinyin-pro";
 
   export default defineComponent({
     name: "train-station-view",
@@ -131,6 +132,15 @@
           dataIndex: 'operation'
         }
       ];
+
+      // http://pinyin-pro.cn/
+      watch(() => trainStation.value.name, () => {
+        if (Tool.isNotEmpty(trainStation.value.name)) {
+          trainStation.value.namePinyin = pinyin(trainStation.value.name, {toneType: 'none'}).replaceAll(" ", "");
+        } else {
+          trainStation.value.name = "";
+        }
+      }, {immediate:true});
 
       const onAdd = () => {
         trainStation.value = {};
