@@ -28,28 +28,35 @@
              ok-text="确认" cancel-text="取消">
       <a-form :model="trainStation" :label-col="{span: 4}" :wrapper-col="{ span: 20 }">
             <a-form-item label="车次编号">
-                <a-input v-model:value="trainStation.trainCode" />
+<!--              <train-select-view v-model="trainStation.trainCode"></train-select-view>-->
+              <a-select v-model:value="trainStation.trainCode"
+                        show-search
+                        :filter-option="filterTrainCodeOption">
+                <a-select-option v-for="item in trains" :key="item.code" :value="item.code" :label="item.code + item.start + item.end">
+                  {{item.code}} | {{item.start}} ~ {{item.end}}
+                </a-select-option>
+              </a-select>
             </a-form-item>
             <a-form-item label="站序">
-                <a-input v-model:value="trainStation.index" />
+              <a-input v-model:value="trainStation.index" />
             </a-form-item>
             <a-form-item label="站名">
-                <a-input v-model:value="trainStation.name" />
+              <a-input v-model:value="trainStation.name" />
             </a-form-item>
             <a-form-item label="站名拼音">
-                <a-input v-model:value="trainStation.namePinyin" />
+              <a-input v-model:value="trainStation.namePinyin" />
             </a-form-item>
             <a-form-item label="进站时间">
-                  <a-time-picker v-model:value="trainStation.inTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
+              <a-time-picker v-model:value="trainStation.inTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
             </a-form-item>
             <a-form-item label="出站时间">
-                  <a-time-picker v-model:value="trainStation.outTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
+              <a-time-picker v-model:value="trainStation.outTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
             </a-form-item>
             <a-form-item label="停站时长">
-                  <a-time-picker v-model:value="trainStation.stopTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
+              <a-time-picker v-model:value="trainStation.stopTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
             </a-form-item>
             <a-form-item label="里程（公里）">
-                <a-input v-model:value="trainStation.km" />
+              <a-input v-model:value="trainStation.km" />
             </a-form-item>
       </a-form>
     </a-modal>
@@ -57,13 +64,15 @@
 
 <script>
 import {defineComponent, ref, onMounted, watch} from 'vue';
-  import {notification} from "ant-design-vue";
-  import axios from "axios";
+import {notification} from "ant-design-vue";
+import axios from "axios";
 import {pinyin} from "pinyin-pro";
+
 
   export default defineComponent({
     name: "train-station-view",
     setup() {
+      const trains = ref([]);
       const visible = ref(false);
       let trainStation = ref({
         id: undefined,
@@ -219,7 +228,25 @@ import {pinyin} from "pinyin-pro";
         });
       };
 
+      const filterTrainCodeOption = (input, option) => {
+        console.log("input, option", input, option);
+        return option.label.toLowerCase().indexOf(input.toLowerCase()) >= 0;
+      };
+
+      const queryTrainAll  = () => {
+        axios.get("/business/admin/train/query-all").then((response) => {
+          let data = response.data;
+          if (data.success) {
+            console.log(data.content);
+            trains.value = data.content
+          } else {
+            notification.error({description: data.message});
+          }
+        });
+      };
+
       onMounted(() => {
+        queryTrainAll();
         handleQuery({
           pageNum: 1,
           pageSize: pagination.value.pageSize
@@ -238,7 +265,7 @@ import {pinyin} from "pinyin-pro";
         onAdd,
         handleOk,
         onEdit,
-        onDelete
+        onDelete,filterTrainCodeOption,trains,queryTrainAll
       };
     },
   });

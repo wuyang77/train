@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用pinyin-pro将汉字转成拼音">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
+      <change afterPath="$PROJECT_DIR$/http/business-train.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231036.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231037.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231158.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231203.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231414.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231415.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +38,8 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="Vue Options API Component" />
+        <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
@@ -55,6 +69,9 @@
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
 }</component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$USER_HOME$/AppData/Local/Temp/whats-new-dir/whats-new.http" environment="test" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -84,11 +101,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.EnumGenerator.executor": "Run",
+    "Application.EnumGenerator.executor": "Debug",
     "Application.JwtUtil.executor": "Run",
     "Application.ServerGenerator.executor": "Run",
     "Application.org.wuyang.gateway.util.JwtUtil.executor": "Run",
     "Database Script.member.sql.executor": "Run",
+    "HTTP Request.business-train | #1.executor": "Run",
     "HTTP Request.member-member | #3.executor": "Run",
     "HTTP Request.member-member | #4.executor": "Run",
     "HTTP Request.member-member | #5.executor": "Run",
@@ -135,7 +153,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service",
-    "last_opened_file_path": "D:/Users/23889/Desktop/train/business/src/main/resources",
+    "last_opened_file_path": "D:/Users/23889/Desktop/train",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -144,7 +162,7 @@
     "nodejs_package_manager_path": "npm",
     "npm.serve (1).executor": "Run",
     "npm.serve.executor": "Run",
-    "npm.serve9001.executor": "Run",
+    "npm.serve9001.executor": "Debug",
     "onboarding.tips.debug.path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -162,6 +180,10 @@
     ],
     "RunConfigurationTargetLRU": [
       "3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\"train\""
+    ],
+    "vue.recent.templates": [
+      "Vue Options API Component",
+      "Vue Composition API Component"
     ]
   }
 }]]></component>
@@ -251,10 +273,16 @@
     </option>
     <option name="shownConfigurations">
       <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <set>
+              <option value="business-train | #1" />
+            </set>
+          </value>
+        </entry>
         <entry key="js.build_tools.npm">
           <value>
             <set>
-              <option value="serve9000" />
               <option value="serve9001" />
             </set>
           </value>
@@ -263,6 +291,13 @@
     </option>
     <option name="configurationStatuses">
       <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="business-train | #1" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
@@ -320,6 +355,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="business-train | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/business-train.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -393,19 +431,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="serve9000" type="js.build_tools.npm" temporary="true">
-      <package-json value="$PROJECT_DIR$/web/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="serve" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
-        <browser with-js-debugger="true" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
     <configuration name="serve9001" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
       <command value="run" />
@@ -422,20 +447,20 @@
     <list>
       <item itemvalue="Application.EnumGenerator" />
       <item itemvalue="Application.ServerGenerator" />
+      <item itemvalue="HTTP Request.business-train | #1" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.serve9001" />
-      <item itemvalue="npm.serve9000" />
       <item itemvalue="Spring Boot.BusinessApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.MemberApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.business-train | #1" />
         <item itemvalue="Spring Boot.BusinessApplication" />
-        <item itemvalue="Application.ServerGenerator" />
-        <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="npm.serve9000" />
+        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Application.ServerGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -501,31 +526,9 @@
       <workItem from="1770757548545" duration="13051000" />
       <workItem from="1770770907968" duration="5172000" />
       <workItem from="1770780495159" duration="4116000" />
-      <workItem from="1770861521861" duration="30280000" />
-    </task>
-    <task id="LOCAL-00076" summary="分装分页请求参数">
-      <option name="closed" value="true" />
-      <created>1769535797568</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1769535797568</updated>
-    </task>
-    <task id="LOCAL-00077" summary="分装分页请求参数">
-      <option name="closed" value="true" />
-      <created>1769535801211</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1769535801211</updated>
-    </task>
-    <task id="LOCAL-00078" summary="1.封装返回页结果。2.格式化返回的日期字段">
-      <option name="closed" value="true" />
-      <created>1769537859803</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1769537859803</updated>
+      <workItem from="1770861521861" duration="31729000" />
+      <workItem from="1770995259142" duration="649000" />
+      <workItem from="1771033303334" duration="21295000" />
     </task>
     <task id="LOCAL-00079" summary="1.封装返回页结果。2.格式化返回的日期字段">
       <option name="closed" value="true" />
@@ -895,7 +898,31 @@
       <option name="project" value="LOCAL" />
       <updated>1770902397736</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
+      <option name="closed" value="true" />
+      <created>1770965080538</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1770965080538</updated>
+    </task>
+    <task id="LOCAL-00126" summary="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
+      <option name="closed" value="true" />
+      <created>1770965086247</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1770965086247</updated>
+    </task>
+    <task id="LOCAL-00127" summary="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
+      <option name="closed" value="true" />
+      <created>1770965089204</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1770965089204</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -927,7 +954,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="趁车人编辑接口开发：添加操作列，每一列都可以对该行数据进行编辑" />
     <MESSAGE value="趁车人编辑接口开发：修复不能读取current属性的bug,前端点击新页码跳转错误解决" />
     <MESSAGE value="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）" />
     <MESSAGE value="乘车人删除接口开发" />
@@ -952,7 +978,8 @@
     <MESSAGE value="新增火车车站管理，表面train-station,生成持久层以及前后端代码" />
     <MESSAGE value="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码" />
     <MESSAGE value="使用pinyin-pro将汉字转成拼音" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用pinyin-pro将汉字转成拼音" />
+    <MESSAGE value="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

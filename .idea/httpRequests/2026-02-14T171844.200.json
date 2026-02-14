@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "message": null,
+  "content": [
+    {
+      "id": "2021847083002236928",
+      "code": "G1-3579",
+      "type": "G",
+      "start": "益阳",
+      "startPinyin": "yiyang",
+      "startTime": "06:10:00",
+      "end": "上海",
+      "endPinyin": "shanghai",
+      "endTime": "10:00:05",
+      "createTime": "2026-02-12 15:21:23",
+      "updateTime": "2026-02-13 14:32:24"
+    },
+    {
+      "id": "2022590008183099392",
+      "code": "G2=6789",
+      "type": "D",
+      "start": "上海",
+      "startPinyin": "shanghai",
+      "startTime": "06:02:02",
+      "end": "四川",
+      "endPinyin": "sichuan",
+      "endTime": "13:00:07",
+      "createTime": "2026-02-14 16:33:30",
+      "updateTime": "2026-02-14 16:33:30"
+    }
+  ]
+}
