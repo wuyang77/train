@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="前端车次管理增加车次选择下拉框">
-      <change afterPath="$PROJECT_DIR$/admin/src/components/train-selected.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width">
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -520,15 +517,7 @@
       <workItem from="1770995259142" duration="649000" />
       <workItem from="1771033303334" duration="28931000" />
       <workItem from="1771084565578" duration="133000" />
-      <workItem from="1771130436066" duration="6652000" />
-    </task>
-    <task id="LOCAL-00081" summary="乘车人查询界面开发：引入表格组件（暂时录入的假数据），使用axios调用后端接口，显示分页页码。修复网关登录token验证失败的问题（有2个JwtUtil,common模块的JwtUtil生成token,gateway模块的JwtUtil验证token,必须保证这2个类的key一致）">
-      <option name="closed" value="true" />
-      <created>1769547581605</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1769547581605</updated>
+      <workItem from="1771130436066" duration="7027000" />
     </task>
     <task id="LOCAL-00082" summary="乘车人查询界面开发：增减表格分页点击事件">
       <option name="closed" value="true" />
@@ -914,7 +903,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771068497604</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width">
+      <option name="closed" value="true" />
+      <created>1771138985541</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1771138985541</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -946,7 +943,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）" />
     <MESSAGE value="乘车人删除接口开发" />
     <MESSAGE value="乘车人删除接口开发: 前端添加删除按钮（确认删除提示）" />
     <MESSAGE value="将旅客类型下拉框的提取为常量数组" />
@@ -971,7 +967,8 @@
     <MESSAGE value="使用pinyin-pro将汉字转成拼音" />
     <MESSAGE value="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站" />
     <MESSAGE value="前端车次管理增加车次选择下拉框" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端车次管理增加车次选择下拉框" />
+    <MESSAGE value="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width" />
+    <option name="LAST_COMMIT_MESSAGE" value="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
