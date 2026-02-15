@@ -28,14 +28,7 @@
              ok-text="确认" cancel-text="取消">
       <a-form :model="trainStation" :label-col="{span: 4}" :wrapper-col="{ span: 20 }">
             <a-form-item label="车次编号">
-<!--              <train-select-view v-model="trainStation.trainCode"></train-select-view>-->
-              <a-select v-model:value="trainStation.trainCode"
-                        show-search
-                        :filter-option="filterTrainCodeOption">
-                <a-select-option v-for="item in trains" :key="item.code" :value="item.code" :label="item.code + item.start + item.end">
-                  {{item.code}} | {{item.start}} ~ {{item.end}}
-                </a-select-option>
-              </a-select>
+              <train-selected-view v-model="trainStation.trainCode" width="100%"></train-selected-view>
             </a-form-item>
             <a-form-item label="站序">
               <a-input v-model:value="trainStation.index" />
@@ -67,12 +60,12 @@ import {defineComponent, ref, onMounted, watch} from 'vue';
 import {notification} from "ant-design-vue";
 import axios from "axios";
 import {pinyin} from "pinyin-pro";
-
+import TrainSelectedView from "@/components/train-selected.vue"
 
   export default defineComponent({
     name: "train-station-view",
+    components: {TrainSelectedView},
     setup() {
-      const trains = ref([]);
       const visible = ref(false);
       let trainStation = ref({
         id: undefined,
@@ -228,25 +221,7 @@ import {pinyin} from "pinyin-pro";
         });
       };
 
-      const filterTrainCodeOption = (input, option) => {
-        console.log("input, option", input, option);
-        return option.label.toLowerCase().indexOf(input.toLowerCase()) >= 0;
-      };
-
-      const queryTrainAll  = () => {
-        axios.get("/business/admin/train/query-all").then((response) => {
-          let data = response.data;
-          if (data.success) {
-            console.log(data.content);
-            trains.value = data.content
-          } else {
-            notification.error({description: data.message});
-          }
-        });
-      };
-
       onMounted(() => {
-        queryTrainAll();
         handleQuery({
           pageNum: 1,
           pageSize: pagination.value.pageSize
@@ -265,7 +240,7 @@ import {pinyin} from "pinyin-pro";
         onAdd,
         handleOk,
         onEdit,
-        onDelete,filterTrainCodeOption,trains,queryTrainAll
+        onDelete
       };
     },
   });
