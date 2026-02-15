@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="火车车厢页面的车次改为车次选择组件">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="火车座位页面的车次改为车次选择组件">
+      <change afterPath="$PROJECT_DIR$/admin/src/components/station-selected.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231519.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/train-selected.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/train-selected.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/StationAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/StationAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/vue.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/vue.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/business-train.http" beforeDir="false" afterPath="$PROJECT_DIR$/http/business-train.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,95 +97,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.EnumGenerator.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServerGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.wuyang.gateway.util.JwtUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.member.sql.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.business-train | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-member | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-member | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-member | #5.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-passenger | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-passenger | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-passenger | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #5.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #6.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api | #1.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.business [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.business [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.business [org.springframework.boot:spring-boot-maven-plugin:3.0.0:run].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.member [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.member [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mybatis-generator.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BusinessApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.BusinessApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MemberApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TrainApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/23889/Desktop/train&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;D:/dev/node-v18.12.1-win-x64/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.serve (1).executor&quot;: &quot;Run&quot;,
-    &quot;npm.serve.executor&quot;: &quot;Run&quot;,
-    &quot;npm.serve9001.executor&quot;: &quot;Run&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.EnumGenerator.executor": "Debug",
+    "Application.JwtUtil.executor": "Run",
+    "Application.ServerGenerator.executor": "Run",
+    "Application.org.wuyang.gateway.util.JwtUtil.executor": "Run",
+    "Database Script.member.sql.executor": "Run",
+    "HTTP Request.business-train | #1.executor": "Run",
+    "HTTP Request.business-train | #2.executor": "Run",
+    "HTTP Request.member-member | #3.executor": "Run",
+    "HTTP Request.member-member | #4.executor": "Run",
+    "HTTP Request.member-member | #5.executor": "Run",
+    "HTTP Request.member-passenger | #1.executor": "Run",
+    "HTTP Request.member-passenger | #2.executor": "Run",
+    "HTTP Request.member-passenger | #3.executor": "Run",
+    "HTTP Request.member-test | #1.executor": "Run",
+    "HTTP Request.member-test | #2.executor": "Run",
+    "HTTP Request.member-test | #3.executor": "Run",
+    "HTTP Request.member-test | #4.executor": "Run",
+    "HTTP Request.member-test | #5.executor": "Run",
+    "HTTP Request.member-test | #6.executor": "Run",
+    "HTTP Request.rest-api | #1.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.business [clean].executor": "Run",
+    "Maven.business [install].executor": "Run",
+    "Maven.business [org.springframework.boot:spring-boot-maven-plugin:3.0.0:run].executor": "Run",
+    "Maven.common [clean].executor": "Run",
+    "Maven.common [install].executor": "Run",
+    "Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor": "Run",
+    "Maven.member [clean].executor": "Run",
+    "Maven.member [install].executor": "Run",
+    "Maven.mybatis-generator.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BusinessApplication (1).executor": "Run",
+    "Spring Boot.BusinessApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.MemberApplication.executor": "Run",
+    "Spring Boot.TrainApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service",
+    "last_opened_file_path": "D:/Users/23889/Desktop/train/admin/src/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
+    "nodejs_package_manager_path": "npm",
+    "npm.serve (1).executor": "Run",
+    "npm.serve.executor": "Run",
+    "npm.serve9001.executor": "Run",
+    "onboarding.tips.debug.path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\&quot;train\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\"train\""
     ],
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Options API Component&quot;,
-      &quot;Vue Composition API Component&quot;
+    "vue.recent.templates": [
+      "Vue Options API Component",
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -183,11 +196,11 @@
       <recent name="org.wuyang.member.resq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\admin\src\components" />
       <recent name="D:\Users\23889\Desktop\train\business\src\main\resources" />
       <recent name="D:\Users\23889\Desktop\train\admin\src\views" />
       <recent name="D:\Users\23889\Desktop\train\admin" />
       <recent name="D:\Users\23889\Desktop\train\generator\src\main\java\org\wuyang\generator\ftl" />
-      <recent name="D:\Users\23889\Desktop\train\generator\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\23889\Desktop\train\admin\src\views\main" />
@@ -210,7 +223,6 @@
         <option value="KtorApplicationConfigurationType" />
         <option value="MicronautRunConfigurationType" />
         <option value="QuarkusRunConfigurationType" />
-        <option value="SpringBootApplicationConfigurationType" />
         <option value="js.build_tools.npm" />
       </set>
     </option>
@@ -253,7 +265,9 @@
         </entry>
         <entry key="js.build_tools.npm">
           <value>
-            <set />
+            <set>
+              <option value="serve9001" />
+            </set>
           </value>
         </entry>
       </map>
@@ -264,13 +278,7 @@
           <value>
             <set>
               <option value="business-train | #1" />
-            </set>
-          </value>
-        </entry>
-        <entry key="js.build_tools.npm">
-          <value>
-            <set>
-              <option value="serve9001" />
+              <option value="business-train | #2" />
             </set>
           </value>
         </entry>
@@ -281,23 +289,7 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="business-train | #1" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <map>
-              <entry key="BusinessApplication" value="STOPPED" />
-              <entry key="GatewayApplication" value="STOPPED" />
-              <entry key="MemberApplication" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-        <entry key="js.build_tools.npm">
-          <value>
-            <map>
-              <entry key="serve9001" value="STOPPED" />
+              <entry key="business-train | #2" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -330,20 +322,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.ServerGenerator" />
-      <module name="generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.generator.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="business-train | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/business-train.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="business-train | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/business-train.http" executionIdentifier="#2" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
@@ -375,20 +357,6 @@
         </option>
       </MavenSettings>
       <method v="2" />
-    </configuration>
-    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="business" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.business.config.BusinessApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.business.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -433,21 +401,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.EnumGenerator" />
-      <item itemvalue="Application.ServerGenerator" />
+      <item itemvalue="HTTP Request.business-train | #2" />
       <item itemvalue="HTTP Request.business-train | #1" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.serve9001" />
-      <item itemvalue="Spring Boot.BusinessApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.MemberApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.business-train | #2" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="HTTP Request.business-train | #1" />
-        <item itemvalue="Application.ServerGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -517,15 +483,7 @@
       <workItem from="1770995259142" duration="649000" />
       <workItem from="1771033303334" duration="28931000" />
       <workItem from="1771084565578" duration="133000" />
-      <workItem from="1771130436066" duration="7331000" />
-    </task>
-    <task id="LOCAL-00083" summary="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔">
-      <option name="closed" value="true" />
-      <created>1769549272187</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1769549272187</updated>
+      <workItem from="1771130436066" duration="23240000" />
     </task>
     <task id="LOCAL-00084" summary="乘车人查询界面开发：增加loading加载效果">
       <option name="closed" value="true" />
@@ -911,7 +869,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771139208891</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="火车座位页面的车次改为车次选择组件">
+      <option name="closed" value="true" />
+      <created>1771139505890</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1771139505891</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,7 +909,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="乘车人删除接口开发: 前端添加删除按钮（确认删除提示）" />
     <MESSAGE value="将旅客类型下拉框的提取为常量数组" />
     <MESSAGE value="解决表格中枚举字段的显示" />
     <MESSAGE value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
@@ -968,7 +933,8 @@
     <MESSAGE value="前端车次管理增加车次选择下拉框" />
     <MESSAGE value="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width" />
     <MESSAGE value="火车车厢页面的车次改为车次选择组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="火车车厢页面的车次改为车次选择组件" />
+    <MESSAGE value="火车座位页面的车次改为车次选择组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="火车座位页面的车次改为车次选择组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

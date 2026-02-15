@@ -10,6 +10,8 @@ import org.wuyang.business.service.StationService;
 import org.wuyang.common.resp.CommonResp;
 import org.wuyang.common.resp.PageResp;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/admin/station")
 public class StationAdminController {
@@ -34,4 +36,11 @@ public class StationAdminController {
         stationService.deleteStation(id);
         return new CommonResp<>();
     }
+
+    @GetMapping("/query-all")
+    public CommonResp<List<StationQueryResp>> queryStationAll() {
+        List<StationQueryResp> list = stationService.queryStationAll();
+        return new CommonResp<>(list);
+    }
+
 }

@@ -45,7 +45,7 @@
                 </a-select>
             </a-form-item>
             <a-form-item label="始发站">
-                <a-input v-model:value="train.start" />
+              <station-selected-view v-model="train.start" width="100%"></station-selected-view>
             </a-form-item>
             <a-form-item label="始发站拼音">
                 <a-input v-model:value="train.startPinyin" disabled />
@@ -71,9 +71,11 @@ import {defineComponent, ref, onMounted, watch} from 'vue';
   import {notification} from "ant-design-vue";
   import axios from "axios";
 import {pinyin} from "pinyin-pro";
+import StationSelectedView from "@/components/station-selected.vue";
 
   export default defineComponent({
     name: "train-view",
+    components: {StationSelectedView},
     setup() {
       const TRAIN_TYPE_ARRAY = window.TRAIN_TYPE_ARRAY;
       const visible = ref(false);
@@ -95,7 +97,7 @@ import {pinyin} from "pinyin-pro";
       const pagination = ref({
         total: 0,
         current: 1,
-        pageSize: 10,
+        pageSize: 5,
       });
       let loading = ref(false);
       const columns = [

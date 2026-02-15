@@ -2,7 +2,7 @@
 <template>
   <a-select v-model:value="trainCode" show-search allowClear
             @change="onChange" placeholder="请选择车次"
-            :filter-option="filterTrainCodeOption" :style="'width: ' + _width">
+            :filter-option="filterTrainCodeOption" :style="'width: ' + localWidth">
     <a-select-option v-for="item in trains" :key="item.code" :value="item.code" :label="item.code + item.start + item.end">
       {{item.code}} | {{item.start}} ~ {{item.end}}
     </a-select-option>
@@ -23,9 +23,9 @@ export default defineComponent({
 
     const trainCode = ref();
     const trains = ref([]);
-    const _width = ref(props.width);
+    const localWidth = ref(props.width);
     if (Tool.isEmpty(props.width)) {
-      _width.value = "100%";
+      localWidth.value = "100%";
     }
 
     /**
@@ -81,7 +81,7 @@ export default defineComponent({
       trains,
       trainCode,
       onChange,
-      _width
+      localWidth
     };
   }
 
