@@ -88,3 +88,5 @@
 2026-02-15 14:50:57.142 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
 2026-02-15 14:52:23.475 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
 2026-02-15 14:54:11.665 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-15 15:05:56.041 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-15 15:05:57.196 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all

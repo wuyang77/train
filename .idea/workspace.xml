@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width">
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="火车车厢页面的车次改为车次选择组件">
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -517,15 +517,7 @@
       <workItem from="1770995259142" duration="649000" />
       <workItem from="1771033303334" duration="28931000" />
       <workItem from="1771084565578" duration="133000" />
-      <workItem from="1771130436066" duration="7027000" />
-    </task>
-    <task id="LOCAL-00082" summary="乘车人查询界面开发：增减表格分页点击事件">
-      <option name="closed" value="true" />
-      <created>1769548668026</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1769548668026</updated>
+      <workItem from="1771130436066" duration="7331000" />
     </task>
     <task id="LOCAL-00083" summary="乘车人查询界面开发：添加刷新按钮，默认查询第1页。刷新和新增使用a-spance增加了间隔">
       <option name="closed" value="true" />
@@ -911,7 +903,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771138985541</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="火车车厢页面的车次改为车次选择组件">
+      <option name="closed" value="true" />
+      <created>1771139208891</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1771139208891</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,7 +943,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="乘车人删除接口开发" />
     <MESSAGE value="乘车人删除接口开发: 前端添加删除按钮（确认删除提示）" />
     <MESSAGE value="将旅客类型下拉框的提取为常量数组" />
     <MESSAGE value="解决表格中枚举字段的显示" />
@@ -968,7 +967,8 @@
     <MESSAGE value="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站" />
     <MESSAGE value="前端车次管理增加车次选择下拉框" />
     <MESSAGE value="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width" />
-    <option name="LAST_COMMIT_MESSAGE" value="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width" />
+    <MESSAGE value="火车车厢页面的车次改为车次选择组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="火车车厢页面的车次改为车次选择组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
