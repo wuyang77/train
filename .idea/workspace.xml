@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="实现按车次生成车座功能">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231520.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="车次生成车座功能：在车次管理页面添加前端功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
@@ -533,23 +531,7 @@
       <workItem from="1771084565578" duration="133000" />
       <workItem from="1771130436066" duration="23619000" />
       <workItem from="1771169745063" duration="349000" />
-      <workItem from="1771205044910" duration="11329000" />
-    </task>
-    <task id="LOCAL-00087" summary="解决前后端交互Long类型精度丢失的问题">
-      <option name="closed" value="true" />
-      <created>1769551716813</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1769551716813</updated>
-    </task>
-    <task id="LOCAL-00088" summary="后端增减一行根据id来查询排序乘客列表，passengerExample.setOrderByClause(&quot;id desc&quot;);">
-      <option name="closed" value="true" />
-      <created>1769552003422</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1769552003422</updated>
+      <workItem from="1771205044910" duration="12437000" />
     </task>
     <task id="LOCAL-00089" summary="趁车人编辑接口开发：新增接口改为新增和修改一体化接口">
       <option name="closed" value="true" />
@@ -927,7 +909,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771215355220</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="车次生成车座功能：在车次管理页面添加前端功能">
+      <option name="closed" value="true" />
+      <created>1771218101796</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1771218101796</updated>
+    </task>
+    <task id="LOCAL-00137" summary="车次生成车座功能：在车次管理页面添加前端功能">
+      <option name="closed" value="true" />
+      <created>1771218105430</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1771218105430</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,7 +957,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
     <MESSAGE value="测试代码生成器freemark模板引擎的使用" />
     <MESSAGE value="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径" />
     <MESSAGE value="集成dom4j,读取generator-config-member.xml文件所在地址，读取table以及其包含表名tableName和实体名domainObjectName的节点" />
@@ -984,7 +981,8 @@
     <MESSAGE value="火车座位页面的车次改为车次选择组件" />
     <MESSAGE value="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件" />
     <MESSAGE value="实现按车次生成车座功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现按车次生成车座功能" />
+    <MESSAGE value="车次生成车座功能：在车次管理页面添加前端功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="车次生成车座功能：在车次管理页面添加前端功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -996,6 +994,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" line="101">
+        <watch expression="trainSeat" language="JAVA" />
+      </inline-watch>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
