@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="实现按车次生成车座功能">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231520.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainStationAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainStationAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/business-train.http" beforeDir="false" afterPath="$PROJECT_DIR$/http/business-train.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -540,15 +533,7 @@
       <workItem from="1771084565578" duration="133000" />
       <workItem from="1771130436066" duration="23619000" />
       <workItem from="1771169745063" duration="349000" />
-      <workItem from="1771205044910" duration="8834000" />
-    </task>
-    <task id="LOCAL-00086" summary="解决前后端交互Long类型精度丢失的问题">
-      <option name="closed" value="true" />
-      <created>1769551711934</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1769551711934</updated>
+      <workItem from="1771205044910" duration="11329000" />
     </task>
     <task id="LOCAL-00087" summary="解决前后端交互Long类型精度丢失的问题">
       <option name="closed" value="true" />
@@ -934,7 +919,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771169359345</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="实现按车次生成车座功能">
+      <option name="closed" value="true" />
+      <created>1771215355219</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1771215355220</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -966,7 +959,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="解决表格中枚举字段的显示" />
     <MESSAGE value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
     <MESSAGE value="测试代码生成器freemark模板引擎的使用" />
     <MESSAGE value="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径" />
@@ -991,7 +983,8 @@
     <MESSAGE value="火车车厢页面的车次改为车次选择组件" />
     <MESSAGE value="火车座位页面的车次改为车次选择组件" />
     <MESSAGE value="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件" />
+    <MESSAGE value="实现按车次生成车座功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现按车次生成车座功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1000,11 +993,6 @@
           <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

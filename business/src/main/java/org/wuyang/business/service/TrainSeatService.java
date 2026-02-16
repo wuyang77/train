@@ -94,8 +94,8 @@ public class TrainSeatService {
             // 根据车厢的座位类型筛选出所有的列号，比如车厢类型是一等座，则筛选出columList,如{ACDF}
             List<SeatColEnum> colEnumList = SeatColEnum.getColsByType(seatType);
             LOG.info("根据车厢的座位类型，筛选出所有的列：{}", colEnumList);
-            // 循环行数
-            for (Integer i = 0; i < rowCount; i++) {
+            // 循环排数
+            for (Integer row = 1; row <= rowCount; row++) {
                 // 循环列数
                 for (SeatColEnum seatColEnum : colEnumList) {
                     // 构造座位数据并保存至数据库
