@@ -40,15 +40,23 @@ export default defineComponent({
      * 查询所有车次，用于车次下拉框
      */
     const queryTrainAll = () => {
-      axios.get("/business/admin/train/query-all").then((response) => {
-        let data = response.data;
-        if (data.success) {
-          console.log(data.content);
-          trains.value = data.content
-        } else {
-          notification.error({description: data.message});
-        }
-      });
+      let list = SessionStorage.get(SESSION_ALL_TRAIN);
+      if (Tool.isNotEmpty(list)) {
+        console.log(" queryTrainAll 读取缓存");
+        trains.value = list;
+      } else {
+        axios.get("/business/admin/train/query-all").then((response) => {
+          let data = response.data;
+          if (data.success) {
+            trains.value = data.content;
+            console.log("queryAllTrain 保存缓存");
+            SessionStorage.set(SESSION_ALL_TRAIN, trains.value);
+          } else {
+            notification.error({description: data.message});
+          }
+        });
+      };
+
     };
 
     /**
@@ -64,12 +72,13 @@ export default defineComponent({
      * 2.利用事件将当前组件的值响应给父组件
      */
     const onChange = (value) => {
-      emit("update:modelValue", value);
+      emit('update:modelValue', value);
       let train = trains.value.filter((item) => item.code === value)[0];
       if (Tool.isEmpty(train)) {
         train = {};
       }
-      emit("change", train)
+      console.log(train);
+      emit('change', train);
     };
 
     onMounted(() => {

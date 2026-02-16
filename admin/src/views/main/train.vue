@@ -55,20 +55,20 @@
               <station-selected-view v-model="train.start" width="100%"></station-selected-view>
             </a-form-item>
             <a-form-item label="始发站拼音">
-                <a-input v-model:value="train.startPinyin" disabled />
+              <a-input v-model:value="train.startPinyin" disabled />
             </a-form-item>
             <a-form-item label="出发时间">
-                  <a-time-picker v-model:value="train.startTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
+               <a-time-picker v-model:value="train.startTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
             </a-form-item>
             <a-form-item label="终点站">
                 <a-input v-model:value="train.end" />
               <station-selected-view v-model="train.end" width="100%"></station-selected-view>
             </a-form-item>
             <a-form-item label="终点站拼音">
-                <a-input v-model:value="train.endPinyin" disabled/>
+              <a-input v-model:value="train.endPinyin" disabled/>
             </a-form-item>
             <a-form-item label="到站时间">
-                  <a-time-picker v-model:value="train.endTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
+              <a-time-picker v-model:value="train.endTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
             </a-form-item>
       </a-form>
     </a-modal>
@@ -76,8 +76,8 @@
 
 <script>
 import {defineComponent, ref, onMounted, watch} from 'vue';
-  import {notification} from "ant-design-vue";
-  import axios from "axios";
+import {notification} from "ant-design-vue";
+import axios from "axios";
 import {pinyin} from "pinyin-pro";
 import StationSelectedView from "@/components/station-selected.vue";
 

@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="车次生成车座功能：在车次管理页面添加前端功能">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="编辑时车次编号不允许修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/public/js/session-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/public/js/session-storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/train-selected.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/train-selected.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainSeatQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainSeatQueryReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +157,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
     "nodejs_package_manager_path": "npm",
-    "npm.admin9001.executor": "Run",
+    "npm.admin9001.executor": "Debug",
     "npm.serve (1).executor": "Run",
     "npm.serve.executor": "Run",
     "npm.serve9001.executor": "Run",
@@ -285,27 +292,10 @@
     </option>
     <option name="configurationStatuses">
       <map>
-        <entry key="HttpClient.HttpRequestRunConfigurationType">
-          <value>
-            <map>
-              <entry key="business-train | #2" value="STOPPED" />
-              <entry key="business-train | #3" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
               <entry key="BusinessApplication" value="STOPPED" />
-              <entry key="GatewayApplication" value="STOPPED" />
-              <entry key="MemberApplication" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-        <entry key="js.build_tools.npm">
-          <value>
-            <map>
-              <entry key="admin9001" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -324,7 +314,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.business-train | #3">
+  <component name="RunManager" selected="Spring Boot.BusinessApplication">
     <configuration name="EnumGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.EnumGenerator" />
       <module name="generator" />
@@ -429,6 +419,19 @@
       </EXTENSION>
       <method v="2" />
     </configuration>
+    <configuration name="admin9001" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/admin/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
     <configuration name="serve9001" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
       <command value="run" />
@@ -456,9 +459,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BusinessApplication" />
-        <item itemvalue="HTTP Request.business-train | #3" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="HTTP Request.business-train | #3" />
         <item itemvalue="HTTP Request.business-train | #2" />
       </list>
     </recent_temporary>
@@ -531,15 +534,8 @@
       <workItem from="1771084565578" duration="133000" />
       <workItem from="1771130436066" duration="23619000" />
       <workItem from="1771169745063" duration="349000" />
-      <workItem from="1771205044910" duration="12437000" />
-    </task>
-    <task id="LOCAL-00089" summary="趁车人编辑接口开发：新增接口改为新增和修改一体化接口">
-      <option name="closed" value="true" />
-      <created>1769552752765</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1769552752766</updated>
+      <workItem from="1771205044910" duration="32405000" />
+      <workItem from="1771258325010" duration="946000" />
     </task>
     <task id="LOCAL-00090" summary="趁车人编辑接口开发：reactive统一改为ref和.value的形式">
       <option name="closed" value="true" />
@@ -925,7 +921,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771218105430</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="编辑时车次编号不允许修改">
+      <option name="closed" value="true" />
+      <created>1771219080318</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1771219080318</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -957,7 +961,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="测试代码生成器freemark模板引擎的使用" />
     <MESSAGE value="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径" />
     <MESSAGE value="集成dom4j,读取generator-config-member.xml文件所在地址，读取table以及其包含表名tableName和实体名domainObjectName的节点" />
     <MESSAGE value="使用PassengerService制作生成模板service.ftl，生成service成功" />
@@ -982,7 +985,8 @@
     <MESSAGE value="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件" />
     <MESSAGE value="实现按车次生成车座功能" />
     <MESSAGE value="车次生成车座功能：在车次管理页面添加前端功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="车次生成车座功能：在车次管理页面添加前端功能" />
+    <MESSAGE value="编辑时车次编号不允许修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="编辑时车次编号不允许修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -995,7 +999,7 @@
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" line="101">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" line="104">
         <watch expression="trainSeat" language="JAVA" />
       </inline-watch>
     </watches-manager>

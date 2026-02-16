@@ -1,8 +1,8 @@
 <template>
   <p>
     <a-space>
-      <a-button type="primary" @click="handleQuery()">刷新</a-button>
-      <a-button type="primary" @click="onAdd">新增</a-button>
+      <train-selected-view v-model="params.trainCode" width="200px"></train-selected-view>
+      <a-button type="primary" @click="handleQuery()">查找</a-button>
     </a-space>
   </p>
   <a-table :dataSource="trainSeats"
@@ -103,6 +103,9 @@
         pageSize: 12,
       });
       let loading = ref(false);
+      let params = ref({
+        trainCode: null
+      });
       const columns = [
         {
           title: '车次编号',
@@ -139,11 +142,6 @@
           dataIndex: 'operation'
         }
       ];
-
-      const onAdd = () => {
-        trainSeat.value = {};
-        visible.value = true;
-      };
 
       const onEdit = (record) => {
         trainSeat.value = window.Tool.copy(record);
@@ -185,14 +183,15 @@
         if (!param) {
           param = {
             pageNum: 1,
-            pageSize: pagination.value.pageSize
+            pageSize: pagination.value.pageSize,
           };
         }
         loading.value = true;
         axios.get("/business/admin/train-seat/query-list", {
           params: {
             pageNum: param.pageNum,
-            pageSize: param.pageSize
+            pageSize: param.pageSize,
+            trainCode: params.value.trainCode
           }
         }).then((response) => {
           loading.value = false;
@@ -235,10 +234,10 @@
         handleTableChange,
         handleQuery,
         loading,
-        onAdd,
         handleOk,
         onEdit,
-        onDelete
+        onDelete,
+        params
       };
     },
   });
