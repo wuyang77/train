@@ -55,6 +55,7 @@
             </a-form-item>
             <a-form-item label="终点站">
                 <a-input v-model:value="train.end" />
+              <station-selected-view v-model="train.end" width="100%"></station-selected-view>
             </a-form-item>
             <a-form-item label="终点站拼音">
                 <a-input v-model:value="train.endPinyin" disabled/>

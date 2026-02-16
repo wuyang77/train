@@ -65,4 +65,12 @@ public class TrainCarriageService {
     public void deleteTrainCarriage(Long id) {
         trainCarriageMapper.deleteByPrimaryKey(id);
     }
+
+    public List<TrainCarriage> selectCarrigesByTrainCode(String trainCode) {
+        TrainCarriageExample trainCarriageExample = new TrainCarriageExample();
+        TrainCarriageExample.Criteria criteria1 = trainCarriageExample.createCriteria();
+        criteria1.andTrainCodeEqualTo(trainCode);
+        List<TrainCarriage> trainCarriages = trainCarriageMapper.selectByExample(trainCarriageExample);
+        return trainCarriages;
+    }
 }

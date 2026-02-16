@@ -5,3 +5,8 @@ Accept: application/json
 
 GET http://localhost:8000/business/admin/station/query-all
 Accept: application/json
+
+###
+
+GET http://localhost:8000/business/admin/train/generate-seat/G1-3579
+Accept: application/json

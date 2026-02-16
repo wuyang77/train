@@ -2,10 +2,12 @@ package org.wuyang.business.controller.admin;
 
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.wuyang.business.req.TrainQueryReq;
 import org.wuyang.business.req.TrainSaveReq;
 import org.wuyang.business.resp.TrainQueryResp;
+import org.wuyang.business.service.TrainSeatService;
 import org.wuyang.business.service.TrainService;
 import org.wuyang.common.resp.CommonResp;
 import org.wuyang.common.resp.PageResp;
@@ -18,6 +20,8 @@ public class TrainAdminController {
 
     @Resource
     private TrainService trainService;
+    @Autowired
+    private TrainSeatService trainSeatService;
 
     @PostMapping("/save")
     public CommonResp<Object> saveOrEditTrain(@Valid @RequestBody TrainSaveReq req) {
@@ -41,5 +45,10 @@ public class TrainAdminController {
     public CommonResp<List<TrainQueryResp>>  queryTrainAll() {
         List<TrainQueryResp> list = trainService.queryTrainAll();
         return new CommonResp<>(list);
+    }
+    @GetMapping("/generate-seat/{trainCode}")
+    public CommonResp<Object> genSeat(@PathVariable String trainCode) {
+        trainSeatService.generateTrainSeat(trainCode);
+        return new CommonResp<>();
     }
 }

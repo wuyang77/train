@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="火车座位页面的车次改为车次选择组件">
-      <change afterPath="$PROJECT_DIR$/admin/src/components/station-selected.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231519.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/train-selected.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/train-selected.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/StationAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/StationAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/vue.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/vue.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainStationAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainStationAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http/business-train.http" beforeDir="false" afterPath="$PROJECT_DIR$/http/business-train.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +105,7 @@
     "Database Script.member.sql.executor": "Run",
     "HTTP Request.business-train | #1.executor": "Run",
     "HTTP Request.business-train | #2.executor": "Run",
+    "HTTP Request.business-train | #3.executor": "Run",
     "HTTP Request.member-member | #3.executor": "Run",
     "HTTP Request.member-member | #4.executor": "Run",
     "HTTP Request.member-member | #5.executor": "Run",
@@ -160,6 +159,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
     "nodejs_package_manager_path": "npm",
+    "npm.admin9001.executor": "Run",
     "npm.serve (1).executor": "Run",
     "npm.serve.executor": "Run",
     "npm.serve9001.executor": "Run",
@@ -169,7 +169,7 @@
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -223,6 +223,7 @@
         <option value="KtorApplicationConfigurationType" />
         <option value="MicronautRunConfigurationType" />
         <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
         <option value="js.build_tools.npm" />
       </set>
     </option>
@@ -277,8 +278,15 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <set>
-              <option value="business-train | #1" />
               <option value="business-train | #2" />
+              <option value="business-train | #3" />
+            </set>
+          </value>
+        </entry>
+        <entry key="js.build_tools.npm">
+          <value>
+            <set>
+              <option value="admin9001" />
             </set>
           </value>
         </entry>
@@ -290,6 +298,23 @@
           <value>
             <map>
               <entry key="business-train | #2" value="STOPPED" />
+              <entry key="business-train | #3" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="BusinessApplication" value="STOPPED" />
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="MemberApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="js.build_tools.npm">
+          <value>
+            <map>
+              <entry key="admin9001" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -308,7 +333,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumGenerator">
+  <component name="RunManager" selected="HTTP Request.business-train | #3">
     <configuration name="EnumGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.EnumGenerator" />
       <module name="generator" />
@@ -322,10 +347,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="business-train | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/business-train.http" executionIdentifier="#1" runType="Run single request">
+    <configuration name="business-train | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/business-train.http" executionIdentifier="#2" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="business-train | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/business-train.http" executionIdentifier="#2" index="2" runType="Run single request">
+    <configuration name="business-train | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/business-train.http" executionIdentifier="#3" index="3" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
@@ -358,6 +383,20 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="business" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.business.config.BusinessApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.business.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="gateway" />
@@ -386,6 +425,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="admin9001" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/admin/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
     <configuration name="serve9001" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
       <command value="run" />
@@ -401,19 +453,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.EnumGenerator" />
+      <item itemvalue="HTTP Request.business-train | #3" />
       <item itemvalue="HTTP Request.business-train | #2" />
-      <item itemvalue="HTTP Request.business-train | #1" />
       <item itemvalue="Maven.mybatis-generator" />
+      <item itemvalue="npm.admin9001" />
       <item itemvalue="npm.serve9001" />
+      <item itemvalue="Spring Boot.BusinessApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.MemberApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.business-train | #2" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="HTTP Request.business-train | #3" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="HTTP Request.business-train | #1" />
+        <item itemvalue="HTTP Request.business-train | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -483,23 +538,9 @@
       <workItem from="1770995259142" duration="649000" />
       <workItem from="1771033303334" duration="28931000" />
       <workItem from="1771084565578" duration="133000" />
-      <workItem from="1771130436066" duration="23240000" />
-    </task>
-    <task id="LOCAL-00084" summary="乘车人查询界面开发：增加loading加载效果">
-      <option name="closed" value="true" />
-      <created>1769549788543</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1769549788543</updated>
-    </task>
-    <task id="LOCAL-00085" summary="乘车人查询界面开发：增加乘客后刷新乘客列表，默认停留在当前页码">
-      <option name="closed" value="true" />
-      <created>1769550260393</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1769550260393</updated>
+      <workItem from="1771130436066" duration="23619000" />
+      <workItem from="1771169745063" duration="349000" />
+      <workItem from="1771205044910" duration="8834000" />
     </task>
     <task id="LOCAL-00086" summary="解决前后端交互Long类型精度丢失的问题">
       <option name="closed" value="true" />
@@ -877,7 +918,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771139505891</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件">
+      <option name="closed" value="true" />
+      <created>1771169355697</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1771169355697</updated>
+    </task>
+    <task id="LOCAL-00134" summary="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件">
+      <option name="closed" value="true" />
+      <created>1771169359345</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1771169359345</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,7 +966,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="将旅客类型下拉框的提取为常量数组" />
     <MESSAGE value="解决表格中枚举字段的显示" />
     <MESSAGE value="将枚举数据放到单独的enums.js文件中，在main.js中全局引入" />
     <MESSAGE value="测试代码生成器freemark模板引擎的使用" />
@@ -934,7 +990,8 @@
     <MESSAGE value="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width" />
     <MESSAGE value="火车车厢页面的车次改为车次选择组件" />
     <MESSAGE value="火车座位页面的车次改为车次选择组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="火车座位页面的车次改为车次选择组件" />
+    <MESSAGE value="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,6 +1000,11 @@
           <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
