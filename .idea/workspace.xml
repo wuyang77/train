@@ -4,161 +4,28 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="为车站，车次编号，同车次站序，同车次站名，同车次厢号添加唯一性校验">
-      <change afterPath="$PROJECT_DIR$/batch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/BatchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/batch-test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T231650.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T232112.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="train-carriage.vue,train-seat,train-station页面添加查找按钮，按钮旁边增减车次下拉框。除此之外，创建了batch定时调度模块">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c0767cbe-b66a-4228-9145-95b3c933d8e0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c0767cbe-b66a-4228-9145-95b3c933d8e0/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c0767cbe-b66a-4228-9145-95b3c933d8e0/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-02-17T175956.404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-02-17T180008.404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-02-17T180440.404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/domain/DailyTrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/domain/DailyTrainExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/mapper/DailyTrainMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/src/main/resources/mapper/DailyTrainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-batch.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/db-forest-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/config/BusinessApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/config/BusinessApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/StationAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/StationAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainCarriageAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainCarriageAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainSeatAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainSeatAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/controller/admin/TrainStationAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainStationAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/Station.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/StationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/StationExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/Train.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/Train.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/TrainCarriage.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/TrainCarriage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/TrainCarriageExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/TrainCarriageExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/TrainExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/TrainExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/TrainSeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/TrainSeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/TrainSeatExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/TrainSeatExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/TrainStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/TrainStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/domain/TrainStationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/domain/TrainStationExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/enums/SeatColEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/enums/SeatColEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/enums/SeatTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/enums/SeatTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/enums/TrainTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/enums/TrainTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/mapper/StationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/mapper/StationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/mapper/TrainCarriageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/mapper/TrainCarriageMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/mapper/TrainMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/mapper/TrainMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/mapper/TrainSeatMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/mapper/TrainSeatMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/mapper/TrainStationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/mapper/TrainStationMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/StationQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/StationQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/StationSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/StationSaveReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainCarriageQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainCarriageQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainCarriageSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainCarriageSaveReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainSaveReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainSeatQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainSeatQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainSeatSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainSeatSaveReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainStationQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainStationQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainStationSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainStationSaveReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/resp/StationQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/resp/StationQueryResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/resp/TrainCarriageQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/resp/TrainCarriageQueryResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/resp/TrainQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/resp/TrainQueryResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/resp/TrainSeatQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/resp/TrainSeatQueryResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/resp/TrainStationQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/resp/TrainStationQueryResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/StationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainCarriageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainStationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/resources/mapper/StationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/resources/mapper/StationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/resources/mapper/TrainCarriageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/resources/mapper/TrainCarriageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/resources/mapper/TrainMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/resources/mapper/TrainMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/resources/mapper/TrainSeatMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/resources/mapper/TrainSeatMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/resources/mapper/TrainStationMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/resources/mapper/TrainStationMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/aspect/LogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/config/JacksonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/config/JacksonConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/context/LoginMemberContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/context/LoginMemberContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/controller/ControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/controller/ControllerExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/exception/BusinessExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/exception/BusinessExceptionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/interceptor/LogInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/interceptor/LogInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/interceptor/MemberInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/interceptor/MemberInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/req/PageReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/req/PageReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/resp/CommonResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/resp/CommonResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/resp/MemberLoginResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/resp/MemberLoginResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/resp/PageResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/resp/PageResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/util/SnowUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/util/SnowUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/Exception/BusinessException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/Exception/BusinessExceptionEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/aspect/LogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/controller/ControllerExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/resp/CommonResp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/resp/MemberLoginResp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/util/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/org/wuyang/common/util/SnowUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/train/gateway/config/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/LoginMemberFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/train/gateway/config/LoginMemberFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/Test1Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/train/gateway/config/Test1Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/config/Test2Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/train/gateway/config/Test2Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/gateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/java/org/wuyang/train/gateway/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/org/wuyang/gateway/config/GatewayApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/QueryResp.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/QueryResp.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/Test.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/Test.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/adminController.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/adminController.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/queryReq.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/queryReq.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/saveReq.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/saveReq.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/service.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/service.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/ftl/vue.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/vue.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/EnumGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/EnumGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/DbUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/util/DbUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/util/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/generator/util/FreemarkerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/util/FreemarkerUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.2026-01-08.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.2026-01-08.0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.2026-01-11.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.2026-01-11.0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.2026-01-14.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.2026-01-14.0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-member.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-member.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/target/classes/generator-config-member.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/target/classes/generator-config-member.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.2026-01-11.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.2026-01-11.0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.2026-01-14.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.2026-01-14.0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/config/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/config/MemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/config/SpringMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/PassengerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/PassengerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/domain/MemberExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/domain/MemberExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/domain/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/domain/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/domain/PassengerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/domain/PassengerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/enums/PassengerTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/enums/PassengerTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/mapper/PassengerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/mapper/PassengerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberLoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/req/MemberLoginReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberRegisterReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/req/MemberRegisterReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/MemberSendCodeReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/req/MemberSendCodeReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/req/PassengerQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/req/PassengerSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/req/PassengerSaveReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resp/PassengerQueryResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/resp/PassengerQueryResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/resq/PassengerSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/resq/PassengerSaveReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/org/wuyang/member/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/service/PassengerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/resources/mapper/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/mapper/MemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/resources/mapper/PassengerMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/mapper/PassengerMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/mapper/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/mapper/MemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/config/MemberApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/controller/MemberController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/domain/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/domain/MemberExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/domain/MemberExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/domain/MemberExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/domain/MemberExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/mapper/MemberMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/org/wuyang/member/service/MemberService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,101 +104,101 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.EnumGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServerGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.wuyang.gateway.util.JwtUtil.executor&quot;: &quot;Run&quot;,
-    &quot;Database Script.member.sql.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.batch-test | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.business-train | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.business-train | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.business-train | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-member | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-member | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-member | #5.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-passenger | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-passenger | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-passenger | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #5.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.member-test | #6.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.rest-api | #1.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.business [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.business [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.business [org.springframework.boot:spring-boot-maven-plugin:3.0.0:run].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.member [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.member [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.mybatis-generator.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BatchApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.BatchApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.BusinessApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.BusinessApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MemberApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TrainApplication.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Users/23889/Desktop/train/batch/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;D:/dev/node-v18.12.1-win-x64/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.admin9001.executor&quot;: &quot;Run&quot;,
-    &quot;npm.serve (1).executor&quot;: &quot;Run&quot;,
-    &quot;npm.serve.executor&quot;: &quot;Run&quot;,
-    &quot;npm.serve9001.executor&quot;: &quot;Run&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.EnumGenerator.executor": "Run",
+    "Application.JwtUtil.executor": "Run",
+    "Application.ServerGenerator.executor": "Run",
+    "Application.org.wuyang.gateway.util.JwtUtil.executor": "Run",
+    "Database Script.member.sql.executor": "Run",
+    "HTTP Request.batch-test | #1.executor": "Run",
+    "HTTP Request.business-train | #1.executor": "Run",
+    "HTTP Request.business-train | #2.executor": "Run",
+    "HTTP Request.business-train | #3.executor": "Run",
+    "HTTP Request.member-member | #3.executor": "Run",
+    "HTTP Request.member-member | #4.executor": "Run",
+    "HTTP Request.member-member | #5.executor": "Run",
+    "HTTP Request.member-passenger | #1.executor": "Run",
+    "HTTP Request.member-passenger | #2.executor": "Run",
+    "HTTP Request.member-passenger | #3.executor": "Run",
+    "HTTP Request.member-test | #1.executor": "Run",
+    "HTTP Request.member-test | #2.executor": "Run",
+    "HTTP Request.member-test | #3.executor": "Run",
+    "HTTP Request.member-test | #4.executor": "Run",
+    "HTTP Request.member-test | #5.executor": "Run",
+    "HTTP Request.member-test | #6.executor": "Run",
+    "HTTP Request.rest-api | #1.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.business [clean].executor": "Run",
+    "Maven.business [install].executor": "Run",
+    "Maven.business [org.springframework.boot:spring-boot-maven-plugin:3.0.0:run].executor": "Run",
+    "Maven.common [clean].executor": "Run",
+    "Maven.common [install].executor": "Run",
+    "Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor": "Run",
+    "Maven.member [clean].executor": "Run",
+    "Maven.member [install].executor": "Run",
+    "Maven.mybatis-generator.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.BatchApplication (1).executor": "Run",
+    "Spring Boot.BatchApplication.executor": "Run",
+    "Spring Boot.BusinessApplication (1).executor": "Run",
+    "Spring Boot.BusinessApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.MemberApplication.executor": "Run",
+    "Spring Boot.TrainApplication.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service",
+    "last_opened_file_path": "D:/Users/23889/Desktop/train/generator/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
+    "nodejs_package_manager_path": "npm",
+    "npm.admin9001.executor": "Run",
+    "npm.serve (1).executor": "Run",
+    "npm.serve.executor": "Run",
+    "npm.serve9001.executor": "Run",
+    "onboarding.tips.debug.path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\&quot;train\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\"train\""
     ],
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Options API Component&quot;,
-      &quot;Vue Composition API Component&quot;
+    "vue.recent.templates": [
+      "Vue Options API Component",
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -341,11 +208,11 @@
       <recent name="org.wuyang.member.resq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\generator\src\main\resources" />
       <recent name="D:\Users\23889\Desktop\train\batch\src\main\resources" />
       <recent name="D:\Users\23889\Desktop\train\admin\src\components" />
       <recent name="D:\Users\23889\Desktop\train\business\src\main\resources" />
       <recent name="D:\Users\23889\Desktop\train\admin\src\views" />
-      <recent name="D:\Users\23889\Desktop\train\admin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\23889\Desktop\train\admin\src\views\main" />
@@ -434,7 +301,6 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="BatchApplication (1)" value="STOPPED" />
               <entry key="BusinessApplication" value="STOPPED" />
               <entry key="GatewayApplication" value="STOPPED" />
               <entry key="MemberApplication" value="STOPPED" />
@@ -463,7 +329,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BatchApplication">
+  <component name="RunManager" selected="Maven.mybatis-generator">
     <configuration name="EnumGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.EnumGenerator" />
       <module name="generator" />
@@ -694,14 +560,7 @@
       <workItem from="1771298378462" duration="19675000" />
       <workItem from="1771321634753" duration="1296000" />
       <workItem from="1771323069469" duration="657000" />
-    </task>
-    <task id="LOCAL-00096" summary="乘车人删除接口开发">
-      <option name="closed" value="true" />
-      <created>1769644000056</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1769644000056</updated>
+      <workItem from="1771323743797" duration="5128000" />
     </task>
     <task id="LOCAL-00097" summary="乘车人删除接口开发">
       <option name="closed" value="true" />
@@ -1087,7 +946,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771314494846</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="train-carriage.vue,train-seat,train-station页面添加查找按钮，按钮旁边增减车次下拉框。除此之外，创建了batch定时调度模块">
+      <option name="closed" value="true" />
+      <created>1771324112937</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1771324112937</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1119,7 +986,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="添加了vue.ftl，并将vue网页端给git管理" />
     <MESSAGE value="新增EnumGenerator，实现自动enums.js枚举生成；js种value改为了desc与枚举类保持一致" />
     <MESSAGE value="创建admin模块，所以的代码都是从web模块而来" />
     <MESSAGE value="admin去掉登录页面，去掉全局变量member和登录相关的拦截，去掉乘车人页面，去掉没用的HelloWorld组件，修改logo区域和logo样式" />
@@ -1144,7 +1010,8 @@
     <MESSAGE value="保存之前，先校验唯一键是否存在" />
     <MESSAGE value="提取出按唯一键查询的方法" />
     <MESSAGE value="为车站，车次编号，同车次站序，同车次站名，同车次厢号添加唯一性校验" />
-    <option name="LAST_COMMIT_MESSAGE" value="为车站，车次编号，同车次站序，同车次站名，同车次厢号添加唯一性校验" />
+    <MESSAGE value="train-carriage.vue,train-seat,train-station页面添加查找按钮，按钮旁边增减车次下拉框。除此之外，创建了batch定时调度模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="train-carriage.vue,train-seat,train-station页面添加查找按钮，按钮旁边增减车次下拉框。除此之外，创建了batch定时调度模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
