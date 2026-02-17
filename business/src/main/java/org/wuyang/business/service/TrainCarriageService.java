@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.wuyang.business.domain.TrainCarriage;
 import org.wuyang.business.domain.TrainCarriageExample;
+import org.wuyang.business.enums.SeatColEnum;
 import org.wuyang.business.mapper.TrainCarriageMapper;
 import org.wuyang.business.req.TrainCarriageQueryReq;
 import org.wuyang.business.req.TrainCarriageSaveReq;
@@ -30,6 +31,12 @@ public class TrainCarriageService {
 
     public void saveOrEditTrainCarriage(TrainCarriageSaveReq req) {
         DateTime now = DateTime.now();
+
+        // 自动计算出列数和总座位数
+        List<SeatColEnum> seatColEnums = SeatColEnum.getColsByType(req.getSeatType());
+        req.setColCount(seatColEnums.size());
+        req.setSeatCount(req.getColCount() * req.getRowCount());
+
         TrainCarriage trainCarriage = BeanUtil.copyProperties(req, TrainCarriage.class);
         if (ObjectUtil.isNull(trainCarriage.getId())) {
             trainCarriage.setId(SnowUtil.getSnowflakeNextId());
@@ -45,7 +52,6 @@ public class TrainCarriageService {
     public PageResp<TrainCarriageQueryResp> queryTrainCarriageList(TrainCarriageQueryReq req) {
         TrainCarriageExample trainCarriageExample = new TrainCarriageExample();
         trainCarriageExample.setOrderByClause("id desc");
-        TrainCarriageExample.Criteria criteria = trainCarriageExample.createCriteria();
 
         LOG.info("查询页码：{}", req.getPageNum());
         LOG.info("每页条数：{}", req.getPageSize());

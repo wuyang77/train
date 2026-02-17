@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="修复火车列号重复显示的bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/exception/BusinessExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/exception/BusinessExceptionEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
@@ -74,7 +76,7 @@
     <urls />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -539,15 +541,7 @@
       <workItem from="1771169745063" duration="349000" />
       <workItem from="1771205044910" duration="32405000" />
       <workItem from="1771258325010" duration="1134000" />
-      <workItem from="1771298378462" duration="1056000" />
-    </task>
-    <task id="LOCAL-00091" summary="趁车人编辑接口开发：添加操作列，每一列都可以对该行数据进行编辑">
-      <option name="closed" value="true" />
-      <created>1769555152774</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1769555152774</updated>
+      <workItem from="1771298378462" duration="7142000" />
     </task>
     <task id="LOCAL-00092" summary="趁车人编辑接口开发：修复不能读取current属性的bug,前端点击新页码跳转错误解决">
       <option name="closed" value="true" />
@@ -933,7 +927,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771259428809</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="修复火车列号重复显示的bug">
+      <option name="closed" value="true" />
+      <created>1771299708215</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1771299708215</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -965,7 +967,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="集成dom4j,读取generator-config-member.xml文件所在地址，读取table以及其包含表名tableName和实体名domainObjectName的节点" />
     <MESSAGE value="使用PassengerService制作生成模板service.ftl，生成service成功" />
     <MESSAGE value="使用PassengerController制作生成模板controller.ftl，生成controller成功" />
     <MESSAGE value="添加工具类DbUtil，获取表中文名和表字段信息" />
@@ -990,7 +991,8 @@
     <MESSAGE value="车次生成车座功能：在车次管理页面添加前端功能" />
     <MESSAGE value="编辑时车次编号不允许修改" />
     <MESSAGE value="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据" />
+    <MESSAGE value="修复火车列号重复显示的bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复火车列号重复显示的bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,6 +1,7 @@
 package org.wuyang.business.service;
 
 import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
 import com.github.pagehelper.PageHelper;
@@ -15,6 +16,8 @@ import org.wuyang.business.mapper.StationMapper;
 import org.wuyang.business.req.StationQueryReq;
 import org.wuyang.business.req.StationSaveReq;
 import org.wuyang.business.resp.StationQueryResp;
+import org.wuyang.common.exception.BusinessException;
+import org.wuyang.common.exception.BusinessExceptionEnum;
 import org.wuyang.common.resp.PageResp;
 import org.wuyang.common.util.SnowUtil;
 
@@ -32,6 +35,15 @@ public class StationService {
         DateTime now = DateTime.now();
         Station station = BeanUtil.copyProperties(req, Station.class);
         if (ObjectUtil.isNull(station.getId())) {
+
+            // 保存之前，先校验唯一键是否存在
+            StationExample stationExample = new StationExample();
+            stationExample.createCriteria().andNameEqualTo(req.getName());
+            List<Station> stationList = stationMapper.selectByExample(stationExample);
+            if (CollUtil.isNotEmpty(stationList)) {
+                throw  new BusinessException(BusinessExceptionEnum.BUSINESS_STATION_NAME_UNIQUE_ERROR);
+            }
+
             station.setId(SnowUtil.getSnowflakeNextId());
             station.setCreateTime(now);
             station.setUpdateTime(now);
