@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="编辑时车次编号不允许修改">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/public/js/session-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/public/js/session-storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/train-selected.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/train-selected.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainSeatQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainSeatQueryReq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainSeatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
@@ -96,7 +90,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.EnumGenerator.executor": "Debug",
+    "Application.EnumGenerator.executor": "Run",
     "Application.JwtUtil.executor": "Run",
     "Application.ServerGenerator.executor": "Run",
     "Application.org.wuyang.gateway.util.JwtUtil.executor": "Run",
@@ -157,7 +151,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
     "nodejs_package_manager_path": "npm",
-    "npm.admin9001.executor": "Debug",
+    "npm.admin9001.executor": "Run",
     "npm.serve (1).executor": "Run",
     "npm.serve.executor": "Run",
     "npm.serve9001.executor": "Run",
@@ -296,6 +290,15 @@
           <value>
             <map>
               <entry key="BusinessApplication" value="STOPPED" />
+              <entry key="GatewayApplication" value="STOPPED" />
+              <entry key="MemberApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="js.build_tools.npm">
+          <value>
+            <map>
+              <entry key="admin9001" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -314,7 +317,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BusinessApplication">
+  <component name="RunManager" selected="Application.EnumGenerator">
     <configuration name="EnumGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.EnumGenerator" />
       <module name="generator" />
@@ -535,15 +538,8 @@
       <workItem from="1771130436066" duration="23619000" />
       <workItem from="1771169745063" duration="349000" />
       <workItem from="1771205044910" duration="32405000" />
-      <workItem from="1771258325010" duration="946000" />
-    </task>
-    <task id="LOCAL-00090" summary="趁车人编辑接口开发：reactive统一改为ref和.value的形式">
-      <option name="closed" value="true" />
-      <created>1769554239290</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1769554239290</updated>
+      <workItem from="1771258325010" duration="1134000" />
+      <workItem from="1771298378462" duration="1056000" />
     </task>
     <task id="LOCAL-00091" summary="趁车人编辑接口开发：添加操作列，每一列都可以对该行数据进行编辑">
       <option name="closed" value="true" />
@@ -929,7 +925,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771219080318</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据">
+      <option name="closed" value="true" />
+      <created>1771259428809</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1771259428809</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -961,7 +965,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径" />
     <MESSAGE value="集成dom4j,读取generator-config-member.xml文件所在地址，读取table以及其包含表名tableName和实体名domainObjectName的节点" />
     <MESSAGE value="使用PassengerService制作生成模板service.ftl，生成service成功" />
     <MESSAGE value="使用PassengerController制作生成模板controller.ftl，生成controller成功" />
@@ -986,7 +989,8 @@
     <MESSAGE value="实现按车次生成车座功能" />
     <MESSAGE value="车次生成车座功能：在车次管理页面添加前端功能" />
     <MESSAGE value="编辑时车次编号不允许修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="编辑时车次编号不允许修改" />
+    <MESSAGE value="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
