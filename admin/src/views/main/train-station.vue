@@ -37,7 +37,7 @@
               <station-selected-view v-model="trainStation.name"></station-selected-view>
             </a-form-item>
             <a-form-item label="站名拼音">
-              <a-input v-model:value="trainStation.namePinyin" />
+              <a-input v-model:value="trainStation.namePinyin" :disabled="!!trainStation.name" />
             </a-form-item>
             <a-form-item label="进站时间">
               <a-time-picker v-model:value="trainStation.inTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />

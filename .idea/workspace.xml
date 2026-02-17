@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="保存之前，先校验唯一键是否存在">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="提取出按唯一键查询的方法">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainCarriageSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/req/TrainCarriageSaveReq.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/StationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainCarriageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/business/service/TrainStationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/exception/BusinessExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/common/exception/BusinessExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -536,15 +546,7 @@
       <workItem from="1771169745063" duration="349000" />
       <workItem from="1771205044910" duration="32405000" />
       <workItem from="1771258325010" duration="1134000" />
-      <workItem from="1771298378462" duration="7487000" />
-    </task>
-    <task id="LOCAL-00094" summary="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）">
-      <option name="closed" value="true" />
-      <created>1769643173432</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1769643173432</updated>
+      <workItem from="1771298378462" duration="12317000" />
     </task>
     <task id="LOCAL-00095" summary="趁车人编辑接口开发：解决没保存也会同步修改列表的问题（新增无值，编辑有值，引入了tool.js）">
       <option name="closed" value="true" />
@@ -930,7 +932,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771309075843</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="提取出按唯一键查询的方法">
+      <option name="closed" value="true" />
+      <created>1771309513271</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1771309513271</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -962,7 +972,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="添加工具类DbUtil，获取表中文名和表字段信息" />
     <MESSAGE value="新增queryReq.ftl和queryResp.ftl模板" />
     <MESSAGE value="添加了vue.ftl，并将vue网页端给git管理" />
     <MESSAGE value="新增EnumGenerator，实现自动enums.js枚举生成；js种value改为了desc与枚举类保持一致" />
@@ -987,7 +996,8 @@
     <MESSAGE value="修复火车列号重复显示的bug" />
     <MESSAGE value="// 保存之前，先校验唯一键是否存在" />
     <MESSAGE value="保存之前，先校验唯一键是否存在" />
-    <option name="LAST_COMMIT_MESSAGE" value="保存之前，先校验唯一键是否存在" />
+    <MESSAGE value="提取出按唯一键查询的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="提取出按唯一键查询的方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

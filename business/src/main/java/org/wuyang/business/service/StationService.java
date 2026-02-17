@@ -52,9 +52,9 @@ public class StationService {
         }
     }
 
-    private Station selectByUnique(String name) {
+    private Station selectByUnique(String uniqueName) {
         StationExample stationExample = new StationExample();
-        stationExample.createCriteria().andNameEqualTo(name);
+        stationExample.createCriteria().andNameEqualTo(uniqueName);
         List<Station> stationList = stationMapper.selectByExample(stationExample);
         if (CollUtil.isNotEmpty(stationList)) {
             return stationList.get(0);

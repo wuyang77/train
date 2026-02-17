@@ -1,6 +1,7 @@
 package org.wuyang.business.service;
 
 import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
 import com.github.pagehelper.PageHelper;
@@ -15,6 +16,8 @@ import org.wuyang.business.mapper.TrainMapper;
 import org.wuyang.business.req.TrainQueryReq;
 import org.wuyang.business.req.TrainSaveReq;
 import org.wuyang.business.resp.TrainQueryResp;
+import org.wuyang.common.exception.BusinessException;
+import org.wuyang.common.exception.BusinessExceptionEnum;
 import org.wuyang.common.resp.PageResp;
 import org.wuyang.common.util.SnowUtil;
 
@@ -30,8 +33,16 @@ public class TrainService {
 
     public void saveOrEditTrain(TrainSaveReq req) {
         DateTime now = DateTime.now();
+
         Train train = BeanUtil.copyProperties(req, Train.class);
         if (ObjectUtil.isNull(train.getId())) {
+
+            // 保存之前，先校验唯一键是否存在
+            Train trainDB = selectByUnique(req.getCode());
+            if (ObjectUtil.isNotEmpty(trainDB)) {
+                throw new BusinessException(BusinessExceptionEnum.BUSINESS_TRAIN_CODE_UNIQUE_ERROR);
+            }
+
             train.setId(SnowUtil.getSnowflakeNextId());
             train.setCreateTime(now);
             train.setUpdateTime(now);
@@ -39,6 +50,18 @@ public class TrainService {
         } else {
             train.setUpdateTime(now);
             trainMapper.updateByPrimaryKey(train);
+        }
+    }
+
+    private Train selectByUnique(String uniqueCode) {
+        TrainExample trainExample = new TrainExample();
+        trainExample.createCriteria()
+                .andCodeEqualTo(uniqueCode);
+        List<Train> trainList = trainMapper.selectByExample(trainExample);
+        if (CollUtil.isNotEmpty(trainList)) {
+            return trainList.get(0);
+        } else {
+            return null;
         }
     }
 

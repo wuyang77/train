@@ -1,9 +1,10 @@
 package org.wuyang.business.req;
 
-import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+
+import java.util.Date;
 
 public class TrainCarriageSaveReq {
 
@@ -33,7 +34,7 @@ public class TrainCarriageSaveReq {
     /**
      * 座位数
      */
-    @NotNull(message = "【座位数】不能为空")
+//    @NotNull(message = "【座位数】不能为空")
     private Integer seatCount;
 
     /**
@@ -45,7 +46,7 @@ public class TrainCarriageSaveReq {
     /**
      * 列数
      */
-    @NotNull(message = "【列数】不能为空")
+//    @NotNull(message = "【列数】不能为空")
     private Integer colCount;
 
     /**
