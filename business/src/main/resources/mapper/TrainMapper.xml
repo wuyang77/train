@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.wuyang.business.mapper.TrainMapper">
-  <resultMap id="BaseResultMap" type="org.wuyang.business.domain.Train">
+<mapper namespace="org.wuyang.train.business.mapper.TrainMapper">
+  <resultMap id="BaseResultMap" type="org.wuyang.train.business.domain.Train">
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="code" jdbcType="VARCHAR" property="code" />
     <result column="type" jdbcType="CHAR" property="type" />
@@ -76,7 +76,7 @@
     id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, 
     create_time, update_time
   </sql>
-  <select id="selectByExample" parameterType="org.wuyang.business.domain.TrainExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="org.wuyang.train.business.domain.TrainExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
@@ -100,13 +100,13 @@
     delete from train
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="org.wuyang.business.domain.TrainExample">
+  <delete id="deleteByExample" parameterType="org.wuyang.train.business.domain.TrainExample">
     delete from train
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="org.wuyang.business.domain.Train">
+  <insert id="insert" parameterType="org.wuyang.train.business.domain.Train">
     insert into train (id, code, `type`, `start`, 
       start_pinyin, start_time, `end`, 
       end_pinyin, end_time, create_time, 
@@ -116,7 +116,7 @@
       #{endPinyin,jdbcType=VARCHAR}, #{endTime,jdbcType=TIME}, #{createTime,jdbcType=TIMESTAMP}, 
       #{updateTime,jdbcType=TIMESTAMP})
   </insert>
-  <insert id="insertSelective" parameterType="org.wuyang.business.domain.Train">
+  <insert id="insertSelective" parameterType="org.wuyang.train.business.domain.Train">
     insert into train
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -189,7 +189,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="org.wuyang.business.domain.TrainExample" resultType="java.lang.Long">
+  <select id="countByExample" parameterType="org.wuyang.train.business.domain.TrainExample" resultType="java.lang.Long">
     select count(*) from train
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
@@ -253,7 +253,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="org.wuyang.business.domain.Train">
+  <update id="updateByPrimaryKeySelective" parameterType="org.wuyang.train.business.domain.Train">
     update train
     <set>
       <if test="code != null">
@@ -289,7 +289,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="org.wuyang.business.domain.Train">
+  <update id="updateByPrimaryKey" parameterType="org.wuyang.train.business.domain.Train">
     update train
     set code = #{code,jdbcType=VARCHAR},
       `type` = #{type,jdbcType=CHAR},

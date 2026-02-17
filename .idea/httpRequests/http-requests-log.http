@@ -1,3 +1,30 @@
+GET http://localhost:8000/batch/hello
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-02-17T180440.404.json
+
+###
+
+GET http://localhost:8003/batch/hello
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-02-17T180008.404.json
+
+###
+
+GET http://localhost:8000/batch/hello
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-02-17T175956.404.json
+
+###
+
 GET http://localhost:8000/business/admin/train/generate-seat/G1-3579
 Accept: application/json
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
@@ -537,46 +564,6 @@ Accept: */*
 }
 
 <> 2026-01-27T232116.200.json
-
-###
-
-POST http://localhost:8000/member/member/login
-Content-Type: application/json
-Content-Length: 47
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "mobile": "17689401847",
-  "code": "8888"
-}
-
-<> 2026-01-27T232112.200.json
-
-###
-
-GET http://localhost:8000/member/passenger/query-list
-Accept: application/json
-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3Njk1MjcwMTAsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc2OTU2MzAxMCwiaWF0IjoxNzY5NTI3MDEwfQ.w8ygp1SD6hjwneY7x-c7box9c09EqS6OptDVgiNcjfQ}
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-
-###
-
-POST http://localhost:8000/member/member/login
-Content-Type: application/json
-Content-Length: 47
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "mobile": "17689401847",
-  "code": "8888"
-}
-
-<> 2026-01-27T231650.200.json
 
 ###
 

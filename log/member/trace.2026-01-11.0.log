@@ -1,5 +1,5 @@
-2026-01-11 14:17:12.155 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31204 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 14:17:12.158 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 14:17:12.155 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31204 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 14:17:12.158 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 14:17:12.205 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 14:17:12.205 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 14:17:12.845 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[org.wuyang.member.config]' package. Please check your configuration.
@@ -12,11 +12,11 @@
 2026-01-11 14:17:13.960 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 14:17:13.971 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:17:14.004 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 14:17:14.010 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 2.158 seconds (process running for 2.599)
-2026-01-11 14:17:14.012 INFO  org.wuyang.member.config.MemberApplication        :19   [32m                  [0;39m 启动成功！！
-2026-01-11 14:17:14.012 INFO  org.wuyang.member.config.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-11 14:17:24.884 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13956 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 14:17:24.886 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 14:17:14.010 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 2.158 seconds (process running for 2.599)
+2026-01-11 14:17:14.012 INFO  config.org.wuyang.train.member.MemberApplication        :19   [32m                  [0;39m 启动成功！！
+2026-01-11 14:17:14.012 INFO  config.org.wuyang.train.member.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 14:17:24.884 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13956 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 14:17:24.886 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 14:17:24.911 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 14:17:24.912 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 14:17:25.216 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[org.wuyang.member.config]' package. Please check your configuration.
@@ -29,16 +29,16 @@
 2026-01-11 14:17:25.892 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 14:17:25.901 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:17:25.912 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 14:17:25.917 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.301 seconds (process running for 1.646)
-2026-01-11 14:17:25.919 INFO  org.wuyang.member.config.MemberApplication        :19   [32m                  [0;39m 启动成功！！
-2026-01-11 14:17:25.919 INFO  org.wuyang.member.config.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 14:17:25.917 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.301 seconds (process running for 1.646)
+2026-01-11 14:17:25.919 INFO  config.org.wuyang.train.member.MemberApplication        :19   [32m                  [0;39m 启动成功！！
+2026-01-11 14:17:25.919 INFO  config.org.wuyang.train.member.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 14:17:55.770 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
 2026-01-11 14:17:55.783 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:17:55.783 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 14:17:55.786 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:17:55.787 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 14:17:55.824 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13956 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 14:17:55.824 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 14:17:55.824 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13956 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 14:17:55.824 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 14:17:55.900 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[org.wuyang.member.config]' package. Please check your configuration.
 2026-01-11 14:17:55.942 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 14:17:55.942 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
@@ -49,12 +49,12 @@
 2026-01-11 14:17:56.086 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 14:17:56.090 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:17:56.094 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 14:17:56.096 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.288 seconds (process running for 31.825)
+2026-01-11 14:17:56.096 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.288 seconds (process running for 31.825)
 2026-01-11 14:17:56.097 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 14:17:56.097 INFO  org.wuyang.member.config.MemberApplication        :19   [32m                  [0;39m 启动成功！！
-2026-01-11 14:17:56.097 INFO  org.wuyang.member.config.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-11 14:18:08.957 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29824 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 14:18:08.958 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 14:17:56.097 INFO  config.org.wuyang.train.member.MemberApplication        :19   [32m                  [0;39m 启动成功！！
+2026-01-11 14:17:56.097 INFO  config.org.wuyang.train.member.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 14:18:08.957 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29824 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 14:18:08.958 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 14:18:08.983 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 14:18:08.984 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 14:18:09.289 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[org.wuyang.member.config]' package. Please check your configuration.
@@ -67,16 +67,16 @@
 2026-01-11 14:18:09.937 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 14:18:09.946 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:18:09.956 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 14:18:09.962 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.247 seconds (process running for 1.564)
-2026-01-11 14:18:09.963 INFO  org.wuyang.member.config.MemberApplication        :19   [32m                  [0;39m 启动成功！！
-2026-01-11 14:18:09.964 INFO  org.wuyang.member.config.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 14:18:09.962 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.247 seconds (process running for 1.564)
+2026-01-11 14:18:09.963 INFO  config.org.wuyang.train.member.MemberApplication        :19   [32m                  [0;39m 启动成功！！
+2026-01-11 14:18:09.964 INFO  config.org.wuyang.train.member.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 14:30:40.170 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 4 class path changes (1 addition, 2 deletions, 1 modification)
 2026-01-11 14:30:40.183 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:30:40.184 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 14:30:40.186 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:30:40.188 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 14:30:40.221 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29824 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 14:30:40.221 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 14:30:40.221 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29824 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 14:30:40.221 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 14:30:40.296 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[org.wuyang.member.config]' package. Please check your configuration.
 2026-01-11 14:30:40.336 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 14:30:40.337 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
@@ -87,15 +87,15 @@
 2026-01-11 14:30:40.600 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 14:30:40.604 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:30:40.608 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 14:30:40.611 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.404 seconds (process running for 752.213)
+2026-01-11 14:30:40.611 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.404 seconds (process running for 752.213)
 2026-01-11 14:30:40.612 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 14:30:40.612 INFO  org.wuyang.member.config.MemberApplication        :19   [32m                  [0;39m 启动成功！！
-2026-01-11 14:30:40.613 INFO  org.wuyang.member.config.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 14:30:40.612 INFO  config.org.wuyang.train.member.MemberApplication        :19   [32m                  [0;39m 启动成功！！
+2026-01-11 14:30:40.613 INFO  config.org.wuyang.train.member.MemberApplication        :20   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 14:45:41.092 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 14:45:41.092 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 14:45:41.093 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-11 14:46:37.916 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 580 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 14:46:37.917 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 14:46:37.916 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 580 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 14:46:37.917 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 14:46:37.943 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 14:46:37.944 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 14:46:38.529 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -107,47 +107,47 @@
 2026-01-11 14:46:38.974 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 14:46:38.984 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:46:38.994 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 14:46:38.999 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.313 seconds (process running for 1.696)
-2026-01-11 14:46:39.000 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 14:46:39.001 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 14:46:38.999 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.313 seconds (process running for 1.696)
+2026-01-11 14:46:39.000 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 14:46:39.001 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 14:47:03.776 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 14:47:03.776 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 14:47:03.777 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-11 14:47:03.852 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768114023792840  [0;39m ------------- 开始 -------------
-2026-01-11 14:47:03.853 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768114023792840  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2026-01-11 14:47:03.853 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768114023792840  [0;39m 类名方法: org.wuyang.member.controller.TestController.count
-2026-01-11 14:47:03.853 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768114023792840  [0;39m 远程地址: 127.0.0.1
-2026-01-11 14:47:03.919 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768114023792840  [0;39m 请求参数: []
+2026-01-11 14:47:03.852 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768114023792840  [0;39m ------------- 开始 -------------
+2026-01-11 14:47:03.853 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768114023792840  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2026-01-11 14:47:03.853 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768114023792840  [0;39m 类名方法: controller.org.wuyang.train.member.TestController.count
+2026-01-11 14:47:03.853 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768114023792840  [0;39m 远程地址: 127.0.0.1
+2026-01-11 14:47:03.919 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768114023792840  [0;39m 请求参数: []
 2026-01-11 14:47:03.930 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1768114023792840  [0;39m HikariPool-1 - Starting...
 2026-01-11 14:47:04.138 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1768114023792840  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fa64a51
 2026-01-11 14:47:04.139 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1768114023792840  [0;39m HikariPool-1 - Start completed.
-2026-01-11 14:47:04.175 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768114023792840  [0;39m 返回结果: 0
-2026-01-11 14:47:04.175 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768114023792840  [0;39m ------------- 结束 耗时：383 ms -------------
-2026-01-11 14:48:06.596 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768114086596dd9  [0;39m ------------- 开始 -------------
-2026-01-11 14:48:06.596 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768114086596dd9  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2026-01-11 14:48:06.597 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768114086596dd9  [0;39m 类名方法: org.wuyang.member.controller.TestController.count
-2026-01-11 14:48:06.597 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768114086596dd9  [0;39m 远程地址: 127.0.0.1
-2026-01-11 14:48:06.597 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768114086596dd9  [0;39m 请求参数: []
-2026-01-11 14:48:06.602 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768114086596dd9  [0;39m 返回结果: 0
-2026-01-11 14:48:06.603 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768114086596dd9  [0;39m ------------- 结束 耗时：7 ms -------------
-2026-01-11 14:50:56.162 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768114256162xte  [0;39m ------------- 开始 -------------
-2026-01-11 14:50:56.162 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768114256162xte  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2026-01-11 14:50:56.162 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768114256162xte  [0;39m 类名方法: org.wuyang.member.controller.TestController.count
-2026-01-11 14:50:56.162 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768114256162xte  [0;39m 远程地址: 127.0.0.1
-2026-01-11 14:50:56.163 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768114256162xte  [0;39m 请求参数: []
-2026-01-11 14:50:56.164 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768114256162xte  [0;39m 返回结果: 1
-2026-01-11 14:50:56.165 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768114256162xte  [0;39m ------------- 结束 耗时：3 ms -------------
-2026-01-11 14:53:10.498 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768114390498d4q  [0;39m ------------- 开始 -------------
-2026-01-11 14:53:10.499 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768114390498d4q  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2026-01-11 14:53:10.499 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768114390498d4q  [0;39m 类名方法: org.wuyang.member.controller.TestController.count
-2026-01-11 14:53:10.499 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768114390498d4q  [0;39m 远程地址: 127.0.0.1
-2026-01-11 14:53:10.499 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768114390498d4q  [0;39m 请求参数: []
-2026-01-11 14:53:10.501 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768114390498d4q  [0;39m 返回结果: 1
-2026-01-11 14:53:10.502 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768114390498d4q  [0;39m ------------- 结束 耗时：4 ms -------------
+2026-01-11 14:47:04.175 INFO  aspect.org.wuyang.train.common.LogAspect                :89   [32m1768114023792840  [0;39m 返回结果: 0
+2026-01-11 14:47:04.175 INFO  aspect.org.wuyang.train.common.LogAspect                :90   [32m1768114023792840  [0;39m ------------- 结束 耗时：383 ms -------------
+2026-01-11 14:48:06.596 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768114086596dd9  [0;39m ------------- 开始 -------------
+2026-01-11 14:48:06.596 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768114086596dd9  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2026-01-11 14:48:06.597 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768114086596dd9  [0;39m 类名方法: controller.org.wuyang.train.member.TestController.count
+2026-01-11 14:48:06.597 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768114086596dd9  [0;39m 远程地址: 127.0.0.1
+2026-01-11 14:48:06.597 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768114086596dd9  [0;39m 请求参数: []
+2026-01-11 14:48:06.602 INFO  aspect.org.wuyang.train.common.LogAspect                :89   [32m1768114086596dd9  [0;39m 返回结果: 0
+2026-01-11 14:48:06.603 INFO  aspect.org.wuyang.train.common.LogAspect                :90   [32m1768114086596dd9  [0;39m ------------- 结束 耗时：7 ms -------------
+2026-01-11 14:50:56.162 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768114256162xte  [0;39m ------------- 开始 -------------
+2026-01-11 14:50:56.162 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768114256162xte  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2026-01-11 14:50:56.162 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768114256162xte  [0;39m 类名方法: controller.org.wuyang.train.member.TestController.count
+2026-01-11 14:50:56.162 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768114256162xte  [0;39m 远程地址: 127.0.0.1
+2026-01-11 14:50:56.163 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768114256162xte  [0;39m 请求参数: []
+2026-01-11 14:50:56.164 INFO  aspect.org.wuyang.train.common.LogAspect                :89   [32m1768114256162xte  [0;39m 返回结果: 1
+2026-01-11 14:50:56.165 INFO  aspect.org.wuyang.train.common.LogAspect                :90   [32m1768114256162xte  [0;39m ------------- 结束 耗时：3 ms -------------
+2026-01-11 14:53:10.498 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768114390498d4q  [0;39m ------------- 开始 -------------
+2026-01-11 14:53:10.499 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768114390498d4q  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2026-01-11 14:53:10.499 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768114390498d4q  [0;39m 类名方法: controller.org.wuyang.train.member.TestController.count
+2026-01-11 14:53:10.499 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768114390498d4q  [0;39m 远程地址: 127.0.0.1
+2026-01-11 14:53:10.499 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768114390498d4q  [0;39m 请求参数: []
+2026-01-11 14:53:10.501 INFO  aspect.org.wuyang.train.common.LogAspect                :89   [32m1768114390498d4q  [0;39m 返回结果: 1
+2026-01-11 14:53:10.502 INFO  aspect.org.wuyang.train.common.LogAspect                :90   [32m1768114390498d4q  [0;39m ------------- 结束 耗时：4 ms -------------
 2026-01-11 14:53:19.439 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2026-01-11 14:53:19.443 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2026-01-11 14:53:20.907 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32056 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 14:53:20.909 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 14:53:20.907 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32056 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 14:53:20.909 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 14:53:20.938 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 14:53:20.939 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 14:53:21.556 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -159,27 +159,27 @@
 2026-01-11 14:53:21.958 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 14:53:21.970 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 14:53:21.983 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 14:53:21.988 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.314 seconds (process running for 1.63)
-2026-01-11 14:53:21.990 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 14:53:21.990 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 14:53:21.988 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.314 seconds (process running for 1.63)
+2026-01-11 14:53:21.990 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 14:53:21.990 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 14:53:25.846 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 14:53:25.846 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 14:53:25.847 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2026-01-11 14:53:25.865 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17681144058612p5  [0;39m ------------- 开始 -------------
-2026-01-11 14:53:25.865 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17681144058612p5  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2026-01-11 14:53:25.866 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17681144058612p5  [0;39m 类名方法: org.wuyang.member.controller.TestController.count
-2026-01-11 14:53:25.866 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17681144058612p5  [0;39m 远程地址: 127.0.0.1
-2026-01-11 14:53:25.883 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17681144058612p5  [0;39m 请求参数: []
+2026-01-11 14:53:25.865 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m17681144058612p5  [0;39m ------------- 开始 -------------
+2026-01-11 14:53:25.865 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m17681144058612p5  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2026-01-11 14:53:25.866 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m17681144058612p5  [0;39m 类名方法: controller.org.wuyang.train.member.TestController.count
+2026-01-11 14:53:25.866 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m17681144058612p5  [0;39m 远程地址: 127.0.0.1
+2026-01-11 14:53:25.883 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m17681144058612p5  [0;39m 请求参数: []
 2026-01-11 14:53:25.892 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m17681144058612p5  [0;39m HikariPool-1 - Starting...
 2026-01-11 14:53:26.034 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m17681144058612p5  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71b3c3
 2026-01-11 14:53:26.035 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m17681144058612p5  [0;39m HikariPool-1 - Start completed.
-2026-01-11 14:53:26.039 DEBUG org.wuyang.member.mapper.MemberMapper.count       :137  [32m17681144058612p5  [0;39m ==>  Preparing: select count(1) from member
-2026-01-11 14:53:26.051 DEBUG org.wuyang.member.mapper.MemberMapper.count       :137  [32m17681144058612p5  [0;39m ==> Parameters: 
-2026-01-11 14:53:26.061 TRACE org.wuyang.member.mapper.MemberMapper.count       :143  [32m17681144058612p5  [0;39m <==    Columns: count(1)
-2026-01-11 14:53:26.062 TRACE org.wuyang.member.mapper.MemberMapper.count       :143  [32m17681144058612p5  [0;39m <==        Row: 1
-2026-01-11 14:53:26.065 DEBUG org.wuyang.member.mapper.MemberMapper.count       :137  [32m17681144058612p5  [0;39m <==      Total: 1
-2026-01-11 14:53:26.068 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17681144058612p5  [0;39m 返回结果: 1
-2026-01-11 14:53:26.068 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17681144058612p5  [0;39m ------------- 结束 耗时：207 ms -------------
+2026-01-11 14:53:26.039 DEBUG mapper.org.wuyang.train.member.MemberMapper.count       :137  [32m17681144058612p5  [0;39m ==>  Preparing: select count(1) from member
+2026-01-11 14:53:26.051 DEBUG mapper.org.wuyang.train.member.MemberMapper.count       :137  [32m17681144058612p5  [0;39m ==> Parameters:
+2026-01-11 14:53:26.061 TRACE mapper.org.wuyang.train.member.MemberMapper.count       :143  [32m17681144058612p5  [0;39m <==    Columns: count(1)
+2026-01-11 14:53:26.062 TRACE mapper.org.wuyang.train.member.MemberMapper.count       :143  [32m17681144058612p5  [0;39m <==        Row: 1
+2026-01-11 14:53:26.065 DEBUG mapper.org.wuyang.train.member.MemberMapper.count       :137  [32m17681144058612p5  [0;39m <==      Total: 1
+2026-01-11 14:53:26.068 INFO  aspect.org.wuyang.train.common.LogAspect                :89   [32m17681144058612p5  [0;39m 返回结果: 1
+2026-01-11 14:53:26.068 INFO  aspect.org.wuyang.train.common.LogAspect                :90   [32m17681144058612p5  [0;39m ------------- 结束 耗时：207 ms -------------
 2026-01-11 15:19:08.646 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (0 additions, 1 deletion, 1 modification)
 2026-01-11 15:19:08.658 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:19:08.659 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
@@ -198,8 +198,8 @@
 2026-01-11 15:19:08.662 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:19:08.664 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2026-01-11 15:19:08.667 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2026-01-11 15:19:08.713 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32056 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:19:08.713 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:19:08.713 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32056 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:19:08.713 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:19:08.792 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[org.wuyang.member.mapper]' package. Please check your configuration.
 2026-01-11 15:19:08.834 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 15:19:08.835 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
@@ -229,7 +229,7 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.wuyang.member.config.MemberApplication.main(MemberApplication.java:20)
+	at config.org.wuyang.train.member.MemberApplication.main(MemberApplication.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -250,7 +250,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127)
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
 	... 20 common frames omitted
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.wuyang.member.service.MemberService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7fa6813d]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [service.org.wuyang.train.member.MemberService] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7fa6813d]
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:740)
 	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:672)
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:340)
@@ -265,7 +265,7 @@ Caused by: java.lang.NoClassDefFoundError: org/wuyang/member/mapper/MemberMapper
 	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735)
 	... 38 common frames omitted
-Caused by: java.lang.ClassNotFoundException: org.wuyang.member.mapper.MemberMapper
+Caused by: java.lang.ClassNotFoundException: mapper.org.wuyang.train.member.MemberMapper
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
@@ -274,8 +274,8 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.mapper.MemberMapp
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 42 common frames omitted
-2026-01-11 15:20:30.264 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32056 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:20:30.264 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:20:30.264 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32056 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:20:30.264 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:20:30.363 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 15:20:30.364 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:20:30.364 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -302,13 +302,13 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.wuyang.member.config.MemberApplication.main(MemberApplication.java:20)
+	at config.org.wuyang.train.member.MemberApplication.main(MemberApplication.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.wuyang.member.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5285edf2]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [controller.org.wuyang.train.member.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5285edf2]
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:740)
 	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:672)
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:340)
@@ -323,7 +323,7 @@ Caused by: java.lang.NoClassDefFoundError: org/wuyang/member/service/MemberServi
 	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
 	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:735)
 	... 24 common frames omitted
-Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberService
+Caused by: java.lang.ClassNotFoundException: service.org.wuyang.train.member.MemberService
 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
@@ -332,8 +332,8 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberSer
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 28 common frames omitted
-2026-01-11 15:29:01.652 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 33596 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:29:01.654 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:29:01.652 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 33596 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:29:01.654 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:29:01.680 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 15:29:01.680 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 15:29:02.283 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -345,11 +345,11 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberSer
 2026-01-11 15:29:02.703 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:29:02.713 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:29:02.723 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:29:02.728 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.309 seconds (process running for 1.638)
-2026-01-11 15:29:02.730 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:29:02.730 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-11 15:39:44.523 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 25580 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:39:44.525 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:29:02.728 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.309 seconds (process running for 1.638)
+2026-01-11 15:29:02.730 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:29:02.730 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:39:44.523 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 25580 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:39:44.525 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:39:44.553 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 15:39:44.553 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 15:39:45.252 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -361,29 +361,29 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberSer
 2026-01-11 15:39:45.674 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:39:45.682 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:39:45.692 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:39:45.698 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.419 seconds (process running for 1.743)
-2026-01-11 15:39:45.699 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:39:45.699 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:39:45.698 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.419 seconds (process running for 1.743)
+2026-01-11 15:39:45.699 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:39:45.699 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 15:42:41.976 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 15:42:41.977 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 15:42:41.977 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-11 15:42:41.996 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768117361993njm  [0;39m ------------- 开始 -------------
-2026-01-11 15:42:41.996 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768117361993njm  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 15:42:41.996 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768117361993njm  [0;39m 类名方法: org.wuyang.member.controller.TestController.register
-2026-01-11 15:42:41.996 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768117361993njm  [0;39m 远程地址: 127.0.0.1
-2026-01-11 15:42:42.013 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768117361993njm  [0;39m 请求参数: ["1234"]
+2026-01-11 15:42:41.996 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768117361993njm  [0;39m ------------- 开始 -------------
+2026-01-11 15:42:41.996 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768117361993njm  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 15:42:41.996 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768117361993njm  [0;39m 类名方法: controller.org.wuyang.train.member.TestController.register
+2026-01-11 15:42:41.996 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768117361993njm  [0;39m 远程地址: 127.0.0.1
+2026-01-11 15:42:42.013 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768117361993njm  [0;39m 请求参数: ["1234"]
 2026-01-11 15:42:42.020 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1768117361993njm  [0;39m HikariPool-1 - Starting...
 2026-01-11 15:42:42.153 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1768117361993njm  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@140da316
 2026-01-11 15:42:42.154 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1768117361993njm  [0;39m HikariPool-1 - Start completed.
-2026-01-11 15:42:42.158 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
-2026-01-11 15:42:42.172 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m ==> Parameters: 1768117362013(Long), 1234(String)
-2026-01-11 15:42:42.175 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m <==    Updates: 1
-2026-01-11 15:42:42.176 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768117361993njm  [0;39m 返回结果: 1768117362013
-2026-01-11 15:42:42.176 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768117361993njm  [0;39m ------------- 结束 耗时：183 ms -------------
+2026-01-11 15:42:42.158 DEBUG mapper.org.wuyang.train.member.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2026-01-11 15:42:42.172 DEBUG mapper.org.wuyang.train.member.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m ==> Parameters: 1768117362013(Long), 1234(String)
+2026-01-11 15:42:42.175 DEBUG mapper.org.wuyang.train.member.MemberMapper.insert      :137  [32m1768117361993njm  [0;39m <==    Updates: 1
+2026-01-11 15:42:42.176 INFO  aspect.org.wuyang.train.common.LogAspect                :89   [32m1768117361993njm  [0;39m 返回结果: 1768117362013
+2026-01-11 15:42:42.176 INFO  aspect.org.wuyang.train.common.LogAspect                :90   [32m1768117361993njm  [0;39m ------------- 结束 耗时：183 ms -------------
 2026-01-11 15:53:19.726 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2026-01-11 15:53:19.730 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2026-01-11 15:53:21.764 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:53:21.766 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:53:21.764 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:53:21.766 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:53:21.792 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 15:53:21.792 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 15:53:22.384 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -395,17 +395,17 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberSer
 2026-01-11 15:53:22.810 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:53:22.819 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:53:22.829 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:53:22.834 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.309 seconds (process running for 1.636)
-2026-01-11 15:53:22.836 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:53:22.836 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:53:22.834 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.309 seconds (process running for 1.636)
+2026-01-11 15:53:22.836 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:53:22.836 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 15:53:27.797 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 15:53:27.797 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 15:53:27.797 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-11 15:53:27.819 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17681180078161c7  [0;39m ------------- 开始 -------------
-2026-01-11 15:53:27.820 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17681180078161c7  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 15:53:27.820 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17681180078161c7  [0;39m 类名方法: org.wuyang.member.controller.TestController.register
-2026-01-11 15:53:27.820 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17681180078161c7  [0;39m 远程地址: 127.0.0.1
-2026-01-11 15:53:27.838 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17681180078161c7  [0;39m 请求参数: ["1234"]
+2026-01-11 15:53:27.819 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m17681180078161c7  [0;39m ------------- 开始 -------------
+2026-01-11 15:53:27.820 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m17681180078161c7  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 15:53:27.820 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m17681180078161c7  [0;39m 类名方法: controller.org.wuyang.train.member.TestController.register
+2026-01-11 15:53:27.820 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m17681180078161c7  [0;39m 远程地址: 127.0.0.1
+2026-01-11 15:53:27.838 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m17681180078161c7  [0;39m 请求参数: ["1234"]
 2026-01-11 15:53:27.862 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m17681180078161c7  [0;39m HikariPool-1 - Starting...
 2026-01-11 15:53:27.995 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m17681180078161c7  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61003b9b
 2026-01-11 15:53:27.996 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m17681180078161c7  [0;39m HikariPool-1 - Start completed.
@@ -416,8 +416,8 @@ Caused by: java.lang.ClassNotFoundException: org.wuyang.member.service.MemberSer
 2026-01-11 15:53:28.023 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17681180078161c7  [0;39m <==      Total: 1
 2026-01-11 15:53:28.050 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m17681180078161c7  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: 手机号已注册] with root cause
 java.lang.RuntimeException: 手机号已注册
-	at org.wuyang.member.service.MemberService.register(MemberService.java:29)
-	at org.wuyang.member.controller.TestController.register(TestController.java:23)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:29)
+	at controller.org.wuyang.train.member.TestController.register(TestController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -430,7 +430,7 @@ java.lang.RuntimeException: 手机号已注册
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -444,7 +444,7 @@ java.lang.RuntimeException: 手机号已注册
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.TestController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.TestController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -513,8 +513,8 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 15:55:22.971 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:22.973 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2026-01-11 15:55:22.977 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2026-01-11 15:55:23.029 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:55:23.030 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:55:23.029 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:55:23.030 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:55:23.156 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 15:55:23.156 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:23.156 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -524,17 +524,17 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 15:55:23.321 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:55:23.326 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:23.328 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:55:23.330 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.318 seconds (process running for 122.131)
+2026-01-11 15:55:23.330 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.318 seconds (process running for 122.131)
 2026-01-11 15:55:23.331 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 15:55:23.331 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:55:23.331 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:55:23.331 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:55:23.331 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 15:55:24.744 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
 2026-01-11 15:55:24.755 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:24.755 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 15:55:24.756 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:24.757 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 15:55:24.799 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:55:24.799 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:55:24.799 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:55:24.799 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:55:24.891 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 15:55:24.892 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:24.892 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -544,17 +544,17 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 15:55:25.031 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:55:25.035 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:25.036 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:55:25.038 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.253 seconds (process running for 123.84)
+2026-01-11 15:55:25.038 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.253 seconds (process running for 123.84)
 2026-01-11 15:55:25.039 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 15:55:25.039 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:55:25.039 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:55:25.039 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:55:25.039 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 15:55:40.077 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2026-01-11 15:55:40.088 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:40.088 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 15:55:40.089 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:40.089 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 15:55:40.125 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:55:40.125 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:55:40.125 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:55:40.125 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:55:40.219 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 15:55:40.219 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:40.220 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -564,17 +564,17 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 15:55:40.358 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:55:40.362 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:55:40.364 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:55:40.366 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.252 seconds (process running for 139.167)
+2026-01-11 15:55:40.366 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.252 seconds (process running for 139.167)
 2026-01-11 15:55:40.366 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 15:55:40.366 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:55:40.367 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:55:40.366 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:55:40.367 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 15:56:26.434 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2026-01-11 15:56:26.446 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:26.446 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 15:56:26.447 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:26.447 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 15:56:26.488 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:56:26.489 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:56:26.488 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:56:26.489 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:56:26.578 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 15:56:26.578 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:26.578 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -584,17 +584,17 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 15:56:26.712 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:56:26.719 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:26.721 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:56:26.722 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.247 seconds (process running for 185.524)
+2026-01-11 15:56:26.722 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.247 seconds (process running for 185.524)
 2026-01-11 15:56:26.723 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 15:56:26.723 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:56:26.723 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:56:26.723 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:56:26.723 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 15:56:30.171 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2026-01-11 15:56:30.202 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:30.202 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 15:56:30.203 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:30.204 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 15:56:30.235 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:56:30.235 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:56:30.235 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:56:30.235 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:56:30.320 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 15:56:30.321 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:30.321 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -604,17 +604,17 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 15:56:30.452 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:56:30.455 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:30.457 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:56:30.459 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.236 seconds (process running for 189.26)
+2026-01-11 15:56:30.459 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.236 seconds (process running for 189.26)
 2026-01-11 15:56:30.460 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 15:56:30.460 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:56:30.460 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 15:56:30.460 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:56:30.460 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 15:56:38.980 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2026-01-11 15:56:39.010 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:39.010 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 15:56:39.011 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:39.012 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 15:56:39.047 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 15:56:39.047 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:56:39.047 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 11400 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 15:56:39.047 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 15:56:39.128 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 15:56:39.129 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:39.129 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -624,12 +624,12 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 15:56:39.252 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 15:56:39.255 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 15:56:39.256 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 15:56:39.258 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.223 seconds (process running for 198.06)
+2026-01-11 15:56:39.258 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.223 seconds (process running for 198.06)
 2026-01-11 15:56:39.259 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 15:56:39.259 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 15:56:39.259 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-11 16:02:23.095 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32728 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 16:02:23.097 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 15:56:39.259 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 15:56:39.259 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 16:02:23.095 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32728 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 16:02:23.097 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 16:02:23.123 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 16:02:23.123 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 16:02:23.723 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -641,11 +641,11 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 16:02:24.163 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 16:02:24.172 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 16:02:24.183 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 16:02:24.188 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.322 seconds (process running for 1.636)
-2026-01-11 16:02:24.190 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 16:02:24.190 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-01-11 16:04:54.870 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 17980 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 16:04:54.872 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 16:02:24.188 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.322 seconds (process running for 1.636)
+2026-01-11 16:02:24.190 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 16:02:24.190 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 16:04:54.870 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 17980 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 16:04:54.872 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 16:04:54.899 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 16:04:54.899 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 16:04:55.519 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -657,17 +657,17 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 16:04:55.930 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 16:04:55.939 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 16:04:55.949 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 16:04:55.954 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.313 seconds (process running for 1.622)
-2026-01-11 16:04:55.956 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 16:04:55.956 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 16:04:55.954 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.313 seconds (process running for 1.622)
+2026-01-11 16:04:55.956 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 16:04:55.956 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 16:05:00.253 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 16:05:00.253 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 16:05:00.253 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-11 16:05:00.270 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768118700266vz4  [0;39m ------------- 开始 -------------
-2026-01-11 16:05:00.270 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768118700266vz4  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
-2026-01-11 16:05:00.270 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768118700266vz4  [0;39m 类名方法: org.wuyang.member.controller.MemberController.count
-2026-01-11 16:05:00.270 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768118700266vz4  [0;39m 远程地址: 127.0.0.1
-2026-01-11 16:05:00.288 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768118700266vz4  [0;39m 请求参数: []
+2026-01-11 16:05:00.270 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768118700266vz4  [0;39m ------------- 开始 -------------
+2026-01-11 16:05:00.270 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768118700266vz4  [0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2026-01-11 16:05:00.270 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768118700266vz4  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.count
+2026-01-11 16:05:00.270 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768118700266vz4  [0;39m 远程地址: 127.0.0.1
+2026-01-11 16:05:00.288 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768118700266vz4  [0;39m 请求参数: []
 2026-01-11 16:05:00.302 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1768118700266vz4  [0;39m HikariPool-1 - Starting...
 2026-01-11 16:05:00.430 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1768118700266vz4  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32b0f8c3
 2026-01-11 16:05:00.431 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1768118700266vz4  [0;39m HikariPool-1 - Start completed.
@@ -676,12 +676,12 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 16:05:00.457 TRACE o.wuyang.member.mapper.MemberMapper.countByExample:143  [32m1768118700266vz4  [0;39m <==    Columns: count(*)
 2026-01-11 16:05:00.457 TRACE o.wuyang.member.mapper.MemberMapper.countByExample:143  [32m1768118700266vz4  [0;39m <==        Row: 2
 2026-01-11 16:05:00.458 DEBUG o.wuyang.member.mapper.MemberMapper.countByExample:137  [32m1768118700266vz4  [0;39m <==      Total: 1
-2026-01-11 16:05:00.461 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m1768118700266vz4  [0;39m 返回结果: 2
-2026-01-11 16:05:00.461 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m1768118700266vz4  [0;39m ------------- 结束 耗时：195 ms -------------
+2026-01-11 16:05:00.461 INFO  aspect.org.wuyang.train.common.LogAspect                :89   [32m1768118700266vz4  [0;39m 返回结果: 2
+2026-01-11 16:05:00.461 INFO  aspect.org.wuyang.train.common.LogAspect                :90   [32m1768118700266vz4  [0;39m ------------- 结束 耗时：195 ms -------------
 2026-01-11 17:23:30.476 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2026-01-11 17:23:30.478 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2026-01-11 17:23:42.657 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 9912 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 17:23:42.659 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 17:23:42.657 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 9912 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 17:23:42.659 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 17:23:42.688 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 17:23:42.688 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 17:23:43.300 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -693,24 +693,24 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 17:23:43.734 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 17:23:43.743 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 17:23:43.754 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 17:23:43.760 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.342 seconds (process running for 1.656)
-2026-01-11 17:23:43.762 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 17:23:43.762 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 17:23:43.760 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.342 seconds (process running for 1.656)
+2026-01-11 17:23:43.762 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 17:23:43.762 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 17:26:07.056 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 17:26:07.056 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 17:26:07.057 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-11 17:26:07.077 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768123567074e9q  [0;39m ------------- 开始 -------------
-2026-01-11 17:26:07.078 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768123567074e9q  [0;39m 请求地址: http://localhost:8001/member/member/register POST
-2026-01-11 17:26:07.078 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768123567074e9q  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:26:07.078 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768123567074e9q  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:26:07.095 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768123567074e9q  [0;39m 请求参数: [null,null]
+2026-01-11 17:26:07.077 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768123567074e9q  [0;39m ------------- 开始 -------------
+2026-01-11 17:26:07.078 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768123567074e9q  [0;39m 请求地址: http://localhost:8001/member/member/register POST
+2026-01-11 17:26:07.078 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768123567074e9q  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:26:07.078 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768123567074e9q  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:26:07.095 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768123567074e9q  [0;39m 请求参数: [null,null]
 2026-01-11 17:26:07.098 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1768123567074e9q  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -723,7 +723,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -737,7 +737,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -788,18 +788,18 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-01-11 17:26:25.981 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m176812358598189m  [0;39m ------------- 开始 -------------
-2026-01-11 17:26:25.981 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m176812358598189m  [0;39m 请求地址: http://localhost:8001/member/member/register POST
-2026-01-11 17:26:25.981 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m176812358598189m  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:26:25.981 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m176812358598189m  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:26:25.982 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m176812358598189m  [0;39m 请求参数: [null,null]
+2026-01-11 17:26:25.981 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m176812358598189m  [0;39m ------------- 开始 -------------
+2026-01-11 17:26:25.981 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m176812358598189m  [0;39m 请求地址: http://localhost:8001/member/member/register POST
+2026-01-11 17:26:25.981 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m176812358598189m  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:26:25.981 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m176812358598189m  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:26:25.982 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m176812358598189m  [0;39m 请求参数: [null,null]
 2026-01-11 17:26:25.982 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m176812358598189m  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -812,7 +812,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -826,7 +826,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -877,18 +877,18 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-01-11 17:26:42.432 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768123602432ifj  [0;39m ------------- 开始 -------------
-2026-01-11 17:26:42.433 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768123602432ifj  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:26:42.433 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768123602432ifj  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:26:42.433 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768123602432ifj  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:26:42.433 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768123602432ifj  [0;39m 请求参数: [null,null]
+2026-01-11 17:26:42.432 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768123602432ifj  [0;39m ------------- 开始 -------------
+2026-01-11 17:26:42.433 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768123602432ifj  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:26:42.433 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768123602432ifj  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:26:42.433 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768123602432ifj  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:26:42.433 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768123602432ifj  [0;39m 请求参数: [null,null]
 2026-01-11 17:26:42.433 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1768123602432ifj  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -901,7 +901,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -915,7 +915,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -967,18 +967,18 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 2026-01-11 17:28:31.072 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2026-01-11 17:28:55.218 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768123735218l9i  [0;39m ------------- 开始 -------------
-2026-01-11 17:28:55.219 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768123735218l9i  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:28:55.219 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768123735218l9i  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:28:55.219 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768123735218l9i  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:28:55.219 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768123735218l9i  [0;39m 请求参数: [null,null]
+2026-01-11 17:28:55.218 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768123735218l9i  [0;39m ------------- 开始 -------------
+2026-01-11 17:28:55.219 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768123735218l9i  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:28:55.219 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768123735218l9i  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:28:55.219 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768123735218l9i  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:28:55.219 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768123735218l9i  [0;39m 请求参数: [null,null]
 2026-01-11 17:28:55.219 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1768123735218l9i  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -991,7 +991,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1005,7 +1005,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1056,18 +1056,18 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-01-11 17:28:59.723 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17681237397232vc  [0;39m ------------- 开始 -------------
-2026-01-11 17:28:59.723 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17681237397232vc  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:28:59.724 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17681237397232vc  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:28:59.724 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17681237397232vc  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:28:59.724 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17681237397232vc  [0;39m 请求参数: [null,null]
+2026-01-11 17:28:59.723 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m17681237397232vc  [0;39m ------------- 开始 -------------
+2026-01-11 17:28:59.723 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m17681237397232vc  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:28:59.724 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m17681237397232vc  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:28:59.724 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m17681237397232vc  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:28:59.724 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m17681237397232vc  [0;39m 请求参数: [null,null]
 2026-01-11 17:28:59.724 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m17681237397232vc  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1080,7 +1080,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1094,7 +1094,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1145,18 +1145,18 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-01-11 17:29:02.583 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768123742583u5e  [0;39m ------------- 开始 -------------
-2026-01-11 17:29:02.583 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768123742583u5e  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:29:02.583 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768123742583u5e  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:29:02.583 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768123742583u5e  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:29:02.583 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768123742583u5e  [0;39m 请求参数: [null,null]
+2026-01-11 17:29:02.583 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768123742583u5e  [0;39m ------------- 开始 -------------
+2026-01-11 17:29:02.583 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768123742583u5e  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:29:02.583 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768123742583u5e  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:29:02.583 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768123742583u5e  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:29:02.583 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768123742583u5e  [0;39m 请求参数: [null,null]
 2026-01-11 17:29:02.584 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1768123742583u5e  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1169,7 +1169,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1183,7 +1183,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1234,18 +1234,18 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-01-11 17:29:03.928 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768123743927zxw  [0;39m ------------- 开始 -------------
-2026-01-11 17:29:03.928 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768123743927zxw  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:29:03.928 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768123743927zxw  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:29:03.928 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768123743927zxw  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:29:03.928 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768123743927zxw  [0;39m 请求参数: [null,null]
+2026-01-11 17:29:03.928 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768123743927zxw  [0;39m ------------- 开始 -------------
+2026-01-11 17:29:03.928 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768123743927zxw  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:29:03.928 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768123743927zxw  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:29:03.928 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768123743927zxw  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:29:03.928 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768123743927zxw  [0;39m 请求参数: [null,null]
 2026-01-11 17:29:03.929 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1768123743927zxw  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1258,7 +1258,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1272,7 +1272,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1323,18 +1323,18 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-01-11 17:29:05.596 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768123745596d78  [0;39m ------------- 开始 -------------
-2026-01-11 17:29:05.597 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768123745596d78  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:29:05.597 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768123745596d78  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:29:05.597 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768123745596d78  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:29:05.597 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768123745596d78  [0;39m 请求参数: [null,null]
+2026-01-11 17:29:05.596 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768123745596d78  [0;39m ------------- 开始 -------------
+2026-01-11 17:29:05.597 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768123745596d78  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:29:05.597 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768123745596d78  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:29:05.597 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768123745596d78  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:29:05.597 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768123745596d78  [0;39m 请求参数: [null,null]
 2026-01-11 17:29:05.598 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1768123745596d78  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1347,7 +1347,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1361,7 +1361,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1412,18 +1412,18 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-01-11 17:29:07.043 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17681237470438k2  [0;39m ------------- 开始 -------------
-2026-01-11 17:29:07.043 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17681237470438k2  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:29:07.043 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17681237470438k2  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:29:07.043 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17681237470438k2  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:29:07.043 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17681237470438k2  [0;39m 请求参数: [null,null]
+2026-01-11 17:29:07.043 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m17681237470438k2  [0;39m ------------- 开始 -------------
+2026-01-11 17:29:07.043 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m17681237470438k2  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:29:07.043 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m17681237470438k2  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:29:07.043 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m17681237470438k2  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:29:07.043 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m17681237470438k2  [0;39m 请求参数: [null,null]
 2026-01-11 17:29:07.044 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m17681237470438k2  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -1435,7 +1435,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1449,7 +1449,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
@@ -1499,8 +1499,8 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-01-11 17:29:40.907 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 17:29:40.909 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 17:29:40.907 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 17:29:40.909 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 17:29:40.941 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-01-11 17:29:40.941 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-01-11 17:29:41.548 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
@@ -1512,24 +1512,24 @@ java.lang.RuntimeException: Value for mobile cannot be null
 2026-01-11 17:29:41.990 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 17:29:41.999 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 17:29:42.011 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 17:29:42.017 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.35 seconds (process running for 1.698)
-2026-01-11 17:29:42.018 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 17:29:42.019 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 17:29:42.017 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 1.35 seconds (process running for 1.698)
+2026-01-11 17:29:42.018 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 17:29:42.019 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 17:29:47.486 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 17:29:47.486 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 17:29:47.487 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2026-01-11 17:29:47.510 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768123787506jr7  [0;39m ------------- 开始 -------------
-2026-01-11 17:29:47.510 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768123787506jr7  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:29:47.510 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768123787506jr7  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:29:47.511 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768123787506jr7  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:29:47.530 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768123787506jr7  [0;39m 请求参数: [null]
+2026-01-11 17:29:47.510 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768123787506jr7  [0;39m ------------- 开始 -------------
+2026-01-11 17:29:47.510 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768123787506jr7  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:29:47.510 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768123787506jr7  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:29:47.511 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768123787506jr7  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:29:47.530 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768123787506jr7  [0;39m 请求参数: [null]
 2026-01-11 17:29:47.532 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1768123787506jr7  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
 java.lang.RuntimeException: Value for mobile cannot be null
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
-	at org.wuyang.member.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
-	at org.wuyang.member.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
-	at org.wuyang.member.service.MemberService.register(MemberService.java:25)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at domain.org.wuyang.train.member.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at domain.org.wuyang.train.member.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:25)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1542,7 +1542,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1556,7 +1556,7 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1608,11 +1608,11 @@ java.lang.RuntimeException: Value for mobile cannot be null
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 2026-01-11 17:30:32.046 WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2026-01-11 17:31:35.038 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m1768123895038xgz  [0;39m ------------- 开始 -------------
-2026-01-11 17:31:35.039 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m1768123895038xgz  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 17:31:35.039 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m1768123895038xgz  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 17:31:35.039 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m1768123895038xgz  [0;39m 远程地址: 127.0.0.1
-2026-01-11 17:31:35.039 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m1768123895038xgz  [0;39m 请求参数: ["1234"]
+2026-01-11 17:31:35.038 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m1768123895038xgz  [0;39m ------------- 开始 -------------
+2026-01-11 17:31:35.039 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m1768123895038xgz  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 17:31:35.039 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m1768123895038xgz  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 17:31:35.039 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m1768123895038xgz  [0;39m 远程地址: 127.0.0.1
+2026-01-11 17:31:35.039 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m1768123895038xgz  [0;39m 请求参数: ["1234"]
 2026-01-11 17:31:35.065 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1768123895038xgz  [0;39m HikariPool-1 - Starting...
 2026-01-11 17:31:35.195 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1768123895038xgz  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39636f8
 2026-01-11 17:31:35.196 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1768123895038xgz  [0;39m HikariPool-1 - Start completed.
@@ -1623,8 +1623,8 @@ java.lang.RuntimeException: Value for mobile cannot be null
 2026-01-11 17:31:35.232 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m1768123895038xgz  [0;39m <==      Total: 1
 2026-01-11 17:31:35.237 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m1768123895038xgz  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: 手机号已注册] with root cause
 java.lang.RuntimeException: 手机号已注册
-	at org.wuyang.member.service.MemberService.register(MemberService.java:29)
-	at org.wuyang.member.controller.MemberController.register(MemberController.java:23)
+	at service.org.wuyang.train.member.MemberService.register(MemberService.java:29)
+	at controller.org.wuyang.train.member.MemberController.register(MemberController.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1637,7 +1637,7 @@ java.lang.RuntimeException: 手机号已注册
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
-	at org.wuyang.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at aspect.org.wuyang.train.common.LogAspect.doAround(LogAspect.java:83)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1651,7 +1651,7 @@ java.lang.RuntimeException: 手机号已注册
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
-	at org.wuyang.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at controller.org.wuyang.train.member.MemberController$$SpringCGLIB$$0.register(<generated>)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1720,8 +1720,8 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 18:18:29.262 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:18:29.264 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2026-01-11 18:18:29.268 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2026-01-11 18:18:29.319 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 18:18:29.319 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 18:18:29.319 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 18:18:29.319 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 18:18:29.429 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 18:18:29.429 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:18:29.429 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -1731,17 +1731,17 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 18:18:29.581 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 18:18:29.585 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:18:29.587 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 18:18:29.589 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.287 seconds (process running for 2929.27)
+2026-01-11 18:18:29.589 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.287 seconds (process running for 2929.27)
 2026-01-11 18:18:29.589 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 18:18:29.590 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 18:18:29.590 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 18:18:29.590 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 18:18:29.590 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 18:21:19.586 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2026-01-11 18:21:19.597 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:21:19.597 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 18:21:19.598 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:21:19.599 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 18:21:19.632 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 18:21:19.632 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 18:21:19.632 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 18:21:19.632 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 18:21:19.730 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 18:21:19.730 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:21:19.730 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -1751,17 +1751,17 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 18:21:19.866 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 18:21:19.869 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:21:19.871 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 18:21:19.872 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.254 seconds (process running for 3099.554)
+2026-01-11 18:21:19.872 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.254 seconds (process running for 3099.554)
 2026-01-11 18:21:19.873 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 18:21:19.873 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 18:21:19.873 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 18:21:19.873 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 18:21:19.873 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 18:22:07.879 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2026-01-11 18:22:07.890 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:22:07.891 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
 2026-01-11 18:22:07.892 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:22:07.893 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-01-11 18:22:07.929 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 18:22:07.929 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 18:22:07.929 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 18:22:07.929 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 18:22:08.014 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 18:22:08.015 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:22:08.015 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -1771,29 +1771,29 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 18:22:08.139 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 18:22:08.142 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:22:08.144 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 18:22:08.145 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.227 seconds (process running for 3147.826)
+2026-01-11 18:22:08.145 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.227 seconds (process running for 3147.826)
 2026-01-11 18:22:08.146 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 18:22:08.146 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 18:22:08.146 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 18:22:08.146 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 18:22:08.146 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2026-01-11 18:31:47.426 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-11 18:31:47.427 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2026-01-11 18:31:47.427 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
-2026-01-11 18:31:47.430 INFO  org.wuyang.common.aspect.LogAspect                :53   [32m17681275074291lc  [0;39m ------------- 开始 -------------
-2026-01-11 18:31:47.430 INFO  org.wuyang.common.aspect.LogAspect                :54   [32m17681275074291lc  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
-2026-01-11 18:31:47.430 INFO  org.wuyang.common.aspect.LogAspect                :55   [32m17681275074291lc  [0;39m 类名方法: org.wuyang.member.controller.MemberController.register
-2026-01-11 18:31:47.430 INFO  org.wuyang.common.aspect.LogAspect                :56   [32m17681275074291lc  [0;39m 远程地址: 127.0.0.1
-2026-01-11 18:31:47.431 INFO  org.wuyang.common.aspect.LogAspect                :77   [32m17681275074291lc  [0;39m 请求参数: ["12345"]
+2026-01-11 18:31:47.430 INFO  aspect.org.wuyang.train.common.LogAspect                :53   [32m17681275074291lc  [0;39m ------------- 开始 -------------
+2026-01-11 18:31:47.430 INFO  aspect.org.wuyang.train.common.LogAspect                :54   [32m17681275074291lc  [0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2026-01-11 18:31:47.430 INFO  aspect.org.wuyang.train.common.LogAspect                :55   [32m17681275074291lc  [0;39m 类名方法: controller.org.wuyang.train.member.MemberController.register
+2026-01-11 18:31:47.430 INFO  aspect.org.wuyang.train.common.LogAspect                :56   [32m17681275074291lc  [0;39m 远程地址: 127.0.0.1
+2026-01-11 18:31:47.431 INFO  aspect.org.wuyang.train.common.LogAspect                :77   [32m17681275074291lc  [0;39m 请求参数: ["12345"]
 2026-01-11 18:31:47.432 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m17681275074291lc  [0;39m HikariPool-2 - Starting...
 2026-01-11 18:31:47.444 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m17681275074291lc  [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@692d0ab4
 2026-01-11 18:31:47.444 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m17681275074291lc  [0;39m HikariPool-2 - Start completed.
 2026-01-11 18:31:47.445 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17681275074291lc  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
 2026-01-11 18:31:47.445 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17681275074291lc  [0;39m ==> Parameters: 12345(String)
 2026-01-11 18:31:47.446 DEBUG o.w.member.mapper.MemberMapper.selectByExample    :137  [32m17681275074291lc  [0;39m <==      Total: 0
-2026-01-11 18:31:47.446 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m17681275074291lc  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
-2026-01-11 18:31:47.447 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m17681275074291lc  [0;39m ==> Parameters: 1768127507446(Long), 12345(String)
-2026-01-11 18:31:47.448 DEBUG org.wuyang.member.mapper.MemberMapper.insert      :137  [32m17681275074291lc  [0;39m <==    Updates: 1
-2026-01-11 18:31:47.449 INFO  org.wuyang.common.aspect.LogAspect                :89   [32m17681275074291lc  [0;39m 返回结果: 1768127507446
-2026-01-11 18:31:47.449 INFO  org.wuyang.common.aspect.LogAspect                :90   [32m17681275074291lc  [0;39m ------------- 结束 耗时：20 ms -------------
+2026-01-11 18:31:47.446 DEBUG mapper.org.wuyang.train.member.MemberMapper.insert      :137  [32m17681275074291lc  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2026-01-11 18:31:47.447 DEBUG mapper.org.wuyang.train.member.MemberMapper.insert      :137  [32m17681275074291lc  [0;39m ==> Parameters: 1768127507446(Long), 12345(String)
+2026-01-11 18:31:47.448 DEBUG mapper.org.wuyang.train.member.MemberMapper.insert      :137  [32m17681275074291lc  [0;39m <==    Updates: 1
+2026-01-11 18:31:47.449 INFO  aspect.org.wuyang.train.common.LogAspect                :89   [32m17681275074291lc  [0;39m 返回结果: 1768127507446
+2026-01-11 18:31:47.449 INFO  aspect.org.wuyang.train.common.LogAspect                :90   [32m17681275074291lc  [0;39m ------------- 结束 耗时：20 ms -------------
 2026-01-11 18:37:42.183 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 4 class path changes (1 addition, 0 deletions, 3 modifications)
 2026-01-11 18:37:42.202 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:37:42.202 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
@@ -1812,8 +1812,8 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 18:37:42.207 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:37:42.208 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
 2026-01-11 18:37:42.210 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
-2026-01-11 18:37:42.265 INFO  org.wuyang.member.config.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-11 18:37:42.265 INFO  org.wuyang.member.config.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-11 18:37:42.265 INFO  config.org.wuyang.train.member.MemberApplication        :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 31032 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-11 18:37:42.265 INFO  config.org.wuyang.train.member.MemberApplication        :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-11 18:37:42.389 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
 2026-01-11 18:37:42.390 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:37:42.390 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
@@ -1823,7 +1823,7 @@ java.lang.RuntimeException: 手机号已注册
 2026-01-11 18:37:42.544 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
 2026-01-11 18:37:42.548 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2026-01-11 18:37:42.549 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-01-11 18:37:42.551 INFO  org.wuyang.member.config.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.306 seconds (process running for 4082.232)
+2026-01-11 18:37:42.551 INFO  config.org.wuyang.train.member.MemberApplication        :57   [32m                  [0;39m Started MemberApplication in 0.306 seconds (process running for 4082.232)
 2026-01-11 18:37:42.552 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-01-11 18:37:42.552 INFO  org.wuyang.member.config.MemberApplication        :21   [32m                  [0;39m 启动成功！！
-2026-01-11 18:37:42.552 INFO  org.wuyang.member.config.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-01-11 18:37:42.552 INFO  config.org.wuyang.train.member.MemberApplication        :21   [32m                  [0;39m 启动成功！！
+2026-01-11 18:37:42.552 INFO  config.org.wuyang.train.member.MemberApplication        :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello

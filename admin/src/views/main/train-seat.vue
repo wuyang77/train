@@ -1,7 +1,7 @@
 <template>
   <p>
     <a-space>
-      <train-selected-view v-model="params.trainCode" width="200px"></train-selected-view>
+      <train-selected-view v-model="paramss.trainCode" width="200px"></train-selected-view>
       <a-button type="primary" @click="handleQuery()">查找</a-button>
     </a-space>
   </p>
@@ -103,7 +103,7 @@
         pageSize: 12,
       });
       let loading = ref(false);
-      let params = ref({
+      let paramss = ref({
         trainCode: null
       });
       const columns = [
@@ -191,7 +191,7 @@
           params: {
             pageNum: param.pageNum,
             pageSize: param.pageSize,
-            trainCode: params.value.trainCode
+            trainCode: paramss.value.trainCode
           }
         }).then((response) => {
           loading.value = false;
@@ -237,7 +237,7 @@
         handleOk,
         onEdit,
         onDelete,
-        params
+        paramss
       };
     },
   });

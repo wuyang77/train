@@ -1,6 +1,6 @@
 2026-01-08 17:05:25.719 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:05:25.741 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 12836 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:05:25.742 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:05:25.741 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 12836 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:05:25.742 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:05:26.060 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:05:27.370 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:05:27.539 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
@@ -21,12 +21,12 @@
 2026-01-08 17:05:28.911 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
 2026-01-08 17:05:30.041 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:05:31.173 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2026-01-08 17:05:31.202 INFO  org.wuyang.gateway.config.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 6.836 seconds (process running for 7.122)
-2026-01-08 17:05:31.205 INFO  org.wuyang.gateway.config.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
-2026-01-08 17:05:31.205 INFO  org.wuyang.gateway.config.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-08 17:05:31.202 INFO  config.org.wuyang.train.gateway.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 6.836 seconds (process running for 7.122)
+2026-01-08 17:05:31.205 INFO  config.org.wuyang.train.gateway.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
+2026-01-08 17:05:31.205 INFO  config.org.wuyang.train.gateway.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
 2026-01-08 17:09:52.352 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:09:52.376 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 15068 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:09:52.377 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:09:52.376 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 15068 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:09:52.377 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:09:52.747 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b68a5785-5bc4-3239-9ab5-31a1543850e2
 2026-01-08 17:09:52.962 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
 2026-01-08 17:09:52.967 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
@@ -54,8 +54,8 @@ Action:
 Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
 
 2026-01-08 17:10:05.509 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:10:05.534 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 344 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:10:05.534 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:10:05.534 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 344 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:10:05.534 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:10:05.894 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b68a5785-5bc4-3239-9ab5-31a1543850e2
 2026-01-08 17:10:06.118 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
 2026-01-08 17:10:06.123 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
@@ -83,8 +83,8 @@ Action:
 Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
 
 2026-01-08 17:10:29.239 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:10:29.263 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 15388 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:10:29.263 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:10:29.263 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 15388 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:10:29.263 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:10:29.605 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b68a5785-5bc4-3239-9ab5-31a1543850e2
 2026-01-08 17:10:29.831 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
 2026-01-08 17:10:29.836 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
@@ -112,8 +112,8 @@ Action:
 Please set spring.main.web-application-type=reactive or remove spring-boot-starter-web dependency.
 
 2026-01-08 17:11:05.539 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:11:05.560 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 9804 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:11:05.560 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:11:05.560 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 9804 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:11:05.560 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:11:05.858 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:11:07.267 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:11:13.037 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
@@ -134,12 +134,12 @@ Please set spring.main.web-application-type=reactive or remove spring-boot-start
 2026-01-08 17:11:14.417 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
 2026-01-08 17:11:15.559 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:11:16.690 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2026-01-08 17:11:16.722 INFO  org.wuyang.gateway.config.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 12.562 seconds (process running for 12.843)
-2026-01-08 17:11:16.724 INFO  org.wuyang.gateway.config.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
-2026-01-08 17:11:16.724 INFO  org.wuyang.gateway.config.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-08 17:11:16.722 INFO  config.org.wuyang.train.gateway.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 12.562 seconds (process running for 12.843)
+2026-01-08 17:11:16.724 INFO  config.org.wuyang.train.gateway.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
+2026-01-08 17:11:16.724 INFO  config.org.wuyang.train.gateway.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
 2026-01-08 17:11:33.162 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:11:33.185 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30492 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:11:33.186 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:11:33.185 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30492 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:11:33.186 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:11:33.501 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:11:34.803 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:11:34.968 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
@@ -160,12 +160,12 @@ Please set spring.main.web-application-type=reactive or remove spring-boot-start
 2026-01-08 17:11:36.339 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
 2026-01-08 17:11:37.473 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:11:38.605 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2026-01-08 17:11:38.641 INFO  org.wuyang.gateway.config.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 6.851 seconds (process running for 7.15)
-2026-01-08 17:11:38.642 INFO  org.wuyang.gateway.config.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
-2026-01-08 17:11:38.643 INFO  org.wuyang.gateway.config.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-08 17:11:38.641 INFO  config.org.wuyang.train.gateway.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 6.851 seconds (process running for 7.15)
+2026-01-08 17:11:38.642 INFO  config.org.wuyang.train.gateway.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
+2026-01-08 17:11:38.643 INFO  config.org.wuyang.train.gateway.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
 2026-01-08 17:12:26.533 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:12:26.555 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 23220 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:12:26.556 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:12:26.555 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 23220 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:12:26.556 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:12:26.864 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:12:28.155 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:12:28.305 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
@@ -186,12 +186,12 @@ Please set spring.main.web-application-type=reactive or remove spring-boot-start
 2026-01-08 17:12:29.659 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
 2026-01-08 17:12:30.795 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:12:31.923 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2026-01-08 17:12:31.950 INFO  org.wuyang.gateway.config.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 6.761 seconds (process running for 7.058)
-2026-01-08 17:12:31.952 INFO  org.wuyang.gateway.config.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
-2026-01-08 17:12:31.952 INFO  org.wuyang.gateway.config.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-08 17:12:31.950 INFO  config.org.wuyang.train.gateway.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 6.761 seconds (process running for 7.058)
+2026-01-08 17:12:31.952 INFO  config.org.wuyang.train.gateway.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
+2026-01-08 17:12:31.952 INFO  config.org.wuyang.train.gateway.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
 2026-01-08 17:15:04.449 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:15:04.468 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 33160 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:15:04.470 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:15:04.468 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 33160 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:15:04.470 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:15:04.772 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:15:06.074 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:15:06.153 WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true
@@ -218,8 +218,8 @@ Action:
 Update your application's configuration
 
 2026-01-08 17:15:21.029 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:15:21.050 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 33392 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:15:21.050 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:15:21.050 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 33392 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:15:21.050 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:15:21.334 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:15:22.628 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:15:22.706 WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true
@@ -246,8 +246,8 @@ Action:
 Update your application's configuration
 
 2026-01-08 17:16:10.691 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:16:10.712 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 16472 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:16:10.713 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:16:10.712 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 16472 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:16:10.713 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:16:11.011 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:16:12.336 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:16:12.508 WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true
@@ -274,8 +274,8 @@ Action:
 Update your application's configuration
 
 2026-01-08 17:17:17.405 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:17:17.427 INFO  org.wuyang.gateway.config.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 19568 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:17:17.427 INFO  org.wuyang.gateway.config.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:17:17.427 INFO  config.org.wuyang.train.gateway.GatewayApplication             :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 19568 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:17:17.427 INFO  config.org.wuyang.train.gateway.GatewayApplication             :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:17:28.429 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:17:29.742 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:17:29.917 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
@@ -296,12 +296,12 @@ Update your application's configuration
 2026-01-08 17:17:31.299 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
 2026-01-08 17:17:32.438 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:17:33.565 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2026-01-08 17:17:33.597 INFO  org.wuyang.gateway.config.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 17.556 seconds (process running for 17.877)
-2026-01-08 17:17:33.598 INFO  org.wuyang.gateway.config.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
-2026-01-08 17:17:33.599 INFO  org.wuyang.gateway.config.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-08 17:17:33.597 INFO  config.org.wuyang.train.gateway.GatewayApplication             :57   [32m                  [0;39m Started GatewayApplication in 17.556 seconds (process running for 17.877)
+2026-01-08 17:17:33.598 INFO  config.org.wuyang.train.gateway.GatewayApplication             :19   [32m                  [0;39m 启动成功！！
+2026-01-08 17:17:33.599 INFO  config.org.wuyang.train.gateway.GatewayApplication             :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
 2026-01-08 17:28:18.452 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-01-08 17:28:18.473 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 25692 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-01-08 17:28:18.473 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-01-08 17:28:18.473 INFO  config.org.wuyang.train.gateway.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 25692 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-01-08 17:28:18.473 INFO  config.org.wuyang.train.gateway.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-01-08 17:28:18.767 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=390a6740-1f4b-371e-8b32-9ee7183f016d
 2026-01-08 17:28:20.059 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:28:20.213 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
@@ -322,8 +322,8 @@ Update your application's configuration
 2026-01-08 17:28:21.578 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
 2026-01-08 17:28:22.707 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-01-08 17:28:23.834 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2026-01-08 17:28:23.864 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.769 seconds (process running for 7.061)
-2026-01-08 17:28:23.866 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
-2026-01-08 17:28:23.866 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-01-08 17:28:23.864 INFO  config.org.wuyang.train.gateway.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.769 seconds (process running for 7.061)
+2026-01-08 17:28:23.866 INFO  config.org.wuyang.train.gateway.GatewayApplication      :19   [32m                  [0;39m 启动成功！！
+2026-01-08 17:28:23.866 INFO  config.org.wuyang.train.gateway.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
 2026-01-08 17:28:27.486 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [08/1月/2026:17:28:27 +0800] "GET / HTTP/1.1" 404 282 66
 2026-01-08 17:28:27.774 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 127.0.0.1 - - [08/1月/2026:17:28:27 +0800] "GET /favicon.ico HTTP/1.1" 404 140 34

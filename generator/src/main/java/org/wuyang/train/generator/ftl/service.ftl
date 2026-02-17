@@ -1,0 +1,73 @@
+package org.wuyang.${module}.service;
+
+import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.date.DateTime;
+import cn.hutool.core.util.ObjectUtil;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import jakarta.annotation.Resource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+import context.org.wuyang.train.common.LoginMemberContext;
+import resp.org.wuyang.train.common.PageResp;
+import util.org.wuyang.train.common.SnowUtil;
+import org.wuyang.${module}.domain.${Domain};
+import org.wuyang.${module}.domain.${Domain}Example;
+import org.wuyang.${module}.mapper.${Domain}Mapper;
+import org.wuyang.${module}.resp.${Domain}QueryResp;
+import org.wuyang.${module}.req.${Domain}QueryReq;
+import org.wuyang.${module}.req.${Domain}SaveReq;
+
+import java.util.List;
+
+@Service
+public class ${Domain}Service {
+
+    private static final Logger LOG = LoggerFactory.getLogger(${Domain}Service.class);
+
+    @Resource
+    private ${Domain}Mapper ${domain}Mapper;
+
+    public void saveOrEdit${Domain}(${Domain}SaveReq req) {
+        DateTime now = DateTime.now();
+        ${Domain} ${domain} = BeanUtil.copyProperties(req, ${Domain}.class);
+        if (ObjectUtil.isNull(${domain}.getId())) {
+            ${domain}.setMemberId(LoginMemberContext.getId());
+            ${domain}.setId(SnowUtil.getSnowflakeNextId());
+            ${domain}.setCreateTime(now);
+            ${domain}.setUpdateTime(now);
+            ${domain}Mapper.insert(${domain});
+        } else {
+            ${domain}.setUpdateTime(now);
+            ${domain}Mapper.updateByPrimaryKey(${domain});
+        }
+    }
+
+    public PageResp<${Domain}QueryResp> query${Domain}List(${Domain}QueryReq req) {
+        ${Domain}Example ${domain}Example = new ${Domain}Example();
+        ${domain}Example.setOrderByClause("id desc");
+        ${Domain}Example.Criteria criteria = ${domain}Example.createCriteria();
+        if (ObjectUtil.isNotEmpty(req.getMemberId())) {
+            criteria.andMemberIdEqualTo(req.getMemberId());
+        }
+
+        LOG.info("查询页码：{}", req.getPageNum());
+        LOG.info("每页条数：{}", req.getPageSize());
+        PageHelper.startPage(req.getPageNum(), req.getPageSize());
+        List<${Domain}> ${domain}List = ${domain}Mapper.selectByExample(${domain}Example);
+
+        PageInfo<${Domain}> pageInfo = new PageInfo<>(${domain}List);
+        LOG.info("总行数：{}", pageInfo.getTotal());
+        LOG.info("总页数：{}", pageInfo.getPages());
+
+        PageResp<${Domain}QueryResp> pageResp = new PageResp<>();
+        pageResp.setTotal(pageInfo.getTotal());
+        pageResp.setList(BeanUtil.copyToList(${domain}List, ${Domain}QueryResp.class));
+        return pageResp;
+    }
+
+    public void delete${Domain}(Long id) {
+        ${domain}Mapper.deleteByPrimaryKey(id);
+    }
+}

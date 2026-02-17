@@ -1,7 +1,8 @@
 <template>
   <p>
     <a-space>
-      <a-button type="primary" @click="handleQuery()">刷新</a-button>
+      <train-selected-view v-model="paramss.trainCode" width="200px"></train-selected-view>
+      <a-button type="primary" @click="handleQuery()">查找</a-button>
       <a-button type="primary" @click="onAdd">新增</a-button>
     </a-space>
   </p>
@@ -46,7 +47,7 @@
               <a-time-picker v-model:value="trainStation.outTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
             </a-form-item>
             <a-form-item label="停站时长">
-              <a-time-picker v-model:value="trainStation.stopTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
+              <a-time-picker v-model:value="trainStation.stopTime" valueFormat="HH:mm:ss" placeholder="请选择时间" disabled/>
             </a-form-item>
             <a-form-item label="里程（公里）">
               <a-input v-model:value="trainStation.km" />
@@ -62,6 +63,7 @@ import axios from "axios";
 import {pinyin} from "pinyin-pro";
 import TrainSelectedView from "@/components/train-selected.vue"
 import StationSelectedView from "@/components/station-selected.vue";
+import dayjs from "dayjs"
 
   export default defineComponent({
     name: "train-station-view",
@@ -88,7 +90,11 @@ import StationSelectedView from "@/components/station-selected.vue";
         current: 1,
         pageSize: 5,
       });
+
       let loading = ref(false);
+      let paramss = ref({
+        trainCode: null
+      });
       const columns = [
         {
           title: '车次编号',
@@ -145,6 +151,17 @@ import StationSelectedView from "@/components/station-selected.vue";
         }
       }, {immediate:true});
 
+      // 自动计算停车时长,监听进站时间变化
+      watch(() => trainStation.value.inTime, () =>{
+        let diff = dayjs(trainStation.value.outTime, 'HH:mm:ss').diff(dayjs(trainStation.value.inTime, 'HH:mm:ss'), 'seconds');
+        trainStation.value.stopTime = dayjs('00:00:00', 'HH:mm:ss').second(diff).format('HH:mm:ss');
+      }, {immediate: true});
+      // 自动计算停车时长，监听出战时间变化
+      watch(() => trainStation.value.outTime, () =>{
+        let diff = dayjs(trainStation.value.outTime, 'HH:mm:ss').diff(dayjs(trainStation.value.inTime, 'HH:mm:ss'), 'seconds');
+        trainStation.value.stopTime = dayjs('00:00:00', 'HH:mm:ss').second(diff).format('HH:mm:ss');
+      }, {immediate: true});
+
       const onAdd = () => {
         trainStation.value = {};
         visible.value = true;
@@ -197,11 +214,13 @@ import StationSelectedView from "@/components/station-selected.vue";
         axios.get("/business/admin/train-station/query-list", {
           params: {
             pageNum: param.pageNum,
-            pageSize: param.pageSize
+            pageSize: param.pageSize,
+            trainCode: paramss.value.trainCode
           }
         }).then((response) => {
           loading.value = false;
           let data = response.data;
+          console.log(data)
           if (data.success) {
             trainStations.value = data.content.list;
             // 设置分页控件的值
@@ -241,7 +260,8 @@ import StationSelectedView from "@/components/station-selected.vue";
         onAdd,
         handleOk,
         onEdit,
-        onDelete
+        onDelete,
+        paramss
       };
     },
   });

@@ -1,36 +1,36 @@
-2026-02-17 00:03:17.385 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 00:03:19.405 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
-2026-02-17 00:03:19.411 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
-2026-02-17 00:09:15.543 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 00:09:15.702 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 00:09:20.893 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:09:24.630 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:09:27.922 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:09:28.614 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 00:09:29.676 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 00:09:47.707 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D22
-2026-02-17 00:09:50.531 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D69
-2026-02-17 00:09:51.931 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1328
-2026-02-17 00:09:53.489 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D79
-2026-02-17 00:09:55.429 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G2-6789
-2026-02-17 00:09:56.102 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 00:09:58.306 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1-3579
-2026-02-17 00:10:03.865 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:06.527 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:08.920 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:10.354 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:11.267 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:12.176 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:12.780 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:13.293 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:13.752 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:13.949 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:14.149 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:15.771 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:10:52.013 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:03:17.385 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 00:03:19.405 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
+2026-02-17 00:03:19.411 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
+2026-02-17 00:09:15.543 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 00:09:15.702 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 00:09:20.893 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:09:24.630 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:09:27.922 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:09:28.614 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 00:09:29.676 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 00:09:47.707 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D22
+2026-02-17 00:09:50.531 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D69
+2026-02-17 00:09:51.931 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1328
+2026-02-17 00:09:53.489 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D79
+2026-02-17 00:09:55.429 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G2-6789
+2026-02-17 00:09:56.102 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 00:09:58.306 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1-3579
+2026-02-17 00:10:03.865 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:06.527 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:08.920 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:10.354 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:11.267 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:12.176 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:12.780 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:13.293 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:13.752 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:13.949 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:14.149 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:15.771 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:10:52.013 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
 2026-02-17 00:12:29.130 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-02-17 00:12:29.158 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 37772 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-17 00:12:29.159 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 00:12:29.158 INFO  config.org.wuyang.train.gateway.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 37772 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 00:12:29.159 INFO  config.org.wuyang.train.gateway.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-02-17 00:12:29.197 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-17 00:12:29.198 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-02-17 00:12:29.560 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
@@ -54,15 +54,15 @@
 2026-02-17 00:12:32.571 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
 2026-02-17 00:12:33.744 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-02-17 00:12:34.896 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2026-02-17 00:12:34.918 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.208 seconds (process running for 7.526)
-2026-02-17 00:12:34.920 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 网关模块启动成功！！
-2026-02-17 00:12:34.920 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
-2026-02-17 00:13:16.899 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:13:32.006 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:14:06.843 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:14:18.372 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:14:34.972 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:14:35.044 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:12:34.918 INFO  config.org.wuyang.train.gateway.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 7.208 seconds (process running for 7.526)
+2026-02-17 00:12:34.920 INFO  config.org.wuyang.train.gateway.GatewayApplication      :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 00:12:34.920 INFO  config.org.wuyang.train.gateway.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-17 00:13:16.899 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:13:32.006 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:14:06.843 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:14:18.372 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:14:34.972 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:14:35.044 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
 2026-02-17 00:14:35.057 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [3ae30dac-6]  500 Server Error for HTTP GET "/business/admin/train-seat/query-list?pageNum=1&pageSize=12&trainCode=G2-6789"
 io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
@@ -84,8 +84,8 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-02-17 00:14:35.084 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:14:35.084 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:14:35.084 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:14:35.084 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
 2026-02-17 00:14:35.086 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [069f191c-7]  500 Server Error for HTTP GET "/business/admin/train-seat/query-list?pageNum=1&pageSize=12&trainCode=G2-6789"
 io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
@@ -128,66 +128,66 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-2026-02-17 00:14:44.429 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:17:06.948 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:17:19.053 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:17:46.720 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:17:58.426 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:18:08.363 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:18:21.600 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:18:50.841 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:22:18.573 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:22:36.121 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:22:48.056 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:23:11.742 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:23:14.082 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:23:17.000 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:23:19.112 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:23:22.513 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:23:34.193 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 00:25:04.801 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
-2026-02-17 00:25:04.856 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 00:25:29.778 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
-2026-02-17 00:25:29.799 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 00:25:48.148 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
-2026-02-17 00:25:48.167 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 00:26:07.444 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
-2026-02-17 00:26:07.466 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 00:26:09.061 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 00:26:13.682 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D22
-2026-02-17 00:26:18.133 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D69
-2026-02-17 00:26:19.569 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1328
-2026-02-17 00:26:20.882 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D79
-2026-02-17 00:26:22.149 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G2-6789
-2026-02-17 00:26:22.726 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 00:26:25.937 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1-3579
-2026-02-17 00:26:38.725 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:26:41.856 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:26:45.304 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:26:48.965 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:26:51.387 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:26:55.645 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:27:52.947 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:27:53.589 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:27:54.941 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:27:58.697 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:03.817 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:04.338 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:04.690 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:05.661 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:07.162 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:08.552 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:09.211 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:09.797 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:11.792 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:14.393 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:15.188 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:15.682 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:16.089 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 00:28:20.711 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:14:44.429 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:17:06.948 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:17:19.053 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:17:46.720 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:17:58.426 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:18:08.363 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:18:21.600 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:18:50.841 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:22:18.573 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:22:36.121 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:22:48.056 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:23:11.742 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:23:14.082 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:23:17.000 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:23:19.112 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:23:22.513 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:23:34.193 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 00:25:04.801 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 00:25:04.856 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 00:25:29.778 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 00:25:29.799 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 00:25:48.148 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 00:25:48.167 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 00:26:07.444 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 00:26:07.466 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 00:26:09.061 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 00:26:13.682 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D22
+2026-02-17 00:26:18.133 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D69
+2026-02-17 00:26:19.569 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1328
+2026-02-17 00:26:20.882 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D79
+2026-02-17 00:26:22.149 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G2-6789
+2026-02-17 00:26:22.726 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 00:26:25.937 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1-3579
+2026-02-17 00:26:38.725 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:26:41.856 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:26:45.304 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:26:48.965 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:26:51.387 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:26:55.645 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:27:52.947 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:27:53.589 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:27:54.941 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:27:58.697 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:03.817 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:04.338 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:04.690 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:05.661 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:07.162 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:08.552 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:09.211 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:09.797 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:11.792 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:14.393 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:15.188 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:15.682 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:16.089 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 00:28:20.711 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
 2026-02-17 11:19:57.281 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-02-17 11:19:57.399 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30912 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-17 11:19:57.400 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 11:19:57.399 INFO  config.org.wuyang.train.gateway.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30912 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 11:19:57.400 INFO  config.org.wuyang.train.gateway.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2026-02-17 11:19:57.450 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2026-02-17 11:19:57.450 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2026-02-17 11:19:58.300 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
@@ -211,104 +211,572 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2026-02-17 11:20:02.077 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
 2026-02-17 11:20:03.194 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
 2026-02-17 11:20:04.300 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2026-02-17 11:20:04.330 INFO  org.wuyang.gateway.config.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 8.739 seconds (process running for 9.553)
-2026-02-17 11:20:04.333 INFO  org.wuyang.gateway.config.GatewayApplication      :19   [32m                  [0;39m 网关模块启动成功！！
-2026-02-17 11:20:04.333 INFO  org.wuyang.gateway.config.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
-2026-02-17 11:24:11.598 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 11:24:11.979 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:24:21.036 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:24:21.036 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
-2026-02-17 11:24:21.769 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:24:23.000 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:24:24.995 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:24:26.638 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:24:29.040 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:24:30.642 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:25:04.167 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 11:25:04.603 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:05.118 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 11:25:06.764 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 11:25:07.219 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:07.845 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:08.371 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:09.218 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:25:09.702 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:10.059 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:10.443 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:10.939 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 11:25:11.499 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:28.530 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:29.026 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:29.686 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:25:30.274 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:30.761 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:31.346 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:34.802 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:36.454 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:37.066 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:37.500 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:25:37.962 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:38.381 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:38.853 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:39.352 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:40.017 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:40.494 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:25:40.900 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:41.288 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:41.702 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:42.192 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 11:25:46.947 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:47.320 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:49.702 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:25:50.553 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:25:50.965 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 11:25:51.384 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:25:59.554 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 11:26:01.394 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 11:26:02.278 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:40:40.765 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:40:53.083 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:40:53.653 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:40:54.102 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:40:54.613 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:40:55.884 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 11:40:56.416 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 12:22:16.403 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 12:22:55.601 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
-2026-02-17 12:22:55.688 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 12:23:03.137 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
-2026-02-17 12:23:03.158 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 12:23:13.072 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 12:23:14.349 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 12:23:14.685 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 12:23:15.854 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 12:23:18.056 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D69
-2026-02-17 12:23:19.459 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D22
-2026-02-17 12:23:20.832 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1328
-2026-02-17 12:23:22.182 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D79
-2026-02-17 12:23:23.335 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G2-6789
-2026-02-17 12:23:23.831 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 12:23:27.201 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1-3579
-2026-02-17 13:48:50.996 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 13:48:51.592 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 13:48:52.374 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 13:48:53.469 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 13:48:55.817 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 13:48:56.281 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 13:48:56.797 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 13:48:57.390 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 13:48:57.793 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 13:48:58.327 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 13:50:31.997 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 13:50:32.860 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 13:50:33.420 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
-2026-02-17 13:50:45.322 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
-2026-02-17 13:50:48.425 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2026-02-17 13:50:49.121 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 13:50:53.007 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 13:52:31.183 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
-2026-02-17 13:52:34.825 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-17 13:52:56.356 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/save
-2026-02-17 14:16:34.224 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/save
-2026-02-17 14:16:34.929 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/save
-2026-02-17 14:24:48.969 INFO  org.wuyang.gateway.config.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/save
+2026-02-17 11:20:04.330 INFO  config.org.wuyang.train.gateway.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 8.739 seconds (process running for 9.553)
+2026-02-17 11:20:04.333 INFO  config.org.wuyang.train.gateway.GatewayApplication      :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 11:20:04.333 INFO  config.org.wuyang.train.gateway.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-17 11:24:11.598 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 11:24:11.979 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:24:21.036 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:24:21.036 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2026-02-17 11:24:21.769 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:24:23.000 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:24:24.995 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:24:26.638 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:24:29.040 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:24:30.642 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:25:04.167 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 11:25:04.603 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:05.118 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 11:25:06.764 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 11:25:07.219 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:07.845 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:08.371 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:09.218 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:25:09.702 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:10.059 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:10.443 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:10.939 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 11:25:11.499 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:28.530 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:29.026 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:29.686 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:25:30.274 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:30.761 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:31.346 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:34.802 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:36.454 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:37.066 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:37.500 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:25:37.962 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:38.381 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:38.853 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:39.352 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:40.017 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:40.494 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:25:40.900 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:41.288 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:41.702 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:42.192 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 11:25:46.947 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:47.320 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:49.702 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:25:50.553 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:25:50.965 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 11:25:51.384 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:25:59.554 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 11:26:01.394 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 11:26:02.278 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:40:40.765 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:40:53.083 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:40:53.653 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:40:54.102 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:40:54.613 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:40:55.884 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 11:40:56.416 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 12:22:16.403 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 12:22:55.601 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 12:22:55.688 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 12:23:03.137 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 12:23:03.158 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 12:23:13.072 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 12:23:14.349 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 12:23:14.685 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 12:23:15.854 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 12:23:18.056 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D69
+2026-02-17 12:23:19.459 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D22
+2026-02-17 12:23:20.832 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1328
+2026-02-17 12:23:22.182 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/D79
+2026-02-17 12:23:23.335 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G2-6789
+2026-02-17 12:23:23.831 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 12:23:27.201 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/generate-seat/G1-3579
+2026-02-17 13:48:50.996 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 13:48:51.592 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 13:48:52.374 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 13:48:53.469 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 13:48:55.817 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 13:48:56.281 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 13:48:56.797 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 13:48:57.390 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 13:48:57.793 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 13:48:58.327 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 13:50:31.997 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 13:50:32.860 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 13:50:33.420 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 13:50:45.322 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 13:50:48.425 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 13:50:49.121 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 13:50:53.007 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 13:52:31.183 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 13:52:34.825 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 13:52:56.356 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/save
+2026-02-17 14:16:34.224 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/save
+2026-02-17 14:16:34.929 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/save
+2026-02-17 14:24:48.969 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/save
+2026-02-17 15:27:43.474 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 15:27:48.742 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
+2026-02-17 15:27:48.760 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
+2026-02-17 15:28:01.477 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/save
+2026-02-17 15:28:04.299 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:28:07.212 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
+2026-02-17 15:31:50.909 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:31:52.005 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
+2026-02-17 15:32:23.588 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:32:24.054 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
+2026-02-17 15:32:50.316 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/save
+2026-02-17 15:32:55.652 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/save
+2026-02-17 15:32:55.684 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:33:34.440 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 15:33:35.396 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:33:36.440 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:33:37.591 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 15:33:42.170 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:33:43.562 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:33:44.186 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 15:33:45.791 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:33:46.643 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:33:47.348 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 15:33:48.383 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:33:50.272 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:33:51.366 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:33:51.938 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:33:52.378 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:33:56.982 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:36:23.250 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:36:24.976 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:36:28.094 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:36:28.119 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:41:23.879 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:41:48.983 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:41:50.759 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:41:51.449 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:41:52.098 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:42:33.563 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:42:33.972 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:43:55.579 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:44:09.389 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2026-02-17 15:44:16.696 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:44:17.404 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:44:19.128 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 15:44:21.615 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:44:24.509 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:44:25.041 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 15:44:25.488 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 15:44:26.127 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 15:44:49.529 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 16:08:18.196 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:08:20.238 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 16:08:32.116 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 16:08:33.419 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:08:36.514 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 16:08:36.867 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:10:14.027 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:17:39.533 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:17:47.622 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:17:48.289 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:17:48.504 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:17:48.703 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:17:48.890 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:17:49.087 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:19:37.506 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:19:37.599 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [a1b21a49-169]  500 Server Error for HTTP GET "/business/admin/train-station/query-list?pageNum=1&pageSize=5"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/business/admin/train-station/query-list?pageNum=1&pageSize=5" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2026-02-17 16:19:45.328 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:20:01.066 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:20:10.726 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:20:12.653 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:20:30.543 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:21:43.698 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:21:57.166 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:24:15.272 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:27:35.631 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:27:36.046 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 16:27:36.672 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:27:39.199 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:27:41.210 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:29:03.784 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:29:21.962 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 16:29:24.552 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:29:35.925 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:29:56.114 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:30:19.110 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:32:56.640 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:36:32.029 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:36:57.441 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:37:00.652 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:37:24.340 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:37:41.689 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 16:37:42.328 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:47:07.534 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:47:12.781 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:47:15.784 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:47:18.572 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:47:21.838 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:47:23.962 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:47:24.214 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:47:24.423 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:47:25.011 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 16:47:25.295 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:48:42.555 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:48:57.657 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:48:59.571 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:49:13.411 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:51:11.223 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:51:19.715 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:51:50.279 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-all
+2026-02-17 16:52:20.372 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/save
+2026-02-17 16:52:20.435 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:52:43.803 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:53:49.345 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 16:53:50.623 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 16:53:51.049 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 16:53:54.091 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:05:06.760 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2026-02-17 17:05:06.760 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 17:05:11.205 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 17:06:21.761 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 17:06:25.259 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-17 17:06:26.161 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-17 17:06:27.785 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:06:29.015 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:30.596 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:06:31.163 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:35.398 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:36.270 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:36.683 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:36.915 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:37.159 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:37.371 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:37.584 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:37.810 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:38.044 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:38.299 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:38.553 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:38.810 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:39.059 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:39.292 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:39.520 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:40.222 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:06:44.400 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:06:45.063 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:06:45.265 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:06:45.968 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:48.627 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:48.955 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:49.191 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:50.791 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:51.029 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:51.255 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:53.867 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:54.085 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:54.534 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:54.747 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:55.785 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:56.003 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:56.206 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:56.408 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:56.623 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:56.833 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:57.031 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:06:59.962 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:00.407 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:00.618 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:00.841 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:01.076 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:01.717 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:03.713 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:03.941 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:06.472 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:08.404 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:10.314 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:10.554 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:12.303 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:14.312 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:14.862 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:07:19.206 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:24.802 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:25.242 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:25.464 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:07:25.697 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:09:57.152 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:09:57.854 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:09:58.613 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 17:09:59.314 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:10:02.278 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:10:03.941 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:10:05.863 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:21:41.605 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-17 17:21:45.985 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-17 17:21:46.841 INFO  config.org.wuyang.train.gateway.LoginMemberFilter       :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-17 17:29:06.433 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 5 class path changes (0 additions, 5 deletions, 0 modifications)
+2026-02-17 17:29:22.118 INFO  config.org.wuyang.train.gateway.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30912 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 17:29:22.118 INFO  config.org.wuyang.train.gateway.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:29:22.183 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-17 17:29:23.365 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:23.393 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-17 17:29:23.393 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-17 17:29:23.393 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-17 17:29:23.393 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-17 17:29:23.393 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-17 17:29:23.394 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-17 17:29:23.413 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-02-17 17:29:24.583 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:24.616 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-17 17:29:24.836 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-17 17:29:25.832 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:27.080 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:27.087 INFO  config.org.wuyang.train.gateway.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.145 seconds (process running for 22172.309)
+2026-02-17 17:29:27.087 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-02-17 17:29:27.088 INFO  config.org.wuyang.train.gateway.GatewayApplication      :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 17:29:27.088 INFO  config.org.wuyang.train.gateway.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-17 17:29:30.401 INFO  config.org.wuyang.train.gateway.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30912 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 17:29:30.402 INFO  config.org.wuyang.train.gateway.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:29:30.474 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-17 17:29:31.664 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:31.695 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-17 17:29:31.695 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-17 17:29:31.695 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-17 17:29:31.695 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-17 17:29:31.696 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-17 17:29:31.717 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-02-17 17:29:32.896 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:32.922 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-17 17:29:33.130 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2026-02-17 17:29:34.075 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:35.238 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:35.243 INFO  config.org.wuyang.train.gateway.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 6.033 seconds (process running for 22180.467)
+2026-02-17 17:29:35.244 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-02-17 17:29:35.244 INFO  config.org.wuyang.train.gateway.GatewayApplication      :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 17:29:35.245 INFO  config.org.wuyang.train.gateway.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-17 17:29:38.539 INFO  config.org.wuyang.train.gateway.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30912 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 17:29:38.539 INFO  config.org.wuyang.train.gateway.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:29:38.600 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-17 17:29:39.773 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-17 17:29:39.796 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-17 17:29:39.812 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-02-17 17:29:40.980 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:41.006 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-17 17:29:42.171 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:43.325 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:29:43.331 INFO  config.org.wuyang.train.gateway.GatewayApplication      :57   [32m                  [0;39m Started GatewayApplication in 5.968 seconds (process running for 22188.554)
+2026-02-17 17:29:43.332 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-02-17 17:29:43.332 INFO  config.org.wuyang.train.gateway.GatewayApplication      :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 17:29:43.332 INFO  config.org.wuyang.train.gateway.GatewayApplication      :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-17 17:44:44.472 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
+2026-02-17 17:44:47.776 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30912 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 17:44:47.776 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:44:47.853 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
+java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+	at org.springframework.cglib.proxy.Enhancer.nextInstance(Enhancer.java:783)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:326)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:567)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:412)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:138)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:109)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:513)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:304)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:358)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:150)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.wuyang.gateway.config.GatewayApplication.main(GatewayApplication.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2026-02-17 17:44:50.451 INFO  org.wuyang.gateway.config.GatewayApplication      :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 30912 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 17:44:50.452 INFO  org.wuyang.gateway.config.GatewayApplication      :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:44:50.511 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
+java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+	at org.springframework.cglib.proxy.Enhancer.nextInstance(Enhancer.java:783)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:326)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:567)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:412)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:138)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:109)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:513)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:304)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:358)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:150)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.wuyang.gateway.config.GatewayApplication.main(GatewayApplication.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2026-02-17 17:47:56.272 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-02-17 17:47:56.295 INFO  o.wuyang.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 10952 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 17:47:56.295 INFO  o.wuyang.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:47:56.324 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-17 17:47:56.324 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-17 17:47:56.670 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-17 17:47:58.019 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:47:58.186 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-17 17:47:58.187 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-17 17:47:58.188 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-17 17:47:58.188 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-17 17:47:58.188 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-17 17:47:58.188 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-17 17:47:58.295 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-02-17 17:47:59.470 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:47:59.644 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-17 17:48:00.812 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:48:01.971 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:48:01.998 INFO  o.wuyang.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 7.114 seconds (process running for 7.462)
+2026-02-17 17:48:02.000 INFO  o.wuyang.train.gateway.config.GatewayApplication  :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 17:48:02.000 INFO  o.wuyang.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-17 17:56:55.973 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-02-17 17:56:59.277 INFO  o.wuyang.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 10952 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 17:56:59.278 INFO  o.wuyang.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:56:59.353 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-17 17:57:00.571 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-17 17:57:00.599 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-17 17:57:00.600 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-17 17:57:00.600 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-17 17:57:00.600 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-17 17:57:00.600 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-17 17:57:00.600 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-17 17:57:00.618 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-02-17 17:57:01.772 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:57:01.801 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-17 17:57:03.009 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:57:04.173 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:57:04.181 INFO  o.wuyang.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 6.084 seconds (process running for 549.646)
+2026-02-17 17:57:04.182 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-02-17 17:57:04.183 INFO  o.wuyang.train.gateway.config.GatewayApplication  :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 17:57:04.183 INFO  o.wuyang.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-17 17:57:10.403 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-02-17 17:57:10.427 INFO  o.wuyang.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 20560 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 17:57:10.428 INFO  o.wuyang.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 17:57:10.455 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-17 17:57:10.455 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-17 17:57:10.804 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-17 17:57:12.133 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-17 17:57:12.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-17 17:57:12.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-17 17:57:12.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-17 17:57:12.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-17 17:57:12.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-17 17:57:12.413 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-02-17 17:57:13.570 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:57:13.778 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-17 17:57:14.990 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:57:16.144 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 17:57:16.178 INFO  o.wuyang.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 7.197 seconds (process running for 7.557)
+2026-02-17 17:57:16.181 INFO  o.wuyang.train.gateway.config.GatewayApplication  :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 17:57:16.181 INFO  o.wuyang.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-17 17:59:56.484 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/hello
+2026-02-17 18:04:40.849 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/hello
+2026-02-17 18:12:37.361 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-02-17 18:12:37.386 INFO  o.wuyang.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 17444 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-17 18:12:37.387 INFO  o.wuyang.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-17 18:12:37.419 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-17 18:12:37.419 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-17 18:12:37.794 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-17 18:12:39.139 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-17 18:12:39.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-17 18:12:39.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-17 18:12:39.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-17 18:12:39.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-17 18:12:39.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-17 18:12:39.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-17 18:12:39.406 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-02-17 18:12:40.575 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 18:12:40.822 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-17 18:12:41.987 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 18:12:43.156 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-17 18:12:43.182 INFO  o.wuyang.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 7.237 seconds (process running for 7.6)
+2026-02-17 18:12:43.183 INFO  o.wuyang.train.gateway.config.GatewayApplication  :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-17 18:12:43.184 INFO  o.wuyang.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000

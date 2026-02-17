@@ -1,0 +1,4 @@
+GET localhost:8000/batch/hello
+Accept: application/json
+
+###

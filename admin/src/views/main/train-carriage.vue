@@ -1,7 +1,8 @@
 <template>
   <p>
     <a-space>
-      <a-button type="primary" @click="handleQuery()">刷新</a-button>
+      <train-selected-view v-model="paramss.trainCode" width="200px"></train-selected-view>
+      <a-button type="primary" @click="handleQuery()">查找</a-button>
       <a-button type="primary" @click="onAdd">新增</a-button>
     </a-space>
   </p>
@@ -55,7 +56,7 @@
 </template>
 
 <script>
-  import { defineComponent, ref, onMounted } from 'vue';
+import {defineComponent, ref, onMounted, reactive} from 'vue';
   import {notification} from "ant-design-vue";
   import axios from "axios";
   import TrainSelectedView from "@/components/train-selected.vue";
@@ -85,6 +86,9 @@
         pageSize: 5,
       });
       let loading = ref(false);
+      let paramss = ref({
+        trainCode: null
+      })
       const columns = [
         {
           title: '车次编号',
@@ -174,7 +178,8 @@
         axios.get("/business/admin/train-carriage/query-list", {
           params: {
             pageNum: param.pageNum,
-            pageSize: param.pageSize
+            pageSize: param.pageSize,
+            trainCode: paramss.value.trainCode
           }
         }).then((response) => {
           loading.value = false;
@@ -219,7 +224,8 @@
         onAdd,
         handleOk,
         onEdit,
-        onDelete
+        onDelete,
+        paramss
       };
     },
   });
