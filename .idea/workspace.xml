@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="创建数据可以train_batch。同时利用mybatis-generator插件生成每日车次表的持久生成">
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/SpringBootTestJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0767cbe-b66a-4228-9145-95b3c933d8e0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c0767cbe-b66a-4228-9145-95b3c933d8e0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="演示SpringBoot自带的定时任务">
+      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/TestJob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/domain/DailyTrain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/domain/DailyTrainExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/mapper/DailyTrainMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/resources/mapper/DailyTrainMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-batch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-batch.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/batch/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -552,15 +546,7 @@
       <workItem from="1771321634753" duration="1296000" />
       <workItem from="1771323069469" duration="657000" />
       <workItem from="1771323743797" duration="5269000" />
-      <workItem from="1771385415245" duration="3578000" />
-    </task>
-    <task id="LOCAL-00098" summary="乘车人删除接口开发">
-      <option name="closed" value="true" />
-      <created>1769644007854</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1769644007854</updated>
+      <workItem from="1771385415245" duration="5519000" />
     </task>
     <task id="LOCAL-00099" summary="乘车人删除接口开发: 前端添加删除按钮（确认删除提示）">
       <option name="closed" value="true" />
@@ -946,7 +932,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771342659793</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="演示SpringBoot自带的定时任务">
+      <option name="closed" value="true" />
+      <created>1771393125460</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1771393125461</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -978,7 +972,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="创建admin模块，所以的代码都是从web模块而来" />
     <MESSAGE value="admin去掉登录页面，去掉全局变量member和登录相关的拦截，去掉乘车人页面，去掉没用的HelloWorld组件，修改logo区域和logo样式" />
     <MESSAGE value="admin去掉登录叶敏，去掉全局变量member和登录相关的拦截，去掉乘车人页面，去掉没用的HelloWorld组件，修改logo区域和logo样式" />
     <MESSAGE value="修改生成器修改相关的代码，后端生成了station的持久层以及controller和service层。前端生成了station.vue" />
@@ -1003,7 +996,8 @@
     <MESSAGE value="为车站，车次编号，同车次站序，同车次站名，同车次厢号添加唯一性校验" />
     <MESSAGE value="train-carriage.vue,train-seat,train-station页面添加查找按钮，按钮旁边增减车次下拉框。除此之外，创建了batch定时调度模块" />
     <MESSAGE value="创建数据可以train_batch。同时利用mybatis-generator插件生成每日车次表的持久生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建数据可以train_batch。同时利用mybatis-generator插件生成每日车次表的持久生成" />
+    <MESSAGE value="演示SpringBoot自带的定时任务" />
+    <option name="LAST_COMMIT_MESSAGE" value="演示SpringBoot自带的定时任务" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
