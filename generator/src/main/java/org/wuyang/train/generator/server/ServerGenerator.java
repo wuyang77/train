@@ -99,8 +99,6 @@ public class ServerGenerator {
 
     private static void gen(String Domain, HashMap<String, Object> param,String packageName, String target) throws IOException, TemplateException {
 
-
-
         FreemarkerUtil.initConfig(target + ".ftl");
         String toPath = servicePath + packageName + "/";
         new File(toPath).mkdirs();

@@ -11,7 +11,7 @@ public class TestJob implements Job {
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         System.out.println("TestJob TEST开始");
          try {
-             Thread.sleep(5000);
+             Thread.sleep(3000);
          } catch (InterruptedException e) {
              e.printStackTrace();
          }
