@@ -4,40 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="添加注解@DisallowConcurrentExecution，禁止任务并发执行">
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/MyJobFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/SchedulerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/SpringMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/JobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/req/CronJobReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/resp/CronJobResp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/batch-job.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/batch.sql" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试">
+      <change afterPath="$PROJECT_DIR$/admin/src/views/main/job.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0767cbe-b66a-4228-9145-95b3c933d8e0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c0767cbe-b66a-4228-9145-95b3c933d8e0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T232116.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T232118.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T232210.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T232213.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T232311.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-27T232313.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012244.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012258.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012313.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012318.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012322.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012326.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012656.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012733.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2026-01-28T012740.200.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/QuartzConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/QuartzConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/SpringBootTestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/SpringBootTestJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/TestJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/TestJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/resp/CronJobResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/resp/CronJobResp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
@@ -88,6 +64,9 @@
     <setting file="jar://E:/dev/localRepository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/jakarta/validation/constraints/NotBlank.class" root0="SKIP_INSPECTION" />
     <setting file="jar://E:/dev/localRepository/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar!/org/aspectj/lang/annotation/Before.class" root0="SKIP_INSPECTION" />
     <setting file="jar://E:/dev/localRepository/org/springframework/boot/spring-boot-devtools/3.0.0/spring-boot-devtools-3.0.0.jar!/org/springframework/boot/devtools/autoconfigure/OptionalLiveReloadServer.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="HttpClientEndpointsTabState">
+    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests /&gt;" />
   </component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
@@ -188,7 +167,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service",
-    "last_opened_file_path": "D:/Users/23889/Desktop/train/http",
+    "last_opened_file_path": "D:/Users/23889/Desktop/train/admin/src/views/main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -196,18 +175,19 @@
     "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
     "nodejs_package_manager_path": "npm",
     "npm.admin9001.executor": "Run",
+    "npm.run.executor": "Run",
     "npm.serve (1).executor": "Run",
     "npm.serve.executor": "Run",
     "npm.serve9001.executor": "Run",
     "onboarding.tips.debug.path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\23889\\AppData\\Roaming\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "D:\\Software\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -232,11 +212,11 @@
       <recent name="org.wuyang.member.resq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\admin\src\views\main" />
       <recent name="D:\Users\23889\Desktop\train\http" />
       <recent name="D:\Users\23889\Desktop\train\sql" />
       <recent name="D:\Users\23889\Desktop\train\generator\src\main\resources" />
       <recent name="D:\Users\23889\Desktop\train\batch\src\main\resources" />
-      <recent name="D:\Users\23889\Desktop\train\admin\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\23889\Desktop\train\admin\src\views\main" />
@@ -303,7 +283,7 @@
         <entry key="js.build_tools.npm">
           <value>
             <set>
-              <option value="serve9001" />
+              <option value="admin9001" />
             </set>
           </value>
         </entry>
@@ -314,18 +294,7 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <set>
-              <option value="batch-job | #3" />
-              <option value="batch-job | #4" />
-              <option value="batch-job | #5" />
-              <option value="batch-job | #6" />
-              <option value="batch-job | #7" />
-            </set>
-          </value>
-        </entry>
-        <entry key="js.build_tools.npm">
-          <value>
-            <set>
-              <option value="admin9001" />
+              <option value="batch-job | #1" />
             </set>
           </value>
         </entry>
@@ -336,18 +305,14 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
-              <entry key="batch-job | #3" value="STOPPED" />
-              <entry key="batch-job | #4" value="STOPPED" />
-              <entry key="batch-job | #5" value="STOPPED" />
-              <entry key="batch-job | #6" value="STOPPED" />
-              <entry key="batch-job | #7" value="STOPPED" />
+              <entry key="batch-job | #1" value="STOPPED" />
             </map>
           </value>
         </entry>
-        <entry key="js.build_tools.npm">
+        <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="admin9001" value="STOPPED" />
+              <entry key="BatchApplication" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -366,33 +331,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumGenerator">
-    <configuration name="EnumGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.wuyang.generator.server.EnumGenerator" />
-      <module name="generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.generator.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="batch-job | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#3" index="3" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="batch-job | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#4" index="4" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="batch-job | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#5" index="5" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="batch-job | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#6" index="6" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="batch-job | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#7" index="7" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.BatchApplication">
+    <configuration name="batch-job | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
@@ -425,33 +365,63 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="admin9001" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/admin/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="serve" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
-        <browser with-js-debugger="true" />
-      </EXTENSION>
-      <method v="2" />
+    <configuration name="BatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="batch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.batch.config.BatchApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.batch.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="business" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.business.config.BusinessApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.business.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.gateway.config.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.gateway.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.member.config.MemberApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.member.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="admin9001" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/admin/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="serve" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <EXTENSION ID="com.intellij.javascript.debugger.execution.StartBrowserRunConfigurationExtension">
-        <browser with-js-debugger="true" />
-      </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="serve9001" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/admin/package.json" />
       <command value="run" />
       <scripts>
@@ -465,31 +435,29 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.EnumGenerator" />
-      <item itemvalue="HTTP Request.batch-job | #3" />
-      <item itemvalue="HTTP Request.batch-job | #4" />
-      <item itemvalue="HTTP Request.batch-job | #5" />
-      <item itemvalue="HTTP Request.batch-job | #6" />
-      <item itemvalue="HTTP Request.batch-job | #7" />
+      <item itemvalue="HTTP Request.batch-job | #1" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.admin9001" />
-      <item itemvalue="npm.serve9001" />
+      <item itemvalue="Spring Boot.BatchApplication" />
+      <item itemvalue="Spring Boot.BusinessApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MemberApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.batch-job | #6" />
-        <item itemvalue="HTTP Request.batch-job | #7" />
-        <item itemvalue="HTTP Request.batch-job | #3" />
-        <item itemvalue="HTTP Request.batch-job | #5" />
-        <item itemvalue="HTTP Request.batch-job | #4" />
+        <item itemvalue="Spring Boot.BatchApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="HTTP Request.batch-job | #1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -561,31 +529,11 @@
       <workItem from="1771323743797" duration="5269000" />
       <workItem from="1771385415245" duration="23297000" />
       <workItem from="1771507730296" duration="6913000" />
-      <workItem from="1771567037611" duration="7287000" />
-    </task>
-    <task id="LOCAL-00101" summary="解决表格中枚举字段的显示">
-      <option name="closed" value="true" />
-      <created>1769651518845</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1769651518845</updated>
-    </task>
-    <task id="LOCAL-00102" summary="将枚举数据放到单独的enums.js文件中，在main.js中全局引入">
-      <option name="closed" value="true" />
-      <created>1769656149313</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1769656149313</updated>
-    </task>
-    <task id="LOCAL-00103" summary="将枚举数据放到单独的enums.js文件中，在main.js中全局引入">
-      <option name="closed" value="true" />
-      <created>1769656153026</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1769656153026</updated>
+      <workItem from="1771567037611" duration="15390000" />
+      <workItem from="1771664593319" duration="11464000" />
+      <workItem from="1771694160880" duration="3581000" />
+      <workItem from="1771747760436" duration="3826000" />
+      <workItem from="1771759709873" duration="9829000" />
     </task>
     <task id="LOCAL-00104" summary="测试代码生成器freemark模板引擎的使用">
       <option name="closed" value="true" />
@@ -955,7 +903,31 @@
       <option name="project" value="LOCAL" />
       <updated>1771395148962</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试">
+      <option name="closed" value="true" />
+      <created>1771578442874</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1771578442874</updated>
+    </task>
+    <task id="LOCAL-00151" summary="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试">
+      <option name="closed" value="true" />
+      <created>1771578449269</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1771578449269</updated>
+    </task>
+    <task id="LOCAL-00152" summary="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试">
+      <option name="closed" value="true" />
+      <created>1771578490844</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1771578490844</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -987,7 +959,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="修改生成器修改相关的代码，后端生成了station的持久层以及controller和service层。前端生成了station.vue" />
     <MESSAGE value="新增车次管理，表名train" />
     <MESSAGE value="新增火车车站管理，表面train-station,生成持久层以及前后端代码" />
     <MESSAGE value="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码" />
@@ -1012,7 +983,8 @@
     <MESSAGE value="演示SpringBoot自带的定时任务" />
     <MESSAGE value="集成quartz，和自带的SpringBoot自带的定时任务可以共存" />
     <MESSAGE value="添加注解@DisallowConcurrentExecution，禁止任务并发执行" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注解@DisallowConcurrentExecution，禁止任务并发执行" />
+    <MESSAGE value="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

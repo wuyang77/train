@@ -7,12 +7,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.wuyang.train.batch.req.CronJobReq;
 import org.wuyang.train.batch.resp.CronJobResp;
 import org.wuyang.train.common.resp.CommonResp;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -36,7 +38,7 @@ public class JobController {
         return new CommonResp<>();
     }
 
-    @RequestMapping(value = "/add")
+    @PostMapping(value = "/add")
     public CommonResp add(@RequestBody CronJobReq cronJobReq) {
         String jobClassName = cronJobReq.getName();
         String jobGroupName = cronJobReq.getGroup();
@@ -185,10 +187,8 @@ public class JobController {
                     cronJobResp.setDescription(cronTrigger.getDescription());
                     Trigger.TriggerState triggerState = scheduler.getTriggerState(cronTrigger.getKey());
                     cronJobResp.setState(triggerState.name());
-
                     cronJobDtoList.add(cronJobResp);
                 }
-
             }
         } catch (SchedulerException e) {
             LOG.error("查看定时任务失败:" + e);

@@ -1,5 +1,6 @@
 package org.wuyang.train.batch.resp;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 import java.util.Date;
@@ -13,7 +14,10 @@ public class CronJobResp {
     private String state;
     private String cronExpression;
 
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date nextFireTime;
+
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date preFireTime;
 
     @Override

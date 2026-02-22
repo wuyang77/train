@@ -1,0 +1,18 @@
+POST http://localhost:8000/batch/admin/job/add
+Content-Type: application/json
+Content-Length: 138
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "org.wuyang.train.batch.job.TestJob",
+  "jobGroupName": "default",
+  "cronExpression": "*/2 * * * * ?",
+  "desc": "test job"
+}
+
+<> 2026-02-22T191858.200.json
+
+###
+
