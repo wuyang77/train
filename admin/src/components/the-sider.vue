@@ -2,6 +2,7 @@
   <a-layout-sider width="200" style="background: #fff">
     <a-menu
         v-model:selectedKeys="selectedKeys"
+        :openKeys="['batch', 'base']"
         mode="inline"
         :style="{ height: '100%', borderRight: 0 }"
     >
