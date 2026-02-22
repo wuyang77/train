@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试">
-      <change afterPath="$PROJECT_DIR$/admin/src/views/main/job.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="前端通过控制台界面操作定时任务">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/JobController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/resp/CronJobResp.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/resp/CronJobResp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/job.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/batch/job.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/base/station.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-carriage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/base/train-carriage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/base/train-seat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/base/train-station.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/base/train.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,11 +217,11 @@
       <recent name="D:\Users\23889\Desktop\train\batch\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\23889\Desktop\train\admin\src\views\base" />
+      <recent name="D:\Users\23889\Desktop\train\admin\src\views\batch" />
       <recent name="D:\Users\23889\Desktop\train\admin\src\views\main" />
       <recent name="D:\Users\23889\Desktop\train" />
       <recent name="D:\Users\23889\Desktop\train\web\src\components" />
-      <recent name="D:\Users\23889\Desktop\train\web\src\views" />
-      <recent name="D:\Users\23889\Desktop\train\common\src\main\resources\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.wuyang.train.batch.controller" />
@@ -533,23 +531,7 @@
       <workItem from="1771664593319" duration="11464000" />
       <workItem from="1771694160880" duration="3581000" />
       <workItem from="1771747760436" duration="3826000" />
-      <workItem from="1771759709873" duration="9829000" />
-    </task>
-    <task id="LOCAL-00104" summary="测试代码生成器freemark模板引擎的使用">
-      <option name="closed" value="true" />
-      <created>1769885585115</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1769885585116</updated>
-    </task>
-    <task id="LOCAL-00105" summary="测试代码生成器freemark模板引擎的使用">
-      <option name="closed" value="true" />
-      <created>1769885588520</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1769885588520</updated>
+      <workItem from="1771759709873" duration="13607000" />
     </task>
     <task id="LOCAL-00106" summary="集成dom4j,读取根目录下的pom.xml文件，读取plugin中confiurationFile的路径">
       <option name="closed" value="true" />
@@ -927,7 +909,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771578490844</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="前端通过控制台界面操作定时任务">
+      <option name="closed" value="true" />
+      <created>1771777705589</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1771777705590</updated>
+    </task>
+    <task id="LOCAL-00154" summary="前端通过控制台界面操作定时任务">
+      <option name="closed" value="true" />
+      <created>1771777712311</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1771777712311</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,7 +957,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="新增车次管理，表名train" />
     <MESSAGE value="新增火车车站管理，表面train-station,生成持久层以及前后端代码" />
     <MESSAGE value="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码" />
     <MESSAGE value="使用pinyin-pro将汉字转成拼音" />
@@ -984,7 +981,8 @@
     <MESSAGE value="集成quartz，和自带的SpringBoot自带的定时任务可以共存" />
     <MESSAGE value="添加注解@DisallowConcurrentExecution，禁止任务并发执行" />
     <MESSAGE value="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试" />
+    <MESSAGE value="前端通过控制台界面操作定时任务" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端通过控制台界面操作定时任务" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

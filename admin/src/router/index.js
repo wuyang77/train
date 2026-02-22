@@ -18,27 +18,36 @@ const routes = [
     }, {
       path: 'about',
       component: () => import('../views/main/about.vue')
-    },{
-      path: 'station',
-      component: () => import('../views/main/station.vue')
-    },{
-      path: 'train',
-      component: () => import('../views/main/train.vue')
-    },{
-      path: 'train-station',
-      component: () => import('../views/main/train-station.vue')
-    },{
-      path: "train-carriage",
-      component: () => import('../views/main/train-carriage.vue')
-    },{
-      path: "train-seat",
-      component: () => import('../views/main/train-seat.vue')
-    }, {
-      path: 'batch/job',
-      name: 'batch/job',
-      component: () => import('../views/main/job.vue')
+    },
+    {
+      path: 'batch/',
+      children: [{
+        path: 'job',
+        name: 'job',
+        component: () => import('../views/batch/job.vue')
+      }]
+    },
+    {
+      path: 'base/',
+      children: [{
+        path: 'station',
+        component: () => import('../views/base/station.vue')
+      },{
+        path: 'train',
+        component: () => import('../views/base/train.vue')
+      },{
+        path: 'train-station',
+        component: () => import('../views/base/train-station.vue')
+      },{
+        path: "train-carriage",
+        component: () => import('../views/base/train-carriage.vue')
+      },{
+        path: "train-seat",
+        component: () => import('../views/base/train-seat.vue')
+      }]
     }]
-  },{
+  },
+  {
     path: '',
     redirect: '/welcome'
   },
