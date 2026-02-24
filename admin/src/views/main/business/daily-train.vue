@@ -1,6 +1,8 @@
 <template>
   <p>
     <a-space>
+      <a-date-picker v-model:value="paramss.date" valueFormat="YYYY-MM-DD" placeholder="请选择日期" />
+      <train-selected-view v-model="paramss.code" width="200px"></train-selected-view>
       <a-button type="primary" @click="handleQuery()">查找</a-button>
       <a-button type="primary" @click="onAdd">新增</a-button>
     </a-space>
@@ -104,6 +106,9 @@
         pageSize: 5,
       });
       let loading = ref(false);
+      let paramss = ref({
+        code: null
+      });
       const columns = [
         {
           title: '日期',
@@ -209,6 +214,8 @@
           params: {
             pageNum: param.pageNum,
             pageSize: param.pageSize,
+            code: paramss.value.code,
+            date: paramss.value.date
           }
         }).then((response) => {
           loading.value = false;
@@ -263,6 +270,7 @@
         onEdit,
         onDelete,
         onChangeCode,
+        paramss
       };
     },
   });

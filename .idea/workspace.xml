@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="测试多节点中quartz的调度情况">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="为每日车次表单(Modal 对话框内)增加车次下拉选择，并自动填充车次相关数据">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/base/station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/station.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/base/train-carriage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train-carriage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/base/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train-seat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/base/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train-station.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/base/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/batch/job.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/batch/job.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/business/daily-train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/business/daily-train.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/business/daily-train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/business/daily-train.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/DailyTrainQueryReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/DailyTrainQueryReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,11 +437,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.BatchApplication (18003)" />
         <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.BusinessApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -535,23 +526,7 @@
       <workItem from="1771694160880" duration="3581000" />
       <workItem from="1771747760436" duration="3826000" />
       <workItem from="1771759709873" duration="13908000" />
-      <workItem from="1771944343816" duration="6722000" />
-    </task>
-    <task id="LOCAL-00113" summary="添加了vue.ftl，并将vue网页端给git管理">
-      <option name="closed" value="true" />
-      <created>1770766414283</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1770766414283</updated>
-    </task>
-    <task id="LOCAL-00114" summary="新增EnumGenerator，实现自动enums.js枚举生成；js种value改为了desc与枚举类保持一致">
-      <option name="closed" value="true" />
-      <created>1770768098069</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1770768098069</updated>
+      <workItem from="1771944343816" duration="8336000" />
     </task>
     <task id="LOCAL-00115" summary="新增EnumGenerator，实现自动enums.js枚举生成；js种value改为了desc与枚举类保持一致">
       <option name="closed" value="true" />
@@ -929,7 +904,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771944465346</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="为每日车次表单(Modal 对话框内)增加车次下拉选择，并自动填充车次相关数据">
+      <option name="closed" value="true" />
+      <created>1771952256760</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1771952256760</updated>
+    </task>
+    <task id="LOCAL-00163" summary="为每日车次表单(Modal 对话框内)增加车次下拉选择，并自动填充车次相关数据">
+      <option name="closed" value="true" />
+      <created>1771952261344</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1771952261344</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -961,7 +952,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="火车座位页面的车次改为车次选择组件" />
     <MESSAGE value="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件" />
     <MESSAGE value="实现按车次生成车座功能" />
     <MESSAGE value="车次生成车座功能：在车次管理页面添加前端功能" />
@@ -986,7 +976,8 @@
     <MESSAGE value="调整ftl错误，成功生成daily-train表的持久层代码：domain、mapper以及xml" />
     <MESSAGE value="侧边栏the-sider.vue添加业务管理，业务管理下添加了每日车次项，在index.js添加了对应的路由" />
     <MESSAGE value="测试多节点中quartz的调度情况" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试多节点中quartz的调度情况" />
+    <MESSAGE value="为每日车次表单(Modal 对话框内)增加车次下拉选择，并自动填充车次相关数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="为每日车次表单(Modal 对话框内)增加车次下拉选择，并自动填充车次相关数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
