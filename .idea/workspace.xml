@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="对菜单作分类，改为两级菜单;路由也改为多级路由" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/vue.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/vue.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +35,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
@@ -88,109 +100,109 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.EnumGenerator.executor": "Run",
-    "Application.JwtUtil.executor": "Run",
-    "Application.ServerGenerator.executor": "Run",
-    "Application.org.wuyang.gateway.util.JwtUtil.executor": "Run",
-    "Database Script.member.sql.executor": "Run",
-    "HTTP Request.batch-job | #1.executor": "Run",
-    "HTTP Request.batch-job | #2.executor": "Run",
-    "HTTP Request.batch-job | #3.executor": "Run",
-    "HTTP Request.batch-job | #4.executor": "Run",
-    "HTTP Request.batch-job | #5.executor": "Run",
-    "HTTP Request.batch-job | #6.executor": "Run",
-    "HTTP Request.batch-job | #7.executor": "Run",
-    "HTTP Request.batch-test | #1.executor": "Run",
-    "HTTP Request.business-train | #1.executor": "Run",
-    "HTTP Request.business-train | #2.executor": "Run",
-    "HTTP Request.business-train | #3.executor": "Run",
-    "HTTP Request.member-member | #3.executor": "Run",
-    "HTTP Request.member-member | #4.executor": "Run",
-    "HTTP Request.member-member | #5.executor": "Run",
-    "HTTP Request.member-passenger | #1.executor": "Run",
-    "HTTP Request.member-passenger | #2.executor": "Run",
-    "HTTP Request.member-passenger | #3.executor": "Run",
-    "HTTP Request.member-test | #1.executor": "Run",
-    "HTTP Request.member-test | #2.executor": "Run",
-    "HTTP Request.member-test | #3.executor": "Run",
-    "HTTP Request.member-test | #4.executor": "Run",
-    "HTTP Request.member-test | #5.executor": "Run",
-    "HTTP Request.member-test | #6.executor": "Run",
-    "HTTP Request.rest-api | #1.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.business [clean].executor": "Run",
-    "Maven.business [install].executor": "Run",
-    "Maven.business [org.springframework.boot:spring-boot-maven-plugin:3.0.0:run].executor": "Run",
-    "Maven.common [clean].executor": "Run",
-    "Maven.common [install].executor": "Run",
-    "Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor": "Run",
-    "Maven.member [clean].executor": "Run",
-    "Maven.member [install].executor": "Run",
-    "Maven.mybatis-generator.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.BatchApplication (1).executor": "Run",
-    "Spring Boot.BatchApplication.executor": "Run",
-    "Spring Boot.BusinessApplication (1).executor": "Run",
-    "Spring Boot.BusinessApplication.executor": "Run",
-    "Spring Boot.GatewayApplication.executor": "Run",
-    "Spring Boot.MemberApplication.executor": "Run",
-    "Spring Boot.TrainApplication.executor": "Run",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service",
-    "last_opened_file_path": "D:/Users/23889/Desktop/train/admin/src/views/main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "D:/dev/node-v18.12.1-win-x64/node",
-    "nodejs_package_manager_path": "npm",
-    "npm.admin9001.executor": "Run",
-    "npm.run.executor": "Run",
-    "npm.serve (1).executor": "Run",
-    "npm.serve.executor": "Run",
-    "npm.serve9001.executor": "Run",
-    "onboarding.tips.debug.path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "D:\\Software\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.EnumGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JwtUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.wuyang.gateway.util.JwtUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.member.sql.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.batch-job | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.batch-job | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.batch-job | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.batch-job | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.batch-job | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.batch-job | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.batch-job | #7.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.batch-test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.business-train | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.business-train | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.business-train | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-member | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-member | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-member | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-passenger | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-passenger | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-passenger | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #5.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.member-test | #6.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.rest-api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.business [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.business [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.business [org.springframework.boot:spring-boot-maven-plugin:3.0.0:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.member [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.member [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.mybatis-generator.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BatchApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.BatchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.BusinessApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.BusinessApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MemberApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TrainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Users/23889/Desktop/train/member/src/main/java/org/wuyang/member/service&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/23889/Desktop/train/admin/src/views/main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;D:/dev/node-v18.12.1-win-x64/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.admin9001.executor&quot;: &quot;Run&quot;,
+    &quot;npm.run.executor&quot;: &quot;Run&quot;,
+    &quot;npm.serve (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.serve.executor&quot;: &quot;Run&quot;,
+    &quot;npm.serve9001.executor&quot;: &quot;Run&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Software\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\"train\""
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;3cb8368a-2f40-4f1a-b534-7502521feed8/schema/\&quot;train\&quot;&quot;
     ],
-    "vue.recent.templates": [
-      "Vue Options API Component",
-      "Vue Composition API Component"
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Options API Component&quot;,
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -282,26 +294,12 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <set>
-              <option value="batch-job | #1" />
+              <option value="batch-job | #3" />
+              <option value="batch-job | #4" />
+              <option value="batch-job | #5" />
+              <option value="batch-job | #6" />
+              <option value="batch-job | #7" />
             </set>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="configurationStatuses">
-      <map>
-        <entry key="HttpClient.HttpRequestRunConfigurationType">
-          <value>
-            <map>
-              <entry key="batch-job | #1" value="STOPPED" />
-            </map>
-          </value>
-        </entry>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <map>
-              <entry key="BatchApplication" value="STOPPED" />
-            </map>
           </value>
         </entry>
       </map>
@@ -319,8 +317,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BatchApplication">
-    <configuration name="batch-job | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#1" runType="Run single request">
+  <component name="RunManager">
+    <configuration name="batch-job | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#3" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="batch-job | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#4" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="batch-job | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#5" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="batch-job | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#6" index="6" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="batch-job | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#7" index="7" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
@@ -353,58 +363,26 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="BatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="BatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.batch.config.BatchApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.train.batch.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="business" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.business.config.BusinessApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.train.business.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.gateway.config.GatewayApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.train.gateway.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="member" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.member.config.MemberApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.train.member.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -423,21 +401,24 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.batch-job | #1" />
+      <item itemvalue="HTTP Request.batch-job | #3" />
+      <item itemvalue="HTTP Request.batch-job | #4" />
+      <item itemvalue="HTTP Request.batch-job | #5" />
+      <item itemvalue="HTTP Request.batch-job | #6" />
+      <item itemvalue="HTTP Request.batch-job | #7" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.admin9001" />
       <item itemvalue="Spring Boot.BatchApplication" />
       <item itemvalue="Spring Boot.BusinessApplication" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.MemberApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BatchApplication" />
-        <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.BusinessApplication" />
-        <item itemvalue="HTTP Request.batch-job | #1" />
+        <item itemvalue="HTTP Request.batch-job | #7" />
+        <item itemvalue="HTTP Request.batch-job | #6" />
+        <item itemvalue="HTTP Request.batch-job | #5" />
+        <item itemvalue="HTTP Request.batch-job | #4" />
+        <item itemvalue="HTTP Request.batch-job | #3" />
       </list>
     </recent_temporary>
   </component>
@@ -922,6 +903,31 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">

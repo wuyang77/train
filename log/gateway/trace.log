@@ -1,58 +1,190 @@
-2026-02-23 00:04:04.461 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:06:14.623 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:07:46.598 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:08:00.904 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:08:18.577 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:12:34.316 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:12:52.491 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:12:57.381 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:16:15.043 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:17:43.664 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:18:21.451 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:18:24.800 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
-2026-02-23 00:18:25.348 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:18:26.771 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:18:26.974 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:19:15.434 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:19:26.120 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:20:29.081 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:20:29.237 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:21.726 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
-2026-02-23 00:21:21.758 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:26.046 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/pause
-2026-02-23 00:21:26.068 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:27.954 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/run
-2026-02-23 00:21:34.115 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:35.521 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:37.156 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/run
-2026-02-23 00:21:38.556 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:38.756 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:38.945 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:43.053 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:43.238 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:48.025 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/run
-2026-02-23 00:21:50.879 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:51.809 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:52.021 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:55.939 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
-2026-02-23 00:21:55.963 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:21:58.219 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:22:03.263 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/run
-2026-02-23 00:22:04.921 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:22:06.193 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:22:07.019 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:22:10.796 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/pause
-2026-02-23 00:22:10.817 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:24:25.808 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/delete
-2026-02-23 00:24:26.155 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:25:22.730 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
-2026-02-23 00:25:22.760 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:25:51.436 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
-2026-02-23 00:25:51.588 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:25:56.906 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/pause
-2026-02-23 00:25:56.924 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:26:04.632 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
-2026-02-23 00:26:04.656 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:26:06.498 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/pause
-2026-02-23 00:26:06.516 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
-2026-02-23 00:26:07.973 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/run
+2026-02-24 15:30:34.190 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-02-24 15:30:34.224 INFO  o.wuyang.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 2312 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-24 15:30:34.226 INFO  o.wuyang.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-24 15:30:34.269 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-24 15:30:34.270 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-24 15:30:35.044 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-24 15:30:36.865 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 15:30:37.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-24 15:30:37.408 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-24 15:30:37.409 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-24 15:30:37.409 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-24 15:30:37.409 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-24 15:30:37.409 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-24 15:30:37.568 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-02-24 15:30:38.760 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 15:30:39.078 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-24 15:30:40.270 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 15:30:41.522 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 15:30:41.558 INFO  o.wuyang.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 8.836 seconds (process running for 9.415)
+2026-02-24 15:30:41.561 INFO  o.wuyang.train.gateway.config.GatewayApplication  :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-24 15:30:41.561 INFO  o.wuyang.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-24 15:30:51.363 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-24 15:30:53.065 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 15:55:26.416 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-24 15:55:28.301 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-24 15:55:29.812 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-24 15:55:30.460 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-24 15:55:30.919 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2026-02-24 15:55:30.923 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-24 15:55:31.465 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-24 15:55:31.961 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-24 15:55:32.476 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-24 15:55:32.907 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-24 15:55:34.250 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-24 15:55:34.619 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-24 15:55:34.902 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-24 15:55:35.215 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-24 15:55:35.477 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-24 16:01:37.223 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 16:01:40.726 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/run
+2026-02-24 16:01:44.474 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:05:51.921 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
+2026-02-24 18:05:52.326 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:10:36.734 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2026-02-24 18:10:36.792 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:10:47.502 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:10:48.117 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:10:48.300 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:11:18.245 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
+2026-02-24 18:11:18.294 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:11:54.860 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
+2026-02-24 18:11:54.887 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:12:52.415 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
+2026-02-24 18:12:52.453 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:13:18.511 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2026-02-24 18:13:18.535 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:13:22.739 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:15:01.677 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
+2026-02-24 18:15:01.705 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:15:09.834 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
+2026-02-24 18:15:09.861 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:15:15.217 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/reschedule
+2026-02-24 18:15:15.247 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:17:30.903 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/pause
+2026-02-24 18:17:30.922 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:17:32.177 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/pause
+2026-02-24 18:17:32.193 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:17:33.573 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/pause
+2026-02-24 18:17:33.591 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 18:55:56.683 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-24 18:55:59.798 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-24 18:56:00.788 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-24 18:56:01.506 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-24 18:56:02.193 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-24 18:56:03.856 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-24 18:56:04.345 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-24 18:56:04.686 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-24 18:56:04.960 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-24 18:56:11.691 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-24 18:56:19.338 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-24 18:56:19.752 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-24 18:56:20.239 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-24 18:56:25.128 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-24 20:20:19.911 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-02-24 20:20:19.937 INFO  o.wuyang.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 35924 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-24 20:20:19.939 INFO  o.wuyang.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-24 20:20:19.966 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-24 20:20:19.966 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-24 20:20:20.405 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-24 20:20:21.785 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 20:20:22.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-24 20:20:22.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-24 20:20:22.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-24 20:20:22.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-24 20:20:22.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-24 20:20:22.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-24 20:20:22.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-24 20:20:22.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-24 20:20:22.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-24 20:20:22.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-24 20:20:22.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-24 20:20:22.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-24 20:20:22.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-24 20:20:22.031 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-24 20:20:22.151 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-02-24 20:20:23.349 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 20:20:23.547 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-24 20:20:24.705 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 20:20:25.860 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 20:20:25.890 INFO  o.wuyang.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 7.425 seconds (process running for 7.989)
+2026-02-24 20:20:25.893 INFO  o.wuyang.train.gateway.config.GatewayApplication  :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-24 20:20:25.893 INFO  o.wuyang.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-24 20:27:06.373 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-02-24 20:27:06.400 INFO  o.wuyang.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 13984 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-24 20:27:06.400 INFO  o.wuyang.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-24 20:27:06.427 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-24 20:27:06.427 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-24 20:27:06.778 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-24 20:27:08.128 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 20:27:08.302 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-24 20:27:08.302 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-24 20:27:08.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-24 20:27:08.414 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-02-24 20:27:09.595 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 20:27:09.801 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-24 20:27:10.971 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 20:27:12.145 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 20:27:12.171 INFO  o.wuyang.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 7.262 seconds (process running for 7.653)
+2026-02-24 20:27:12.173 INFO  o.wuyang.train.gateway.config.GatewayApplication  :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-24 20:27:12.173 INFO  o.wuyang.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-24 21:13:47.322 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-02-24 21:13:47.352 INFO  o.wuyang.train.gateway.config.GatewayApplication  :51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.4.1 with PID 37916 (D:\Users\23889\Desktop\train\gateway\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-24 21:13:47.353 INFO  o.wuyang.train.gateway.config.GatewayApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-24 21:13:47.388 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-24 21:13:47.388 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-24 21:13:47.783 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=324267dc-ff55-3f4c-bee8-5e2f01045e68
+2026-02-24 21:13:49.144 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 21:13:49.341 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2026-02-24 21:13:49.342 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2026-02-24 21:13:49.342 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2026-02-24 21:13:49.342 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2026-02-24 21:13:49.342 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2026-02-24 21:13:49.342 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2026-02-24 21:13:49.342 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2026-02-24 21:13:49.342 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2026-02-24 21:13:49.342 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2026-02-24 21:13:49.343 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2026-02-24 21:13:49.343 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2026-02-24 21:13:49.343 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2026-02-24 21:13:49.343 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2026-02-24 21:13:49.343 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2026-02-24 21:13:49.446 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-02-24 21:13:50.605 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 21:13:50.787 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2026-02-24 21:13:51.944 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 21:13:53.100 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2026-02-24 21:13:53.126 INFO  o.wuyang.train.gateway.config.GatewayApplication  :57   [32m                  [0;39m Started GatewayApplication in 7.303 seconds (process running for 7.682)
+2026-02-24 21:13:53.128 INFO  o.wuyang.train.gateway.config.GatewayApplication  :19   [32m                  [0;39m 网关模块启动成功！！
+2026-02-24 21:13:53.129 INFO  o.wuyang.train.gateway.config.GatewayApplication  :20   [32m                  [0;39m 网关地址: 	http://127.0.0.1:8000
+2026-02-24 21:29:57.978 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2026-02-24 21:29:59.898 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2026-02-24 21:32:29.807 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 21:32:37.103 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2026-02-24 21:35:26.399 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2026-02-24 21:37:37.551 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/station/query-list
+2026-02-24 21:37:37.889 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-list
+2026-02-24 21:37:38.522 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train/query-all
+2026-02-24 21:37:38.525 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2026-02-24 21:37:39.019 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2026-02-24 21:37:39.502 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2026-02-24 21:37:42.770 INFO  org.wuyang.train.gateway.config.LoginMemberFilter :30   [32m                  [0;39m 不需要登录验证：/business/admin/train-seat/query-list
