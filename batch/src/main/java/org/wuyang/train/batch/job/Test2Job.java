@@ -6,15 +6,15 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
 @DisallowConcurrentExecution
-public class TestJob implements Job {
+public class Test2Job implements Job {
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        System.out.println("TestJob TEST开始");
+        System.out.println("TestJob TEST开始 222222");
 //         try {
 //             Thread.sleep(3000);
 //         } catch (InterruptedException e) {
 //             e.printStackTrace();
 //         }
-        System.out.println("TestJob TEST结束");
+        System.out.println("TestJob TEST结束 222222");
     }
 }
