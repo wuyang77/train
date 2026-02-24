@@ -309,9 +309,19 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BatchApplication">
-    <configuration name="batch-job | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#1" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="Maven.mybatis-generator">
+    <configuration name="ServerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wuyang.train.generator.server.ServerGenerator" />
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.generator.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -413,7 +423,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.batch-job | #1" />
+      <item itemvalue="Application.ServerGenerator" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.admin9001" />
       <item itemvalue="Spring Boot.BatchApplication" />
@@ -423,11 +433,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ServerGenerator" />
         <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.BusinessApplication" />
-        <item itemvalue="HTTP Request.batch-job | #1" />
       </list>
     </recent_temporary>
   </component>
