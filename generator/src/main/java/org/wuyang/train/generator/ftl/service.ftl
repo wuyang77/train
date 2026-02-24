@@ -1,4 +1,4 @@
-package org.wuyang.${module}.service;
+package org.wuyang.train.${module}.service;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
@@ -9,15 +9,15 @@ import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
-import context.org.wuyang.train.common.LoginMemberContext;
-import resp.org.wuyang.train.common.PageResp;
-import util.org.wuyang.train.common.SnowUtil;
-import org.wuyang.${module}.domain.${Domain};
-import org.wuyang.${module}.domain.${Domain}Example;
-import org.wuyang.${module}.mapper.${Domain}Mapper;
-import org.wuyang.${module}.resp.${Domain}QueryResp;
-import org.wuyang.${module}.req.${Domain}QueryReq;
-import org.wuyang.${module}.req.${Domain}SaveReq;
+import org.wuyang.train.common.context.LoginMemberContext;
+import org.wuyang.train.common.resp.PageResp;
+import org.wuyang.train.common.util.SnowUtil;
+import org.wuyang.train.${module}.domain.${Domain};
+import org.wuyang.train.${module}.domain.${Domain}Example;
+import org.wuyang.train.${module}.mapper.${Domain}Mapper;
+import org.wuyang.train.${module}.resp.${Domain}QueryResp;
+import org.wuyang.train.${module}.req.${Domain}QueryReq;
+import org.wuyang.train.${module}.req.${Domain}SaveReq;
 
 import java.util.List;
 

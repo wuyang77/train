@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="对菜单作分类，改为两级菜单;路由也改为多级路由">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/vue.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/vue.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/QueryResp.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/QueryResp.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/adminController.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/adminController.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/queryReq.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/queryReq.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/saveReq.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/saveReq.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/service.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/service.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +36,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
@@ -294,11 +290,7 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <set>
-              <option value="batch-job | #3" />
-              <option value="batch-job | #4" />
-              <option value="batch-job | #5" />
-              <option value="batch-job | #6" />
-              <option value="batch-job | #7" />
+              <option value="batch-job | #1" />
             </set>
           </value>
         </entry>
@@ -317,20 +309,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="batch-job | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#3" index="3" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="batch-job | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#4" index="4" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="batch-job | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#5" index="5" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="batch-job | #6" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#6" index="6" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="batch-job | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#7" index="7" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.BatchApplication">
+    <configuration name="batch-job | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-job.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
@@ -363,26 +343,58 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="BatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="BatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="batch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.batch.config.BatchApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.batch.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="BusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="business" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.business.config.BusinessApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.business.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.gateway.config.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.gateway.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="member" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.member.config.MemberApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.member.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -401,24 +413,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.batch-job | #3" />
-      <item itemvalue="HTTP Request.batch-job | #4" />
-      <item itemvalue="HTTP Request.batch-job | #5" />
-      <item itemvalue="HTTP Request.batch-job | #6" />
-      <item itemvalue="HTTP Request.batch-job | #7" />
+      <item itemvalue="HTTP Request.batch-job | #1" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.admin9001" />
       <item itemvalue="Spring Boot.BatchApplication" />
       <item itemvalue="Spring Boot.BusinessApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.MemberApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.batch-job | #7" />
-        <item itemvalue="HTTP Request.batch-job | #6" />
-        <item itemvalue="HTTP Request.batch-job | #5" />
-        <item itemvalue="HTTP Request.batch-job | #4" />
-        <item itemvalue="HTTP Request.batch-job | #3" />
+        <item itemvalue="Spring Boot.BatchApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="HTTP Request.batch-job | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -503,14 +512,6 @@
       <workItem from="1771694160880" duration="3581000" />
       <workItem from="1771747760436" duration="3826000" />
       <workItem from="1771759709873" duration="13908000" />
-    </task>
-    <task id="LOCAL-00107" summary="集成dom4j,读取generator-config-member.xml文件所在地址，读取table以及其包含表名tableName和实体名domainObjectName的节点">
-      <option name="closed" value="true" />
-      <created>1769888113770</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1769888113770</updated>
     </task>
     <task id="LOCAL-00108" summary="使用PassengerService制作生成模板service.ftl，生成service成功">
       <option name="closed" value="true" />
@@ -896,38 +897,21 @@
       <option name="project" value="LOCAL" />
       <updated>1771781567947</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="git提交重试">
+      <option name="closed" value="true" />
+      <created>1771941808594</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1771941808594</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="master" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/master" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -953,7 +937,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码" />
     <MESSAGE value="使用pinyin-pro将汉字转成拼音" />
     <MESSAGE value="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站" />
     <MESSAGE value="前端车次管理增加车次选择下拉框" />
@@ -978,7 +961,8 @@
     <MESSAGE value="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试" />
     <MESSAGE value="前端通过控制台界面操作定时任务" />
     <MESSAGE value="对菜单作分类，改为两级菜单;路由也改为多级路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="对菜单作分类，改为两级菜单;路由也改为多级路由" />
+    <MESSAGE value="git提交重试" />
+    <option name="LAST_COMMIT_MESSAGE" value="git提交重试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

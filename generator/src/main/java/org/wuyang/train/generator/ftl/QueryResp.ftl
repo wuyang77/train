@@ -1,4 +1,4 @@
-package org.wuyang.${module}.resp;
+package org.wuyang.train.${module}.resp;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;

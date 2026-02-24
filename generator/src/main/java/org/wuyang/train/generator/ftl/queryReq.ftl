@@ -1,4 +1,4 @@
-package org.wuyang.${module}.req;
+package org.wuyang.train.${module}.req;
 
 import req.org.wuyang.train.common.PageReq;
 

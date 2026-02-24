@@ -1,4 +1,4 @@
-package org.wuyang.${module}.req;
+package org.wuyang.train.${module}.req;
 
 <#list typeSet as type>
 <#if type=='Date'>
