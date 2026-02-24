@@ -20,6 +20,14 @@ const routes = [
       component: () => import('../views/main/about.vue')
     },
     {
+        path: 'business/',
+        children: [{
+          path: 'daily_train',
+          name: 'daily_train',
+          component: () => import('../views/business/daily-train.vue')
+        }]
+      },
+    {
       path: 'batch/',
       children: [{
         path: 'job',

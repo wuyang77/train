@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="生成DailyTrain的持久层代码:domain,mapper,xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/adminController.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/adminController.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/queryReq.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/queryReq.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/service.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/ftl/service.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/util/FreemarkerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/util/FreemarkerUtil.java" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="调整ftl错误，成功生成daily-train表的持久层代码：domain、mapper以及xml">
+      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,14 +506,6 @@
       <workItem from="1771747760436" duration="3826000" />
       <workItem from="1771759709873" duration="13908000" />
     </task>
-    <task id="LOCAL-00110" summary="使用PassengerController制作生成模板controller.ftl，生成controller成功">
-      <option name="closed" value="true" />
-      <created>1770499241123</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1770499241123</updated>
-    </task>
     <task id="LOCAL-00111" summary="添加工具类DbUtil，获取表中文名和表字段信息">
       <option name="closed" value="true" />
       <created>1770502576722</created>
@@ -902,7 +890,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771942346545</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="调整ftl错误，成功生成daily-train表的持久层代码：domain、mapper以及xml">
+      <option name="closed" value="true" />
+      <created>1771943641404</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1771943641404</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -934,7 +930,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="前端车次管理增加车次选择下拉框" />
     <MESSAGE value="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width" />
     <MESSAGE value="火车车厢页面的车次改为车次选择组件" />
     <MESSAGE value="火车座位页面的车次改为车次选择组件" />
@@ -959,7 +954,8 @@
     <MESSAGE value="git提交重试" />
     <MESSAGE value="对ftl模板进行调整，" />
     <MESSAGE value="生成DailyTrain的持久层代码:domain,mapper,xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成DailyTrain的持久层代码:domain,mapper,xml" />
+    <MESSAGE value="调整ftl错误，成功生成daily-train表的持久层代码：domain、mapper以及xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整ftl错误，成功生成daily-train表的持久层代码：domain、mapper以及xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
