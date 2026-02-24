@@ -17,7 +17,7 @@ import java.util.Set;
 
 public class ServerGenerator {
     static boolean readOnly = false;
-    static String vuePath = "admin/src/views/";
+    static String vuePath = "admin/src/views/main";
     static String pomPath = "generator/pom.xml";
     static String module = "";
     static String servicePath = "[module]/src/main/java/org/wuyang/train/[module]/";

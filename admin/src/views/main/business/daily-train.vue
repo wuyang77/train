@@ -1,7 +1,7 @@
 <template>
   <p>
     <a-space>
-      <a-button type="primary" @click="handleQuery()">刷新</a-button>
+      <a-button type="primary" @click="handleQuery()">查找</a-button>
       <a-button type="primary" @click="onAdd">新增</a-button>
     </a-space>
   </p>
@@ -38,32 +38,32 @@
                   <a-date-picker v-model:value="dailyTrain.date" valueFormat="YYYY-MM-DD" placeholder="请选择日期" />
             </a-form-item>
             <a-form-item label="车次编号">
-                <a-input v-model:value="dailyTrain.code" />
+              <train-selected-view v-model="dailyTrain.code" @change="onChangeCode"></train-selected-view>
             </a-form-item>
             <a-form-item label="车次类型">
-                <a-select v-model:value="dailyTrain.type">
-                  <a-select-option v-for="item in TRAIN_TYPE_ARRAY" :key="item.code" :value="item.code">
-                    {{item.desc}}
-                  </a-select-option>
-                </a-select>
+              <a-select v-model:value="dailyTrain.type">
+                <a-select-option v-for="item in TRAIN_TYPE_ARRAY" :key="item.code" :value="item.code">
+                  {{item.desc}}
+                </a-select-option>
+              </a-select>
             </a-form-item>
             <a-form-item label="始发站">
-                <a-input v-model:value="dailyTrain.start" />
+              <a-input v-model:value="dailyTrain.start" />
             </a-form-item>
             <a-form-item label="始发站拼音">
-                <a-input v-model:value="dailyTrain.startPinyin" />
+              <a-input v-model:value="dailyTrain.startPinyin" />
             </a-form-item>
             <a-form-item label="出发时间">
-                  <a-time-picker v-model:value="dailyTrain.startTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
+              <a-time-picker v-model:value="dailyTrain.startTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
             </a-form-item>
             <a-form-item label="终点站">
-                <a-input v-model:value="dailyTrain.end" />
+              <a-input v-model:value="dailyTrain.end" />
             </a-form-item>
             <a-form-item label="终点站拼音">
-                <a-input v-model:value="dailyTrain.endPinyin" />
+              <a-input v-model:value="dailyTrain.endPinyin" />
             </a-form-item>
             <a-form-item label="到站时间">
-                  <a-time-picker v-model:value="dailyTrain.endTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
+              <a-time-picker v-model:value="dailyTrain.endTime" valueFormat="HH:mm:ss" placeholder="请选择时间" />
             </a-form-item>
       </a-form>
     </a-modal>
@@ -73,9 +73,12 @@
   import { defineComponent, ref, onMounted } from 'vue';
   import {notification} from "ant-design-vue";
   import axios from "axios";
+  import TrainSelectedView from "@/components/train-selected.vue";
+  import train from "@/views/main/base/train.vue";
 
   export default defineComponent({
     name: "daily-train-view",
+    components: {TrainSelectedView},
     setup() {
       const TRAIN_TYPE_ARRAY = window.TRAIN_TYPE_ARRAY;
       const visible = ref(false);
@@ -205,7 +208,7 @@
         axios.get("/business/admin/daily-train/query-list", {
           params: {
             pageNum: param.pageNum,
-            pageSize: param.pageSize
+            pageSize: param.pageSize,
           }
         }).then((response) => {
           loading.value = false;
@@ -222,12 +225,20 @@
       };
 
       const handleTableChange = (page) => {
-        // console.log("看看自带的分页参数都有啥：" + JSON.stringify(page));
+        // console.log("看看自带的分页参数都有啥：" + JSON.stringify());
         pagination.value.pageSize = page.pageSize;
         handleQuery({
           pageNum: page.current,
           pageSize: page.pageSize
         });
+      };
+      
+      const onChangeCode = (train) => {
+        console.log("车次下拉组件选择", train);
+        let t = Tool.copy(train);
+        delete t.id;
+        // 用assign可以合并
+        dailyTrain.value = Object.assign(dailyTrain.value, t);
       };
 
       onMounted(() => {
@@ -250,7 +261,8 @@
         onAdd,
         handleOk,
         onEdit,
-        onDelete
+        onDelete,
+        onChangeCode,
       };
     },
   });

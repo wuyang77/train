@@ -1,10 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
-  {
-    path: '/login',
-    component: () => import('../views/login.vue'),
-  },
 
   {
     path: '/',
@@ -24,7 +20,7 @@ const routes = [
         children: [{
           path: 'daily_train',
           name: 'daily_train',
-          component: () => import('../views/business/daily-train.vue')
+          component: () => import('@/views/main/business/daily-train.vue')
         }]
       },
     {
@@ -32,26 +28,26 @@ const routes = [
       children: [{
         path: 'job',
         name: 'job',
-        component: () => import('../views/batch/job.vue')
+        component: () => import('@/views/main/batch/job.vue')
       }]
     },
     {
       path: 'base/',
       children: [{
         path: 'station',
-        component: () => import('../views/base/station.vue')
+        component: () => import('@/views/main/base/station.vue')
       },{
         path: 'train',
-        component: () => import('../views/base/train.vue')
+        component: () => import('@/views/main/base/train.vue')
       },{
         path: 'train-station',
-        component: () => import('../views/base/train-station.vue')
+        component: () => import('@/views/main/base/train-station.vue')
       },{
         path: "train-carriage",
-        component: () => import('../views/base/train-carriage.vue')
+        component: () => import('@/views/main/base/train-carriage.vue')
       },{
         path: "train-seat",
-        component: () => import('../views/base/train-seat.vue')
+        component: () => import('@/views/main/base/train-seat.vue')
       }]
     }]
   },

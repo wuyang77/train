@@ -21,7 +21,7 @@ import {defineComponent} from "vue";
 export default defineComponent({
   components: {
     TheSiderView,
-    TheHeaderView: TheHeadererView,
+    TheHeadererView,
   },
   setup() {
     return{
