@@ -3,7 +3,6 @@ package org.wuyang.train.${module}.controller.admin;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
 import org.springframework.web.bind.annotation.*;
-import org.wuyang.train.common.context.LoginMemberContext;
 import org.wuyang.train.common.resp.CommonResp;
 import org.wuyang.train.common.resp.PageResp;
 import org.wuyang.train.${module}.resp.${Domain}QueryResp;
@@ -26,7 +25,6 @@ public class ${Domain}AdminController {
 
     @GetMapping("/query-list")
     public CommonResp<PageResp<${Domain}QueryResp>> query${Domain}List(@Valid ${Domain}QueryReq req) {
-        req.setMemberId(LoginMemberContext.getId());
         PageResp<${Domain}QueryResp> pageResp = ${domain}Service.query${Domain}List(req);
         return new CommonResp<>(pageResp);
     }

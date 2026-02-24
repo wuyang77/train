@@ -1,6 +1,6 @@
 package org.wuyang.train.${module}.req;
 
-import req.org.wuyang.train.common.PageReq;
+import org.wuyang.train.common.req.PageReq;
 
 public class ${Domain}QueryReq extends PageReq {
 
