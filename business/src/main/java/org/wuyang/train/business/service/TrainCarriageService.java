@@ -35,7 +35,7 @@ public class TrainCarriageService {
     public void saveOrEditTrainCarriage(TrainCarriageSaveReq req) {
         DateTime now = DateTime.now();
 
-        // 自动计算出列数和总座位数
+        // 自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)
         List<SeatColEnum> seatColEnums = SeatColEnum.getColsByType(req.getSeatType());
         req.setColCount(seatColEnums.size());
         req.setSeatCount(req.getColCount() * req.getRowCount());
