@@ -81,11 +81,11 @@ public class ServerGenerator {
         System.out.println("组装参数 " + param.entrySet());
 
         // 开始生成
-//        gen(Domain, param, "service", "service");
-//        gen(Domain, param, "controller/admin", "adminController");
-//        gen(Domain, param, "req", "saveReq");
-//        gen(Domain, param, "resp", "QueryResp");
-//        gen(Domain, param, "req", "QueryReq");
+        gen(Domain, param, "service", "service");
+        gen(Domain, param, "controller/admin", "adminController");
+        gen(Domain, param, "req", "saveReq");
+        gen(Domain, param, "resp", "QueryResp");
+        gen(Domain, param, "req", "QueryReq");
         genVue(do_main, param);
     }
 

@@ -85,7 +85,7 @@ public class TrainSeatService {
         TrainSeatExample.Criteria criteria = trainSeatExample.createCriteria();
         criteria.andTrainCodeEqualTo(trainCode);
         trainSeatMapper.deleteByExample(trainSeatExample);
-        // 查询所有的车厢
+        // 查询当前车次下的所有的车厢
         List<TrainCarriage> trainCarriages = trainCarriageService.selectCarrigesByTrainCode(trainCode);
         LOG.info("当前车次下的车厢号： {}", trainCarriages.size());
         // 循环生成每个车厢的座位
@@ -97,7 +97,7 @@ public class TrainSeatService {
             // 根据车厢的座位类型筛选出所有的列号，比如车厢类型是一等座，则筛选出columList,如{ACDF}
             List<SeatColEnum> colEnumList = SeatColEnum.getColsByType(seatType);
             LOG.info("根据车厢的座位类型，筛选出所有的列：{}", colEnumList);
-            // 循环排数
+            // 循环行数
             for (Integer row = 1; row <= rowCount; row++) {
                 // 循环列数
                 for (SeatColEnum seatColEnum : colEnumList) {

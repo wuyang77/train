@@ -36,7 +36,7 @@
         <template #title>
                 <span>
                   <UnorderedListOutlined />
-                  业务模块(每日)
+                  业务模块(每日数据)
                 </span>
         </template>
         <a-menu-item key="/business/daily_train">
@@ -48,6 +48,12 @@
         <a-menu-item key="/business/daily-train-station">
           <router-link to="/business/daily-train-station">
             <user-outlined/>&nbsp;每日车次车站
+          </router-link>
+        </a-menu-item>
+
+        <a-menu-item key="/business/daily-train-carriage">
+          <router-link to="/business/daily-train-carriage">
+            <user-outlined/>&nbsp;每日车次车厢
           </router-link>
         </a-menu-item>
       </a-sub-menu>
