@@ -18,20 +18,6 @@
         </router-link>
       </a-menu-item>
 
-      <a-sub-menu key="business">
-        <template #title>
-                <span>
-                  <UnorderedListOutlined />
-                  业务模块
-                </span>
-        </template>
-        <a-menu-item key="/business/daily_train">
-          <router-link to="/business/daily_train">
-            <user-outlined/>&nbsp;每日车次
-          </router-link>
-        </a-menu-item>
-      </a-sub-menu>
-
       <a-sub-menu key="batch">
         <template #title>
                 <span>
@@ -42,6 +28,26 @@
         <a-menu-item key="/batch/job">
           <router-link to="/batch/job">
             <user-outlined/>&nbsp;任务管理
+          </router-link>
+        </a-menu-item>
+      </a-sub-menu>
+
+      <a-sub-menu key="business">
+        <template #title>
+                <span>
+                  <UnorderedListOutlined />
+                  业务模块(每日)
+                </span>
+        </template>
+        <a-menu-item key="/business/daily_train">
+          <router-link to="/business/daily_train">
+            <user-outlined/>&nbsp;每日车次
+          </router-link>
+        </a-menu-item>
+
+        <a-menu-item key="/business/daily-train-station">
+          <router-link to="/business/daily-train-station">
+            <user-outlined/>&nbsp;每日车次车站
           </router-link>
         </a-menu-item>
       </a-sub-menu>
@@ -61,25 +67,25 @@
 
         <a-menu-item key="/base/train">
           <router-link to="/base/train">
-            <user-outlined/>&nbsp;火车(车次)管理
+            <user-outlined/>&nbsp;车次管理
           </router-link>
         </a-menu-item>
 
         <a-menu-item key="/base/train-station">
           <router-link to="/base/train-station">
-            <user-outlined/>&nbsp;火车车站
+            <user-outlined/>&nbsp;车次车站管理
           </router-link>
         </a-menu-item>
 
         <a-menu-item key="/base/train-carriage">
           <router-link to="/base/train-carriage">
-            <user-outlined/>&nbsp;火车车厢
+            <user-outlined/>&nbsp;车次车厢管理
           </router-link>
         </a-menu-item>
 
         <a-menu-item key="/base/train-seat">
           <router-link to="/base/train-seat">
-            <user-outlined/>&nbsp;火车座位
+            <user-outlined/>&nbsp;车次座位管理
           </router-link>
         </a-menu-item>
       </a-sub-menu>
