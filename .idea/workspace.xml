@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b08f7e45-5eff-4533-835a-5f87f2c8a942.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b08f7e45-5eff-4533-835a-5f87f2c8a942.xml" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="每日车次座位页面：新增车次选择下拉框检索">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainCarriageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainCarriageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/common-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -452,8 +441,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="Application.ServerGenerator" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
@@ -547,23 +536,7 @@
       <workItem from="1772098952363" duration="1255000" />
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
-      <workItem from="1772118359641" duration="1958000" />
-    </task>
-    <task id="LOCAL-00119" summary="修改生成器修改相关的代码，后端生成了station的持久层以及controller和service层。前端生成了station.vue">
-      <option name="closed" value="true" />
-      <created>1770875865831</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1770875865831</updated>
-    </task>
-    <task id="LOCAL-00120" summary="修改生成器修改相关的代码，后端生成了station的持久层以及controller和service层。前端生成了station.vue">
-      <option name="closed" value="true" />
-      <created>1770875870286</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1770875870286</updated>
+      <workItem from="1772118359641" duration="3874000" />
     </task>
     <task id="LOCAL-00121" summary="新增车次管理，表名train">
       <option name="closed" value="true" />
@@ -941,7 +914,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772115564177</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="每日车次座位页面：新增车次选择下拉框检索">
+      <option name="closed" value="true" />
+      <created>1772120368687</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1772120368687</updated>
+    </task>
+    <task id="LOCAL-00169" summary="每日车次座位页面：新增车次选择下拉框检索">
+      <option name="closed" value="true" />
+      <created>1772120380407</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1772120380407</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -973,7 +962,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据" />
     <MESSAGE value="修复火车列号重复显示的bug" />
     <MESSAGE value="// 保存之前，先校验唯一键是否存在" />
     <MESSAGE value="保存之前，先校验唯一键是否存在" />
@@ -998,7 +986,8 @@
     <MESSAGE value="每日车次车站页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。注意：GET请求的日期是拼接在URL里面的，需要用Spring自带的@DateTimeFormat(pattern = &quot;yyyy-MM-dd&quot;),后端才能接受参数" />
     <MESSAGE value="每日车次车厢页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。" />
     <MESSAGE value="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)" />
-    <option name="LAST_COMMIT_MESSAGE" value="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)" />
+    <MESSAGE value="每日车次座位页面：新增车次选择下拉框检索" />
+    <option name="LAST_COMMIT_MESSAGE" value="每日车次座位页面：新增车次选择下拉框检索" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
