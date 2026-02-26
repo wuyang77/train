@@ -77,6 +77,10 @@ public class TrainSeatService {
         trainSeatMapper.deleteByPrimaryKey(id);
     }
 
+    /**
+     * 根据车次编号该车次下所有的生成所有的座位信息
+     * @param trainCode
+     */
     @Transactional
     public void generateTrainSeat(String trainCode) {
         DateTime now = new DateTime();

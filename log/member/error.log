@@ -1,4 +1,4 @@
-2026-02-26 22:09:30.311 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
+2026-02-27 02:18:40.006 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\Users\23889\Desktop\train\member\target\classes\mapper\MemberMapper.xml]'
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:640)

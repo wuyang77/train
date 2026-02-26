@@ -46,6 +46,7 @@ public class TrainAdminController {
         List<TrainQueryResp> list = trainService.queryTrainAll();
         return new CommonResp<>(list);
     }
+
     @GetMapping("/generate-seat/{trainCode}")
     public CommonResp<Object> genSeat(@PathVariable String trainCode) {
         trainSeatService.generateTrainSeat(trainCode);

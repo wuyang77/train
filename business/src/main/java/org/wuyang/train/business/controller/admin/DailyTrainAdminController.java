@@ -2,6 +2,7 @@ package org.wuyang.train.business.controller.admin;
 
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 import org.wuyang.train.common.resp.CommonResp;
 import org.wuyang.train.common.resp.PageResp;
@@ -9,6 +10,8 @@ import org.wuyang.train.business.resp.DailyTrainQueryResp;
 import org.wuyang.train.business.req.DailyTrainQueryReq;
 import org.wuyang.train.business.req.DailyTrainSaveReq;
 import org.wuyang.train.business.service.DailyTrainService;
+
+import java.util.Date;
 
 @RestController
 @RequestMapping("/admin/daily-train")
@@ -32,6 +35,12 @@ public class DailyTrainAdminController {
     @DeleteMapping("/delete/{id}")
     public CommonResp<Object> deleteDailyTrain(@PathVariable("id") Long id) {
         dailyTrainService.deleteDailyTrain(id);
+        return new CommonResp<>();
+    }
+
+    @GetMapping("/generate-daily/{date}")
+    public CommonResp<Object> genAllDailyTrain(@PathVariable @DateTimeFormat(pattern = "yyyy-MM-dd") Date date) {
+        dailyTrainService.generateAllDailyTrain(date);
         return new CommonResp<>();
     }
 }

@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="生成每日车次数据开始和结束,控制台打印流水号信息">
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/feign/BusinessOpenFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="测试成功：集成openfeign和loadblance依赖, 测试batch模块的hello去调用business模块的hello">
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-02-27T005706.404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-02-27T005737.404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-02-27T005841.404.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2026-02-27T005959.200.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/batch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/BatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/BatchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/feign/BusinessOpenFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/feign/BusinessOpenFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/DailyTrainJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/DailyTrainJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/config/SpringMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/config/SpringMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/DailyTrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/DailyTrainAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/application.properties" afterDir="false" />
@@ -306,6 +311,7 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <set>
+              <option value="batch-test | #1" />
               <option value="train-endpoints | #1" />
             </set>
           </value>
@@ -317,6 +323,7 @@
         <entry key="HttpClient.HttpRequestRunConfigurationType">
           <value>
             <map>
+              <entry key="batch-test | #1" value="STOPPED" />
               <entry key="train-endpoints | #1" value="STOPPED" />
             </map>
           </value>
@@ -449,11 +456,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.batch-test | #1" />
-        <item itemvalue="HTTP Request.train-endpoints | #1" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="HTTP Request.batch-test | #1" />
+        <item itemvalue="HTTP Request.train-endpoints | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -544,15 +551,7 @@
       <workItem from="1772098952363" duration="1255000" />
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
-      <workItem from="1772118359641" duration="6770000" />
-    </task>
-    <task id="LOCAL-00126" summary="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
-      <option name="closed" value="true" />
-      <created>1770965086247</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1770965086247</updated>
+      <workItem from="1772118359641" duration="12452000" />
     </task>
     <task id="LOCAL-00127" summary="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
       <option name="closed" value="true" />
@@ -938,7 +937,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772123510909</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="测试成功：集成openfeign和loadblance依赖, 测试batch模块的hello去调用business模块的hello">
+      <option name="closed" value="true" />
+      <created>1772125416824</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1772125416824</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -970,7 +977,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="为车站，车次编号，同车次站序，同车次站名，同车次厢号添加唯一性校验" />
     <MESSAGE value="train-carriage.vue,train-seat,train-station页面添加查找按钮，按钮旁边增减车次下拉框。除此之外，创建了batch定时调度模块" />
     <MESSAGE value="创建数据可以train_batch。同时利用mybatis-generator插件生成每日车次表的持久生成" />
     <MESSAGE value="演示SpringBoot自带的定时任务" />
@@ -995,7 +1001,8 @@
     <MESSAGE value="为business增加日志拦截器" />
     <MESSAGE value="添加定时任务：生成每日车次数据" />
     <MESSAGE value="生成每日车次数据开始和结束,控制台打印流水号信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成每日车次数据开始和结束,控制台打印流水号信息" />
+    <MESSAGE value="测试成功：集成openfeign和loadblance依赖, 测试batch模块的hello去调用business模块的hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试成功：集成openfeign和loadblance依赖, 测试batch模块的hello去调用business模块的hello" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1013,7 +1020,7 @@
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" line="104">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" line="108">
         <watch expression="trainSeat" language="JAVA" />
       </inline-watch>
     </watches-manager>
