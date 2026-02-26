@@ -1,3 +1,39 @@
+GET http://localhost:8000/batch/hello
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+<> 2026-02-27T005959.200.json
+
+###
+
+GET http://127.0.0.1:8002/business/batch/hello
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-27T005841.404.json
+
+###
+
+GET http://127.0.0.1:8002/business/batch/hello
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-27T005737.404.json
+
+###
+
+GET http://127.0.0.1:8002/business/batch/hello
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2026-02-27T005706.404.json
+
+###
+
 POST http://localhost:8000/batch/admin/job/add
 Content-Type: application/json
 Content-Length: 138

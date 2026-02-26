@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="添加定时任务：生成每日车次数据">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="生成每日车次数据开始和结束,控制台打印流水号信息">
+      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/feign/BusinessOpenFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/DailyTrainJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/DailyTrainJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/batch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/BatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/config/BatchApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +34,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Vue Options API Component" />
         <option value="Vue Composition API Component" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -123,6 +135,7 @@
     "HTTP Request.member-test | #5.executor": "Run",
     "HTTP Request.member-test | #6.executor": "Run",
     "HTTP Request.rest-api | #1.executor": "Run",
+    "HTTP Request.train-endpoints | #1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.business [clean].executor": "Run",
     "Maven.business [compile].executor": "Run",
@@ -288,13 +301,32 @@
         </entry>
       </map>
     </option>
+    <option name="shownConfigurations">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <set>
+              <option value="train-endpoints | #1" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="configurationStatuses">
       <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="train-endpoints | #1" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
               <entry key="BatchApplication" value="STOPPED" />
               <entry key="BusinessApplication" value="STOPPED" />
+              <entry key="GatewayApplication" value="STOPPED" />
               <entry key="MemberApplication" value="STOPPED" />
             </map>
           </value>
@@ -314,19 +346,12 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServerGenerator">
-    <configuration name="ServerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.wuyang.train.generator.server.ServerGenerator" />
-      <module name="generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.train.generator.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="HTTP Request.batch-test | #1">
+    <configuration name="batch-test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-test.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="train-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/train-endpoints.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -386,20 +411,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.gateway.config.GatewayApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.wuyang.train.gateway.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="member" />
@@ -428,21 +439,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ServerGenerator" />
+      <item itemvalue="HTTP Request.batch-test | #1" />
+      <item itemvalue="HTTP Request.train-endpoints | #1" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.admin9001" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.BatchApplication" />
       <item itemvalue="Spring Boot.BusinessApplication" />
       <item itemvalue="Spring Boot.MemberApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="HTTP Request.batch-test | #1" />
+        <item itemvalue="HTTP Request.train-endpoints | #1" />
         <item itemvalue="Spring Boot.BatchApplication" />
-        <item itemvalue="Application.ServerGenerator" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -533,15 +544,7 @@
       <workItem from="1772098952363" duration="1255000" />
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
-      <workItem from="1772118359641" duration="4991000" />
-    </task>
-    <task id="LOCAL-00125" summary="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
-      <option name="closed" value="true" />
-      <created>1770965080538</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1770965080538</updated>
+      <workItem from="1772118359641" duration="6770000" />
     </task>
     <task id="LOCAL-00126" summary="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
       <option name="closed" value="true" />
@@ -927,7 +930,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772123008297</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="生成每日车次数据开始和结束,控制台打印流水号信息">
+      <option name="closed" value="true" />
+      <created>1772123510909</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1772123510909</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,7 +970,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="提取出按唯一键查询的方法" />
     <MESSAGE value="为车站，车次编号，同车次站序，同车次站名，同车次厢号添加唯一性校验" />
     <MESSAGE value="train-carriage.vue,train-seat,train-station页面添加查找按钮，按钮旁边增减车次下拉框。除此之外，创建了batch定时调度模块" />
     <MESSAGE value="创建数据可以train_batch。同时利用mybatis-generator插件生成每日车次表的持久生成" />
@@ -984,7 +994,8 @@
     <MESSAGE value="每日车次座位页面：改成只读页面" />
     <MESSAGE value="为business增加日志拦截器" />
     <MESSAGE value="添加定时任务：生成每日车次数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加定时任务：生成每日车次数据" />
+    <MESSAGE value="生成每日车次数据开始和结束,控制台打印流水号信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成每日车次数据开始和结束,控制台打印流水号信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
