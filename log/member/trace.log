@@ -150,3 +150,42 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: org.wuyang.train
 2026-02-26 22:09:37.260 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2026-02-26 22:09:37.260 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
 2026-02-26 22:09:37.260 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-02-26 22:43:28.788 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 45 class path changes (0 additions, 45 deletions, 0 modifications)
+2026-02-26 22:43:28.809 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2026-02-26 23:07:39.968 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-02-26 23:07:39.989 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32560 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-26 23:07:39.989 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-26 23:07:40.019 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-26 23:07:40.019 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-26 23:07:40.641 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-02-26 23:07:40.646 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-02-26 23:07:40.646 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-02-26 23:07:40.646 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-02-26 23:07:40.672 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-02-26 23:07:40.673 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 653 ms
+2026-02-26 23:07:41.019 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-02-26 23:07:41.107 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-02-26 23:07:41.115 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-02-26 23:07:41.127 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-02-26 23:07:41.133 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.4 seconds (process running for 1.742)
+2026-02-26 23:07:41.136 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-02-26 23:07:41.136 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-02-26 23:11:14.998 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 45 class path changes (0 additions, 45 deletions, 0 modifications)
+2026-02-26 23:11:15.013 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2026-02-26 23:11:15.013 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2026-02-26 23:11:15.016 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2026-02-26 23:11:15.018 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2026-02-26 23:11:18.497 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32560 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-02-26 23:11:18.497 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-02-26 23:11:18.607 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-02-26 23:11:18.608 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-02-26 23:11:18.608 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-02-26 23:11:18.614 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-02-26 23:11:18.614 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 116 ms
+2026-02-26 23:11:18.732 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-02-26 23:11:18.774 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-02-26 23:11:18.780 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-02-26 23:11:18.782 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.3 seconds (process running for 219.392)
+2026-02-26 23:11:18.783 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-02-26 23:11:18.783 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-02-26 23:11:18.784 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello

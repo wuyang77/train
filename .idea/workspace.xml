@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="每日车次车站页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。注意：GET请求的日期是拼接在URL里面的，需要用Spring自带的@DateTimeFormat(pattern = &quot;yyyy-MM-dd&quot;),后端才能接受参数">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b08f7e45-5eff-4533-835a-5f87f2c8a942.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b08f7e45-5eff-4533-835a-5f87f2c8a942.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/base/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainCarriageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainCarriageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/common-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,15 +139,18 @@
     "HTTP Request.rest-api | #1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "Maven.business [clean].executor": "Run",
+    "Maven.business [compile].executor": "Run",
     "Maven.business [install].executor": "Run",
     "Maven.business [org.springframework.boot:spring-boot-maven-plugin:3.0.0:run].executor": "Run",
     "Maven.common [clean].executor": "Run",
     "Maven.common [install].executor": "Run",
     "Maven.generator [clean].executor": "Run",
+    "Maven.generator [compile].executor": "Run",
     "Maven.generator [install].executor": "Run",
     "Maven.generator [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "Maven.generator [org.mybatis.generator:mybatis-generator-maven-plugin:1.4.0:generate].executor": "Run",
     "Maven.member [clean].executor": "Run",
+    "Maven.member [compile].executor": "Run",
     "Maven.member [install].executor": "Run",
     "Maven.mybatis-generator.executor": "Run",
     "Maven.train [clean].executor": "Run",
@@ -195,7 +198,7 @@
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "configurable.group.build",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "D:\\Software\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -306,7 +309,6 @@
             <map>
               <entry key="BatchApplication" value="STOPPED" />
               <entry key="BusinessApplication" value="STOPPED" />
-              <entry key="GatewayApplication" value="STOPPED" />
               <entry key="MemberApplication" value="STOPPED" />
             </map>
           </value>
@@ -443,18 +445,18 @@
       <item itemvalue="Application.ServerGenerator" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.admin9001" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.BatchApplication" />
       <item itemvalue="Spring Boot.BusinessApplication" />
-      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.MemberApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="Application.ServerGenerator" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -543,23 +545,9 @@
       <workItem from="1772000770622" duration="2536000" />
       <workItem from="1772098551517" duration="26000" />
       <workItem from="1772098952363" duration="1255000" />
-      <workItem from="1772100220624" duration="12554000" />
-    </task>
-    <task id="LOCAL-00117" summary="admin去掉登录叶敏，去掉全局变量member和登录相关的拦截，去掉乘车人页面，去掉没用的HelloWorld组件，修改logo区域和logo样式">
-      <option name="closed" value="true" />
-      <created>1770771997687</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1770771997687</updated>
-    </task>
-    <task id="LOCAL-00118" summary="admin去掉登录叶敏，去掉全局变量member和登录相关的拦截，去掉乘车人页面，去掉没用的HelloWorld组件，修改logo区域和logo样式">
-      <option name="closed" value="true" />
-      <created>1770772006568</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1770772006568</updated>
+      <workItem from="1772100220624" duration="14305000" />
+      <workItem from="1772117671347" duration="672000" />
+      <workItem from="1772118359641" duration="1958000" />
     </task>
     <task id="LOCAL-00119" summary="修改生成器修改相关的代码，后端生成了station的持久层以及controller和service层。前端生成了station.vue">
       <option name="closed" value="true" />
@@ -937,7 +925,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772112536051</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="每日车次车厢页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。">
+      <option name="closed" value="true" />
+      <created>1772115370177</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1772115370177</updated>
+    </task>
+    <task id="LOCAL-00167" summary="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)">
+      <option name="closed" value="true" />
+      <created>1772115564177</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1772115564177</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -969,8 +973,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="车次生成车座功能：在车次管理页面添加前端功能" />
-    <MESSAGE value="编辑时车次编号不允许修改" />
     <MESSAGE value="火车座位页面改成只读页面，添加选择车次下拉框和查找按钮，查找车次拉框选中的车次的分页数据" />
     <MESSAGE value="修复火车列号重复显示的bug" />
     <MESSAGE value="// 保存之前，先校验唯一键是否存在" />
@@ -994,7 +996,9 @@
     <MESSAGE value="为每日车次表单(Modal 对话框内)增加车次下拉选择，并自动填充车次相关数据" />
     <MESSAGE value="每日车次页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。注意：GET请求的日期是拼接在URL里面的，需要用Spring自带的@DateTimeFormat(pattern = &quot;yyyy-MM-dd&quot;),后端才能接受参数" />
     <MESSAGE value="每日车次车站页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。注意：GET请求的日期是拼接在URL里面的，需要用Spring自带的@DateTimeFormat(pattern = &quot;yyyy-MM-dd&quot;),后端才能接受参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="每日车次车站页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。注意：GET请求的日期是拼接在URL里面的，需要用Spring自带的@DateTimeFormat(pattern = &quot;yyyy-MM-dd&quot;),后端才能接受参数" />
+    <MESSAGE value="每日车次车厢页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。" />
+    <MESSAGE value="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)" />
+    <option name="LAST_COMMIT_MESSAGE" value="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
