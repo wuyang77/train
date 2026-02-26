@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="每日车次座位页面：新增车次选择下拉框检索">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="每日车次座位页面：改成只读页面">
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/config/SpringMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,8 +438,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerGenerator" />
         <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="Application.ServerGenerator" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
@@ -536,23 +533,7 @@
       <workItem from="1772098952363" duration="1255000" />
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
-      <workItem from="1772118359641" duration="3874000" />
-    </task>
-    <task id="LOCAL-00121" summary="新增车次管理，表名train">
-      <option name="closed" value="true" />
-      <created>1770881604634</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1770881604634</updated>
-    </task>
-    <task id="LOCAL-00122" summary="新增火车车站管理，表面train-station,生成持久层以及前后端代码">
-      <option name="closed" value="true" />
-      <created>1770883496622</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1770883496622</updated>
+      <workItem from="1772118359641" duration="4302000" />
     </task>
     <task id="LOCAL-00123" summary="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码">
       <option name="closed" value="true" />
@@ -930,7 +911,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772120380407</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="每日车次座位页面：改成只读页面">
+      <option name="closed" value="true" />
+      <created>1772122274736</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1772122274736</updated>
+    </task>
+    <task id="LOCAL-00171" summary="每日车次座位页面：改成只读页面">
+      <option name="closed" value="true" />
+      <created>1772122282820</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1772122282820</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -962,7 +959,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="修复火车列号重复显示的bug" />
     <MESSAGE value="// 保存之前，先校验唯一键是否存在" />
     <MESSAGE value="保存之前，先校验唯一键是否存在" />
     <MESSAGE value="提取出按唯一键查询的方法" />
@@ -987,7 +983,8 @@
     <MESSAGE value="每日车次车厢页面：查找和新增按钮左边，新增了日期和车次下拉框查询条件。" />
     <MESSAGE value="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)" />
     <MESSAGE value="每日车次座位页面：新增车次选择下拉框检索" />
-    <option name="LAST_COMMIT_MESSAGE" value="每日车次座位页面：新增车次选择下拉框检索" />
+    <MESSAGE value="每日车次座位页面：改成只读页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="每日车次座位页面：改成只读页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
