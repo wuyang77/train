@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="每日车次座位页面：改成只读页面">
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/config/SpringMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="为business增加日志拦截器">
+      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/DailyTrainJob.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -533,15 +532,7 @@
       <workItem from="1772098952363" duration="1255000" />
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
-      <workItem from="1772118359641" duration="4302000" />
-    </task>
-    <task id="LOCAL-00123" summary="新增火车车厢和座位管理，表面train-station,生成持久层以及前后端代码">
-      <option name="closed" value="true" />
-      <created>1770891717777</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1770891717777</updated>
+      <workItem from="1772118359641" duration="4605000" />
     </task>
     <task id="LOCAL-00124" summary="使用pinyin-pro将汉字转成拼音">
       <option name="closed" value="true" />
@@ -927,7 +918,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772122282820</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="为business增加日志拦截器">
+      <option name="closed" value="true" />
+      <created>1772122721792</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1772122721792</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,7 +958,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="// 保存之前，先校验唯一键是否存在" />
     <MESSAGE value="保存之前，先校验唯一键是否存在" />
     <MESSAGE value="提取出按唯一键查询的方法" />
     <MESSAGE value="为车站，车次编号，同车次站序，同车次站名，同车次厢号添加唯一性校验" />
@@ -984,7 +982,8 @@
     <MESSAGE value="每日车次车厢页面：新增车次车厢信息，弹出的modal对话框自动计算出列数和总座位数(每日车次车厢数据，前端删除列数和总座位数，从这里计算存储到数据库)" />
     <MESSAGE value="每日车次座位页面：新增车次选择下拉框检索" />
     <MESSAGE value="每日车次座位页面：改成只读页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="每日车次座位页面：改成只读页面" />
+    <MESSAGE value="为business增加日志拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="为business增加日志拦截器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
