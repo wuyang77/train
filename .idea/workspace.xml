@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="为business增加日志拦截器">
-      <change afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/DailyTrainJob.java" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="添加定时任务：生成每日车次数据">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/DailyTrainJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/job/DailyTrainJob.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -438,9 +439,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Application.ServerGenerator" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
       </list>
     </recent_temporary>
@@ -532,15 +533,7 @@
       <workItem from="1772098952363" duration="1255000" />
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
-      <workItem from="1772118359641" duration="4605000" />
-    </task>
-    <task id="LOCAL-00124" summary="使用pinyin-pro将汉字转成拼音">
-      <option name="closed" value="true" />
-      <created>1770902397735</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1770902397736</updated>
+      <workItem from="1772118359641" duration="4991000" />
     </task>
     <task id="LOCAL-00125" summary="使用pinyin-pro将汉字转成拼音：对车次管理和火车车站">
       <option name="closed" value="true" />
@@ -926,7 +919,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772122721792</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="添加定时任务：生成每日车次数据">
+      <option name="closed" value="true" />
+      <created>1772123008297</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1772123008297</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -958,7 +959,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="保存之前，先校验唯一键是否存在" />
     <MESSAGE value="提取出按唯一键查询的方法" />
     <MESSAGE value="为车站，车次编号，同车次站序，同车次站名，同车次厢号添加唯一性校验" />
     <MESSAGE value="train-carriage.vue,train-seat,train-station页面添加查找按钮，按钮旁边增减车次下拉框。除此之外，创建了batch定时调度模块" />
@@ -983,7 +983,8 @@
     <MESSAGE value="每日车次座位页面：新增车次选择下拉框检索" />
     <MESSAGE value="每日车次座位页面：改成只读页面" />
     <MESSAGE value="为business增加日志拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="为business增加日志拦截器" />
+    <MESSAGE value="添加定时任务：生成每日车次数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加定时任务：生成每日车次数据" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
