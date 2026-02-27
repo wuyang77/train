@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加生成每日车次数据功能：每日座位信息">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/base/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train-seat.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/business/daily-train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/business/daily-train.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/DailyTrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/DailyTrainAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainSeatService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -548,15 +546,7 @@
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
       <workItem from="1772118359641" duration="12920000" />
-      <workItem from="1772170886088" duration="19885000" />
-    </task>
-    <task id="LOCAL-00133" summary="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件">
-      <option name="closed" value="true" />
-      <created>1771169355697</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1771169355697</updated>
+      <workItem from="1772170886088" duration="21629000" />
     </task>
     <task id="LOCAL-00134" summary="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件">
       <option name="closed" value="true" />
@@ -942,7 +932,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772185321545</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑">
+      <option name="closed" value="true" />
+      <created>1772191458214</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1772191458214</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -974,7 +972,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试" />
     <MESSAGE value="前端通过控制台界面操作定时任务" />
     <MESSAGE value="对菜单作分类，改为两级菜单;路由也改为多级路由" />
     <MESSAGE value="git提交重试" />
@@ -999,7 +996,8 @@
     <MESSAGE value="增加生成每日车次数据功能：每日车次车站信息" />
     <MESSAGE value="增加生成每日车次数据功能：每日车厢信息" />
     <MESSAGE value="增加生成每日车次数据功能：每日座位信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加生成每日车次数据功能：每日座位信息" />
+    <MESSAGE value="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
