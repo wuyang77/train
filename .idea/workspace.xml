@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="定时任务：新增生成每日车次数据功能，并用batch模块定时触发任务，并通过openfeign去调用">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="修复日志控制台显示sql语句：&#10;logging.level.org.wuyang.business.mapper=trace改成logging.level.org.wuyang.train.business.mapper=trace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/batch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/DailyTrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/DailyTrainAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainStationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../../dev/jdk-17.0.4.1/lib/src.zip!/java.base/java/util/EnumSet.java" root0="SKIP_INSPECTION" />
     <setting file="jar://E:/dev/localRepository/ch/qos/logback/logback-classic/1.4.5/logback-classic-1.4.5.jar!/ch/qos/logback/classic/Logger.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://E:/dev/localRepository/cn/hutool/hutool-all/5.8.10/hutool-all-5.8.10.jar!/cn/hutool/core/date/DateTime.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://E:/dev/localRepository/com/github/pagehelper/pagehelper-spring-boot-autoconfigure/1.4.6/pagehelper-spring-boot-autoconfigure-1.4.6.jar!/com/github/pagehelper/autoconfigure/PageHelperStandardProperties.class" root0="SKIP_INSPECTION" />
     <setting file="jar://E:/dev/localRepository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/jakarta/validation/constraints/NotBlank.class" root0="SKIP_INSPECTION" />
     <setting file="jar://E:/dev/localRepository/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar!/org/aspectj/lang/annotation/Before.class" root0="SKIP_INSPECTION" />
     <setting file="jar://E:/dev/localRepository/org/springframework/boot/spring-boot-devtools/3.0.0/spring-boot-devtools-3.0.0.jar!/org/springframework/boot/devtools/autoconfigure/OptionalLiveReloadServer.class" root0="SKIP_INSPECTION" />
@@ -163,6 +165,7 @@
     "Spring Boot.BatchApplication.executor": "Run",
     "Spring Boot.BusinessApplication (1).executor": "Run",
     "Spring Boot.BusinessApplication.executor": "Run",
+    "Spring Boot.GateWayApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "Spring Boot.MemberApplication.executor": "Run",
     "Spring Boot.TrainApplication.executor": "Run",
@@ -190,7 +193,7 @@
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "D:\\Software\\JetBrains\\IntelliJIdea2025.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -321,7 +324,6 @@
             <map>
               <entry key="BatchApplication" value="STOPPED" />
               <entry key="BusinessApplication" value="STOPPED" />
-              <entry key="GatewayApplication" value="STOPPED" />
               <entry key="MemberApplication" value="STOPPED" />
             </map>
           </value>
@@ -341,7 +343,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.batch-test | #1">
+  <component name="RunManager" selected="npm.admin9001">
     <configuration name="batch-test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-test.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -406,6 +408,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.wuyang.train.gateway.config.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="member" />
@@ -438,6 +447,7 @@
       <item itemvalue="HTTP Request.train-endpoints | #1" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.admin9001" />
+      <item itemvalue="Spring Boot.GateWayApplication" />
       <item itemvalue="Spring Boot.BatchApplication" />
       <item itemvalue="Spring Boot.BusinessApplication" />
       <item itemvalue="Spring Boot.MemberApplication" />
@@ -445,8 +455,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BusinessApplication" />
-        <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="Spring Boot.BatchApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="HTTP Request.batch-test | #1" />
         <item itemvalue="HTTP Request.train-endpoints | #1" />
       </list>
@@ -539,15 +549,8 @@
       <workItem from="1772098952363" duration="1255000" />
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
-      <workItem from="1772118359641" duration="12762000" />
-    </task>
-    <task id="LOCAL-00128" summary="前端车次管理增加车次选择下拉框">
-      <option name="closed" value="true" />
-      <created>1771068493813</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1771068493813</updated>
+      <workItem from="1772118359641" duration="12920000" />
+      <workItem from="1772170886088" duration="10184000" />
     </task>
     <task id="LOCAL-00129" summary="前端车次管理增加车次选择下拉框">
       <option name="closed" value="true" />
@@ -933,7 +936,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772130933277</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="修复日志控制台显示sql语句：&#10;logging.level.org.wuyang.business.mapper=trace改成logging.level.org.wuyang.train.business.mapper=trace">
+      <option name="closed" value="true" />
+      <created>1772131243004</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1772131243004</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -965,7 +976,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="创建数据可以train_batch。同时利用mybatis-generator插件生成每日车次表的持久生成" />
     <MESSAGE value="演示SpringBoot自带的定时任务" />
     <MESSAGE value="集成quartz，和自带的SpringBoot自带的定时任务可以共存" />
     <MESSAGE value="添加注解@DisallowConcurrentExecution，禁止任务并发执行" />
@@ -990,7 +1000,8 @@
     <MESSAGE value="生成每日车次数据开始和结束,控制台打印流水号信息" />
     <MESSAGE value="测试成功：集成openfeign和loadblance依赖, 测试batch模块的hello去调用business模块的hello" />
     <MESSAGE value="定时任务：新增生成每日车次数据功能，并用batch模块定时触发任务，并通过openfeign去调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="定时任务：新增生成每日车次数据功能，并用batch模块定时触发任务，并通过openfeign去调用" />
+    <MESSAGE value="修复日志控制台显示sql语句：&#10;logging.level.org.wuyang.business.mapper=trace改成logging.level.org.wuyang.train.business.mapper=trace" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复日志控制台显示sql语句：&#10;logging.level.org.wuyang.business.mapper=trace改成logging.level.org.wuyang.train.business.mapper=trace" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

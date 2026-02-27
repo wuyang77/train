@@ -39,8 +39,8 @@ public class DailyTrainAdminController {
     }
 
     @GetMapping("/generate-daily/{date}")
-    public CommonResp<Object> genAllDailyTrain(@PathVariable @DateTimeFormat(pattern = "yyyy-MM-dd") Date date) {
-        dailyTrainService.generateAllDailyTrain(date);
+    public CommonResp<Object> genDailyTrainAll(@PathVariable @DateTimeFormat(pattern = "yyyy-MM-dd") Date date) {
+        dailyTrainService.generateDailyTrainAll(date);
         return new CommonResp<>();
     }
 }

@@ -3,13 +3,16 @@ package org.wuyang.train.business.service;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateTime;
+import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.wuyang.train.business.domain.DailyTrain;
 import org.wuyang.train.business.domain.DailyTrainExample;
 import org.wuyang.train.business.domain.Train;
@@ -33,6 +36,8 @@ public class DailyTrainService {
 
     @Resource
     private TrainService trainService;
+    @Autowired
+    private DailyTrainStationService dailyTrainStationService;
 
     public void saveOrEditDailyTrain(DailyTrainSaveReq req) {
         DateTime now = DateTime.now();
@@ -82,33 +87,47 @@ public class DailyTrainService {
      * 生成某日所有车次信息，包括车次、车站、车厢、座位
      * @param date
      */
-    public void generateAllDailyTrain(Date date) {
+    public void generateDailyTrainAll(Date date) {
+        LOG.info("查询到所有的车次信息");
         List<Train> trainList = trainService.selectTrainAll();
         if (CollUtil.isEmpty(trainList)) {
             LOG.info("没有车次基础数据，任务结束");
             return;
         }
+
+        LOG.info("生成某日期下的所有车次的数据:1.每日车次信息。2.每日车次车站信息。3.每日车厢信息。4.每日座位信息。开始遍历每个车次");
         for (Train train : trainList) {
-            generateDailyTrain(date, train);
+            generateSingleDailyTrain(date, train);
         }
     }
 
-    public void generateDailyTrain(Date date, Train train) {
-        // 车次之间低耦合，车次内部高内聚
+    @Transactional
+    public void generateSingleDailyTrain(Date date, Train train) {
+        LOG.info("生成日期【{}】车次【{}】的每日数据开始", DateUtil.formatDate(date), train.getCode());
 
-        DateTime now = DateTime.now();
-        // 删除该车次已有的数据
+        // 车次之间低耦合，车次内部高内聚
+        LOG.info("删除【{}】车次已有的每日车次数据", train.getCode());
         DailyTrainExample dailyTrainExample = new DailyTrainExample();
         dailyTrainExample.createCriteria()
                 .andDateEqualTo(date)
                 .andCodeEqualTo(train.getCode());
         dailyTrainMapper.deleteByExample(dailyTrainExample);
-        // 生成该车次的数据
+
+        LOG.info("生成【{}】车次：每日车次数据", train.getCode());
+        // 生成该车次的每日车次数据
+        DateTime now = DateTime.now();
         DailyTrain dailyTrain = BeanUtil.copyProperties(train, DailyTrain.class);
         dailyTrain.setId(SnowUtil.getSnowflakeNextId());
         dailyTrain.setCreateTime(now);
         dailyTrain.setUpdateTime(now);
         dailyTrain.setDate(date);
         dailyTrainMapper.insert(dailyTrain);
+
+        LOG.info("生成【{}】车次：每日车次车站信息", train.getCode());
+        dailyTrainStationService.generateDailyTrainStationAll(date, train.getCode());
+
+
+
+        LOG.info("1.生成日期【{}】车次【{}】的每日数据结束", DateUtil.formatDate(date), train.getCode());
     }
 }
