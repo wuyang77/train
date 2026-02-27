@@ -105,7 +105,7 @@ public class DailyTrainStationService {
         // 生成某日车次的所有每日车站信息
         LOG.info("生成成日期【{}】车次的所有每日车次车站信息", DateUtil.formatDate(date));
         for (TrainStation trainStation : trainStationList) {
-            DateTime now = new DateTime();
+            DateTime now = DateTime.now();
             DailyTrainStation dailyTrainStation = BeanUtil.copyProperties(trainStation, DailyTrainStation.class);
             dailyTrainStation.setId(SnowUtil.getSnowflakeNextId());
             dailyTrainStation.setCreateTime(now);

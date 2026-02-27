@@ -88,7 +88,7 @@ public class DailyTrainCarriageService {
     }
 
     @Transactional
-    public void generateDailyCarriageAll(Date date, String trainCode) {
+    public void generateDailyTrainCarriageAll(Date date, String trainCode) {
         LOG.info("3.生成日期【{}】和车次【{}】的车厢信息开始", DateUtil.formatDate(date), trainCode);
 
         LOG.info("删除日期【{}】和车次【{}】的所有每日车厢信息", DateUtil.formatDate(date), trainCode);
@@ -109,7 +109,7 @@ public class DailyTrainCarriageService {
         // 生成某日车次的所有每日车站信息
         LOG.info("生成成日期【{}】车次的所有每日车厢信息", DateUtil.formatDate(date));
         for (TrainCarriage trainCarriage : trainCarriageList) {
-            DateTime now = new DateTime();
+            DateTime now = DateTime.now();
             DailyTrainCarriage dailyTrainCarriage = BeanUtil.copyProperties(trainCarriage, DailyTrainCarriage.class);
             dailyTrainCarriage.setId(SnowUtil.getSnowflakeNextId());
             dailyTrainCarriage.setCreateTime(now);

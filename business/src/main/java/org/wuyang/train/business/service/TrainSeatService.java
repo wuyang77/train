@@ -122,4 +122,10 @@ public class TrainSeatService {
         }
 
     }
+
+    public List<TrainSeat> selectTrainSeatsByTrainCode(String trainCode) {
+        TrainSeatExample trainSeatExample = new TrainSeatExample();
+        trainSeatExample.createCriteria().andTrainCodeEqualTo(trainCode);
+        return trainSeatMapper.selectByExample(trainSeatExample);
+    }
 }

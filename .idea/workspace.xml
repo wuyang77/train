@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加生成每日车次数据功能：每日车次车站信息">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加生成每日车次数据功能：每日车厢信息">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainCarriageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainSeatService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainCarriageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainCarriageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainStationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -551,23 +551,7 @@
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
       <workItem from="1772118359641" duration="12920000" />
-      <workItem from="1772170886088" duration="11705000" />
-    </task>
-    <task id="LOCAL-00130" summary="车次选择下拉框定义为自定义的子组件，实现组件化；同时，为组件增加了自定义参数width">
-      <option name="closed" value="true" />
-      <created>1771138985541</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1771138985541</updated>
-    </task>
-    <task id="LOCAL-00131" summary="火车车厢页面的车次改为车次选择组件">
-      <option name="closed" value="true" />
-      <created>1771139208891</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1771139208891</updated>
+      <workItem from="1772170886088" duration="14097000" />
     </task>
     <task id="LOCAL-00132" summary="火车座位页面的车次改为车次选择组件">
       <option name="closed" value="true" />
@@ -945,7 +929,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772181303551</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="增加生成每日车次数据功能：每日车厢信息">
+      <option name="closed" value="true" />
+      <created>1772182750405</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1772182750405</updated>
+    </task>
+    <task id="LOCAL-00180" summary="增加生成每日车次数据功能：每日车厢信息">
+      <option name="closed" value="true" />
+      <created>1772182753801</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1772182753801</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -977,7 +977,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="集成quartz，和自带的SpringBoot自带的定时任务可以共存" />
     <MESSAGE value="添加注解@DisallowConcurrentExecution，禁止任务并发执行" />
     <MESSAGE value="使用数据库配置quartz调度任务，新增SchedulerConfig，MyJobFactory和JobController，并用batch-job.http对JobController进行测试" />
     <MESSAGE value="前端通过控制台界面操作定时任务" />
@@ -1002,7 +1001,8 @@
     <MESSAGE value="定时任务：新增生成每日车次数据功能，并用batch模块定时触发任务，并通过openfeign去调用" />
     <MESSAGE value="修复日志控制台显示sql语句：&#10;logging.level.org.wuyang.business.mapper=trace改成logging.level.org.wuyang.train.business.mapper=trace" />
     <MESSAGE value="增加生成每日车次数据功能：每日车次车站信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加生成每日车次数据功能：每日车次车站信息" />
+    <MESSAGE value="增加生成每日车次数据功能：每日车厢信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加生成每日车次数据功能：每日车厢信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
