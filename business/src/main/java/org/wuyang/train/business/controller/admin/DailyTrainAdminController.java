@@ -38,6 +38,7 @@ public class DailyTrainAdminController {
         return new CommonResp<>();
     }
 
+    // 1. 根据前端的日期生成某一天的车次数据 2.或者通过跑批模块生成15天后的车次数据
     @GetMapping("/generate-daily/{date}")
     public CommonResp<Object> genDailyTrainAll(@PathVariable @DateTimeFormat(pattern = "yyyy-MM-dd") Date date) {
         dailyTrainService.generateDailyTrainAll(date);

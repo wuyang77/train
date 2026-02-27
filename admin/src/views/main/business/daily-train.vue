@@ -5,6 +5,7 @@
       <train-selected-view v-model="paramss.code" width="200px"></train-selected-view>
       <a-button type="primary" @click="handleQuery()">查找</a-button>
       <a-button type="primary" @click="onAdd">新增</a-button>
+      <a-button type="primary" danger ghost @click="onClickGenDaily" >手动生成某天车次信息</a-button>
     </a-space>
   </p>
   <a-table :dataSource="dailyTrains"
@@ -69,6 +70,15 @@
             </a-form-item>
       </a-form>
     </a-modal>
+
+    <a-modal v-model:visible="genDailyVisible" title="生成车次数据" @ok="handleGenDailyOk"
+             :confirm-loading="genDailyLoading"  ok-text="确认" cancel-text="取消">
+      <a-form :model="genDaily" :label-col="{span: 4}" :wrapper-col="{ span: 20 }">
+        <a-form-item label="日期">
+          <a-date-picker v-model:value="genDaily.date" placeholder="请选择日期"/>
+        </a-form-item>
+      </a-form>
+    </a-modal>
 </template>
 
 <script>
@@ -76,7 +86,7 @@
   import {notification} from "ant-design-vue";
   import axios from "axios";
   import TrainSelectedView from "@/components/train-selected.vue";
-  import train from "@/views/main/base/train.vue";
+  import dayjs from "dayjs";
 
   export default defineComponent({
     name: "daily-train-view",
@@ -105,10 +115,16 @@
         current: 1,
         pageSize: 5,
       });
+      let genDailyVisible = ref(false);
+      let genDailyLoading = ref(false);
       let loading = ref(false);
       let paramss = ref({
+        date: null,
         code: null
       });
+      const genDaily = ref({
+        date: null
+      })
       const columns = [
         {
           title: '日期',
@@ -171,6 +187,10 @@
         visible.value = true;
       };
 
+      const onClickGenDaily = () => {
+        genDailyVisible.value = true;
+      }
+
       const onDelete = (record) => {
         axios.delete("/business/admin/daily-train/delete/" + record.id).then((response) => {
           const data = response.data;
@@ -201,6 +221,25 @@
           }
         });
       };
+
+      const handleGenDailyOk = () => {
+        let date = dayjs(genDaily.value.date).format('YYYY-MM-DD');
+        genDailyLoading.value = true;
+        axios.get("business/admin/daily-train/generate-daily/" + date).then((response) => {
+          genDailyLoading.value = false;
+          let data = response.data;
+          if (data.success) {
+            notification.success({description: "生成成功"})
+            genDailyVisible.value = false;
+            handleQuery({
+              pageNum: pagination.value.current,
+              pageSize: pagination.value.pageSize
+            });
+          } else {
+            notification.error({description: data.message})
+          }
+        });
+      }
 
       const handleQuery = (param) => {
         if (!param) {
@@ -259,6 +298,8 @@
         TRAIN_TYPE_ARRAY,
         dailyTrain,
         visible,
+        genDailyVisible,
+        genDailyLoading,
         dailyTrains,
         pagination,
         columns,
@@ -270,7 +311,10 @@
         onEdit,
         onDelete,
         onChangeCode,
-        paramss
+        paramss,
+        onClickGenDaily,
+        handleGenDailyOk,
+        genDaily
       };
     },
   });
