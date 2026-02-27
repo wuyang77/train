@@ -12,6 +12,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.wuyang.train.business.domain.DailyTrainStation;
 import org.wuyang.train.business.domain.DailyTrainStationExample;
 import org.wuyang.train.business.domain.TrainStation;
@@ -82,10 +83,11 @@ public class DailyTrainStationService {
         dailyTrainStationMapper.deleteByPrimaryKey(id);
     }
 
+    @Transactional
     public void generateDailyTrainStationAll(Date date, String trainCode) {
         LOG.info("2.生成日期【{}】和车次【{}】的车次车站信息开始", DateUtil.formatDate(date), trainCode);
 
-        LOG.info("删除日期【{}】和车次【{}】的所有每日车次车站信息", DateUtil.formatDate(date), trainCode);
+        LOG.info("删除日期【{}】和车次【{}】的所有每日车次信息", DateUtil.formatDate(date), trainCode);
         DailyTrainStationExample dailyTrainStationExample = new DailyTrainStationExample();
         dailyTrainStationExample.createCriteria()
                 .andDateEqualTo(date)
@@ -101,7 +103,7 @@ public class DailyTrainStationService {
         }
 
         // 生成某日车次的所有每日车站信息
-        LOG.info("生成成日期【{}】车次的所有每日车次车站车站信息", DateUtil.formatDate(date));
+        LOG.info("生成成日期【{}】车次的所有每日车次车站信息", DateUtil.formatDate(date));
         for (TrainStation trainStation : trainStationList) {
             DateTime now = new DateTime();
             DailyTrainStation dailyTrainStation = BeanUtil.copyProperties(trainStation, DailyTrainStation.class);

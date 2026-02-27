@@ -1,24 +1,30 @@
 package org.wuyang.train.business.service;
 
 import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateTime;
+import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.wuyang.train.business.enums.SeatColEnum;
-import org.wuyang.train.common.resp.PageResp;
-import org.wuyang.train.common.util.SnowUtil;
+import org.springframework.transaction.annotation.Transactional;
 import org.wuyang.train.business.domain.DailyTrainCarriage;
 import org.wuyang.train.business.domain.DailyTrainCarriageExample;
+import org.wuyang.train.business.domain.TrainCarriage;
+import org.wuyang.train.business.enums.SeatColEnum;
 import org.wuyang.train.business.mapper.DailyTrainCarriageMapper;
-import org.wuyang.train.business.resp.DailyTrainCarriageQueryResp;
 import org.wuyang.train.business.req.DailyTrainCarriageQueryReq;
 import org.wuyang.train.business.req.DailyTrainCarriageSaveReq;
+import org.wuyang.train.business.resp.DailyTrainCarriageQueryResp;
+import org.wuyang.train.common.resp.PageResp;
+import org.wuyang.train.common.util.SnowUtil;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -28,6 +34,8 @@ public class DailyTrainCarriageService {
 
     @Resource
     private DailyTrainCarriageMapper dailyTrainCarriageMapper;
+    @Autowired
+    private TrainCarriageService trainCarriageService;
 
     public void saveOrEditDailyTrainCarriage(DailyTrainCarriageSaveReq req) {
         DateTime now = DateTime.now();
@@ -77,5 +85,38 @@ public class DailyTrainCarriageService {
 
     public void deleteDailyTrainCarriage(Long id) {
         dailyTrainCarriageMapper.deleteByPrimaryKey(id);
+    }
+
+    @Transactional
+    public void generateDailyCarriageAll(Date date, String trainCode) {
+        LOG.info("3.生成日期【{}】和车次【{}】的车厢信息开始", DateUtil.formatDate(date), trainCode);
+
+        LOG.info("删除日期【{}】和车次【{}】的所有每日车厢信息", DateUtil.formatDate(date), trainCode);
+        DailyTrainCarriageExample dailyTrainCarriageExample = new DailyTrainCarriageExample();
+        dailyTrainCarriageExample.createCriteria()
+                .andDateEqualTo(date)
+                .andTrainCodeEqualTo(trainCode);
+        dailyTrainCarriageMapper.deleteByExample(dailyTrainCarriageExample);
+
+        // 查出某车次的所有车站信息
+        LOG.info("查出【{}】车次的所有车厢信息", trainCode);
+        List<TrainCarriage> trainCarriageList = trainCarriageService.selectCarrigesByTrainCode(trainCode);
+        if (CollUtil.isEmpty(trainCarriageList)) {
+            LOG.info("【{}】车次没有车站基础数据，生成该车厢信息结束", trainCode);
+            return;
+        }
+
+        // 生成某日车次的所有每日车站信息
+        LOG.info("生成成日期【{}】车次的所有每日车厢信息", DateUtil.formatDate(date));
+        for (TrainCarriage trainCarriage : trainCarriageList) {
+            DateTime now = new DateTime();
+            DailyTrainCarriage dailyTrainCarriage = BeanUtil.copyProperties(trainCarriage, DailyTrainCarriage.class);
+            dailyTrainCarriage.setId(SnowUtil.getSnowflakeNextId());
+            dailyTrainCarriage.setCreateTime(now);
+            dailyTrainCarriage.setUpdateTime(now);
+            dailyTrainCarriage.setDate(date);
+            dailyTrainCarriageMapper.insert(dailyTrainCarriage);
+        }
+        LOG.info("3.生成日期【{}】和车次【{}】的车厢信息结束", DateUtil.formatDate(date), trainCode);
     }
 }

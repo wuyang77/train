@@ -27,7 +27,7 @@
         </template>
         <a-menu-item key="/batch/job">
           <router-link to="/batch/job">
-            <user-outlined/>&nbsp;任务管理
+            <user-outlined/>&nbsp;定时任务管理
           </router-link>
         </a-menu-item>
       </a-sub-menu>
@@ -53,13 +53,13 @@
 
         <a-menu-item key="/business/daily-train-carriage">
           <router-link to="/business/daily-train-carriage">
-            <user-outlined/>&nbsp;每日车次车厢
+            <user-outlined/>&nbsp;每日车厢
           </router-link>
         </a-menu-item>
 
         <a-menu-item key="/business/daily-train-seat">
           <router-link to="/business/daily-train-seat">
-            <user-outlined/>&nbsp;每日车次座位
+            <user-outlined/>&nbsp;每日座位
           </router-link>
         </a-menu-item>
       </a-sub-menu>
@@ -91,13 +91,13 @@
 
         <a-menu-item key="/base/train-carriage">
           <router-link to="/base/train-carriage">
-            <user-outlined/>&nbsp;车次车厢管理
+            <user-outlined/>&nbsp;车厢管理
           </router-link>
         </a-menu-item>
 
         <a-menu-item key="/base/train-seat">
           <router-link to="/base/train-seat">
-            <user-outlined/>&nbsp;车次座位管理
+            <user-outlined/>&nbsp;座位管理
           </router-link>
         </a-menu-item>
       </a-sub-menu>
