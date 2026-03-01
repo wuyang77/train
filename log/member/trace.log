@@ -1,304 +1,542 @@
-2026-02-27 00:41:28.709 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-02-27 00:41:28.913 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-02-27 00:41:29.146 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32560 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 00:41:29.147 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 00:41:29.297 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 00:41:29.297 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 00:41:29.298 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 00:41:29.304 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 00:41:29.304 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 155 ms
-2026-02-27 00:41:29.436 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 00:41:29.490 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2026-02-27 00:41:29.498 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 00:41:29.500 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.369 seconds (process running for 5630.109)
-2026-02-27 00:41:29.501 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 00:41:29.501 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 00:46:17.872 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-02-27 00:46:17.898 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29996 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 00:46:17.898 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 00:46:17.934 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-27 00:46:17.934 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-27 00:46:18.674 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 00:46:18.682 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 00:46:18.682 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 00:46:18.683 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 00:46:18.715 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 00:46:18.715 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 780 ms
-2026-02-27 00:46:19.109 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 00:46:19.204 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 00:46:19.213 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 00:46:19.224 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 00:46:19.230 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.657 seconds (process running for 2.017)
-2026-02-27 00:46:19.231 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 00:46:19.232 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 02:16:58.124 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-02-27 02:16:58.182 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:16:58.183 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-02-27 02:16:58.197 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:16:58.204 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:16:58.343 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29996 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:16:58.343 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:16:58.621 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:16:58.622 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:16:58.623 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:16:58.623 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:16:58.640 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:16:58.641 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 295 ms
-2026-02-27 02:16:58.907 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 02:16:58.959 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 02:16:58.965 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:16:58.968 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 02:16:58.970 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.666 seconds (process running for 5441.758)
-2026-02-27 02:16:58.971 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 02:16:58.971 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 02:17:59.122 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-02-27 02:17:59.137 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:17:59.137 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-02-27 02:17:59.138 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:17:59.138 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:17:59.179 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29996 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:17:59.179 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:17:59.285 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:17:59.286 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:17:59.287 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:17:59.287 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:17:59.293 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:17:59.293 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 113 ms
-2026-02-27 02:17:59.440 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 02:17:59.483 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 02:17:59.487 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:17:59.490 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 02:17:59.491 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.325 seconds (process running for 5502.279)
-2026-02-27 02:17:59.492 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-02-27 02:17:59.493 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 02:17:59.493 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 02:18:24.263 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-02-27 02:18:24.274 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:18:24.274 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-02-27 02:18:24.275 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:18:24.276 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:18:24.314 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29996 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:18:24.315 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:18:24.417 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:18:24.417 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:18:24.417 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:18:24.417 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:18:24.423 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:18:24.423 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 108 ms
-2026-02-27 02:18:24.539 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 02:18:24.582 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 02:18:24.586 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:18:24.587 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 02:18:24.589 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.288 seconds (process running for 5527.377)
-2026-02-27 02:18:24.590 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-02-27 02:18:24.590 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 02:18:24.590 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 02:18:38.133 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 45 class path changes (0 additions, 45 deletions, 0 modifications)
-2026-02-27 02:18:38.148 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:18:38.148 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-02-27 02:18:38.149 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:18:38.150 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:18:39.770 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29996 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:18:39.771 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:18:39.843 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[org.wuyang.train.member.mapper]' package. Please check your configuration.
-2026-02-27 02:18:39.882 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:18:39.883 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:18:39.883 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:18:39.891 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:18:39.891 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 119 ms
-2026-02-27 02:18:40.001 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\Users\23889\Desktop\train\member\target\classes\mapper\MemberMapper.xml]'
-2026-02-27 02:18:40.001 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-02-27 02:18:40.004 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-02-27 02:18:40.006 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\Users\23889\Desktop\train\member\target\classes\mapper\MemberMapper.xml]'
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:640)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.wuyang.train.member.config.MemberApplication.main(MemberApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [D:\Users\23889\Desktop\train\member\target\classes\mapper\MemberMapper.xml]'
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
-	... 22 common frames omitted
-Caused by: java.io.IOException: Failed to parse mapping resource: 'file [D:\Users\23889\Desktop\train\member\target\classes\mapper\MemberMapper.xml]'
-	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615)
-	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492)
-	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635)
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$SpringCGLIB$$0.CGLIB$sqlSessionFactory$1(<generated>)
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$SpringCGLIB$$2.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:257)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$SpringCGLIB$$0.sqlSessionFactory(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
-	... 23 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\Users\23889\Desktop\train\member\target\classes\mapper\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'org.wuyang.train.member.domain.Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: org.wuyang.train.member.domain.Member
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
-	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
-	... 36 common frames omitted
-Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'org.wuyang.train.member.domain.Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: org.wuyang.train.member.domain.Member
-	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
-	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
-	... 38 common frames omitted
-Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'org.wuyang.train.member.domain.Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: org.wuyang.train.member.domain.Member
-	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
-	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
-	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
-	... 42 common frames omitted
-Caused by: java.lang.ClassNotFoundException: Cannot find class: org.wuyang.train.member.domain.Member
-	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
-	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
-	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
-	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
-	... 44 common frames omitted
-2026-02-27 02:18:41.450 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29996 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:18:41.450 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:18:41.589 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:18:41.589 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:18:41.589 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:18:41.599 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:18:41.599 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 147 ms
-2026-02-27 02:18:41.761 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 02:18:41.816 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 02:18:41.825 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 02:18:41.828 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.394 seconds (process running for 5544.615)
-2026-02-27 02:18:41.829 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-02-27 02:18:41.829 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 02:18:41.830 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 02:19:28.782 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2026-02-27 02:19:28.795 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-02-27 02:19:28.867 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 29996 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:19:28.867 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:19:29.095 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:19:29.096 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:19:29.096 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:19:29.109 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/member]        :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:19:29.110 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 239 ms
-2026-02-27 02:19:29.359 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 02:19:29.463 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 02:19:29.480 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 02:19:29.483 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.648 seconds (process running for 5592.271)
-2026-02-27 02:19:29.485 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-02-27 02:19:29.485 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 02:19:29.485 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 02:28:02.429 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-02-27 02:28:02.452 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 38320 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:28:02.452 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:28:02.481 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-27 02:28:02.482 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-27 02:28:03.122 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:28:03.127 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:28:03.127 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:28:03.127 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:28:03.155 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:28:03.155 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 673 ms
-2026-02-27 02:28:03.510 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 02:28:03.600 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 02:28:03.610 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:28:03.621 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 02:28:03.627 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.431 seconds (process running for 1.774)
-2026-02-27 02:28:03.629 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 02:28:03.629 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 02:29:11.483 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-02-27 02:29:11.505 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 40456 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:29:11.507 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:29:11.536 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-27 02:29:11.536 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-27 02:29:12.248 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:29:12.253 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:29:12.254 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:29:12.254 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:29:12.284 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:29:12.284 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 748 ms
-2026-02-27 02:29:12.710 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 02:29:12.817 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2026-02-27 02:29:12.830 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:29:12.842 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 02:29:12.848 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.619 seconds (process running for 1.968)
-2026-02-27 02:29:12.850 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 02:29:12.850 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 02:38:01.456 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-02-27 02:38:01.481 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 35252 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 02:38:01.481 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 02:38:01.511 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-27 02:38:01.512 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-27 02:38:02.252 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 02:38:02.259 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:38:02.259 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 02:38:02.260 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 02:38:02.289 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 02:38:02.289 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 776 ms
-2026-02-27 02:38:02.699 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 02:38:02.800 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
-2026-02-27 02:38:02.811 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 02:38:02.823 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 02:38:02.830 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.616 seconds (process running for 1.955)
-2026-02-27 02:38:02.832 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 02:38:02.832 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 13:51:03.492 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2026-02-27 13:51:03.516 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32248 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 13:51:03.516 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 13:51:03.565 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-27 13:51:03.566 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-27 13:51:04.641 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 13:51:04.659 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 13:51:04.660 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 13:51:04.660 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 13:51:04.713 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 13:51:04.713 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1147 ms
-2026-02-27 13:51:05.396 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 13:51:05.560 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 13:51:05.572 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 13:51:05.589 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 13:51:05.597 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 2.349 seconds (process running for 2.725)
-2026-02-27 13:51:05.599 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 13:51:05.600 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
-2026-02-27 16:43:36.545 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 42 class path changes (0 additions, 0 deletions, 42 modifications)
-2026-02-27 16:43:36.673 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
-2026-02-27 16:43:36.673 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
-2026-02-27 16:43:36.735 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
-2026-02-27 16:43:36.742 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
-2026-02-27 16:43:36.926 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32248 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
-2026-02-27 16:43:36.926 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2026-02-27 16:43:37.086 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
-2026-02-27 16:43:37.086 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
-2026-02-27 16:43:37.086 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2026-02-27 16:43:37.087 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2026-02-27 16:43:37.094 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2026-02-27 16:43:37.094 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 166 ms
-2026-02-27 16:43:37.242 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
-2026-02-27 16:43:37.288 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
-2026-02-27 16:43:37.293 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
-2026-02-27 16:43:37.296 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
-2026-02-27 16:43:37.297 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.391 seconds (process running for 10354.426)
-2026-02-27 16:43:37.298 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
-2026-02-27 16:43:37.298 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
-2026-02-27 16:43:37.298 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-03-01 00:00:06.738 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772294406737pbf  [0;39m MemberInterceptor开始
+2026-03-01 00:00:06.742 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772294406737pbf  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:00:06.742 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772294406737pbf  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:00:06.742 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772294406737pbf  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:00:06.743 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772294406737pbf  [0;39m MemberInterceptor结束
+2026-03-01 00:00:06.748 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772294406737pbf  [0;39m ------------- 开始 -------------
+2026-03-01 00:00:06.748 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772294406737pbf  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:00:06.749 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772294406737pbf  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:00:06.749 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772294406737pbf  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:00:06.749 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772294406737pbf  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:00:06.749 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772294406737pbf  [0;39m 查询页码：1
+2026-03-01 00:00:06.749 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772294406737pbf  [0;39m 每页条数：3
+2026-03-01 00:00:06.758 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294406737pbf  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:00:06.759 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294406737pbf  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:00:06.760 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294406737pbf  [0;39m <==    Columns: count(0)
+2026-03-01 00:00:06.760 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294406737pbf  [0;39m <==        Row: 2
+2026-03-01 00:00:06.760 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294406737pbf  [0;39m <==      Total: 1
+2026-03-01 00:00:06.760 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294406737pbf  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:00:06.761 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294406737pbf  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:00:06.763 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294406737pbf  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:00:06.764 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294406737pbf  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:00:06.764 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294406737pbf  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:00:06.764 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294406737pbf  [0;39m <==      Total: 2
+2026-03-01 00:00:06.765 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772294406737pbf  [0;39m 总行数：2
+2026-03-01 00:00:06.766 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772294406737pbf  [0;39m 总页数：1
+2026-03-01 00:00:06.766 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772294406737pbf  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:00:06.766 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772294406737pbf  [0;39m ------------- 结束 耗时：18 ms -------------
+2026-03-01 00:00:10.379 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772294410379i2t  [0;39m MemberInterceptor开始
+2026-03-01 00:00:10.379 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772294410379i2t  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:00:10.379 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772294410379i2t  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:00:10.379 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772294410379i2t  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:00:10.380 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772294410379i2t  [0;39m MemberInterceptor结束
+2026-03-01 00:00:10.380 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772294410379i2t  [0;39m ------------- 开始 -------------
+2026-03-01 00:00:10.381 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772294410379i2t  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:00:10.381 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772294410379i2t  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:00:10.381 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772294410379i2t  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:00:10.381 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772294410379i2t  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:00:10.381 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772294410379i2t  [0;39m 查询页码：1
+2026-03-01 00:00:10.381 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772294410379i2t  [0;39m 每页条数：3
+2026-03-01 00:00:10.388 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294410379i2t  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:00:10.388 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294410379i2t  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:00:10.389 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294410379i2t  [0;39m <==    Columns: count(0)
+2026-03-01 00:00:10.389 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294410379i2t  [0;39m <==        Row: 2
+2026-03-01 00:00:10.390 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294410379i2t  [0;39m <==      Total: 1
+2026-03-01 00:00:10.390 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294410379i2t  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:00:10.390 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294410379i2t  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:00:10.391 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294410379i2t  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:00:10.392 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294410379i2t  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:00:10.392 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294410379i2t  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:00:10.393 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294410379i2t  [0;39m <==      Total: 2
+2026-03-01 00:00:10.393 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772294410379i2t  [0;39m 总行数：2
+2026-03-01 00:00:10.393 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772294410379i2t  [0;39m 总页数：1
+2026-03-01 00:00:10.394 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772294410379i2t  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:00:10.394 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772294410379i2t  [0;39m ------------- 结束 耗时：14 ms -------------
+2026-03-01 00:00:13.043 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772294413043jp5  [0;39m MemberInterceptor开始
+2026-03-01 00:00:13.043 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772294413043jp5  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:00:13.044 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772294413043jp5  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:00:13.044 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772294413043jp5  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:00:13.044 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772294413043jp5  [0;39m MemberInterceptor结束
+2026-03-01 00:00:13.045 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772294413043jp5  [0;39m ------------- 开始 -------------
+2026-03-01 00:00:13.045 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772294413043jp5  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:00:13.045 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772294413043jp5  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:00:13.045 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772294413043jp5  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:00:13.046 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772294413043jp5  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:00:13.046 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772294413043jp5  [0;39m 查询页码：1
+2026-03-01 00:00:13.046 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772294413043jp5  [0;39m 每页条数：3
+2026-03-01 00:00:13.051 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294413043jp5  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:00:13.051 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294413043jp5  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:00:13.052 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294413043jp5  [0;39m <==    Columns: count(0)
+2026-03-01 00:00:13.052 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294413043jp5  [0;39m <==        Row: 2
+2026-03-01 00:00:13.053 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294413043jp5  [0;39m <==      Total: 1
+2026-03-01 00:00:13.053 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294413043jp5  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:00:13.053 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294413043jp5  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:00:13.054 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294413043jp5  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:00:13.055 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294413043jp5  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:00:13.056 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294413043jp5  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:00:13.057 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294413043jp5  [0;39m <==      Total: 2
+2026-03-01 00:00:13.057 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772294413043jp5  [0;39m 总行数：2
+2026-03-01 00:00:13.057 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772294413043jp5  [0;39m 总页数：1
+2026-03-01 00:00:13.058 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772294413043jp5  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:00:13.058 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772294413043jp5  [0;39m ------------- 结束 耗时：13 ms -------------
+2026-03-01 00:00:58.518 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772294458518lcw  [0;39m MemberInterceptor开始
+2026-03-01 00:00:58.518 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772294458518lcw  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:00:58.519 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772294458518lcw  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:00:58.519 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772294458518lcw  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:00:58.519 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772294458518lcw  [0;39m MemberInterceptor结束
+2026-03-01 00:00:58.520 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772294458518lcw  [0;39m ------------- 开始 -------------
+2026-03-01 00:00:58.520 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772294458518lcw  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:00:58.520 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772294458518lcw  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:00:58.520 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772294458518lcw  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:00:58.520 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772294458518lcw  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:00:58.520 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772294458518lcw  [0;39m 查询页码：1
+2026-03-01 00:00:58.520 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772294458518lcw  [0;39m 每页条数：3
+2026-03-01 00:00:58.524 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294458518lcw  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:00:58.525 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294458518lcw  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:00:58.526 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294458518lcw  [0;39m <==    Columns: count(0)
+2026-03-01 00:00:58.526 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294458518lcw  [0;39m <==        Row: 2
+2026-03-01 00:00:58.526 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294458518lcw  [0;39m <==      Total: 1
+2026-03-01 00:00:58.527 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294458518lcw  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:00:58.528 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294458518lcw  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:00:58.529 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294458518lcw  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:00:58.530 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294458518lcw  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:00:58.531 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294458518lcw  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:00:58.533 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294458518lcw  [0;39m <==      Total: 2
+2026-03-01 00:00:58.533 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772294458518lcw  [0;39m 总行数：2
+2026-03-01 00:00:58.533 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772294458518lcw  [0;39m 总页数：1
+2026-03-01 00:00:58.545 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772294458518lcw  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:00:58.546 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772294458518lcw  [0;39m ------------- 结束 耗时：26 ms -------------
+2026-03-01 00:08:33.652 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-03-01 00:08:33.654 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2026-03-01 00:08:35.560 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-03-01 00:08:35.589 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 24584 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-03-01 00:08:35.590 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-03-01 00:08:35.622 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-01 00:08:35.622 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-01 00:08:36.436 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-03-01 00:08:36.442 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:08:36.443 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-03-01 00:08:36.443 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-03-01 00:08:36.478 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-03-01 00:08:36.479 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 856 ms
+2026-03-01 00:08:36.945 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-03-01 00:08:37.057 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2026-03-01 00:08:37.069 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:08:37.083 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-03-01 00:08:37.090 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.824 seconds (process running for 2.377)
+2026-03-01 00:08:37.092 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-03-01 00:08:37.092 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-03-01 00:08:38.642 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 00:08:38.643 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-03-01 00:08:38.644 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2026-03-01 00:08:38.660 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772294918657wq8  [0;39m MemberInterceptor开始
+2026-03-01 00:08:38.661 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772294918657wq8  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:08:38.683 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772294918657wq8  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:08:38.685 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772294918657wq8  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:08:38.707 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772294918657wq8  [0;39m MemberInterceptor结束
+2026-03-01 00:08:38.758 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772294918657wq8  [0;39m ------------- 开始 -------------
+2026-03-01 00:08:38.759 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772294918657wq8  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:08:38.759 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772294918657wq8  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:08:38.759 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772294918657wq8  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:08:38.799 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772294918657wq8  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:12:01.831 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772294918657wq8  [0;39m 查询页码：1
+2026-03-01 00:12:01.832 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772294918657wq8  [0;39m 每页条数：3
+2026-03-01 00:12:02.020 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1772294918657wq8  [0;39m HikariPool-1 - Starting...
+2026-03-01 00:12:02.750 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1772294918657wq8  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63ad97c8
+2026-03-01 00:12:02.754 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1772294918657wq8  [0;39m HikariPool-1 - Start completed.
+2026-03-01 00:12:02.785 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294918657wq8  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:12:02.893 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294918657wq8  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:12:02.983 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294918657wq8  [0;39m <==    Columns: count(0)
+2026-03-01 00:12:02.985 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772294918657wq8  [0;39m <==        Row: 2
+2026-03-01 00:12:02.988 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772294918657wq8  [0;39m <==      Total: 1
+2026-03-01 00:12:02.998 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294918657wq8  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:12:02.999 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294918657wq8  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:12:03.002 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294918657wq8  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:12:03.006 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294918657wq8  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:12:03.008 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772294918657wq8  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:12:03.009 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772294918657wq8  [0;39m <==      Total: 2
+2026-03-01 00:12:03.016 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772294918657wq8  [0;39m 总行数：2
+2026-03-01 00:12:03.017 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772294918657wq8  [0;39m 总页数：1
+2026-03-01 00:12:03.052 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772294918657wq8  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:12:03.053 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772294918657wq8  [0;39m ------------- 结束 耗时：204296 ms -------------
+2026-03-01 00:12:04.227 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772295124227od7  [0;39m MemberInterceptor开始
+2026-03-01 00:12:04.227 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772295124227od7  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:12:04.228 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772295124227od7  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:12:04.228 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772295124227od7  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:12:06.358 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772295124227od7  [0;39m MemberInterceptor结束
+2026-03-01 00:12:06.363 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772295124227od7  [0;39m ------------- 开始 -------------
+2026-03-01 00:12:06.364 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772295124227od7  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:12:06.364 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772295124227od7  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:12:06.364 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772295124227od7  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:12:06.364 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772295124227od7  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:12:08.180 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772295124227od7  [0;39m 查询页码：1
+2026-03-01 00:12:08.181 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772295124227od7  [0;39m 每页条数：3
+2026-03-01 00:12:08.185 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295124227od7  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:12:08.185 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295124227od7  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:12:08.187 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772295124227od7  [0;39m <==    Columns: count(0)
+2026-03-01 00:12:08.187 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772295124227od7  [0;39m <==        Row: 2
+2026-03-01 00:12:08.187 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295124227od7  [0;39m <==      Total: 1
+2026-03-01 00:12:08.188 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295124227od7  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:12:08.188 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295124227od7  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:12:08.189 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295124227od7  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:12:08.189 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295124227od7  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:12:08.190 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295124227od7  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:12:08.191 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295124227od7  [0;39m <==      Total: 2
+2026-03-01 00:12:08.192 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772295124227od7  [0;39m 总行数：2
+2026-03-01 00:12:08.192 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772295124227od7  [0;39m 总页数：1
+2026-03-01 00:12:08.193 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772295124227od7  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:12:08.193 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772295124227od7  [0;39m ------------- 结束 耗时：1830 ms -------------
+2026-03-01 00:12:08.221 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-03-01 00:12:08.225 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2026-03-01 00:12:10.157 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-03-01 00:12:10.185 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 26584 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-03-01 00:12:10.186 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-03-01 00:12:10.221 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-01 00:12:10.222 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-01 00:12:11.064 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-03-01 00:12:11.070 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:12:11.071 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-03-01 00:12:11.071 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-03-01 00:12:11.104 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-03-01 00:12:11.104 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 882 ms
+2026-03-01 00:12:11.549 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-03-01 00:12:11.654 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-03-01 00:12:11.666 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:12:11.679 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-03-01 00:12:11.686 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.861 seconds (process running for 2.522)
+2026-03-01 00:12:11.689 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-03-01 00:12:11.689 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-03-01 00:12:13.119 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 00:12:13.120 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-03-01 00:12:13.121 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2026-03-01 00:12:13.139 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772295133135mdy  [0;39m MemberInterceptor开始
+2026-03-01 00:12:13.139 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772295133135mdy  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:12:13.166 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772295133135mdy  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:12:13.168 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772295133135mdy  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:19:22.075 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772295133135mdy  [0;39m MemberInterceptor结束
+2026-03-01 00:19:27.647 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772295133135mdy  [0;39m ------------- 开始 -------------
+2026-03-01 00:19:27.648 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772295133135mdy  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:19:27.648 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772295133135mdy  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:19:27.648 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772295133135mdy  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:19:27.682 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772295133135mdy  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:19:29.750 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772295133135mdy  [0;39m 查询页码：1
+2026-03-01 00:19:29.751 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772295133135mdy  [0;39m 每页条数：3
+2026-03-01 00:19:29.812 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1772295133135mdy  [0;39m HikariPool-1 - Starting...
+2026-03-01 00:19:29.985 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1772295133135mdy  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38c45e24
+2026-03-01 00:19:29.988 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1772295133135mdy  [0;39m HikariPool-1 - Start completed.
+2026-03-01 00:19:29.993 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295133135mdy  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:19:30.008 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295133135mdy  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:19:30.021 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772295133135mdy  [0;39m <==    Columns: count(0)
+2026-03-01 00:19:30.021 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772295133135mdy  [0;39m <==        Row: 2
+2026-03-01 00:19:30.022 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295133135mdy  [0;39m <==      Total: 1
+2026-03-01 00:19:30.026 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295133135mdy  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:19:30.026 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295133135mdy  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:19:30.027 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295133135mdy  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:19:30.029 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295133135mdy  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:19:30.030 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295133135mdy  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:19:30.030 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295133135mdy  [0;39m <==      Total: 2
+2026-03-01 00:19:30.032 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772295133135mdy  [0;39m 总行数：2
+2026-03-01 00:19:30.032 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772295133135mdy  [0;39m 总页数：1
+2026-03-01 00:19:30.041 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772295133135mdy  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:19:30.041 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772295133135mdy  [0;39m ------------- 结束 耗时：2394 ms -------------
+2026-03-01 00:19:41.189 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-03-01 00:19:41.193 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2026-03-01 00:19:42.715 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-03-01 00:19:42.743 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32720 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-03-01 00:19:42.744 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-03-01 00:19:42.777 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-01 00:19:42.777 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-01 00:19:43.690 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-03-01 00:19:43.696 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:19:43.696 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-03-01 00:19:43.697 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-03-01 00:19:43.730 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-03-01 00:19:43.730 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 952 ms
+2026-03-01 00:19:44.191 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-03-01 00:19:44.291 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-03-01 00:19:44.303 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:19:44.315 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-03-01 00:19:44.322 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.968 seconds (process running for 2.47)
+2026-03-01 00:19:44.324 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-03-01 00:19:44.324 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-03-01 00:20:04.398 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 00:20:04.398 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-03-01 00:20:04.399 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2026-03-01 00:20:04.415 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772295604412why  [0;39m MemberInterceptor开始
+2026-03-01 00:20:04.416 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772295604412why  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:20:04.438 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772295604412why  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:20:04.440 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772295604412why  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:20:22.193 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772295604412why  [0;39m MemberInterceptor结束
+2026-03-01 00:20:22.239 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772295604412why  [0;39m ------------- 开始 -------------
+2026-03-01 00:20:22.240 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772295604412why  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:20:22.240 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772295604412why  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:20:22.240 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772295604412why  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:20:22.272 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772295604412why  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:20:22.577 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772295604412why  [0;39m 查询页码：1
+2026-03-01 00:20:22.578 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772295604412why  [0;39m 每页条数：3
+2026-03-01 00:20:22.645 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1772295604412why  [0;39m HikariPool-1 - Starting...
+2026-03-01 00:20:22.829 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1772295604412why  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5417e309
+2026-03-01 00:20:22.830 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1772295604412why  [0;39m HikariPool-1 - Start completed.
+2026-03-01 00:20:22.837 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295604412why  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:20:22.852 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295604412why  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:20:22.865 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772295604412why  [0;39m <==    Columns: count(0)
+2026-03-01 00:20:22.865 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772295604412why  [0;39m <==        Row: 2
+2026-03-01 00:20:22.866 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295604412why  [0;39m <==      Total: 1
+2026-03-01 00:20:22.870 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295604412why  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:20:22.871 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295604412why  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:20:22.872 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295604412why  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:20:22.873 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295604412why  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:20:22.874 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295604412why  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:20:22.874 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295604412why  [0;39m <==      Total: 2
+2026-03-01 00:20:22.877 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772295604412why  [0;39m 总行数：2
+2026-03-01 00:20:22.877 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772295604412why  [0;39m 总页数：1
+2026-03-01 00:20:22.887 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772295604412why  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:20:22.887 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772295604412why  [0;39m ------------- 结束 耗时：649 ms -------------
+2026-03-01 00:20:26.266 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-03-01 00:20:26.270 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2026-03-01 00:20:27.658 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-03-01 00:20:27.683 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 4076 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-03-01 00:20:27.684 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-03-01 00:20:27.716 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-01 00:20:27.717 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-01 00:20:28.550 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-03-01 00:20:28.556 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:20:28.557 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-03-01 00:20:28.557 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-03-01 00:20:28.592 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-03-01 00:20:28.593 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 876 ms
+2026-03-01 00:20:29.052 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-03-01 00:20:29.150 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-03-01 00:20:29.161 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:20:29.173 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-03-01 00:20:29.180 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.819 seconds (process running for 2.284)
+2026-03-01 00:20:29.182 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-03-01 00:20:29.182 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-03-01 00:22:32.632 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-01 00:22:32.657 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:22:32.658 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2026-03-01 00:22:32.663 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:22:32.665 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:22:32.731 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 4076 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-03-01 00:22:32.731 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-03-01 00:22:32.922 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-03-01 00:22:32.923 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:22:32.923 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-03-01 00:22:32.923 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-03-01 00:22:32.931 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-03-01 00:22:32.931 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 198 ms
+2026-03-01 00:22:33.144 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-03-01 00:22:33.194 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-03-01 00:22:33.200 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:22:33.202 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-03-01 00:22:33.203 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 0.494 seconds (process running for 126.307)
+2026-03-01 00:22:33.204 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2026-03-01 00:22:33.205 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-03-01 00:22:33.205 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-03-01 00:24:35.256 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 00:24:35.256 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-03-01 00:24:35.257 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2026-03-01 00:24:35.272 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772295875269uot  [0;39m MemberInterceptor开始
+2026-03-01 00:24:41.804 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772295875269uot  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:24:42.320 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772295875269uot  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:24:42.679 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772295875269uot  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:26:52.318 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772295875269uot  [0;39m MemberInterceptor结束
+2026-03-01 00:26:54.855 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772295875269uot  [0;39m ------------- 开始 -------------
+2026-03-01 00:26:54.856 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772295875269uot  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:26:54.856 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772295875269uot  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:26:54.856 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772295875269uot  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:26:54.890 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772295875269uot  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:28:04.739 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772295875269uot  [0;39m 查询页码：1
+2026-03-01 00:28:05.255 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772295875269uot  [0;39m 每页条数：3
+2026-03-01 00:28:13.472 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1772295875269uot  [0;39m HikariPool-1 - Starting...
+2026-03-01 00:28:14.177 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1772295875269uot  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ece3892
+2026-03-01 00:28:14.181 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1772295875269uot  [0;39m HikariPool-1 - Start completed.
+2026-03-01 00:28:14.213 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295875269uot  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:28:14.321 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295875269uot  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:28:14.414 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772295875269uot  [0;39m <==    Columns: count(0)
+2026-03-01 00:28:14.415 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772295875269uot  [0;39m <==        Row: 2
+2026-03-01 00:28:14.419 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772295875269uot  [0;39m <==      Total: 1
+2026-03-01 00:28:14.428 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295875269uot  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:28:14.430 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295875269uot  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:28:14.432 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295875269uot  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:28:14.436 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295875269uot  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:28:14.438 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772295875269uot  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:28:14.439 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772295875269uot  [0;39m <==      Total: 2
+2026-03-01 00:28:16.112 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772295875269uot  [0;39m 总行数：2
+2026-03-01 00:28:16.702 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772295875269uot  [0;39m 总页数：1
+2026-03-01 00:28:53.648 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772295875269uot  [0;39m 返回结果: {"content":{"list":[{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:28:53.648 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772295875269uot  [0;39m ------------- 结束 耗时：118793 ms -------------
+2026-03-01 00:29:18.241 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772296158241nfu  [0;39m MemberInterceptor开始
+2026-03-01 00:29:23.029 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772296158241nfu  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:29:23.449 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772296158241nfu  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:29:50.342 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772296158241nfu  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:29:50.345 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772296158241nfu  [0;39m MemberInterceptor结束
+2026-03-01 00:29:50.376 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772296158241nfu  [0;39m ------------- 开始 -------------
+2026-03-01 00:29:50.376 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772296158241nfu  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/save POST
+2026-03-01 00:29:50.376 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772296158241nfu  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.saveOrEditPassenger
+2026-03-01 00:29:50.377 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772296158241nfu  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:29:50.379 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772296158241nfu  [0;39m 请求参数: [{"idCard":"43092216693025.621","name":"吴洋","type":"1"}]
+2026-03-01 00:29:50.399 DEBUG o.w.train.member.mapper.PassengerMapper.insert    :137  [32m1772296158241nfu  [0;39m ==>  Preparing: insert into passenger (id, member_id, `name`, id_card, `type`, create_time, update_time) values (?, ?, ?, ?, ?, ?, ?)
+2026-03-01 00:29:50.400 DEBUG o.w.train.member.mapper.PassengerMapper.insert    :137  [32m1772296158241nfu  [0;39m ==> Parameters: 2027783311027474432(Long), 2012077856087216128(Long), 吴洋(String), 43092216693025.621(String), 1(String), 2026-03-01 00:29:50.38(Timestamp), 2026-03-01 00:29:50.38(Timestamp)
+2026-03-01 00:29:50.402 DEBUG o.w.train.member.mapper.PassengerMapper.insert    :137  [32m1772296158241nfu  [0;39m <==    Updates: 1
+2026-03-01 00:29:50.402 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772296158241nfu  [0;39m 返回结果: {"success":true}
+2026-03-01 00:29:50.403 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772296158241nfu  [0;39m ------------- 结束 耗时：27 ms -------------
+2026-03-01 00:29:50.490 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-03-01 00:29:50.496 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2026-03-01 00:29:56.889 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-03-01 00:29:56.914 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 32584 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-03-01 00:29:56.915 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-03-01 00:29:56.945 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-01 00:29:56.945 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-01 00:29:57.756 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-03-01 00:29:57.763 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:29:57.764 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-03-01 00:29:57.764 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-03-01 00:29:57.801 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-03-01 00:29:57.801 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 856 ms
+2026-03-01 00:29:58.271 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-03-01 00:29:58.377 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-03-01 00:29:58.388 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-03-01 00:29:58.402 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-03-01 00:29:58.408 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.808 seconds (process running for 2.321)
+2026-03-01 00:29:58.410 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-03-01 00:29:58.410 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2026-03-01 00:30:04.507 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-01 00:30:04.507 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2026-03-01 00:30:04.508 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2026-03-01 00:30:04.525 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772296204521f5b  [0;39m MemberInterceptor开始
+2026-03-01 00:30:07.252 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772296204521f5b  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:30:07.279 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772296204521f5b  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:30:07.281 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772296204521f5b  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:30:07.827 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772296204521f5b  [0;39m MemberInterceptor结束
+2026-03-01 00:30:07.873 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772296204521f5b  [0;39m ------------- 开始 -------------
+2026-03-01 00:30:07.873 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772296204521f5b  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:30:07.874 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772296204521f5b  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:30:07.874 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772296204521f5b  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:30:07.920 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772296204521f5b  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:30:08.524 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772296204521f5b  [0;39m 查询页码：1
+2026-03-01 00:30:08.525 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772296204521f5b  [0;39m 每页条数：3
+2026-03-01 00:30:08.599 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1772296204521f5b  [0;39m HikariPool-1 - Starting...
+2026-03-01 00:30:08.782 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1772296204521f5b  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@468a7a89
+2026-03-01 00:30:08.784 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1772296204521f5b  [0;39m HikariPool-1 - Start completed.
+2026-03-01 00:30:08.789 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296204521f5b  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:30:08.803 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296204521f5b  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:30:08.815 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772296204521f5b  [0;39m <==    Columns: count(0)
+2026-03-01 00:30:08.815 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772296204521f5b  [0;39m <==        Row: 3
+2026-03-01 00:30:08.816 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296204521f5b  [0;39m <==      Total: 1
+2026-03-01 00:30:08.819 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296204521f5b  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:30:08.820 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296204521f5b  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:30:08.821 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296204521f5b  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:30:08.822 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296204521f5b  [0;39m <==        Row: 2027783311027474432, 2012077856087216128, 吴洋, 43092216693025.621, 1, 2026-03-01 00:29:50.380, 2026-03-01 00:29:50.380
+2026-03-01 00:30:08.823 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296204521f5b  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:30:08.823 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296204521f5b  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:30:08.824 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296204521f5b  [0;39m <==      Total: 3
+2026-03-01 00:30:08.825 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772296204521f5b  [0;39m 总行数：3
+2026-03-01 00:30:08.826 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772296204521f5b  [0;39m 总页数：1
+2026-03-01 00:30:08.834 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772296204521f5b  [0;39m 返回结果: {"content":{"list":[{"createTime":1772296190380,"id":2027783311027474432,"idCard":"43092216693025.621","memberId":2012077856087216128,"name":"吴洋","type":"1","updateTime":1772296190380},{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":3},"success":true}
+2026-03-01 00:30:08.835 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772296204521f5b  [0;39m ------------- 结束 耗时：963 ms -------------
+2026-03-01 00:30:16.654 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m17722962166540ma  [0;39m MemberInterceptor开始
+2026-03-01 00:30:21.820 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m17722962166540ma  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:30:22.308 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m17722962166540ma  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:30:22.778 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m17722962166540ma  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:30:31.454 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m17722962166540ma  [0;39m MemberInterceptor结束
+2026-03-01 00:30:33.935 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m17722962166540ma  [0;39m ------------- 开始 -------------
+2026-03-01 00:30:33.935 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m17722962166540ma  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/save POST
+2026-03-01 00:30:33.935 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m17722962166540ma  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.saveOrEditPassenger
+2026-03-01 00:30:33.935 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m17722962166540ma  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:30:33.937 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m17722962166540ma  [0;39m 请求参数: [{"createTime":1772296190000,"id":2027783311027474432,"idCard":"430922166930250621","memberId":2012077856087216128,"name":"吴洋","type":"1","updateTime":1772296190000}]
+2026-03-01 00:31:40.800 DEBUG o.w.t.m.mapper.PassengerMapper.updateByPrimaryKey :137  [32m17722962166540ma  [0;39m ==>  Preparing: update passenger set member_id = ?, `name` = ?, id_card = ?, `type` = ?, create_time = ?, update_time = ? where id = ?
+2026-03-01 00:31:40.802 DEBUG o.w.t.m.mapper.PassengerMapper.updateByPrimaryKey :137  [32m17722962166540ma  [0;39m ==> Parameters: 2012077856087216128(Long), 吴洋(String), 430922166930250621(String), 1(String), 2026-03-01 00:29:50.0(Timestamp), 2026-03-01 00:30:40.238(Timestamp), 2027783311027474432(Long)
+2026-03-01 00:31:40.807 DEBUG o.w.t.m.mapper.PassengerMapper.updateByPrimaryKey :137  [32m17722962166540ma  [0;39m <==    Updates: 1
+2026-03-01 00:31:52.984 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m17722962166540ma  [0;39m 返回结果: {"success":true}
+2026-03-01 00:31:52.985 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m17722962166540ma  [0;39m ------------- 结束 耗时：79050 ms -------------
+2026-03-01 00:31:53.008 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772296313008z9t  [0;39m MemberInterceptor开始
+2026-03-01 00:32:00.328 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772296313008z9t  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:32:00.557 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772296313008z9t  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:32:00.811 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772296313008z9t  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:32:01.903 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772296313008z9t  [0;39m MemberInterceptor结束
+2026-03-01 00:32:03.597 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772296313008z9t  [0;39m ------------- 开始 -------------
+2026-03-01 00:32:03.598 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772296313008z9t  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:32:03.598 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772296313008z9t  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:32:03.598 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772296313008z9t  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:32:03.598 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772296313008z9t  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:32:08.754 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772296313008z9t  [0;39m 查询页码：1
+2026-03-01 00:32:08.754 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772296313008z9t  [0;39m 每页条数：3
+2026-03-01 00:32:08.760 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296313008z9t  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:32:08.761 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296313008z9t  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:32:08.764 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772296313008z9t  [0;39m <==    Columns: count(0)
+2026-03-01 00:32:08.764 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772296313008z9t  [0;39m <==        Row: 3
+2026-03-01 00:32:08.765 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296313008z9t  [0;39m <==      Total: 1
+2026-03-01 00:32:08.766 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296313008z9t  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:32:08.767 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296313008z9t  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:32:08.770 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296313008z9t  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:32:08.771 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296313008z9t  [0;39m <==        Row: 2027783311027474432, 2012077856087216128, 吴洋, 430922166930250621, 1, 2026-03-01 00:29:50, 2026-03-01 00:30:40.238
+2026-03-01 00:32:08.774 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296313008z9t  [0;39m <==        Row: 2025951035134185472, 2012077856087216128, 张杰, 430966199440361236, 1, 2026-02-23 23:09:01.608, 2026-02-23 23:09:01.608
+2026-03-01 00:32:08.775 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296313008z9t  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:32:08.777 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296313008z9t  [0;39m <==      Total: 3
+2026-03-01 00:32:08.778 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772296313008z9t  [0;39m 总行数：3
+2026-03-01 00:32:08.779 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772296313008z9t  [0;39m 总页数：1
+2026-03-01 00:32:10.931 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772296313008z9t  [0;39m 返回结果: {"content":{"list":[{"createTime":1772296190000,"id":2027783311027474432,"idCard":"430922166930250621","memberId":2012077856087216128,"name":"吴洋","type":"1","updateTime":1772296240238},{"createTime":1771859341608,"id":2025951035134185472,"idCard":"430966199440361236","memberId":2012077856087216128,"name":"张杰","type":"1","updateTime":1771859341608},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":3},"success":true}
+2026-03-01 00:32:10.932 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772296313008z9t  [0;39m ------------- 结束 耗时：7335 ms -------------
+2026-03-01 00:32:29.522 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m17722963495228js  [0;39m MemberInterceptor开始
+2026-03-01 00:32:33.045 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m17722963495228js  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:32:33.513 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m17722963495228js  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:32:33.976 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m17722963495228js  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:32:54.401 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m17722963495228js  [0;39m MemberInterceptor结束
+2026-03-01 00:32:56.616 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m17722963495228js  [0;39m ------------- 开始 -------------
+2026-03-01 00:32:56.617 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m17722963495228js  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/delete/2025951035134185472 DELETE
+2026-03-01 00:32:56.617 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m17722963495228js  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.deletePassenger
+2026-03-01 00:32:56.617 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m17722963495228js  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:32:56.617 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m17722963495228js  [0;39m 请求参数: [2025951035134185472]
+2026-03-01 00:32:59.456 DEBUG o.w.t.m.mapper.PassengerMapper.deleteByPrimaryKey :137  [32m17722963495228js  [0;39m ==>  Preparing: delete from passenger where id = ?
+2026-03-01 00:32:59.457 DEBUG o.w.t.m.mapper.PassengerMapper.deleteByPrimaryKey :137  [32m17722963495228js  [0;39m ==> Parameters: 2025951035134185472(Long)
+2026-03-01 00:32:59.459 DEBUG o.w.t.m.mapper.PassengerMapper.deleteByPrimaryKey :137  [32m17722963495228js  [0;39m <==    Updates: 1
+2026-03-01 00:32:59.459 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m17722963495228js  [0;39m 返回结果: {"success":true}
+2026-03-01 00:32:59.459 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m17722963495228js  [0;39m ------------- 结束 耗时：2843 ms -------------
+2026-03-01 00:32:59.472 INFO  o.w.train.common.interceptor.MemberInterceptor    :23   [32m1772296379472kx1  [0;39m MemberInterceptor开始
+2026-03-01 00:33:08.599 INFO  o.w.train.common.interceptor.MemberInterceptor    :27   [32m1772296379472kx1  [0;39m 获取会员登录token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE3NzIyOTQyODYsIm1vYmlsZSI6IjE3Njg5NDAxODQ3IiwiaWQiOjIwMTIwNzc4NTYwODcyMTYxMjgsImV4cCI6MTc3MjM4MDY4NiwiaWF0IjoxNzcyMjk0Mjg2fQ.WEHUmuMnqRrJmOD5cYqSPBopIHfEJ-gAvqlGCkEbf3k
+2026-03-01 00:33:08.599 INFO  org.wuyang.train.common.util.JwtUtil              :66   [32m1772296379472kx1  [0;39m 根据token获取原始内容：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:33:08.599 INFO  o.w.train.common.interceptor.MemberInterceptor    :29   [32m1772296379472kx1  [0;39m 当前登录会员：{"mobile":"17689401847","id":2012077856087216128}
+2026-03-01 00:33:13.120 INFO  o.w.train.common.interceptor.MemberInterceptor    :33   [32m1772296379472kx1  [0;39m MemberInterceptor结束
+2026-03-01 00:33:13.121 INFO  org.wuyang.train.common.aspect.LogAspect          :48   [32m1772296379472kx1  [0;39m ------------- 开始 -------------
+2026-03-01 00:33:13.121 INFO  org.wuyang.train.common.aspect.LogAspect          :49   [32m1772296379472kx1  [0;39m 请求地址: http://127.0.0.1:8001/member/passenger/query-list GET
+2026-03-01 00:33:13.121 INFO  org.wuyang.train.common.aspect.LogAspect          :50   [32m1772296379472kx1  [0;39m 类名方法: org.wuyang.train.member.controller.PassengerController.queryPassengerList
+2026-03-01 00:33:13.121 INFO  org.wuyang.train.common.aspect.LogAspect          :51   [32m1772296379472kx1  [0;39m 远程地址: 127.0.0.1
+2026-03-01 00:33:13.121 INFO  org.wuyang.train.common.aspect.LogAspect          :72   [32m1772296379472kx1  [0;39m 请求参数: [{"pageNum":1,"pageSize":3}]
+2026-03-01 00:33:17.085 INFO  org.wuyang.train.member.service.PassengerService  :55   [32m1772296379472kx1  [0;39m 查询页码：1
+2026-03-01 00:33:17.085 INFO  org.wuyang.train.member.service.PassengerService  :56   [32m1772296379472kx1  [0;39m 每页条数：3
+2026-03-01 00:33:17.089 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296379472kx1  [0;39m ==>  Preparing: SELECT count(0) FROM passenger WHERE (member_id = ?)
+2026-03-01 00:33:17.090 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296379472kx1  [0;39m ==> Parameters: 2012077856087216128(Long)
+2026-03-01 00:33:17.091 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772296379472kx1  [0;39m <==    Columns: count(0)
+2026-03-01 00:33:17.091 TRACE o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :143  [32m1772296379472kx1  [0;39m <==        Row: 2
+2026-03-01 00:33:17.091 DEBUG o.w.t.m.m.PassengerMapper.selectByExample_COUNT   :137  [32m1772296379472kx1  [0;39m <==      Total: 1
+2026-03-01 00:33:17.091 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296379472kx1  [0;39m ==>  Preparing: select id, member_id, `name`, id_card, `type`, create_time, update_time from passenger WHERE ( member_id = ? ) order by id desc LIMIT ?
+2026-03-01 00:33:17.092 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296379472kx1  [0;39m ==> Parameters: 2012077856087216128(Long), 3(Integer)
+2026-03-01 00:33:17.094 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296379472kx1  [0;39m <==    Columns: id, member_id, name, id_card, type, create_time, update_time
+2026-03-01 00:33:17.094 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296379472kx1  [0;39m <==        Row: 2027783311027474432, 2012077856087216128, 吴洋, 430922166930250621, 1, 2026-03-01 00:29:50, 2026-03-01 00:30:40.238
+2026-03-01 00:33:17.095 TRACE o.w.t.m.mapper.PassengerMapper.selectByExample    :143  [32m1772296379472kx1  [0;39m <==        Row: 2025928344717103104, 2012077856087216128, 刘浩存, 430966199440361234, 1, 2026-02-23 21:38:49.021, 2026-02-23 21:38:49.021
+2026-03-01 00:33:17.096 DEBUG o.w.t.m.mapper.PassengerMapper.selectByExample    :137  [32m1772296379472kx1  [0;39m <==      Total: 2
+2026-03-01 00:33:17.096 INFO  org.wuyang.train.member.service.PassengerService  :61   [32m1772296379472kx1  [0;39m 总行数：2
+2026-03-01 00:33:17.096 INFO  org.wuyang.train.member.service.PassengerService  :62   [32m1772296379472kx1  [0;39m 总页数：1
+2026-03-01 00:33:17.097 INFO  org.wuyang.train.common.aspect.LogAspect          :84   [32m1772296379472kx1  [0;39m 返回结果: {"content":{"list":[{"createTime":1772296190000,"id":2027783311027474432,"idCard":"430922166930250621","memberId":2012077856087216128,"name":"吴洋","type":"1","updateTime":1772296240238},{"createTime":1771853929021,"id":2025928344717103104,"idCard":"430966199440361234","memberId":2012077856087216128,"name":"刘浩存","type":"1","updateTime":1771853929021}],"total":2},"success":true}
+2026-03-01 00:33:17.097 INFO  org.wuyang.train.common.aspect.LogAspect          :85   [32m1772296379472kx1  [0;39m ------------- 结束 耗时：3976 ms -------------
+2026-03-01 00:54:43.197 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2026-03-01 00:54:43.201 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2026-03-01 17:13:36.423 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2026-03-01 17:13:36.448 INFO  org.wuyang.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 1896 (D:\Users\23889\Desktop\train\member\target\classes started by 23889 in D:\Users\23889\Desktop\train)
+2026-03-01 17:13:36.449 INFO  org.wuyang.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2026-03-01 17:13:36.481 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-01 17:13:36.482 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-01 17:13:37.146 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2026-03-01 17:13:37.150 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2026-03-01 17:13:37.150 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2026-03-01 17:13:37.152 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2026-03-01 17:13:37.178 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2026-03-01 17:13:37.178 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 696 ms
+2026-03-01 17:13:37.538 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.github.pagehelper.autoconfigure.PageHelperStandardProperties
+2026-03-01 17:13:37.615 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2026-03-01 17:13:37.626 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2026-03-01 17:13:37.636 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2026-03-01 17:13:37.641 INFO  org.wuyang.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 1.465 seconds (process running for 1.823)
+2026-03-01 17:13:37.642 INFO  org.wuyang.train.member.config.MemberApplication  :21   [32m                  [0;39m member模块启动成功！！！
+2026-03-01 17:13:37.642 INFO  org.wuyang.train.member.config.MemberApplication  :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello

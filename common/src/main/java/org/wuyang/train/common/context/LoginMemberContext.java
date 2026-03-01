@@ -6,14 +6,15 @@ import org.wuyang.train.common.resp.MemberLoginResp;
 
 public class LoginMemberContext {
     private static final Logger LOG = LoggerFactory.getLogger(LoginMemberContext.class);
+
     private static ThreadLocal<MemberLoginResp> member = new ThreadLocal<>();
 
     public static MemberLoginResp getMember() {
         return member.get();
     }
 
-    public static void setMember(MemberLoginResp member) {
-        LoginMemberContext.member.set(member);
+    public static void setMember(MemberLoginResp memberLoginResp) {
+        LoginMemberContext.member.set(memberLoginResp);
     }
 
     public static Long getId() {

@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="解决每日座位数据列号重复显示问题">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b08f7e45-5eff-4533-835a-5f87f2c8a942.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b08f7e45-5eff-4533-835a-5f87f2c8a942.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/base/train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train-seat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/business/daily-train-seat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/train-selected.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/train-selected.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/context/LoginMemberContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/context/LoginMemberContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/the-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/login.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +197,7 @@
     "npm.serve (1).executor": "Run",
     "npm.serve.executor": "Run",
     "npm.serve9001.executor": "Run",
+    "npm.web9000.executor": "Run",
     "onboarding.tips.debug.path": "D:/Users/23889/Desktop/train/common/src/main/java/org/wuyang/Main.java",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
@@ -288,6 +303,7 @@
           <value>
             <set>
               <option value="admin9001" />
+              <option value="web9000" />
             </set>
           </value>
         </entry>
@@ -299,7 +315,6 @@
           <value>
             <set>
               <option value="batch-test | #1" />
-              <option value="train-endpoints | #1" />
             </set>
           </value>
         </entry>
@@ -311,7 +326,6 @@
           <value>
             <map>
               <entry key="batch-test | #1" value="STOPPED" />
-              <entry key="train-endpoints | #1" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -320,6 +334,7 @@
             <map>
               <entry key="BatchApplication" value="STOPPED" />
               <entry key="BusinessApplication" value="STOPPED" />
+              <entry key="GateWayApplication" value="STOPPED" />
               <entry key="MemberApplication" value="STOPPED" />
             </map>
           </value>
@@ -339,11 +354,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="npm.admin9001">
-    <configuration name="batch-test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-test.http" executionIdentifier="#1" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="Application.ServerGenerator">
+    <configuration name="ServerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wuyang.train.generator.server.ServerGenerator" />
+      <module name="generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wuyang.train.generator.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="train-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/train-endpoints.http" executionIdentifier="#1" runType="Run single request">
+    <configuration name="batch-test | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/http/batch-test.http" executionIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="mybatis-generator" type="MavenRunConfiguration" factoryName="Maven">
@@ -438,11 +463,22 @@
       </EXTENSION>
       <method v="2" />
     </configuration>
+    <configuration name="web9000" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.ServerGenerator" />
       <item itemvalue="HTTP Request.batch-test | #1" />
-      <item itemvalue="HTTP Request.train-endpoints | #1" />
       <item itemvalue="Maven.mybatis-generator" />
       <item itemvalue="npm.admin9001" />
+      <item itemvalue="npm.web9000" />
       <item itemvalue="Spring Boot.GateWayApplication" />
       <item itemvalue="Spring Boot.BatchApplication" />
       <item itemvalue="Spring Boot.BusinessApplication" />
@@ -450,11 +486,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BusinessApplication" />
+        <item itemvalue="Application.ServerGenerator" />
         <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="HTTP Request.batch-test | #1" />
-        <item itemvalue="HTTP Request.train-endpoints | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -546,15 +582,10 @@
       <workItem from="1772100220624" duration="14305000" />
       <workItem from="1772117671347" duration="672000" />
       <workItem from="1772118359641" duration="12920000" />
-      <workItem from="1772170886088" duration="21629000" />
-    </task>
-    <task id="LOCAL-00134" summary="制作车站下拉框组件，在车次管理页面和火车车站管理页面添加该自定义组件">
-      <option name="closed" value="true" />
-      <created>1771169359345</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1771169359345</updated>
+      <workItem from="1772170886088" duration="25902000" />
+      <workItem from="1772275219550" duration="13108000" />
+      <workItem from="1772350541842" duration="2344000" />
+      <workItem from="1772356350609" duration="6913000" />
     </task>
     <task id="LOCAL-00135" summary="实现按车次生成车座功能">
       <option name="closed" value="true" />
@@ -940,7 +971,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772191458214</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="解决每日座位数据列号重复显示问题">
+      <option name="closed" value="true" />
+      <created>1772192971802</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1772192971802</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -972,7 +1011,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="前端通过控制台界面操作定时任务" />
     <MESSAGE value="对菜单作分类，改为两级菜单;路由也改为多级路由" />
     <MESSAGE value="git提交重试" />
     <MESSAGE value="对ftl模板进行调整，" />
@@ -997,7 +1035,8 @@
     <MESSAGE value="增加生成每日车次数据功能：每日车厢信息" />
     <MESSAGE value="增加生成每日车次数据功能：每日座位信息" />
     <MESSAGE value="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑" />
+    <MESSAGE value="解决每日座位数据列号重复显示问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决每日座位数据列号重复显示问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1006,11 +1045,6 @@
           <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/MemberController.java</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/batch/src/main/java/org/wuyang/train/batch/feign/BusinessOpenFeign.java</url>
@@ -1026,6 +1060,71 @@
           <url>file://$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/DailyTrainAdminController.java</url>
           <line>43</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/TrainSeatService.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/enums/SeatColEnum.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/enums/SeatColEnum.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/MemberController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/MemberController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/PassengerController.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/PassengerController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/member/src/main/java/org/wuyang/train/member/controller/PassengerController.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/context/LoginMemberContext.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/context/LoginMemberContext.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/interceptor/MemberInterceptor.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/interceptor/MemberInterceptor.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

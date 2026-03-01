@@ -33,6 +33,10 @@ const routes = [
           path: 'daily-train-seat',
           name: 'daily-train-seat',
           component: () => import('@/views/main/business/daily-train-seat.vue')
+        },{
+          path: 'daily_train_ticket',
+          name: 'daily_train_ticket',
+          component: () => import('@/views/main/business/daily-train-ticket.vue')
         }]
       },
     {

@@ -39,7 +39,6 @@ export default defineComponent({
     const selectedKeys = ref([]);
 
     watch(() => router.currentRoute.value.path, (newValue) => {
-      console.log('watch', newValue);
       selectedKeys.value = [];
       selectedKeys.value.push(newValue);
     }, {immediate: true});
@@ -54,10 +53,4 @@ export default defineComponent({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.logo {
-  display: flex;
-  justify-content: center; /* 水平居中 */
-  align-items: center;     /* 垂直居中 */
-  height: 60px;           /* 设置一个明确的高度，垂直居中才有效 */
-}
 </style>

@@ -61,7 +61,7 @@ export default defineComponent({
 
     /**
      *当前组件从父组件取值用watch, 将当前的值响应给父组件用事件
-     * 1.利用监听函数watch，动态获取父组件的值，如果放在onMounted或者其他方法，则只有第一次有效
+     * 1.利用监听函数watch， 动态获取父组件的值，如果放在onMounted或者其他方法，则只有第一次有效
      */
     watch(() => props.modelValue, () => {
       console.log("父组件的值：", props.modelValue);
