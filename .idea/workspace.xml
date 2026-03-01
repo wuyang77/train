@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加余票信息表，生成前后端代码">
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="生成车次的时候，同步生成每日余票信息">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/views/main/base/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train-station.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainStationSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainStationSaveReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainSeatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainSeatService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainTicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainTicketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -571,15 +569,7 @@
       <workItem from="1772170886088" duration="25902000" />
       <workItem from="1772275219550" duration="13108000" />
       <workItem from="1772350541842" duration="2344000" />
-      <workItem from="1772356350609" duration="12735000" />
-    </task>
-    <task id="LOCAL-00136" summary="车次生成车座功能：在车次管理页面添加前端功能">
-      <option name="closed" value="true" />
-      <created>1771218101796</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1771218101796</updated>
+      <workItem from="1772356350609" duration="16726000" />
     </task>
     <task id="LOCAL-00137" summary="车次生成车座功能：在车次管理页面添加前端功能">
       <option name="closed" value="true" />
@@ -965,7 +955,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772368795709</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="生成车次的时候，同步生成每日余票信息">
+      <option name="closed" value="true" />
+      <created>1772377560892</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1772377560892</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -997,7 +995,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="git提交重试" />
     <MESSAGE value="对ftl模板进行调整，" />
     <MESSAGE value="生成DailyTrain的持久层代码:domain,mapper,xml" />
     <MESSAGE value="调整ftl错误，成功生成daily-train表的持久层代码：domain、mapper以及xml" />
@@ -1022,7 +1019,8 @@
     <MESSAGE value="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑" />
     <MESSAGE value="解决每日座位数据列号重复显示问题" />
     <MESSAGE value="增加余票信息表，生成前后端代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加余票信息表，生成前后端代码" />
+    <MESSAGE value="生成车次的时候，同步生成每日余票信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成车次的时候，同步生成每日余票信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

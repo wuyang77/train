@@ -106,6 +106,7 @@ public class DailyTrainService {
 
         LOG.info("生成某日期下的所有车次的数据:1.每日车次信息。2.每日车次车站信息。3.每日车厢信息。4.每日座位信息。开始遍历每个车次");
         for (Train train : trainList) {
+            // 车次之间低耦合，车次内部高内聚
             generateSingleDailyTrain(date, train);
         }
     }
@@ -114,7 +115,6 @@ public class DailyTrainService {
     public void generateSingleDailyTrain(Date date, Train train) {
         LOG.info("生成日期【{}】车次【{}】的每日数据开始", DateUtil.formatDate(date), train.getCode());
 
-        // 车次之间低耦合，车次内部高内聚
         LOG.info("删除【{}】车次已有的每日车次数据", train.getCode());
         DailyTrainExample dailyTrainExample = new DailyTrainExample();
         dailyTrainExample.createCriteria()
@@ -146,7 +146,7 @@ public class DailyTrainService {
 
         LOG.info("生成【{}】车次：每日车票信息", train.getCode());
         //生成该车次的余票数据
-        dailyTrainTicketService.generateDailyTrainTicketAll(date, train.getCode());
+        dailyTrainTicketService.generateDailyTrainTicketAll(dailyTrain, date, train.getCode());
 
         LOG.info("1.生成日期【{}】车次【{}】的每日数据结束", DateUtil.formatDate(date), train.getCode());
     }
