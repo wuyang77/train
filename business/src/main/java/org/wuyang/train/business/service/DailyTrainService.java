@@ -10,7 +10,6 @@ import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.wuyang.train.business.domain.DailyTrain;
@@ -36,12 +35,18 @@ public class DailyTrainService {
 
     @Resource
     private TrainService trainService;
-    @Autowired
+
+    @Resource
     private DailyTrainStationService dailyTrainStationService;
-    @Autowired
+
+    @Resource
     private DailyTrainCarriageService dailyTrainCarriageService;
-    @Autowired
+
+    @Resource
     private DailyTrainSeatService dailyTrainSeatService;
+
+    @Resource
+    private DailyTrainTicketService dailyTrainTicketService;
 
     public void saveOrEditDailyTrain(DailyTrainSaveReq req) {
         DateTime now = DateTime.now();
@@ -138,6 +143,10 @@ public class DailyTrainService {
         LOG.info("生成【{}】车次：每日座位信息", train.getCode());
         // 生成该车次的座位数据
         dailyTrainSeatService.generateDailyTrainSeatAll(date, train.getCode());
+
+        LOG.info("生成【{}】车次：每日车票信息", train.getCode());
+        //生成该车次的余票数据
+        dailyTrainTicketService.generateDailyTrainTicketAll(date, train.getCode());
 
         LOG.info("1.生成日期【{}】车次【{}】的每日数据结束", DateUtil.formatDate(date), train.getCode());
     }

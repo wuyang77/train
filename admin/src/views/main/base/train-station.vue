@@ -156,6 +156,7 @@ import dayjs from "dayjs"
         let diff = dayjs(trainStation.value.outTime, 'HH:mm:ss').diff(dayjs(trainStation.value.inTime, 'HH:mm:ss'), 'seconds');
         trainStation.value.stopTime = dayjs('00:00:00', 'HH:mm:ss').second(diff).format('HH:mm:ss');
       }, {immediate: true});
+
       // 自动计算停车时长，监听出战时间变化
       watch(() => trainStation.value.outTime, () =>{
         let diff = dayjs(trainStation.value.outTime, 'HH:mm:ss').diff(dayjs(trainStation.value.inTime, 'HH:mm:ss'), 'seconds');

@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="解决每日座位数据列号重复显示问题">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b08f7e45-5eff-4533-835a-5f87f2c8a942.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b08f7e45-5eff-4533-835a-5f87f2c8a942.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+    <list default="true" id="dd80e956-ff60-40be-aace-94e925994bcf" name="Changes" comment="增加余票信息表，生成前后端代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/the-sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/the-sider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/components/train-selected.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/train-selected.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/controller/admin/TrainAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/context/LoginMemberContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/org/wuyang/train/common/context/LoginMemberContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/org/wuyang/train/generator/server/ServerGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/resources/generator-config-business.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/gateway/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/gateway/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/member/trace.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/member/trace.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/components/the-header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/the-header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/main/base/train-station.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/main/base/train-station.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainStationSaveReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/req/TrainStationSaveReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainStationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainTicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business/src/main/java/org/wuyang/train/business/service/DailyTrainTicketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +61,6 @@
     <setting file="jar://E:/dev/localRepository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar!/jakarta/validation/constraints/NotBlank.class" root0="SKIP_INSPECTION" />
     <setting file="jar://E:/dev/localRepository/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar!/org/aspectj/lang/annotation/Before.class" root0="SKIP_INSPECTION" />
     <setting file="jar://E:/dev/localRepository/org/springframework/boot/spring-boot-devtools/3.0.0/spring-boot-devtools-3.0.0.jar!/org/springframework/boot/devtools/autoconfigure/OptionalLiveReloadServer.class" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="HttpClientEndpointsTabState">
-    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests /&gt;" />
   </component>
   <component name="HttpClientOnboardingState">{
   &quot;isOnboardingCommentShown&quot;: true
@@ -486,10 +472,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="Application.ServerGenerator" />
         <item itemvalue="Spring Boot.BatchApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
-        <item itemvalue="Spring Boot.BusinessApplication" />
         <item itemvalue="HTTP Request.batch-test | #1" />
       </list>
     </recent_temporary>
@@ -585,15 +571,7 @@
       <workItem from="1772170886088" duration="25902000" />
       <workItem from="1772275219550" duration="13108000" />
       <workItem from="1772350541842" duration="2344000" />
-      <workItem from="1772356350609" duration="6913000" />
-    </task>
-    <task id="LOCAL-00135" summary="实现按车次生成车座功能">
-      <option name="closed" value="true" />
-      <created>1771215355219</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1771215355220</updated>
+      <workItem from="1772356350609" duration="12735000" />
     </task>
     <task id="LOCAL-00136" summary="车次生成车座功能：在车次管理页面添加前端功能">
       <option name="closed" value="true" />
@@ -979,7 +957,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772192971802</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="增加余票信息表，生成前后端代码">
+      <option name="closed" value="true" />
+      <created>1772368795708</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1772368795709</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1011,7 +997,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="对菜单作分类，改为两级菜单;路由也改为多级路由" />
     <MESSAGE value="git提交重试" />
     <MESSAGE value="对ftl模板进行调整，" />
     <MESSAGE value="生成DailyTrain的持久层代码:domain,mapper,xml" />
@@ -1036,7 +1021,8 @@
     <MESSAGE value="增加生成每日车次数据功能：每日座位信息" />
     <MESSAGE value="增加生成每日车次数据功能：前端增加按钮，手动生成某天的每日车次数据（daily_train.vue）并完善前端逻辑" />
     <MESSAGE value="解决每日座位数据列号重复显示问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决每日座位数据列号重复显示问题" />
+    <MESSAGE value="增加余票信息表，生成前后端代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加余票信息表，生成前后端代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

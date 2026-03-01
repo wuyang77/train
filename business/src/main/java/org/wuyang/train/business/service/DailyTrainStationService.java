@@ -10,14 +10,12 @@ import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.wuyang.train.business.domain.DailyTrainStation;
 import org.wuyang.train.business.domain.DailyTrainStationExample;
 import org.wuyang.train.business.domain.TrainStation;
 import org.wuyang.train.business.mapper.DailyTrainStationMapper;
-import org.wuyang.train.business.mapper.TrainStationMapper;
 import org.wuyang.train.business.req.DailyTrainStationQueryReq;
 import org.wuyang.train.business.req.DailyTrainStationSaveReq;
 import org.wuyang.train.business.resp.DailyTrainStationQueryResp;
@@ -34,9 +32,8 @@ public class DailyTrainStationService {
 
     @Resource
     private DailyTrainStationMapper dailyTrainStationMapper;
-    @Autowired
-    private TrainStationMapper trainStationMapper;
-    @Autowired
+
+    @Resource
     private TrainStationService trainStationService;
 
     public void saveOrEditDailyTrainStation(DailyTrainStationSaveReq req) {

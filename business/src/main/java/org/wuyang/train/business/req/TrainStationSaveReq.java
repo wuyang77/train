@@ -1,10 +1,10 @@
 package org.wuyang.train.business.req;
 
-import java.util.Date;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import java.math.BigDecimal;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
+import java.math.BigDecimal;
+import java.util.Date;
 
 public class TrainStationSaveReq {
 
@@ -163,22 +163,19 @@ public class TrainStationSaveReq {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", trainCode=").append(trainCode);
+        final StringBuffer sb = new StringBuffer("TrainStationSaveReq{");
+        sb.append("id=").append(id);
+        sb.append(", trainCode='").append(trainCode).append('\'');
         sb.append(", index=").append(index);
-        sb.append(", name=").append(name);
-        sb.append(", namePinyin=").append(namePinyin);
+        sb.append(", name='").append(name).append('\'');
+        sb.append(", namePinyin='").append(namePinyin).append('\'');
         sb.append(", inTime=").append(inTime);
         sb.append(", outTime=").append(outTime);
         sb.append(", stopTime=").append(stopTime);
         sb.append(", km=").append(km);
         sb.append(", createTime=").append(createTime);
         sb.append(", updateTime=").append(updateTime);
-        sb.append("]");
+        sb.append('}');
         return sb.toString();
     }
 }
